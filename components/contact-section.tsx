@@ -37,7 +37,7 @@ export default function ContactSection() {
             <Github size={20} />
           </a>
           <a
-            href="/veille"
+            href="./veille/"
             className="flex h-12 w-12 items-center justify-center rounded-xl border border-border bg-background text-muted-foreground transition-all hover:border-primary hover:text-primary hover:shadow-lg"
             aria-label="Veille technologique"
           >

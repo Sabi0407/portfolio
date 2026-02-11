@@ -178,7 +178,7 @@ export default function VeillePage() {
 
         <div className="mt-12 text-center">
           <a
-            href="/"
+            href="../"
             className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
           >
             ← Retour au portfolio

@@ -52,7 +52,7 @@ export default function HeroSection() {
             Mes projets
           </a>
           <a
-            href="/docs/tableau-e5-synthese.pdf"
+            href="./docs/tableau-e5-synthese.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 rounded-xl border-2 border-border bg-card/50 backdrop-blur-sm px-8 py-4 text-sm font-semibold text-foreground shadow-lg transition-all hover:scale-105 hover:border-accent/50 hover:bg-card"
