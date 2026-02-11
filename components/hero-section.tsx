@@ -20,12 +20,12 @@ export default function HeroSection() {
 
       <div className="relative z-10 mx-auto max-w-4xl animate-fade-in-up">
         {/* Terminal-style prompt */}
-        <div className="mb-6 inline-flex items-center gap-2 rounded-md border border-primary/40 bg-black/90 px-5 py-3 font-mono text-sm shadow-2xl shadow-primary/20">
+        <div className="mb-6 inline-flex items-center gap-2 rounded-md border border-primary/40 bg-black dark:bg-black/90 px-5 py-3 font-mono text-sm shadow-2xl shadow-primary/20">
           <span className="text-primary font-bold">root@sisr</span>
           <span className="text-primary">:</span>
           <span className="text-accent font-bold">~</span>
-          <span className="text-muted-foreground">$</span>
-          <span className="text-foreground ml-1">whoami</span>
+          <span className="text-white/70">$</span>
+          <span className="text-white ml-1">whoami</span>
           <span className="ml-1 inline-block h-4 w-2 bg-primary terminal-cursor" />
         </div>
 
@@ -38,7 +38,9 @@ export default function HeroSection() {
 
         <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
           <a
-            href="#apropos"
+            href="https://drive.proton.me/urls/565369BEYR#0i5RVai2KKGN"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-primary to-primary/90 px-8 py-4 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:scale-105 hover:shadow-xl hover:shadow-primary/30"
           >
             <FileText size={20} className="transition-transform group-hover:rotate-6" />

@@ -8,12 +8,6 @@ const skills = [
     tags: ["Windows Server 2016/2019/2022", "Debian 11/12", "Ubuntu Server", "Active Directory", "GPO", "DHCP/DNS"],
   },
   {
-    icon: Network,
-    title: "Reseaux & Infrastructure",
-    subtitle: "Cisco / Protocoles",
-    tags: ["Cisco Packet Tracer", "Configuration Switch/Router", "VLAN", "Routage statique/dynamique", "TCP/IP", "Modele OSI"],
-  },
-  {
     icon: Container,
     title: "Virtualisation & Conteneurisation",
     subtitle: "Proxmox / Docker",
@@ -24,12 +18,6 @@ const skills = [
     title: "Services & Applications",
     subtitle: "Web / Base de donnees",
     tags: ["Apache2", "OpenSSL/TLS", "SSH", "GLPI", "Zabbix", "MariaDB", "MySQL"],
-  },
-  {
-    icon: Terminal,
-    title: "Scripting & Automatisation",
-    subtitle: "Bash / PowerShell",
-    tags: ["Bash Scripting", "PowerShell", "Scripts d'automatisation", "Deploiement automatise", "Maintenance systeme"],
   },
   {
     icon: ShieldCheck,

@@ -16,7 +16,7 @@ export default function AboutSection() {
             </div>
             <h3 className="mb-2 font-heading text-lg font-semibold text-card-foreground">Objectif</h3>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              {"Devenir Administrateur Systemes et Reseaux, un metier qui combine expertise technique, resolution de problemes et innovation technologique."}
+              {"Devenir Administrateur Systemes, specialise dans la gestion des infrastructures, la virtualisation et la supervision des environnements IT."}
             </p>
           </div>
 
@@ -26,7 +26,7 @@ export default function AboutSection() {
             </div>
             <h3 className="mb-2 font-heading text-lg font-semibold text-card-foreground">Formation</h3>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              {"Je poursuis actuellement une formation BTS SIO option SISR a l'IPSSI, avec une specialisation en administration des systemes et reseaux."}
+              {"Etudiant en BTS SIO option SISR a l'IPSSI, je me forme aux technologies des systemes d'information et aux infrastructures informatiques."}
             </p>
           </div>
 
@@ -36,7 +36,7 @@ export default function AboutSection() {
             </div>
             <h3 className="mb-2 font-heading text-lg font-semibold text-card-foreground">Passion</h3>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              {"Passionne par les technologies de l'information, en particulier l'administration systeme Linux et Windows, la virtualisation et la securite informatique."}
+              {"Passionne par les systemes, j'aime comprendre comment ca fonctionne, resoudre des problemes concrets et mettre en place des serveurs Proxmox avec differents services : Active Directory, GLPI, Zabbix."}
             </p>
           </div>
         </div>

@@ -31,6 +31,7 @@ export default function VeillePage() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
   const [selectedCategory, setSelectedCategory] = useState<string>("Tout")
+  const [displayCount, setDisplayCount] = useState(10)
 
   useEffect(() => {
     async function fetchAllRSS() {
@@ -76,6 +77,9 @@ export default function VeillePage() {
     selectedCategory === "Tout"
       ? articles
       : articles.filter((article) => article.category === selectedCategory)
+
+  const displayedArticles = filteredArticles.slice(0, displayCount)
+  const hasMore = displayCount < filteredArticles.length
 
   const categories = ["Tout", ...RSS_FEEDS.map((feed) => feed.category)]
 
@@ -126,7 +130,7 @@ export default function VeillePage() {
           </div>
         ) : (
           <div className="space-y-6">
-            {filteredArticles.map((article, index) => (
+            {displayedArticles.map((article, index) => (
               <article
                 key={index}
                 className="group rounded-xl border border-border bg-card p-6 transition-all hover:border-primary/50 hover:shadow-lg"
@@ -173,13 +177,24 @@ export default function VeillePage() {
                 )}
               </article>
             ))}
+            
+            {hasMore && (
+              <div className="mt-8 text-center">
+                <button
+                  onClick={() => setDisplayCount(displayCount + 10)}
+                  className="inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-lg transition-all hover:scale-105 hover:shadow-xl"
+                >
+                  Afficher plus d'articles
+                </button>
+              </div>
+            )}
           </div>
         )}
 
         <div className="mt-12 text-center">
           <a
             href="/portfolio/"
-            className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+            className="inline-flex items-center gap-2 rounded-xl border-2 border-border bg-card px-8 py-4 text-sm font-semibold text-foreground shadow-lg transition-all hover:scale-105 hover:border-primary hover:bg-card/80"
           >
             ← Retour au portfolio
           </a>

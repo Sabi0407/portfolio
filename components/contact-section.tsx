@@ -1,4 +1,5 @@
 import { Mail, Linkedin, Github, Rss } from "lucide-react"
+import ThemeToggle from "./theme-toggle"
 
 export default function ContactSection() {
   return (
@@ -47,8 +48,11 @@ export default function ContactSection() {
       </div>
 
       {/* Footer */}
-      <div className="mx-auto mt-16 max-w-5xl border-t border-border pt-8 text-center">
-        <p className="text-sm text-muted-foreground">
+      <div className="mx-auto mt-16 max-w-5xl border-t border-border pt-8">
+        <div className="flex items-center justify-center gap-4 mb-6">
+          <ThemeToggle />
+        </div>
+        <p className="text-sm text-muted-foreground text-center">
           {"© 2026 SRIKANTHAN Sabiran - Portfolio BTS SIO SISR"}
         </p>
       </div>
