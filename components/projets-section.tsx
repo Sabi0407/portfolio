@@ -27,19 +27,19 @@ const categories = [
         title: "Mise en place d'un serveur Samba et de Tailscale",
         desc: "Installation et configuration d'un serveur Samba pour le partage de fichiers reseau et deploiement de Tailscale pour un VPN mesh securise permettant un acces distant aux ressources internes.",
         tags: ["Samba", "Tailscale", "VPN", "Partage de fichiers", "Reseau"],
-        pdf: "/portfolio/docs/samba-tailscale.pdf",
+        pdf: "",
       },
       {
         title: "Mise en place de Jellyfin",
         desc: "Deploiement et configuration de Jellyfin, un serveur multimedia open-source pour le streaming de contenus video, audio et photo avec gestion de bibliotheques et transcodage.",
         tags: ["Jellyfin", "Streaming", "Multimedia", "Serveur", "Media"],
-        pdf: "/portfolio/docs/jellyfin.pdf",
+        pdf: "",
       },
       {
         title: "Mise en place de Glance",
         desc: "Installation et configuration de Glance, un tableau de bord de supervision pour la surveillance et l'affichage centralise des metriques systeme et services en temps reel.",
         tags: ["Glance", "Dashboard", "Supervision", "Monitoring", "Metriques"],
-        pdf: "/portfolio/docs/glance.pdf",
+        pdf: "",
       },
     ] as Project[],
   },
@@ -52,7 +52,7 @@ const categories = [
         title: "Support informatique N1 - Groupe Bertrand",
         desc: "Gestion des tickets d'incidents, assistance aux utilisateurs, maintenance du parc informatique, deploiement de postes et resolution de problemes materiels/logiciels.",
         tags: ["GLPI", "Active Directory", "Windows", "Ticketing", "Support"],
-        pdf: "/portfolio/docs/support-n1-groupe-bertrand.pdf",
+        pdf: "",
       },
     ] as Project[],
   },
@@ -111,6 +111,30 @@ const categories = [
     icon: BookOpen,
     projects: [
       {
+        title: "TP Iptables (Labtainer)",
+        desc: "Configuration d'un pare-feu Linux avec iptables pour filtrer les flux entre un client et un serveur. Verification des ports/services avec nmap, observation des paquets dans Wireshark, controle des logs, puis autorisation d'un service specifique (wizbang sur le port 10054).",
+        tags: ["Iptables", "Labtainer", "Pare-feu", "Nmap", "Wireshark"],
+        pdf: "/portfolio/docs/tp-iptables.pdf",
+      },
+      {
+        title: "TP Packet-Introspection (Labtainer)",
+        desc: "Analyse de captures reseau avec Wireshark pour identifier le flux TCP le plus actif. Geolocalisation IP, reconstruction de flux HTTP pour retrouver des messages caches, et extraction d'un fichier binaire FTP depuis la capture.",
+        tags: ["Wireshark", "Labtainer", "TCP", "HTTP", "FTP", "Analyse reseau"],
+        pdf: "/portfolio/docs/tp-packet-introspection.pdf",
+      },
+      {
+        title: "TP Nmap (Labtainer)",
+        desc: "Utilisation de Nmap pour la reconnaissance reseau et l'audit de base : scan de localhost, du reseau local et d'un hote distant autorise. Interpretation des resultats (hotes actifs, ports ouverts, services detectes) pour evaluer l'exposition du reseau.",
+        tags: ["Nmap", "Labtainer", "Scan", "Reconnaissance", "Audit"],
+        pdf: "/portfolio/docs/tp-nmap.pdf",
+      },
+      {
+        title: "TP Snort (Labtainer IDS)",
+        desc: "Mise en place de la detection d'intrusion avec Snort dans un environnement Labtainer. Test des regles existantes, creation de regles personnalisees (detection de CONFIDENTIAL), observation de l'effet du HTTPS, puis ajustement du mirroring et des regles pour differencier trafic interne et externe.",
+        tags: ["Snort", "IDS", "Labtainer", "Detection intrusion", "Regles"],
+        pdf: "/portfolio/docs/tp-snort.pdf",
+      },
+      {
         title: "Mise en place de OpenSSL, Apache2 et Redirection HTTPS",
         desc: "Configuration d'un environnement securise en HTTPS sur deux machines virtuelles Linux : installation des paquets, generation de certificat SSL, configuration d'Apache2 et deploiement d'un site web.",
         tags: ["Apache2", "OpenSSL", "HTTPS", "SSL", "Linux"],
@@ -123,18 +147,6 @@ const categories = [
         pdf: "/portfolio/docs/tp-glpi.pdf",
       },
       {
-        title: "PowerShell - Recherche d'informations systeme",
-        desc: "Travaux pratiques sur les cmdlets PowerShell : maitrise de Get-Alias, Get-Help pour l'exploration des commandes, et extraction d'informations systeme via les cmdlets Get-Process, Get-Service et Get-EventLog.",
-        tags: ["PowerShell", "Windows", "Scripting", "Get-Help", "Get-Alias"],
-        pdf: "/portfolio/docs/tp-powershell-1.pdf",
-      },
-      {
-        title: "Scripting PowerShell pour partage reseau automatise",
-        desc: "Creation de scripts PowerShell pour automatiser le partage de fichiers : verification de dossiers, creation automatique de partages reseau SMB avec gestion des permissions et droits administrateurs.",
-        tags: ["PowerShell", "Scripting", "Windows", "SMB", "Automation"],
-        pdf: "/portfolio/docs/tp-powershell-2.pdf",
-      },
-      {
         title: "Mise en place de Windows Server 2022",
         desc: "Configuration complete d'un serveur Windows Server 2022 : installation et configuration de DHCP, DNS, Active Directory Domain Services, gestion de domaine, partage SMB et strategies de groupe (GPO).",
         tags: ["Windows Server", "DHCP", "DNS", "Active Directory", "SMB", "GPO"],
@@ -145,12 +157,6 @@ const categories = [
         desc: "Configuration d'un reverse proxy Nginx avec load balancing sur deux serveurs web Apache2. Mise en place de la redirection de ports sous VirtualBox, configuration reseau NAT et reseau prive hote.",
         tags: ["Nginx", "Apache2", "Reverse Proxy", "Load Balancing", "VirtualBox"],
         pdf: "/portfolio/docs/tp-reverse-proxy.pdf",
-      },
-      {
-        title: "Mise en place d'un serveur SSH avec chiffrage asymetrique",
-        desc: "Installation et configuration d'un serveur SSH securise avec authentification par cles asymetriques. Generation de cles RSA 4096 bits, configuration du fichier sshd_config et connexion sans mot de passe via cle privee.",
-        tags: ["SSH", "OpenSSH", "Chiffrage", "RSA", "Securite", "Linux"],
-        pdf: "/portfolio/docs/tp-ssh-chiffrage.pdf",
       },
       {
         title: "Strategie de sauvegarde et protection des fichiers",
@@ -232,23 +238,33 @@ function ProjectCard({ project }: { project: Project }) {
         ))}
       </div>
       <div className="flex flex-wrap items-center gap-3 border-t border-border pt-4">
-        <a
-          href={project.pdf}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground transition-transform hover:scale-105"
-        >
-          <ExternalLink size={14} />
-          Voir la doc
-        </a>
-        <a
-          href={project.pdf}
-          download
-          className="inline-flex items-center gap-1.5 rounded-md border border-border bg-card px-3 py-1.5 text-xs font-medium text-foreground transition-transform hover:scale-105"
-        >
-          <Download size={14} />
-          Telecharger
-        </a>
+        {project.pdf ? (
+          <>
+            <a
+              href={project.pdf}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground transition-transform hover:scale-105"
+            >
+              <ExternalLink size={14} />
+              Voir la doc
+            </a>
+            {!project.pdf.startsWith('http') && (
+              <a
+                href={project.pdf}
+                download
+                className="inline-flex items-center gap-1.5 rounded-md border border-border bg-card px-3 py-1.5 text-xs font-medium text-foreground transition-transform hover:scale-105"
+              >
+                <Download size={14} />
+                Telecharger
+              </a>
+            )}
+          </>
+        ) : (
+          <span className="inline-flex items-center gap-1.5 rounded-md bg-muted px-3 py-1.5 text-xs font-medium text-muted-foreground">
+            Documentation a venir
+          </span>
+        )}
         {project.github && (
           <a
             href={project.github}

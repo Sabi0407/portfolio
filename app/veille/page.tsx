@@ -13,16 +13,16 @@ interface Article {
 
 const RSS_FEEDS = [
   {
-    url: "https://www.google.com/alerts/feeds/01795030495122666327/13620015609216544489",
-    category: "Virtualisation",
-  },
-  {
     url: "https://www.google.com/alerts/feeds/01795030495122666327/5342274990297030118",
     category: "Noyau Linux",
   },
   {
+    url: "https://www.google.com/alerts/feeds/01795030495122666327/13620015609216544489",
+    category: "Virtualisation",
+  },
+  {
     url: "https://www.google.com/alerts/feeds/01795030495122666327/15985397799960613911",
-    category: "Proxmox",
+    category: "Virtualisation",
   },
 ]
 
@@ -56,11 +56,10 @@ export default function VeillePage() {
           }
         }
 
-        // Sort by date (most recent first)
         allArticles.sort(
           (a, b) => new Date(b.published).getTime() - new Date(a.published).getTime()
         )
-        
+
         setArticles(allArticles)
       } catch (err) {
         console.error("Error fetching RSS:", err)
@@ -81,7 +80,7 @@ export default function VeillePage() {
   const displayedArticles = filteredArticles.slice(0, displayCount)
   const hasMore = displayCount < filteredArticles.length
 
-  const categories = ["Tout", ...RSS_FEEDS.map((feed) => feed.category)]
+  const categories = ["Tout", ...Array.from(new Set(RSS_FEEDS.map((feed) => feed.category)))]
 
   return (
     <div className="min-h-screen bg-background py-20 px-6">
@@ -94,7 +93,7 @@ export default function VeillePage() {
             Ma Veille Technologique
           </h1>
           <p className="text-lg text-muted-foreground">
-            Suivez mes alertes Google sur mes sujets de veille
+            Suivez mes alertes Google sur la virtualisation et le noyau Linux
           </p>
         </div>
 
