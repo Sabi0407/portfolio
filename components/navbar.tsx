@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { Menu, X, Mail, Linkedin, Github, Rss } from "lucide-react"
+import { useSectionObserver } from "@/hooks/use-section-observer"
 
 const navLinks = [
   { label: "Accueil", href: "#accueil" },
@@ -14,6 +15,7 @@ const navLinks = [
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
+  const activeSection = useSectionObserver()
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/70 backdrop-blur-xl border-b border-border/50 shadow-sm">
@@ -61,16 +63,23 @@ export default function Navbar() {
 
         <div className="flex items-center gap-4">
           <ul className="hidden items-center gap-8 md:flex">
-            {navLinks.map((link) => (
-              <li key={link.href}>
-                <a
-                  href={link.href}
-                  className="relative text-sm font-medium text-muted-foreground transition-colors hover:text-primary after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-primary after:to-accent after:transition-all hover:after:w-full"
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
+            {navLinks.map((link) => {
+              const isActive = activeSection === link.href.substring(1)
+              return (
+                <li key={link.href}>
+                  <a
+                    href={link.href}
+                    className={`relative text-sm font-medium transition-colors after:absolute after:bottom-0 after:left-0 after:h-0.5 after:bg-gradient-to-r after:from-primary after:to-accent after:transition-all ${
+                      isActive
+                        ? "text-primary after:w-full"
+                        : "text-muted-foreground after:w-0 hover:text-primary hover:after:w-full"
+                    }`}
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              )
+            })}
           </ul>
 
           <button

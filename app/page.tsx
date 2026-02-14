@@ -5,10 +5,13 @@ import ParcoursSection from "@/components/parcours-section"
 import CompetencesSection from "@/components/competences-section"
 import ProjetsSection from "@/components/projets-section"
 import ContactSection from "@/components/contact-section"
+import ScrollToTop from "@/components/scroll-to-top"
+import ReadingProgress from "@/components/reading-progress"
 
 export default function Page() {
   return (
     <>
+      <ReadingProgress />
       <Navbar />
       <main>
         <HeroSection />
@@ -18,6 +21,7 @@ export default function Page() {
         <ProjetsSection />
         <ContactSection />
       </main>
+      <ScrollToTop />
     </>
   )
 }

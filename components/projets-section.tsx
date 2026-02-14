@@ -2,6 +2,8 @@
 
 import { ExternalLink, Download, User, Briefcase, BookOpen, FolderOpen, Github, GraduationCap } from "lucide-react"
 import { useState } from "react"
+import PDFPreview from "./pdf-preview"
+import ScrollFadeIn from "./scroll-fade-in"
 
 type Project = {
   title: string
@@ -254,12 +256,12 @@ function ProjectCard({ project }: { project: Project }) {
 
   return (
     <>
-      <div className="group flex flex-col rounded-xl border border-border bg-card p-6 transition-all hover:border-primary/40 hover:shadow-lg">
+      <div className="group flex flex-col rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-primary/40 hover:shadow-lg hover:-translate-y-1">
         <h3 className="mb-2 font-heading text-base font-bold text-foreground">{project.title}</h3>
         <p className="mb-4 flex-1 text-sm leading-relaxed text-muted-foreground">{project.desc}</p>
         <div className="mb-4 flex flex-wrap gap-1.5">
           {project.tags.map((tag) => (
-            <span key={tag} className="rounded-md bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">
+            <span key={tag} className="rounded-md bg-primary/15 px-2 py-0.5 text-xs font-medium text-primary border border-primary/20 font-mono">
               {tag}
             </span>
           ))}
@@ -269,7 +271,7 @@ function ProjectCard({ project }: { project: Project }) {
             <>
               <button
                 onClick={() => setShowModal(true)}
-                className="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground transition-transform hover:scale-105"
+                className="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground transition-all duration-200 hover:scale-105 hover:shadow-md"
               >
                 <ExternalLink size={14} />
                 Prévisualiser
@@ -278,7 +280,7 @@ function ProjectCard({ project }: { project: Project }) {
                 <a
                   href={project.pdf}
                   download
-                  className="inline-flex items-center gap-1.5 rounded-md border border-border bg-card px-3 py-1.5 text-xs font-medium text-foreground transition-transform hover:scale-105"
+                  className="inline-flex items-center gap-1.5 rounded-md border border-border bg-card px-3 py-1.5 text-xs font-medium text-foreground transition-all duration-200 hover:scale-105 hover:border-primary/40"
                 >
                   <Download size={14} />
                   Télécharger
@@ -353,13 +355,22 @@ export default function ProjetsSection() {
   const activeCategory = categories.find((c) => c.id === activeTab)
 
   return (
-    <section id="projets" className="py-24 px-6">
-      <div className="mx-auto max-w-5xl">
-        <h2 className="font-heading text-3xl font-bold text-foreground text-center mb-4">Projets</h2>
-        <p className="text-center text-muted-foreground mb-4">
+    <section id="projets" className="py-16 px-6 relative">
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
+      <ScrollFadeIn>
+        <div className="mx-auto max-w-6xl">
+        <div className="mb-4 text-center">
+          <div className="inline-block bg-black/90 border border-primary/30 rounded px-4 py-2 mb-2">
+            <span className="text-primary font-mono text-sm">$ cat ~/projects/*</span>
+          </div>
+        </div>
+        <h2 className="font-heading text-3xl font-bold text-foreground text-center mb-3">
+          Projets
+        </h2>
+        <p className="text-center text-muted-foreground mb-3">
           Mes principales réalisations techniques et documentations
         </p>
-        <div className="mx-auto mb-12 h-1 w-16 rounded-full bg-primary" />
+        <div className="mx-auto mb-10 h-1 w-16 rounded-full bg-primary" />
 
         <div className="mb-8 flex flex-wrap justify-center gap-2">
           {categories.map((cat) => {
@@ -401,7 +412,7 @@ export default function ProjetsSection() {
           </div>
         )}
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {activeTab !== "ap" &&
             activeCategory &&
             "projects" in activeCategory &&
@@ -415,6 +426,7 @@ export default function ProjetsSection() {
               ?.projects.map((project) => <ProjectCard key={project.title} project={project} />)}
         </div>
       </div>
+      </ScrollFadeIn>
     </section>
   )
 }

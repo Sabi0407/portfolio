@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <section
       id="accueil"
-      className="relative flex min-h-screen flex-col items-center justify-center px-6 pt-20 text-center overflow-hidden"
+      className="relative flex min-h-[90vh] flex-col items-center justify-center px-6 pt-20 text-center overflow-hidden bg-gradient-to-b from-background via-background to-card/30"
     >
       <AnimatedBackground />
       

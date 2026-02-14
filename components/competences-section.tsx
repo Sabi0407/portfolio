@@ -1,5 +1,6 @@
 import { Monitor, Network, Container, Globe, Terminal, ShieldCheck } from "lucide-react"
 import PDFPreview from "./pdf-preview"
+import ScrollFadeIn from "./scroll-fade-in"
 
 const skills = [
   {
@@ -31,8 +32,16 @@ const skills = [
 export default function CompetencesSection() {
   return (
     <section id="competences" className="py-20 px-6 bg-card">
-      <div className="mx-auto max-w-6xl">
-        <h2 className="font-heading text-3xl font-bold text-foreground text-center mb-3">Compétences</h2>
+      <ScrollFadeIn>
+        <div className="mx-auto max-w-6xl">
+        <div className="mb-4 text-center">
+          <div className="inline-block bg-black/90 border border-primary/30 rounded px-4 py-2 mb-2">
+            <span className="text-primary font-mono text-sm">$ ls -la ~/skills/</span>
+          </div>
+        </div>
+        <h2 className="font-heading text-3xl font-bold text-foreground text-center mb-3">
+          Compétences
+        </h2>
         <div className="mx-auto mb-10 h-1 w-16 rounded-full bg-primary" />
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4 mb-10">
@@ -56,7 +65,7 @@ export default function CompetencesSection() {
                   {skill.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="rounded-md bg-muted px-2 py-0.5 text-xs text-muted-foreground"
+                      className="rounded-md bg-muted px-2 py-0.5 text-xs text-muted-foreground font-mono"
                     >
                       {tag}
                     </span>
@@ -83,6 +92,7 @@ export default function CompetencesSection() {
           </div>
         </div>
       </div>
+      </ScrollFadeIn>
     </section>
   )
 }

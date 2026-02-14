@@ -40,7 +40,7 @@ export default function VeillePage() {
 
         for (const feed of RSS_FEEDS) {
           const response = await fetch(
-            `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`
+            `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`,
           )
           const data = await response.json()
 
@@ -56,10 +56,7 @@ export default function VeillePage() {
           }
         }
 
-        allArticles.sort(
-          (a, b) => new Date(b.published).getTime() - new Date(a.published).getTime()
-        )
-
+        allArticles.sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime())
         setArticles(allArticles)
       } catch (err) {
         console.error("Error fetching RSS:", err)
@@ -157,10 +154,9 @@ export default function VeillePage() {
                 )}
 
                 {article.content && (
-                  <div
-                    className="mb-4 text-sm leading-relaxed text-muted-foreground line-clamp-3"
-                    dangerouslySetInnerHTML={{ __html: article.content }}
-                  />
+                  <p className="mb-4 text-sm leading-relaxed text-muted-foreground line-clamp-3">
+                    {article.content}
+                  </p>
                 )}
 
                 {article.link && (
