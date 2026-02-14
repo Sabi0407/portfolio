@@ -11,6 +11,49 @@ interface Article {
   category: string
 }
 
+function decodeHtmlEntities(text: string) {
+  return text
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+}
+
+function stripHtmlTags(value: string) {
+  return decodeHtmlEntities(value)
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+function normalizeArticleLink(rawLink: string) {
+  const decodedLink = decodeHtmlEntities(rawLink).trim()
+
+  try {
+    const parsed = new URL(decodedLink)
+
+    if (parsed.hostname.includes("google.") && parsed.pathname === "/url") {
+      const target = parsed.searchParams.get("url") || parsed.searchParams.get("q")
+      if (target) {
+        const cleanedTarget = decodeHtmlEntities(target).trim()
+        const finalUrl = new URL(cleanedTarget)
+        if (finalUrl.protocol === "http:" || finalUrl.protocol === "https:") {
+          return finalUrl.toString()
+        }
+      }
+    }
+
+    if (parsed.protocol === "http:" || parsed.protocol === "https:") {
+      return parsed.toString()
+    }
+  } catch {
+    return ""
+  }
+
+  return ""
+}
+
 const RSS_FEEDS = [
   {
     url: "https://www.google.com/alerts/feeds/01795030495122666327/5342274990297030118",
@@ -46,10 +89,10 @@ export default function VeillePage() {
 
           if (data.status === "ok") {
             const feedArticles = data.items.map((item: any) => ({
-              title: item.title,
-              link: item.link,
+              title: stripHtmlTags(item.title || ""),
+              link: normalizeArticleLink(item.link || ""),
               published: item.pubDate,
-              content: item.description || item.content,
+              content: stripHtmlTags(item.description || item.content || ""),
               category: feed.category,
             }))
             allArticles.push(...feedArticles)
