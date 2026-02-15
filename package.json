@@ -6,7 +6,8 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate:veille": "node scripts/generate-veille-data.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

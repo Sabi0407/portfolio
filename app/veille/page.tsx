@@ -11,63 +11,9 @@ interface Article {
   category: string
 }
 
-function decodeHtmlEntities(text: string) {
-  return text
-    .replace(/&amp;/g, "&")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
+interface VeillePayload {
+  articles?: Article[]
 }
-
-function stripHtmlTags(value: string) {
-  return decodeHtmlEntities(value)
-    .replace(/<[^>]*>/g, " ")
-    .replace(/\s+/g, " ")
-    .trim()
-}
-
-function normalizeArticleLink(rawLink: string) {
-  const decodedLink = decodeHtmlEntities(rawLink).trim()
-
-  try {
-    const parsed = new URL(decodedLink)
-
-    if (parsed.hostname.includes("google.") && parsed.pathname === "/url") {
-      const target = parsed.searchParams.get("url") || parsed.searchParams.get("q")
-      if (target) {
-        const cleanedTarget = decodeHtmlEntities(target).trim()
-        const finalUrl = new URL(cleanedTarget)
-        if (finalUrl.protocol === "http:" || finalUrl.protocol === "https:") {
-          return finalUrl.toString()
-        }
-      }
-    }
-
-    if (parsed.protocol === "http:" || parsed.protocol === "https:") {
-      return parsed.toString()
-    }
-  } catch {
-    return ""
-  }
-
-  return ""
-}
-
-const RSS_FEEDS = [
-  {
-    url: "https://www.google.com/alerts/feeds/01795030495122666327/5342274990297030118",
-    category: "Noyau Linux",
-  },
-  {
-    url: "https://www.google.com/alerts/feeds/01795030495122666327/13620015609216544489",
-    category: "Virtualisation",
-  },
-  {
-    url: "https://www.google.com/alerts/feeds/01795030495122666327/15985397799960613911",
-    category: "Virtualisation",
-  },
-]
 
 export default function VeillePage() {
   const [articles, setArticles] = useState<Article[]>([])
@@ -77,39 +23,26 @@ export default function VeillePage() {
   const [displayCount, setDisplayCount] = useState(10)
 
   useEffect(() => {
-    async function fetchAllRSS() {
+    async function fetchLocalVeille() {
       try {
-        const allArticles: Article[] = []
-
-        for (const feed of RSS_FEEDS) {
-          const response = await fetch(
-            `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feed.url)}`,
-          )
-          const data = await response.json()
-
-          if (data.status === "ok") {
-            const feedArticles = data.items.map((item: any) => ({
-              title: stripHtmlTags(item.title || ""),
-              link: normalizeArticleLink(item.link || ""),
-              published: item.pubDate,
-              content: stripHtmlTags(item.description || item.content || ""),
-              category: feed.category,
-            }))
-            allArticles.push(...feedArticles)
-          }
+        const response = await fetch("../data/veille.json", { cache: "no-store" })
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`)
         }
 
-        allArticles.sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime())
-        setArticles(allArticles)
+        const payload = (await response.json()) as VeillePayload
+        const loadedArticles = Array.isArray(payload.articles) ? payload.articles : []
+        loadedArticles.sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime())
+        setArticles(loadedArticles)
       } catch (err) {
-        console.error("Error fetching RSS:", err)
+        console.error("Error loading veille data:", err)
         setError(true)
       } finally {
         setLoading(false)
       }
     }
 
-    fetchAllRSS()
+    fetchLocalVeille()
   }, [])
 
   const filteredArticles =
@@ -120,7 +53,7 @@ export default function VeillePage() {
   const displayedArticles = filteredArticles.slice(0, displayCount)
   const hasMore = displayCount < filteredArticles.length
 
-  const categories = ["Tout", ...Array.from(new Set(RSS_FEEDS.map((feed) => feed.category)))]
+  const categories = ["Tout", ...Array.from(new Set(articles.map((article) => article.category).filter(Boolean)))]
 
   return (
     <div className="min-h-screen bg-background py-20 px-6">

@@ -5,6 +5,8 @@ on:
     branches:
       - main
   workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * *"
 
 permissions:
   contents: read
@@ -35,6 +37,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+
+      - name: Generate veille data
+        run: pnpm generate:veille
 
       - name: Build static site
         run: pnpm build
