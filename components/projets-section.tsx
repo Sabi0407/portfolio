@@ -128,25 +128,25 @@ const categories = [
         title: "TP Iptables (Labtainer)",
         desc: "Configuration d'un pare-feu Linux avec iptables pour filtrer les flux entre un client et un serveur. Vérification des ports/services avec nmap, observation des paquets dans Wireshark, contrôle des logs, puis autorisation d'un service spécifique (wizbang sur le port 10054).",
         tags: ["Iptables", "Labtainer", "Pare-feu", "Nmap", "Wireshark"],
-        pdf: "",
+        pdf: "/s.sabiran/docs/tp-iptables.pdf",
       },
       {
         title: "TP Packet-Introspection (Labtainer)",
         desc: "Analyse de captures réseau avec Wireshark pour identifier le flux TCP le plus actif. Géolocalisation IP, reconstruction de flux HTTP pour retrouver des messages cachés, et extraction d'un fichier binaire FTP depuis la capture.",
         tags: ["Wireshark", "Labtainer", "TCP", "HTTP", "FTP", "Analyse réseau"],
-        pdf: "",
+        pdf: "/s.sabiran/docs/tp-packet-introspection.pdf",
       },
       {
         title: "TP Nmap (Labtainer)",
         desc: "Utilisation de Nmap pour la reconnaissance réseau et l'audit de base : scan de localhost, du réseau local et d'un hôte distant autorisé. Interprétation des résultats (hôtes actifs, ports ouverts, services détectés) pour évaluer l'exposition du réseau.",
         tags: ["Nmap", "Labtainer", "Scan", "Reconnaissance", "Audit"],
-        pdf: "",
+        pdf: "/s.sabiran/docs/tp-nmap.pdf",
       },
       {
         title: "TP Snort (Labtainer IDS)",
         desc: "Mise en place de la détection d'intrusion avec Snort dans un environnement Labtainer. Test des règles existantes, création de règles personnalisées (détection de CONFIDENTIAL), observation de l'effet du HTTPS, puis ajustement du mirroring et des règles pour différencier trafic interne et externe.",
         tags: ["Snort", "IDS", "Labtainer", "Détection d'intrusion", "Règles"],
-        pdf: "",
+        pdf: "/s.sabiran/docs/tp-snort.pdf",
       },
       {
         title: "Mise en place d'OpenSSL, Apache2 et redirection HTTPS",
@@ -179,7 +179,7 @@ const categories = [
         pdf: "/s.sabiran/docs/tp-sauvegarde-protection.pdf",
       },
       {
-        title: "Sauvegarde Linux - Partie 1",
+        title: "Sauvegarde Linux",
         desc: "Mise en place de solutions de sauvegarde sur Linux : utilisation de rsync pour la synchronisation, création de sauvegardes incrémentales et configuration de tâches automatisées.",
         tags: ["Sauvegarde", "Rsync", "Linux", "Automatisation", "Backup"],
         pdf: "/s.sabiran/docs/tp-sauvegarde-linux-p1.pdf",
