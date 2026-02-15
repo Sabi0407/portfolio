@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Download, ExternalLink, X } from "lucide-react"
+import { Download, X } from "lucide-react"
 
 interface PDFPreviewProps {
   pdfUrl: string
@@ -16,17 +16,14 @@ export default function PDFPreview({ pdfUrl, title, description }: PDFPreviewPro
   return (
     <>
       <div className="rounded-xl border border-border bg-background p-4 transition-all duration-300 hover:border-primary/40 hover:shadow-md">
-        <div className="mb-3 flex items-start justify-between gap-3">
-          <div>
-            <h4 className="font-heading text-sm font-bold text-foreground">{title}</h4>
-            {description && <p className="mt-0.5 text-xs text-muted-foreground">{description}</p>}
-          </div>
-          <span className="rounded-md bg-muted px-2 py-0.5 text-[11px] font-medium text-muted-foreground">PDF</span>
+        <div className="mb-3">
+          <h4 className="font-heading text-sm font-bold text-foreground">{title}</h4>
+          {description && <p className="mt-0.5 text-xs text-muted-foreground">{description}</p>}
         </div>
 
         <button
           onClick={() => setIsOpen(true)}
-          className="block w-full overflow-hidden rounded-lg border border-border bg-card text-left transition-colors hover:border-primary/40"
+          className="block w-full overflow-hidden rounded-lg border border-border bg-card text-left"
           aria-label={`Voir ${title}`}
         >
           <div className="h-56 w-full bg-white">
@@ -36,9 +33,8 @@ export default function PDFPreview({ pdfUrl, title, description }: PDFPreviewPro
               className="h-full w-full pointer-events-none"
             />
           </div>
-          <div className="flex items-center justify-center gap-1.5 border-t border-border px-3 py-2 text-xs font-medium text-muted-foreground">
-            <ExternalLink size={14} />
-            Cliquer pour zoom
+          <div className="border-t border-border px-3 py-2 text-center text-xs font-medium text-muted-foreground">
+            Aperçu (cliquer pour zoom)
           </div>
         </button>
 
