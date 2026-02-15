@@ -11,7 +11,6 @@ interface PDFPreviewProps {
 
 export default function PDFPreview({ pdfUrl, title, description }: PDFPreviewProps) {
   const [isOpen, setIsOpen] = useState(false)
-  const previewSrc = `${pdfUrl}#toolbar=0&navpanes=0&scrollbar=0&view=FitH`
 
   return (
     <>
@@ -21,24 +20,14 @@ export default function PDFPreview({ pdfUrl, title, description }: PDFPreviewPro
           {description && <p className="mt-0.5 text-xs text-muted-foreground">{description}</p>}
         </div>
 
-        <button
-          onClick={() => setIsOpen(true)}
-          className="block w-full overflow-hidden rounded-lg border border-border bg-card text-left"
-          aria-label={`Voir ${title}`}
-        >
-          <div className="h-56 w-full bg-white">
-            <iframe
-              src={previewSrc}
-              title={`Apercu ${title}`}
-              className="h-full w-full pointer-events-none"
-            />
-          </div>
-          <div className="border-t border-border px-3 py-2 text-center text-xs font-medium text-muted-foreground">
-            Aperçu (cliquer pour zoom)
-          </div>
-        </button>
-
-        <div className="mt-3">
+        <div className="grid gap-2 sm:grid-cols-2">
+          <button
+            onClick={() => setIsOpen(true)}
+            className="inline-flex w-full items-center justify-center rounded-lg border border-border px-3 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary hover:bg-primary hover:text-primary-foreground"
+            aria-label={`Voir ${title}`}
+          >
+            Ouvrir
+          </button>
           <a
             href={pdfUrl}
             download
