@@ -9,11 +9,35 @@ const RSS_FEEDS = [
     url: "https://news.google.com/rss/search?q=%22noyau+Linux%22&hl=fr&gl=FR&ceid=FR:fr",
     category: KERNEL_CATEGORY,
   },
+  {
+    url: "https://news.google.com/rss/search?q=kernel+Linux&hl=fr&gl=FR&ceid=FR:fr",
+    category: KERNEL_CATEGORY,
+  },
+  {
+    url: "https://news.google.com/rss/search?q=Linus+Torvalds+Linux&hl=fr&gl=FR&ceid=FR:fr",
+    category: KERNEL_CATEGORY,
+  },
+  {
+    url: "https://news.google.com/rss/search?q=eBPF+Linux&hl=fr&gl=FR&ceid=FR:fr",
+    category: KERNEL_CATEGORY,
+  },
+  {
+    url: "https://news.google.com/rss/search?q=Rust+noyau+Linux&hl=fr&gl=FR&ceid=FR:fr",
+    category: KERNEL_CATEGORY,
+  },
+  {
+    url: "https://news.google.com/rss/search?q=Linux+7+noyau&hl=fr&gl=FR&ceid=FR:fr",
+    category: KERNEL_CATEGORY,
+  },
 ]
 
 const FALLBACK_NEWS_FEEDS = [
   {
     url: "https://news.google.com/rss/search?q=kernel+linux&hl=fr&gl=FR&ceid=FR:fr",
+    category: KERNEL_CATEGORY,
+  },
+  {
+    url: "https://news.google.com/rss/search?q=linus+torvalds+kernel&hl=fr&gl=FR&ceid=FR:fr",
     category: KERNEL_CATEGORY,
   },
 ]
@@ -32,6 +56,7 @@ const ALLOWED_SOURCES = new Set([
   "silicon fr",
   "frandroid",
   "zdnet",
+  "numerama",
 ])
 
 const EXCLUDED_TITLE_PATTERNS = [

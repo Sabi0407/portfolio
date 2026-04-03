@@ -1,9 +1,29 @@
 {
-  "generatedAt": "2026-04-03T07:54:29.267Z",
+  "generatedAt": "2026-04-03T07:58:04.661Z",
   "source": "google-news-rss-linux-kernel-fr",
   "feeds": [
     {
       "url": "https://news.google.com/rss/search?q=%22noyau+Linux%22&hl=fr&gl=FR&ceid=FR:fr",
+      "category": "Noyau Linux"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=kernel+Linux&hl=fr&gl=FR&ceid=FR:fr",
+      "category": "Noyau Linux"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=Linus+Torvalds+Linux&hl=fr&gl=FR&ceid=FR:fr",
+      "category": "Noyau Linux"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=eBPF+Linux&hl=fr&gl=FR&ceid=FR:fr",
+      "category": "Noyau Linux"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=Rust+noyau+Linux&hl=fr&gl=FR&ceid=FR:fr",
+      "category": "Noyau Linux"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=Linux+7+noyau&hl=fr&gl=FR&ceid=FR:fr",
       "category": "Noyau Linux"
     }
   ],
@@ -11,9 +31,13 @@
     {
       "url": "https://news.google.com/rss/search?q=kernel+linux&hl=fr&gl=FR&ceid=FR:fr",
       "category": "Noyau Linux"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=linus+torvalds+kernel&hl=fr&gl=FR&ceid=FR:fr",
+      "category": "Noyau Linux"
     }
   ],
-  "total": 12,
+  "total": 19,
   "errors": [],
   "articles": [
     {
@@ -81,12 +105,52 @@
       "source": "Les Numériques"
     },
     {
+      "title": "Même Linus Torvalds code désormais avec l'IA générative - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTWVkckJKNUhfSWgxZzBCT0hSX3BtWXhuRjB0STBWR2Vkd01xMG1XV0xReC0wR3g2YkJMVmZDUmRUZW1yVXRBU0sycHZ3QmpZaW5mb2RkSzI4c2lpZ3F5Y1FPWEgyd09YdWh1UlkwbWUwazhEVnh5NUt5T1k1cEVzNzR4LXRpYjNYX3ExWmFWTG9Ia3ZxWndrUk9ucFZNQQ?oc=5",
+      "published": "Tue, 13 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "ZDNET"
+    },
+    {
       "title": "Linus Torvalds refuse de transformer la documentation du kernel en champ de bataille idéologique « anti-IA » : arrêtez de faire toute une histoire de « l'IA slop » dans la documentation du noyau - Developpez.com",
       "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPVi10VC1sRk1feC05bEZhSDhGNnBfcjRFUjljSUZQMGljcFUydk1YZU84Q2JDaU44RTNaUm13ZkJQZ1FKY25RZXJ6akpYZGNJUGdMdjRkdXhRVG5KdzlnYkRpbjU2LWlFUjFHeVNjOHFYa1dOMmxpTjZ5dmRYMHZzRzVFNzYtenk2c2otLXNnM2RkZzBRQlhDTHdBMDB3cjE1dTNBZ1hMRVNqd1lLUzJKVEVjVmN5MER3YW8zTnN0b0U5b3VZcHdrZlhEQzNubjAwZUpyV2xZV2hMcEVhR2xzQWVhckpLNGEyNDU1dC1zUUxld1VGbFFjNEt1V2R0eXVWcDhzRERqWUN3MHFfTWlINEI5YkxDM1VraXRjOVBUOHRFNnhyU3ZPMG5KT0UxbTh4UU4wSl93TkducWVDR1V3RnVZX1Q0WHdqTFBIYVBTUVlRX05rSWUza3psTy1HdmtjSk1XbdIB6gJBVV95cUxQeU1pdXZjNkcyS21fcDI2d1ZmNEFOYjMyMlY4bGdwamZrZjFUenpRWndCMDBhMzdrVWs0NlF6czR4d3Rpdmx6eHprS1dTbXJOWnBRS3ltZEVpSDQ4OUJPdUQ3bURGelpkUjZQWlN1RzZyYnpvaktmb2twVWNIN0djeW42NWF5SW5RZEJsLWVMVGlHZmxpS0I4MXR4dzI1QVR0T0tfTFdKZEZQbzhZYUFPMHU0aEpUTlJiazFXb185VTVQNzhMNkZtWUdDa2UyQzk0WmFfanNOMWJEVGo2T2lVa3lJRUFiMVFEelhRd2NmNDA2bnlZNVBNXzMxby1EOTcxUGtmQWpTVXYwenFRMXRGZDBXY21LdVpaTlRaMjZ6ZWVBcS1IUFRucENrV1R3NDdLWG5YNDA3c3hBOUtBTWVKQnVlUTNnV2I1eFlNNEFSX0ozY3hSa0FmRENHdi1FS3ZVSnlTM2Y4N3g4dw?oc=5",
       "published": "Mon, 12 Jan 2026 08:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
       "source": "Developpez.com"
+    },
+    {
+      "title": "Même Linus Torvalds s’est mis au vibe coding, et il a une excellente raison - Numerama",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ3J0ZW84cGlqN291ZnJIbmtUOTc1d0VhMzhIYUNwZVRFek1abG5nWGV6WDBQOEgtYl9wU3VnR3JYYTVxWUFMd19iQ3J6TWJOd2ZkNFUtTGRMQlQtTTlhLWh0YmQzRFlzaG5jVUdhU01ldmdzbDBEOEdMTDJMb3dJZzBoYVpXYTlwUU1DbElIdlhSeHB6clFWZ05LYVI0OXBlSVZpLUtRRm9DdkJOVGRQaXp5VUtvN2c?oc=5",
+      "published": "Mon, 12 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Numerama"
+    },
+    {
+      "title": "[MàJ] Conversion du code en Rust : Microsoft rétropédale - Next.ink",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd0NTWmJwbWI5MnVlY0dGZVBxVmJaaFZUU25aVmpGZmFZeHFFaWxYMy1TVkw5azZCYXVweWV2MkN1RlNCTVowZF9FcklnVjJyOVFTcHRNQVhBWVdwaVJ5eDAyM3hBSjdlc1BZenc3R194R2dqclhHd1FWTENINHVDY2I2MEJYbFlNTlpHX3hYRERkRlk?oc=5",
+      "published": "Tue, 23 Dec 2025 11:00:10 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Next.ink"
+    },
+    {
+      "title": "Linus Torvalds croit fermement à l'utilisation de l'IA pour la maintenance du code, mais ce n'est pas une révolution - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObm05VFB4NXNHS3lkdjJQR0Y0YVdZVUNOQVlQMFI3NFJIQ19RS2hpOE1fVkxoZm82LTd0Y1NGanJqeHFyU3R5M0RFYlpYM0dxSUU4bFc0WEVGWjZjeWNyM0YxcGk2MkRtZDkxZFVqNk5hQXp0S0RJQWVtbjJnTUVzMXhwTW5FdVNkV21BblVJOHgyRVl6MEp4SDhjRGdVdC13LWVXNkFQT3NZeHFXZHM3elZIb3k5NUlWMll6aFZocDYxS3R0R2tsQ1k2c0NrZGM1N3NXM1JpVjBqUzNlWU1lY0FGRXZBNE1PTG00?oc=5",
+      "published": "Tue, 09 Dec 2025 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "ZDNET"
+    },
+    {
+      "title": "Pour Linus Torvalds, Musk est « trop stupide pour travailler dans une entreprise tech » - Next.ink",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYzVSY3c2VWFSd0dhRkR5MmJCajFFMGF4Sm9YYjhQdmp4ZnhKMG9jNDNnSkFNel9nOC04VkMyQXdQLW5oNE5fc2xvR215eFo1ZkdyNzhNaTRxODJPSFhXVHJyWmh3amtjOEpJS0wtNFJFRExId0VSYjBHQl9VUWx3cmMtZ3dxVkkzZzJHR1NReGNUOTRzTmNXenVHMnRVeTAtQ1kzWTNFMklMZ1lwNi1PRGpNNnE?oc=5",
+      "published": "Fri, 05 Dec 2025 08:46:21 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Next.ink"
     },
     {
       "title": "Noyau Linux 6.18 : support renforcé d’Arm, RISC-V et Apple Silicon, Bcachefs retiré - it social",
@@ -97,8 +161,24 @@
       "source": "it social"
     },
     {
+      "title": "Linus Torvalds kiffe le \"vibe coding\" - à l'exception d'un cas d'usage \"horrible\" - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYm5JbUNDYmNLd3dpUXNkTHY4M2V4akIteE0yZW1aMWtaVnY1MkZ4ZFJFZUxtT0Y5OUxnYzk2d0FGNWJFNWlvN19qYmdBQ2FTMXI1VE9wX1N5d0R2d1kxcnBCbkZTeGdEYkc5NXczcVFnMHlhQlZQdXlvUjZwcV9lRW9WTG5ZdlF2aG9qQUVJMWhjZTBSd196YVE4YklBYm5UVkNjaW9TeEMwUnZDMmQ2REJBTmNQUQ?oc=5",
+      "published": "Mon, 24 Nov 2025 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "ZDNET"
+    },
+    {
       "title": "Sylvestre Ledru (Mozilla) : de Firefox au noyau Linux, la fulgurante ascension du Rust - Next.ink",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcWVYSjgxWEQ4OFlMcG93TGlxSWdZZ1hkMXNDZ3dlWEVvTDZmTnZBZHR0Sy1OZThUQ09UY25oRGQ3aXZkd1VhU0NCWVZ2WWhDeVJhczZpbmNBMjlFRGZCUzZhUTBpbEZaZzQ0UHJVMFliMm5sWm5RWkxUd21fM3lzMVFYZjBfbU5HTUJYYzkzWnllY2l4cVQtN0lZRmdLM3lKNEFGR3B5ZVdSdw?oc=5",
+      "published": "Tue, 04 Nov 2025 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Next.ink"
+    },
+    {
+      "title": "L’arrivée de Rust dans APT provoque des débats dans la communauté Debian - Next.ink",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObDhXNS1wOTFIdUZORl9JbnJZZVZZNkJ4dFh4cVBNR2x2eWFZeGdfNlZsVERvRE9zNFJxTUtVeVluUlhONGNtaXk0RmhwYk5Ocm9SMDFiMkNRYWFvbHJSU2xVRi1kT21mS05lWm9ZTG5ZeVJieGNwcnMxUXMtYTRXRmdNUllBRmRKbEFoNW5fNEI1M01rUGljeE5Gc1c?oc=5",
       "published": "Tue, 04 Nov 2025 08:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
