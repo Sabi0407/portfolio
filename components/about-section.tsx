@@ -16,6 +16,15 @@ export default function AboutSection() {
           </h2>
           <div className="mx-auto mb-12 h-1 w-16 rounded-full bg-primary" />
 
+          <div className="mb-12 rounded-xl border border-border bg-card p-6 text-center">
+            <p className="mx-auto max-w-3xl text-sm leading-relaxed text-muted-foreground">
+              Je m'appelle SRIKANTHAN Sabiran. Je suis étudiant en BTS SIO option SISR à l'IPSSI et actuellement
+              en alternance dans le support informatique. Je m'intéresse particulièrement aux systèmes et aux
+              réseaux, avec l'envie de comprendre leur fonctionnement, de résoudre des problèmes concrets et de
+              progresser à travers mes projets personnels et professionnels.
+            </p>
+          </div>
+
           <div className="grid gap-8 md:grid-cols-3">
           <div className="rounded-xl border border-border bg-card p-6 text-center transition-shadow hover:shadow-lg">
             <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
