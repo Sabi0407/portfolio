@@ -96,9 +96,6 @@ export default function VeillePage() {
           <h1 className="font-heading text-4xl font-bold text-foreground mb-4">
             Ma Veille Technologique
           </h1>
-          <p className="text-lg text-muted-foreground">
-            Flux RSS dedie au noyau Linux avec une selection d'articles publies en francais sur la derniere annee.
-          </p>
           <div className="mt-4 inline-flex items-center rounded-full border border-border bg-card px-4 py-2 text-sm font-medium text-foreground">
             Noyau Linux - sources francaises
           </div>
