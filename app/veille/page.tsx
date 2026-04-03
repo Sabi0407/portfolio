@@ -9,6 +9,7 @@ interface Article {
   published: string
   content: string
   category: string
+  source?: string
 }
 
 interface VeillePayload {
@@ -42,7 +43,6 @@ export default function VeillePage() {
   const [articles, setArticles] = useState<Article[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
-  const [selectedCategory, setSelectedCategory] = useState<string>("Tout")
   const [displayCount, setDisplayCount] = useState(10)
 
   useEffect(() => {
@@ -83,15 +83,8 @@ export default function VeillePage() {
     fetchLocalVeille()
   }, [])
 
-  const filteredArticles =
-    selectedCategory === "Tout"
-      ? articles
-      : articles.filter((article) => article.category === selectedCategory)
-
-  const displayedArticles = filteredArticles.slice(0, displayCount)
-  const hasMore = displayCount < filteredArticles.length
-
-  const categories = ["Tout", ...Array.from(new Set(articles.map((article) => article.category).filter(Boolean)))]
+  const displayedArticles = articles.slice(0, displayCount)
+  const hasMore = displayCount < articles.length
 
   return (
     <div className="min-h-screen bg-background py-20 px-6">
@@ -104,25 +97,11 @@ export default function VeillePage() {
             Ma Veille Technologique
           </h1>
           <p className="text-lg text-muted-foreground">
-            Suivez mes alertes Google sur la virtualisation et le noyau Linux
+            Flux RSS dedie au noyau Linux avec une selection d'articles publies sur les 6 derniers mois.
           </p>
-        </div>
-
-        {/* Category Filter */}
-        <div className="mb-8 flex flex-wrap items-center justify-center gap-3">
-          {categories.map((category) => (
-            <button
-              key={category}
-              onClick={() => setSelectedCategory(category)}
-              className={`rounded-lg px-4 py-2 text-sm font-medium transition-all ${
-                selectedCategory === category
-                  ? "bg-primary text-primary-foreground shadow-lg"
-                  : "border border-border bg-card text-foreground hover:border-primary/50 hover:bg-card/80"
-              }`}
-            >
-              {category}
-            </button>
-          ))}
+          <div className="mt-4 inline-flex items-center rounded-full border border-border bg-card px-4 py-2 text-sm font-medium text-foreground">
+            Noyau Linux - 6 derniers mois
+          </div>
         </div>
 
         {loading ? (
@@ -136,7 +115,7 @@ export default function VeillePage() {
           </div>
         ) : articles.length === 0 ? (
           <div className="rounded-xl border border-border bg-card p-8 text-center">
-            <p className="text-muted-foreground">Aucun nouvel article dans vos flux Google Alerts pour le moment.</p>
+            <p className="text-muted-foreground">Aucun article pertinent sur le noyau Linux n'a ete trouve sur les 6 derniers mois.</p>
           </div>
         ) : (
           <div className="space-y-6">
@@ -148,7 +127,7 @@ export default function VeillePage() {
                 <div className="mb-3 flex items-start justify-between gap-4">
                   <div className="flex-1">
                     <span className="mb-2 inline-block rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
-                      {article.category}
+                      {article.source || article.category}
                     </span>
                     <h2 className="font-heading text-xl font-semibold text-foreground group-hover:text-primary transition-colors">
                       {article.title}

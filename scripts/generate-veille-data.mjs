@@ -2,34 +2,51 @@ import { mkdir, readFile, writeFile } from "node:fs/promises"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
 
+const KERNEL_CATEGORY = "Noyau Linux"
+
 const RSS_FEEDS = [
   {
-    url: "https://www.google.com/alerts/feeds/01795030495122666327/5342274990297030118",
-    category: "Noyau Linux",
-  },
-  {
-    url: "https://www.google.com/alerts/feeds/01795030495122666327/13620015609216544489",
-    category: "Virtualisation",
-  },
-  {
-    url: "https://www.google.com/alerts/feeds/01795030495122666327/15985397799960613911",
-    category: "Virtualisation",
+    url: "https://news.google.com/rss/search?q=%22Linux+kernel%22&hl=en-US&gl=US&ceid=US:en",
+    category: KERNEL_CATEGORY,
   },
 ]
 
 const FALLBACK_NEWS_FEEDS = [
   {
-    url: "https://news.google.com/rss/search?q=noyau+linux&hl=fr&gl=FR&ceid=FR:fr",
-    category: "Noyau Linux",
-  },
-  {
-    url: "https://news.google.com/rss/search?q=virtualisation+proxmox&hl=fr&gl=FR&ceid=FR:fr",
-    category: "Virtualisation",
+    url: "https://news.google.com/rss/search?q=linux+kernel&hl=en-US&gl=US&ceid=US:en",
+    category: KERNEL_CATEGORY,
   },
 ]
 
-const MAX_ARTICLES = 40
-const MAX_ARTICLE_AGE_DAYS = 365
+const MAX_ARTICLES = 24
+const MAX_ARTICLE_AGE_DAYS = 183
+
+const ALLOWED_SOURCES = new Set([
+  "phoronix",
+  "linux journal",
+  "theregister.com",
+  "the new stack",
+  "tomshardware.com",
+  "zdnet",
+  "devclass",
+])
+
+const EXCLUDED_TITLE_PATTERNS = [
+  /systemrescue/i,
+  /\bwine\b/i,
+  /ubuntu/i,
+  /arch linux/i,
+  /\bwsl\b/i,
+  /windows subsystem/i,
+  /netrunner/i,
+  /aerynos/i,
+  /fedora/i,
+  /macbook/i,
+  /raspberry pi/i,
+  /firewire/i,
+  /weekly roundup/i,
+  /\biso\b/i,
+]
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -72,6 +89,7 @@ function parseItemsFromRss(xml) {
       link: extractTag(itemXml, "link"),
       published: extractTag(itemXml, "pubDate"),
       content: extractTag(itemXml, "description"),
+      source: extractTag(itemXml, "source"),
     })
   }
 
@@ -116,6 +134,7 @@ function parseEntriesFromAtom(xml) {
       link: extractAtomLink(entryXml),
       published: extractTag(entryXml, "published") || extractTag(entryXml, "updated"),
       content: extractTag(entryXml, "content") || extractTag(entryXml, "summary"),
+      source: extractTag(entryXml, "source"),
     })
   }
 
@@ -152,6 +171,63 @@ function normalizeArticleLink(rawLink) {
 function toSortableDate(value) {
   const time = new Date(value).getTime()
   return Number.isNaN(time) ? 0 : time
+}
+
+function normalizeTextForCompare(value) {
+  return (value || "")
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+function escapeForRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+}
+
+function stripSourceSuffix(title, source) {
+  if (!source) {
+    return title
+  }
+
+  return title.replace(new RegExp(`\\s+-\\s+${escapeForRegExp(source)}$`, "i"), "").trim()
+}
+
+function sanitizeArticleContent(content, title, source) {
+  const normalizedContent = normalizeTextForCompare(content)
+  if (!normalizedContent) {
+    return ""
+  }
+
+  const baseTitle = stripSourceSuffix(title, source)
+  const candidates = [
+    title,
+    baseTitle,
+    `${baseTitle} ${source}`,
+    `${baseTitle} - ${source}`,
+  ]
+
+  if (candidates.some((candidate) => normalizeTextForCompare(candidate) === normalizedContent)) {
+    return ""
+  }
+
+  return content
+}
+
+function isAllowedKernelSource(source) {
+  if (!source) {
+    return true
+  }
+
+  return ALLOWED_SOURCES.has(normalizeTextForCompare(source))
+}
+
+function isKernelRelevantArticle(article) {
+  if (!isAllowedKernelSource(article.source)) {
+    return false
+  }
+
+  return !EXCLUDED_TITLE_PATTERNS.some((pattern) => pattern.test(article.title))
 }
 
 function dedupeAndSort(articles) {
@@ -206,10 +282,11 @@ async function fetchFeedArticles(feed) {
       title: stripHtmlTags(item.title),
       link: normalizeArticleLink(item.link),
       published: item.published,
-      content: stripHtmlTags(item.content),
+      content: sanitizeArticleContent(stripHtmlTags(item.content), stripHtmlTags(item.title), stripHtmlTags(item.source)),
       category: feed.category,
+      source: stripHtmlTags(item.source),
     }))
-    .filter((item) => item.title && item.link)
+    .filter((item) => item.title && item.link && isKernelRelevantArticle(item))
 }
 
 async function main() {
@@ -253,7 +330,7 @@ async function main() {
   finalArticles = keepRecentArticles(finalArticles, MAX_ARTICLE_AGE_DAYS).slice(0, MAX_ARTICLES)
 
   if (finalArticles.length === 0) {
-    finalArticles = await readExistingArticles()
+    finalArticles = keepRecentArticles(await readExistingArticles(), MAX_ARTICLE_AGE_DAYS)
     if (finalArticles.length > 0) {
       source = "cached-previous-data"
     }
