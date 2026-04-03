@@ -97,10 +97,10 @@ export default function VeillePage() {
             Ma Veille Technologique
           </h1>
           <div className="mt-4 inline-flex items-center rounded-full border border-border bg-card px-4 py-2 text-sm font-medium text-foreground">
-            Noyau Linux - sources francaises
+            Noyau Linux
           </div>
           <p className="mx-auto mt-4 max-w-2xl text-sm text-muted-foreground">
-            J'ai choisi cette veille car le noyau Linux est au coeur des serveurs, de la virtualisation et de la securite. Suivre ses evolutions m'aide a rester a jour sur les nouveautes techniques utiles en administration systeme.
+            J'ai choisi cette veille car le noyau Linux est au coeur des serveurs, de la virtualisation et de la securite. J'utilise aussi un mini-lab Proxmox, donc suivre ses evolutions m'aide a rester a jour sur les nouveautes utiles en administration systeme.
           </p>
         </div>
 
