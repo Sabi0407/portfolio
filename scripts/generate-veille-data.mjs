@@ -43,7 +43,7 @@ const FALLBACK_NEWS_FEEDS = [
 ]
 
 const MAX_ARTICLES = 24
-const MAX_ARTICLE_AGE_DAYS = 183
+const MAX_ARTICLE_AGE_DAYS = 365
 
 const ALLOWED_SOURCES = new Set([
   "clubic",

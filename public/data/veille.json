@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T07:58:04.661Z",
+  "generatedAt": "2026-04-03T08:00:42.831Z",
   "source": "google-news-rss-linux-kernel-fr",
   "feeds": [
     {
@@ -37,7 +37,7 @@
       "category": "Noyau Linux"
     }
   ],
-  "total": 19,
+  "total": 24,
   "errors": [],
   "articles": [
     {
@@ -191,6 +191,46 @@
       "content": "",
       "category": "Noyau Linux",
       "source": "LinuxFr.org"
+    },
+    {
+      "title": "Microsoft mise sur Rust pour des pilotes enfin sereins - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTjNWZGttbHY0cjBCXzhRdzJxMXhmMGlFQndKOHQ0STdLQ0h4cFRaSVl0WXdyR0lhVFNfUUFVVk14cHhTdExkRkUybGQzdGY0R2tGc0dWYWNTRXJ0dndsUG9vZUZmdFBqN2NER25RWXF6RGpxbDlKcnN5R3hRNEF3SjdNT2lhMDRkOHJ3c2VJYjhSa0NVWDVVX3FQeTEzWV94?oc=5",
+      "published": "Wed, 03 Sep 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Clubic"
+    },
+    {
+      "title": "L'IA s'immisce dans le noyau Linux, et une politique officielle est nécessaire au plus vite - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaFVFUDJxNVhwOS1GNndxSE9EN3pIWWEzUHc0U2xHV3FGcnVqX3ROd0g0UmNHTU43bnRMeWVncXQwVExoNHBDQlFaTzZtN2xqaFBnZ0F1R2s5VUhNOVowcFFmSVBDcm9GdDV5X2xSR3o2RERZUURuMURHVVBaeUxyV2ZaSV9CM2UtOVJrNTF2UW0wVDNVYTk2MDRaR3NPa3E4VTRmOUVzdzJOazNiMWxpLVlXUC1qeDA0dlIwOFp3WTUzMTJsNk1mRVZtMA?oc=5",
+      "published": "Mon, 25 Aug 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "ZDNET"
+    },
+    {
+      "title": "Linus Torvalds est fâché, ce développeur de Meta passe un très sale quart d'heure - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQnZKeU5JV1dXdENoMWh3dnl1eGJUOGxzNmVqU3N1RVMyYzVJQTdTVVVJN1ktZUUwTzRNTTRESTFFYXp3Y29rc2pVcjBPMFk0NnF1NWVYQ19NcUJ1ZUtLb3dPd1FBeFAyb1JEVFVhQnI0UG14RnhtNHNkSGVETVJjRUJmay1LV0hxc3RXbW5rWWxJWnZ2eGhIQXV3bU1kWFBCc19uUFlKcHU2SWJUaU1qdGw3a2ZhZ2U3V3JfTUgzdw?oc=5",
+      "published": "Wed, 13 Aug 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "ZDNET"
+    },
+    {
+      "title": "Linux 6.16 : des systèmes de fichiers plus rapides, meilleure pri ... - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNRDA2Q3lpeHB6QmhWaS1IOXhWSVl1NlNDZy1LekZGU3N1VmtEcEI5TndEQ2IwMGVLODFmdkxPWEdSV0hGRzJuODl1Sk5wZlNvcjVGcm1XXzBJX2w5Q3NaeE9ZV2JJenVJNDNPTEpzUU4tdkZoQ0VsdkZ3TGRJS1FtOXFZdUZfdkFOekhUa0xaSHlmMDBXbG53MXRlNHlRZUhDZlFmdHJwWEVFUHBjRXlDZENSTEk4TkpGTjY1RUtkYzFOdlN5aF94Yml2RFpkTkNmQ0hYMmdiSVlKdEpubXJtZE9hb1BMaGhIMmNuVjBzLS1tVVYxT1pMa2NYb2tVODFfNG43TjdwVF9fZk85bDZWdQ?oc=5",
+      "published": "Tue, 29 Jul 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "ZDNET"
+    },
+    {
+      "title": "Le noyau Linux 6.16 est là, largement tourné vers les performances - Next.ink",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdTFQWmE2QWxBME84N3kwb1JXMWVhSXlRd2dIMEZHelFnNUMwVzJtSEcwdXhGemJfYm9lQldZVy1hZXVBVG52eVJnaGQ4andXUUJzakxHdmJ3SVhUQnRRSjMydkxMNWpNRVpmWDlkdkdDWEtQLVlHdzZKMzZXUzh6aUlHalowQktRYTdldkliOVZ3aTdz?oc=5",
+      "published": "Mon, 28 Jul 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Next.ink"
     }
   ]
 }
