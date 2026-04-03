@@ -53,7 +53,7 @@ const categories = [
       },
       {
         title: "Mise en place de WireGuard",
-        desc: "Configuration d'un VPN WireGuard pour connecter des machines de façon sécurisée, faciliter l'accès à distance et protéger les échanges sur le réseau.",
+        desc: "Mise en place d'un acces a distance securise pour pouvoir rejoindre mes machines et mes services personnels depuis l'exterieur de facon simple et protegee.",
         tags: ["WireGuard", "VPN", "Accès distant", "Réseau", "Sécurité"],
         pdf: "",
       },
