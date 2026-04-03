@@ -18,10 +18,10 @@ export default function AboutSection() {
 
           <div className="mb-12 rounded-xl border border-border bg-card p-6 text-center">
             <p className="mx-auto max-w-3xl text-sm leading-relaxed text-muted-foreground">
-              Je m'appelle SRIKANTHAN Sabiran. Je suis étudiant en BTS SIO option SISR à l'IPSSI et actuellement
-              en alternance dans le support informatique. Je m'intéresse particulièrement aux systèmes et aux
+              Bonjour, je m'appelle SRIKANTHAN Sabiran. Je suis étudiant en BTS SIO option SISR à l'IPSSI et
+              actuellement en alternance dans le support informatique. Je m'intéresse aux systèmes et aux
               réseaux, avec l'envie de comprendre leur fonctionnement, de résoudre des problèmes concrets et de
-              progresser à travers mes projets personnels et professionnels.
+              progresser grâce à mes projets personnels et professionnels.
             </p>
           </div>
 
