@@ -6,14 +6,14 @@ const KERNEL_CATEGORY = "Noyau Linux"
 
 const RSS_FEEDS = [
   {
-    url: "https://news.google.com/rss/search?q=%22Linux+kernel%22&hl=en-US&gl=US&ceid=US:en",
+    url: "https://news.google.com/rss/search?q=%22noyau+Linux%22&hl=fr&gl=FR&ceid=FR:fr",
     category: KERNEL_CATEGORY,
   },
 ]
 
 const FALLBACK_NEWS_FEEDS = [
   {
-    url: "https://news.google.com/rss/search?q=linux+kernel&hl=en-US&gl=US&ceid=US:en",
+    url: "https://news.google.com/rss/search?q=kernel+linux&hl=fr&gl=FR&ceid=FR:fr",
     category: KERNEL_CATEGORY,
   },
 ]
@@ -22,13 +22,16 @@ const MAX_ARTICLES = 24
 const MAX_ARTICLE_AGE_DAYS = 183
 
 const ALLOWED_SOURCES = new Set([
-  "phoronix",
-  "linux journal",
-  "theregister.com",
-  "the new stack",
-  "tomshardware.com",
+  "clubic",
+  "les numériques",
+  "next ink",
+  "programmez",
+  "it social",
+  "linuxfr org",
+  "developpez com",
+  "silicon fr",
+  "frandroid",
   "zdnet",
-  "devclass",
 ])
 
 const EXCLUDED_TITLE_PATTERNS = [
@@ -46,6 +49,22 @@ const EXCLUDED_TITLE_PATTERNS = [
   /firewire/i,
   /weekly roundup/i,
   /\biso\b/i,
+  /linux mint/i,
+  /anduinos/i,
+  /distribution/i,
+  /guerre de design/i,
+  /maliciel/i,
+  /cloud et conteneurs/i,
+  /embarqu/i,
+]
+
+const REQUIRED_TOPIC_PATTERNS = [
+  /\bnoyau\b/i,
+  /\bkernel\b/i,
+  /linus torvalds/i,
+  /\bebpf\b/i,
+  /\brust\b/i,
+  /\blinux\s+[67](?:\.\d+)?\b/i,
 ]
 
 const __filename = fileURLToPath(import.meta.url)
@@ -217,7 +236,7 @@ function sanitizeArticleContent(content, title, source) {
 
 function isAllowedKernelSource(source) {
   if (!source) {
-    return true
+    return false
   }
 
   return ALLOWED_SOURCES.has(normalizeTextForCompare(source))
@@ -228,7 +247,11 @@ function isKernelRelevantArticle(article) {
     return false
   }
 
-  return !EXCLUDED_TITLE_PATTERNS.some((pattern) => pattern.test(article.title))
+  if (EXCLUDED_TITLE_PATTERNS.some((pattern) => pattern.test(article.title))) {
+    return false
+  }
+
+  return REQUIRED_TOPIC_PATTERNS.some((pattern) => pattern.test(article.title))
 }
 
 function dedupeAndSort(articles) {
@@ -307,7 +330,7 @@ async function main() {
     }
   }
 
-  let source = "google-news-rss-linux-kernel"
+  let source = "google-news-rss-linux-kernel-fr"
   let finalArticles = dedupeAndSort(fetchedAlertArticles)
 
   if (finalArticles.length === 0) {

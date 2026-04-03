@@ -1,212 +1,116 @@
 {
-  "generatedAt": "2026-04-03T07:43:56Z",
-  "source": "google-news-rss-linux-kernel",
+  "generatedAt": "2026-04-03T07:54:29.267Z",
+  "source": "google-news-rss-linux-kernel-fr",
   "feeds": [
     {
-      "url": "https://news.google.com/rss/search?q=%22Linux+kernel%22&hl=en-US&gl=US&ceid=US:en",
+      "url": "https://news.google.com/rss/search?q=%22noyau+Linux%22&hl=fr&gl=FR&ceid=FR:fr",
       "category": "Noyau Linux"
     }
   ],
   "fallbackFeeds": [
     {
-      "url": "https://news.google.com/rss/search?q=linux+kernel&hl=en-US&gl=US&ceid=US:en",
+      "url": "https://news.google.com/rss/search?q=kernel+linux&hl=fr&gl=FR&ceid=FR:fr",
       "category": "Noyau Linux"
     }
   ],
-  "total": 24,
+  "total": 12,
   "errors": [],
   "articles": [
     {
-      "title": "AMD P-State Driver Introducing New Features With Linux 7.1 - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtRExINHZjOGkzOWNkblJSb1FnLVlobDJkUDlua0JtMVdTUmx1d1dvdXlSRHFuMTUtUmItelZZNWlJRGh0b0Y0OGJUb3JyYjV4STNKRTJOTlIwc2FWRkxJYQ?oc=5",
-      "published": "Fri, 03 Apr 2026 00:26:00 GMT",
+      "title": "Linux 7 : son créateur dévoile toutes les nouveautés... et prépare le monde à son départ - Les Numériques",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaWJBaS10ek9lb3dvZDN6ZWFkMUFOZi13aE1mTVRscHJyMjNjWV9zYy1NUUNQc2RMa0JBTEt4c0FZSEhaVTgwbUQ4MUVKYkZndHFIbVhweEZJaHpBTjNUcmxIOEFwVHZvbGtQZVNzNzBQazI2UGU2aW1Ra21heVJGckVvUV90bXUtR2RvYm1vVndGcV9kRmRwT0F1UXBqWlp6bm1McG9qTlFxWjFKWmtZNjRTZzcyNlBpNklockhuZDdrU3B6LS1zNzdLR00zY056TFRvVEF3?oc=5",
+      "published": "Wed, 25 Feb 2026 08:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
-      "source": "Phoronix"
+      "source": "Les Numériques"
     },
     {
-      "title": "Intel Posts Fourth Version Of Cache Aware Scheduling For Linux - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBWWlBnV1NabGt6SDhKMnk1aS1aZmtpWDBUNEhxZlFiNXN1MnBTWDZURnQ2NEJEbjNvSmdXMnFYUDFfNVJNOE5sRnBjclhFV19iLVJ4bU1NX0x1b0ROTjgxWk9IeVhMYms?oc=5",
-      "published": "Thu, 02 Apr 2026 15:26:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "April 1 Linux Patches: Verified Birth Date For File Creation, Block Emacs From Running - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42Nzd4RHUtcVJ1X2Ztd3lsMG53RThIRWgzV0VGTG16ZGF2VFlMdzlxUFlhLVFzcEVvVnljd0xvSlhYVVBoMlc3OGpYbVUzLTR5eFlNc2JKaVR5ckpvbDk5MjBVRnBfdFU?oc=5",
-      "published": "Wed, 01 Apr 2026 14:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "The Linux Kernel's Minimum Rust Version Supported Prepares For Rust 1.85 Baseline - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xZUJEak44T01VNW0wSllxYktFZ2poN09IRHZtTjROcENVZjNvY21PMTJfbko4TUpjWHdZYmt1Y09YdDlGUHhWVVloTmU4MW9ac0wtYlQxRzFVWms3aWJZZmd0RjZ6S3B3VjZkZg?oc=5",
-      "published": "Wed, 01 Apr 2026 13:25:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "New Patches Allow Building Linux IPv6-Only, Option To Deprecate \"Legacy\" IPv4 - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1keFUzUVlHOGZHRVQzODlaWW5JMVc4TmFrOGNHdlNIRXBOTmFtdGhPdk9mMGY1eGZNLUh5ZTlrR0dUc2ppbWxZTWwzS1VTeWZDbHU1aFhQeEFabm5tT2dQSXJzM1ViR19rU2c?oc=5",
-      "published": "Wed, 01 Apr 2026 10:20:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "New Rust-Based BUS1 In-Kernel IPC In Development For The Linux Kernel - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5UVzJjeUp2NVpRRmVHdTExWWhWZnNHQ2lvSEhLUHVTRjN5NTBIWVlCZ1kyYW1KUENhdDRsYVotZzRBVHJkZThsdFdjWTB4S1cxQ2tlcTlVRms?oc=5",
-      "published": "Tue, 31 Mar 2026 19:47:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "A Lot Of Rust Graphics Driver Changes For Linux 7.1, NVIDIA Nova Driver Additions - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rbjhEejlFdVh2TExwOFlTQl9EMXhzb2NxMzhZUENwbWRGb1J2Nks0VHdnLVZoZU9CYld6R2xtRk1RVE9hYVNPdnZ6OU1nTFlCQjk0eUJlUy1WRjhsMktIRkVB?oc=5",
-      "published": "Tue, 31 Mar 2026 14:22:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "Meta Optimizing /proc/interrupts Reading As It's Too Costly At Scale: 29% Speedup - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91LTZHdWJOSmhpUzFRYms3S1JHUHJNbXJKamxHS3EybWE5eHZZRmJfdDVHOHBRS0FDV2s4WHZqQ1l5dWhrUXJOdUcwd0JNb09qamRyRW8tdlR6Ynl4U0dRU1JZOG9iRXZjVUNRd0l3?oc=5",
-      "published": "Tue, 31 Mar 2026 13:03:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "AMD Sends Out Linux Patches For Their Next-Gen AIE4 NPU - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nRWdEbTFnc1ZJdW0yQk1SYWs1LWRCT1MtaFVoUlZHSlhZaVNjajQtbEwtOUhBNHBtalpIWHVqcFYwMm1iNXNBaWNxelVsaW1XTjUwcmEtMk53QVBxSGJj?oc=5",
-      "published": "Mon, 30 Mar 2026 17:29:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "AMD Revives Linux Kernel Patches For Hardware-Accelerated vIOMMU - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15STZjQmNTcFpfa2dxV0dtWDFZSjk4MkZkeGRSaTc1S2JyaE5YRTNTRmhsUlRtSEJkNnI0Y3c3WkV1ZXpMdzNOdXE2ejNUS242VUQtSVFwWnMtLXFtVWJZQQ?oc=5",
-      "published": "Mon, 30 Mar 2026 10:03:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "Linux 7.0-rc6 Released With The Fixes Still Coming In Heavy - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9HS3pJOU5UWWppTkE5UlVUYl9Cb0k0dnNwSzI4aDlQSjhZWV9LYVdKRmsxbWhScWdiVUJobjVhcDhIamFEbDVMWFlyUTE3TlZxUDNFOHZWLW5TNms0Y0FINDV3?oc=5",
-      "published": "Sun, 29 Mar 2026 23:08:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "Linux Ham Radio KISS Serial Driver Being Modernized In 2026 - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1WEtGNTdiQUc4QmtjYzBRMkJ1eEJicGxvaTNreWZoamtlSjhlMHo0NUpvaTktb3RCVVZITGtjN1B4Ml9fZ1FnOVR6b095dTNiczQzaEloTTFQOGRKZUlIblVxZFNydWc?oc=5",
-      "published": "Sun, 29 Mar 2026 14:52:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "Linux kernel czar says AI bug reports aren't slop anymore - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6SnJ6aFpQbi11NDE2dm9IWF8yWWRzbFRpZG80ZXc0R3VManV5Mzl5aS1sRFVubnphbHpJZG1heUdmS3EtanVxSnNWY0FuWTJra05oTXNTT0Z1aENoVFcyLV9zUkFCb3hqa1lhLVNtQ2dmcFNfa0E?oc=5",
-      "published": "Thu, 26 Mar 2026 13:40:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "theregister.com"
-    },
-    {
-      "title": "Linux 7.0-rc5 Released: Linux 7.0 \"Starting To Calm Down\" - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBrTW5WRVJDc0NnMVgza09lMmdMMUV3WDEzWUd6NE92aVBaRHhOVmlTdThZWEdkaV9PZnlPclhfaDRYTkFPaTRGRno2UnFqN2pFN3daekhvd3p4T0VaVEdrNUhn?oc=5",
-      "published": "Sun, 22 Mar 2026 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "Linux kernel scale is swamping an already-flawed CVE system - The New Stack",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rQXQ4VlhsSzhfd1IwRXZiMHlTY1h6bUt2Rk9PMnlLR2VfTVFLeWlvclVNWkJKc05Wa00zdGZqLW5fVldIaUwyVXhMTE9MMmVReDJnUkFrdjJWeHM?oc=5",
-      "published": "Fri, 20 Mar 2026 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "The New Stack"
-    },
-    {
-      "title": "Linux kernel engineer introduces Sashiko code review system - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1HMGFCM1FJSVg0SXhJdnIyTVFSLVdReGs4b3I5UDUxTjJWNUhpcmxhcUtDeXFnVWk2LXBGeUZ6Mm5yYXNaSnMwcmVQdU1kTGVtdUV4QzF1bE1IcnZCdk5uc1RaMkp6QVozTi1CVzNVMTZMZ0U?oc=5",
-      "published": "Fri, 20 Mar 2026 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "theregister.com"
-    },
-    {
-      "title": "Google Now Using AutoFDO To Enhance Android's Linux Kernel Performance - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5abWY4bXRGS3EydlRuZWRkUDQ5N3VwQzRhVVRwbEdmODdZQXBDQ3lubjVmZlNXX1RPUTZFdHhuY2RFNjd1UUJrcnNXWFM1NmJ6U3g2Zk8xUmpKYlA5YjFDb3d2TllkekdX?oc=5",
-      "published": "Sat, 14 Mar 2026 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "Linux 7.0 Is Coming: What to Expect from the Next Major Kernel Release - Linux Journal",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRVRNd1pmOUtUS3NNY1k2bkRkYnVTRzBuVEk5WTlEYjFRS2k5eGRLUWxPNVl4WVNCN05UOFoxaml4N3FWZXBHTDRNQ3N0dGYwTF9zcEk2eGN1XzJFd2ZRMkNya2dWZzdwSFN1SW8yZ0NVS1g5dFJBY2NQc1NrZDUzMFFFOEtIeHJ4cVVsS3NaeW9zYlFp?oc=5",
-      "published": "Tue, 24 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Linux Journal"
-    },
-    {
-      "title": "Linus Torvalds jokingly ponders his successor as Linux boss - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBHZW1iYUJXN1VIWW1jdGxIalZBQnFvRlhUTk1MWmZSakkzRVpVUklaa3RZTjNCR0JwLWFrOFBuWXU2NDVGaFRiZ3RlQkZOMGhxejlPcTV5UklGdGFPYVdNNXdUUQ?oc=5",
-      "published": "Mon, 23 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "theregister.com"
-    },
-    {
-      "title": "Linux 7.0 Driver Core Changes Bring More Enhancements For Rust Kernel Drivers - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBVSUJELUZZdGJUNks1SGMxZk9BTHk2OEkzQnNibk05cnczRFlCZGctTWJ4QmdPRE5NQTNzV0VrZ3hUU00wUlJOOGl3LTZSNF9ja25HYjRvaWNVQkdmZkdkZw?oc=5",
-      "published": "Mon, 16 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "Linux kernel 7.0 finally abandons the 28-year-old Intel 440BX chipset's EDAC driver \u2014 removal marks goodbye to the legendary motherboard chipset - tomshardware.com",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQYk00aTNwQlVjOTZBdzdxUGFjR0Ewa3d1SDZFcXNfQkFTSUI3NDN0T0JwZHh0QS1nd05RLXVic3N4cXI1WWZVZE9MWk5Sa2NmV3MzRWliMWJaQ2RzZHNzYXVZMGxtT2JwdWljQTFYZnBHRkd5STFVYWFXeUVMSmFBWjlqSnVJeUtmcUJxNUtUXzQwbmNnRTZYY2IxLVcxWVdIczVJU0tUbGJ0bXpUUXhPR2M2SUNUamd4RHpsOWNBSE5iVklmUGxkZ1hOQ25laFFqa0l6VmQzcmVyd2t4SUxwN0Y1SHUwcGF3MXVHeVUwR3U2VGdUS3JIN2V2dmE?oc=5",
-      "published": "Sun, 15 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "tomshardware.com"
-    },
-    {
-      "title": "Linux Kernel Improvement Can Make Hibernation Several Times Faster With Slow SSDs - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSWFJLUF9aTDVzWk1fYmVlVmpuSmhWMHFEZEl3YnUxdkVsYzNFSTdESGFFSnhuZnVVc3NJS0JrdHJoX0o2ZmNIQ3JHckdPT0RSSjdMMkNoNm1FM3RncjZKbXpBc0d6eDd4Z0ww?oc=5",
-      "published": "Sun, 15 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "Linux Kernel Graphics Driver Development Now Experimenting With AI Code Review - Phoronix",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYdjlpTTBqUGsyVi03QkZpMnl2aEk5Z2lhRGNvTzM3MVJ6UE1FQlhQbml5MDZRTGFJUUo2UDI4WkdxNTI0UWxGaE1aS1RFQVNEeVRCVlhmcGNrTDQtMUJiVE9FeXQ?oc=5",
-      "published": "Wed, 11 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Phoronix"
-    },
-    {
-      "title": "The latest Linux kernel release closes out the 6.x era - and it's a gift to cloud admins - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOFlUbnpZTTVNYVh0TUg2ZTJ6d2RHYlpNdGEtcEtpWDExY2ladElCWTNJczhqbE1LUmtTUFdscndWN1QwbzJBMWl4ekw0RUpsS1hkcll3TmpzVl9KR1FqVGt1RGFQMDVIamVaOHF2TDZtQkctMnZKbUNaMGNJUmRBeQ?oc=5",
+      "title": "Linux 7.0 officialisé : Linus Torvalds promet un gros boost pour votre PC - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPck5MX2VHeWc5R3NGMU4yVXlnRmItWGZkQmhiZkdiT1cxUHdHRjliNkg5S3ZFb2h1T2htQ3doZ1czUFYxRnBOenA3VzRmVHppRlU2dklnOW5LYkJGbmU1djBEQ3d6NUpKcHVuWGdvaGVPSUhqakQ4R25MVl84OXR0VjFLNFRXcVFJdlVBQ3cwa1VGd2J6cW83YUJTdHBUWm5jWF9fQ2ZoUVktbDVtV2NKVm5XX1JFeW8?oc=5",
       "published": "Tue, 10 Feb 2026 08:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
-      "source": "ZDNET"
+      "source": "Clubic"
+    },
+    {
+      "title": "Pourquoi Linux 7.0 n'est pas une révolution, mais mérite toute votre attention - Les Numériques",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYkxjVnNDcWtHeElFc1JjVUtZMHV4YWtCU3hNUWoycndLcENHazE3RzhXTzRMMFVSZzR3aEJIQUVJcW90Tk5FTkljc2JyeEhaVXBaMHptb0FwaHE0WW05bU14MGFYNXp4QWFmZ2Y4ZTV2LXRzWVJBU0MtTDBkbEY2RXhCNFlScVNDWUVrMW5kbzZZOEpHUmxYUDdqR3pqbHJoamlicUxZV093RTlRWGZweEY5NVJLbVNyN18zYk5yLXdoU0hTbWM5Q0V3M3ZJdHFDOXZXSHNYREljUQ?oc=5",
+      "published": "Tue, 10 Feb 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Les Numériques"
+    },
+    {
+      "title": "Gaming sous Linux : pourquoi Linux 7.0 va faire du bien à vos FPS - Frandroid",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPakFFVWgyajZyY3VGenEzRjNlOVNXeFVFd1ZZUDExQXNrNjB2bmxTZ25ZZFZGdS0yZVV1UWdiSEFtR0hGSDlHelFBUXNPQkVUTGRRZFB3aUdwUmtXU0VYZTE3ZjFhcXBlUjJ5SlJtRUpSSkFTZW9FUHRoQl9uQThUdGk5NU94MnFTMElDREFpMzlJN3ROMTZQcjRQaXRadUduWldxWFR1V0dWQk15akhF?oc=5",
+      "published": "Tue, 10 Feb 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Frandroid"
+    },
+    {
+      "title": "Et si Linus Torvalds passait la main ? Le noyau Linux a son plan de continuité d’activité - Next.ink",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaUN5ekxRSW13bG9ncGl1VC1wUFN0TlFRSnBlZmprSDRTNHdzQlk4dWYxVlVISkl1aV9haEtiV0hkTTNoaDZhdnZrMkRzdWloQktuWTA4b1hUQ0RHM3EtT05ZOUlXLUQzb3VUd2lQaTFWeHRyU3NHaW04WjFFLVBxOGxCWkZZZkdKRGg2Q3I2eWNaMWRmdTFNRHZ3Ti1uY01pUEhudTQ3UUZkcklHMmV1dg?oc=5",
+      "published": "Thu, 29 Jan 2026 10:59:21 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Next.ink"
+    },
+    {
+      "title": "Linux : un plan officiel pour succéder à Linus Torvalds émerge - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaUpPbVNtclhFN2hqaEVKMEVfQlJqUlJiT3dLQm4zUnNyVFU3aXhzWWZnWFNXZkdRVVIzaU95aUdSNm54RTNnUzN2bXBKUWwtdGhMMUZZWkVtUDZmWHprMVpudHpsXzVvTllZWXpLS29tX1lzMnVzRTdEOGNlOGRVdV9SM1dZb0dxMk8yMWtERzBINnRJbExrT2VuZzNHZzZsVXRWNVFRTzk?oc=5",
+      "published": "Thu, 29 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Clubic"
+    },
+    {
+      "title": "Observabilité : eBPF, un atout dans la main des DevOps - Silicon.fr",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CdkhHdmJNb0JnZjE2QUhjb0tGN292RWZXd2Y4MWxNT0U0MjJ1STRGV3FsUUd3Zm1ha2RHdEZHOFRzbmVqamh1RnFzVjI5OU9UZEtvTFpRLURrYXRpMkFrbEFB0gFnQVVfeXFMUFpTSk5VNUNlUzlyWk54T09zX1hUX3VvNmNsaTY4dFdtWVZoakN1ck9lTTYydVVGY1EzSG1fWlc1V3J4RWFqbGNmekNNNnRjYW03QmFjNWhnM1VWSEhfdlBqMmRNX3BNRQ?oc=5",
+      "published": "Mon, 26 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Silicon.fr"
+    },
+    {
+      "title": "Linux 6.19 pourrait avoir un peu de retard - Les Numériques",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQlNCMDQ1ZnlhTFBNN1FiZkN2Y2dnandvZEN2aUQzTll6a1UtMkN1N0NMSjBoS1o5UXNCRTdRczNOR0ZVTktub2ZYNlJ0OUtPZ0l3b0N2ZVUxTW0zOFFqcEhXSUFUN1hvTjh4c3BCRmtHMWt5S2FqU09QOVNFdjhlWWRXV2E2aUctVmxvVnBlMlNtWjM0RmRwNTQ2SmdhTzNfWlE?oc=5",
+      "published": "Mon, 19 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Les Numériques"
+    },
+    {
+      "title": "Linus Torvalds refuse de transformer la documentation du kernel en champ de bataille idéologique « anti-IA » : arrêtez de faire toute une histoire de « l'IA slop » dans la documentation du noyau - Developpez.com",
+      "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPVi10VC1sRk1feC05bEZhSDhGNnBfcjRFUjljSUZQMGljcFUydk1YZU84Q2JDaU44RTNaUm13ZkJQZ1FKY25RZXJ6akpYZGNJUGdMdjRkdXhRVG5KdzlnYkRpbjU2LWlFUjFHeVNjOHFYa1dOMmxpTjZ5dmRYMHZzRzVFNzYtenk2c2otLXNnM2RkZzBRQlhDTHdBMDB3cjE1dTNBZ1hMRVNqd1lLUzJKVEVjVmN5MER3YW8zTnN0b0U5b3VZcHdrZlhEQzNubjAwZUpyV2xZV2hMcEVhR2xzQWVhckpLNGEyNDU1dC1zUUxld1VGbFFjNEt1V2R0eXVWcDhzRERqWUN3MHFfTWlINEI5YkxDM1VraXRjOVBUOHRFNnhyU3ZPMG5KT0UxbTh4UU4wSl93TkducWVDR1V3RnVZX1Q0WHdqTFBIYVBTUVlRX05rSWUza3psTy1HdmtjSk1XbdIB6gJBVV95cUxQeU1pdXZjNkcyS21fcDI2d1ZmNEFOYjMyMlY4bGdwamZrZjFUenpRWndCMDBhMzdrVWs0NlF6czR4d3Rpdmx6eHprS1dTbXJOWnBRS3ltZEVpSDQ4OUJPdUQ3bURGelpkUjZQWlN1RzZyYnpvaktmb2twVWNIN0djeW42NWF5SW5RZEJsLWVMVGlHZmxpS0I4MXR4dzI1QVR0T0tfTFdKZEZQbzhZYUFPMHU0aEpUTlJiazFXb185VTVQNzhMNkZtWUdDa2UyQzk0WmFfanNOMWJEVGo2T2lVa3lJRUFiMVFEelhRd2NmNDA2bnlZNVBNXzMxby1EOTcxUGtmQWpTVXYwenFRMXRGZDBXY21LdVpaTlRaMjZ6ZWVBcS1IUFRucENrV1R3NDdLWG5YNDA3c3hBOUtBTWVKQnVlUTNnV2I1eFlNNEFSX0ozY3hSa0FmRENHdi1FS3ZVSnlTM2Y4N3g4dw?oc=5",
+      "published": "Mon, 12 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Developpez.com"
+    },
+    {
+      "title": "Noyau Linux 6.18 : support renforcé d’Arm, RISC-V et Apple Silicon, Bcachefs retiré - it social",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNkNHaTUtOTl2VTlERXdidkhtTGd4bjdiQXZGUzVwc0pwdUZZNGZvRW0zV3hrbDVvaFE1VHFKSXBCNzFSRl9rS0NLSEladWMwS2ZjSzdHRjV1eU5Ib1FOWHNVMm9iRlFValIyajRTVzBmdUpLQlFnbW9tdEpuakE4NGRLU1FRNmxaSlJrYVg4T1NOSEdtaFE0cW1DNUN0aV9yREdZcVhpY2c5MHN6bGxTZHpzd2xrSS1qWGhkeXozMmw5a1hhdW90UFU1SlVMTEVtUFE?oc=5",
+      "published": "Mon, 01 Dec 2025 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "it social"
+    },
+    {
+      "title": "Sylvestre Ledru (Mozilla) : de Firefox au noyau Linux, la fulgurante ascension du Rust - Next.ink",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcWVYSjgxWEQ4OFlMcG93TGlxSWdZZ1hkMXNDZ3dlWEVvTDZmTnZBZHR0Sy1OZThUQ09UY25oRGQ3aXZkd1VhU0NCWVZ2WWhDeVJhczZpbmNBMjlFRGZCUzZhUTBpbEZaZzQ0UHJVMFliMm5sWm5RWkxUd21fM3lzMVFYZjBfbU5HTUJYYzkzWnllY2l4cVQtN0lZRmdLM3lKNEFGR3B5ZVdSdw?oc=5",
+      "published": "Tue, 04 Nov 2025 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Next.ink"
+    },
+    {
+      "title": "Kernel Recipes 2025 c'est fini : les vidéos sont en ligne ! - LinuxFr.org",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXgzS2JiRDQzR1N0Sk9ZUUhWSVl4ME04ckptd18xc0dlX1ZGNzF5QTAtVHA1aGpOUTlFMVFCeTI3UXgwM2N6NXdEVDZRek41RjJYSVJEMUpHNXpYNE1wcVFheHhmYmFuR0hrVHU4bzVpVV96UXk3N29CY2RnVlBnN0ZjcjhlQ2M?oc=5",
+      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "LinuxFr.org"
     }
   ]
 }
