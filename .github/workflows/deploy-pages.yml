@@ -38,6 +38,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Clean previous build outputs
+        run: rm -rf .next out
+
       - name: Generate veille data
         run: pnpm generate:veille
 
