@@ -306,7 +306,7 @@ async function main() {
     }
   }
 
-  let source = "google-alerts-rss"
+  let source = "google-news-rss-linux-kernel"
   let finalArticles = dedupeAndSort(fetchedAlertArticles)
 
   if (finalArticles.length === 0) {
