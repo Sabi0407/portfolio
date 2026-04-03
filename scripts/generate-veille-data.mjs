@@ -55,6 +55,7 @@ const OUTPUT_PATH = path.resolve(__dirname, "..", "public", "data", "veille.json
 function decodeHtmlEntities(text) {
   return text
     .replace(/&amp;/g, "&")
+    .replace(/&nbsp;/g, " ")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
