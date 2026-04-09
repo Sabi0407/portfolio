@@ -1,10 +1,35 @@
 "use client"
 
-import { GraduationCap, Briefcase, CheckCircle, Clock, ChevronDown } from "lucide-react"
+import { GraduationCap, Briefcase, CheckCircle, Clock, ChevronDown, Download, ExternalLink, X } from "lucide-react"
 import ScrollFadeIn from "./scroll-fade-in"
 import { useState } from "react"
 
-const timeline = [
+type ExperienceDoc = {
+  title: string
+  description: string
+  url: string
+}
+
+type ExperienceDetails = {
+  logo: string
+  companySummary: string
+  missionSummary: string
+  missions: string[]
+  docs: ExperienceDoc[]
+}
+
+type TimelineItem = {
+  status: string
+  statusColor: string
+  date: string
+  org: string
+  title: string
+  desc: string
+  icon: typeof GraduationCap
+  details?: ExperienceDetails
+}
+
+const timeline: TimelineItem[] = [
   {
     status: "Obtenu",
     statusColor: "bg-accent text-accent-foreground",
@@ -49,6 +74,37 @@ const timeline = [
     title: "Technicien Systèmes et Réseaux - Stage",
     desc: "Stage chez Biblix Systèmes, éditeur français de solutions de gestion pour bibliothèques depuis 2012. Mission principale : mise en place d'un portail captif Alcasar via Proxmox pour sécuriser l'accès réseau. Configuration et déploiement de l'infrastructure de filtrage et d'authentification dans un environnement virtualisé.",
     icon: Briefcase,
+    details: {
+      logo: "/s.sabiran/logos/biblix-systemes.png",
+      companySummary:
+        "Biblix Systèmes conçoit des solutions logicielles pour les bibliothèques afin de simplifier la gestion des postes, des accès et des services numériques.",
+      missionSummary:
+        "Pendant mon stage, j'ai participé à la mise en place et à la sécurisation de l'infrastructure réseau utilisée par les postes publics.",
+      missions: [
+        "Déploiement d'ALCASAR sous Proxmox avec configuration LAN, WAN et Wi-Fi.",
+        "Mise en place du filtrage DNS et SafeSearch pour sécuriser la navigation.",
+        "Création d'une interface AutoIt reliée aux API ALCASAR pour faciliter la connexion utilisateur.",
+        "Création et structuration d'une base MariaDB pour stocker les informations nécessaires au portail.",
+        "Analyse des logs et ajustements de configuration pour fiabiliser le service.",
+      ],
+      docs: [
+        {
+          title: "Mise en place d'ALCASAR",
+          description: "Documentation principale du déploiement réalisé en stage.",
+          url: "/s.sabiran/docs/stage-alcasar-mise-en-place.pdf",
+        },
+        {
+          title: "Configuration DNS Unbound",
+          description: "Filtrage DNS et SafeSearch dans l'environnement ALCASAR.",
+          url: "/s.sabiran/docs/stage-unbound-alcasar.pdf",
+        },
+        {
+          title: "Configuration du point d'accès Wi-Fi",
+          description: "Intégration du Wi-Fi avec le portail captif ALCASAR.",
+          url: "/s.sabiran/docs/stage-configuration-point-acces.pdf",
+        },
+      ],
+    },
   },
   {
     status: "En cours",
@@ -58,11 +114,39 @@ const timeline = [
     title: "Alternant Technicien Support Informatique - Sur site",
     desc: "Alternance chez Bertrand Hospitality, filiale du Groupe Bertrand (1997), leader français indépendant en hôtellerie-restauration avec 80 établissements d'exception (brasseries emblématiques Lipp, La Gare, salons Angelina, 3 hôtels Relais & Châteaux, Maison Plisson). Support informatique niveau 1 sur site dans les établissements : assistance utilisateurs, gestion des tickets, maintenance du parc informatique et résolution d'incidents.",
     icon: Briefcase,
+    details: {
+      logo: "/s.sabiran/logos/bertrand-hospitality.jpg",
+      companySummary:
+        "Bertrand Hospitality est la branche restauration et hôtellerie du Groupe Bertrand, avec des brasseries, salons de thé et hôtels reconnus en France.",
+      missionSummary:
+        "En alternance, j'assure un support informatique de proximité pour aider les équipes à travailler sans blocage au quotidien.",
+      missions: [
+        "Traitement des incidents utilisateurs (logiciels, postes, accès, périphériques).",
+        "Préparation, configuration et déploiement des postes de travail.",
+        "Suivi des tickets et communication avec les utilisateurs jusqu'à résolution.",
+        "Maintenance du parc informatique sur site et assistance opérationnelle.",
+        "Participation à l'accompagnement des utilisateurs sur les outils Microsoft.",
+      ],
+      docs: [
+        {
+          title: "Tableau E5 - Missions en entreprise",
+          description: "Synthèse des activités réalisées en alternance.",
+          url: "/s.sabiran/docs/tableau-e5-synthese.pdf",
+        },
+        {
+          title: "CV - Expériences professionnelles",
+          description: "Vue globale de mes missions réalisées chez Bertrand Hospitality.",
+          url: "/s.sabiran/CV_SRIKANTHAN_Sabiran.pdf",
+        },
+      ],
+    },
   },
 ]
 
 export default function ParcoursSection() {
   const [expandedItems, setExpandedItems] = useState<Set<number>>(new Set())
+  const [activeDetails, setActiveDetails] = useState<TimelineItem | null>(null)
+  const [activeDoc, setActiveDoc] = useState<ExperienceDoc | null>(null)
 
   const toggleExpand = (index: number) => {
     const newExpanded = new Set(expandedItems)
@@ -100,6 +184,7 @@ export default function ParcoursSection() {
               const isExpanded = expandedItems.has(i)
               const descLength = item.desc.length
               const shouldTruncate = descLength > 150
+              const hasDetails = Boolean(item.details)
 
               return (
                 <div key={item.title} className="relative flex items-start gap-6 md:gap-0">
@@ -134,6 +219,17 @@ export default function ParcoursSection() {
                         <ChevronDown size={14} className={`transition-transform ${isExpanded ? 'rotate-180' : ''}`} />
                       </button>
                     )}
+                    {hasDetails && (
+                      <button
+                        onClick={() => {
+                          setActiveDoc(null)
+                          setActiveDetails(item)
+                        }}
+                        className="mt-2 inline-flex items-center gap-1 rounded-md border border-primary/30 bg-primary/10 px-2.5 py-1 text-xs font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+                      >
+                        En savoir plus
+                      </button>
+                    )}
                   </div>
                 </div>
               )
@@ -142,6 +238,155 @@ export default function ParcoursSection() {
         </div>
       </div>
       </ScrollFadeIn>
+
+      {activeDetails?.details && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 p-4 backdrop-blur-sm"
+          onClick={() => {
+            setActiveDoc(null)
+            setActiveDetails(null)
+          }}
+        >
+          <div
+            className="relative max-h-[92vh] w-full max-w-5xl overflow-hidden rounded-xl border border-border bg-background shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between border-b border-border bg-card px-5 py-3">
+              <div>
+                <p className="text-xs font-medium text-primary">Parcours professionnel</p>
+                <h3 className="font-heading text-lg font-bold text-foreground">{activeDetails.org}</h3>
+                <p className="text-xs text-muted-foreground">{activeDetails.title} • {activeDetails.date}</p>
+              </div>
+              <button
+                onClick={() => {
+                  setActiveDoc(null)
+                  setActiveDetails(null)
+                }}
+                className="rounded-md p-2 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+                aria-label="Fermer la prévisualisation"
+              >
+                <X size={18} />
+              </button>
+            </div>
+
+            <div className="max-h-[calc(92vh-76px)] overflow-y-auto p-5 md:p-6">
+              <div className="grid gap-6 md:grid-cols-[220px_1fr]">
+                <div className="rounded-xl border border-border bg-card p-4">
+                  <div className="flex h-32 items-center justify-center rounded-lg border border-border bg-background p-3">
+                    <img
+                      src={activeDetails.details.logo}
+                      alt={`Logo ${activeDetails.org}`}
+                      className="max-h-full w-full object-contain"
+                    />
+                  </div>
+                  <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
+                    {activeDetails.details.companySummary}
+                  </p>
+                </div>
+
+                <div className="space-y-5">
+                  <div>
+                    <h4 className="font-heading text-sm font-bold text-foreground">Ce que j&apos;y faisais</h4>
+                    <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{activeDetails.details.missionSummary}</p>
+                  </div>
+
+                  <div>
+                    <h4 className="font-heading text-sm font-bold text-foreground">Missions principales</h4>
+                    <ul className="mt-2 space-y-2">
+                      {activeDetails.details.missions.map((mission) => (
+                        <li
+                          key={mission}
+                          className="rounded-lg border border-border bg-card px-3 py-2 text-sm leading-relaxed text-muted-foreground"
+                        >
+                          {mission}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {activeDetails.details.docs.length > 0 && (
+                <div className="mt-6 border-t border-border pt-5">
+                  <h4 className="font-heading text-sm font-bold text-foreground">Documents associés</h4>
+                  <div className="mt-3 grid gap-3 md:grid-cols-2">
+                    {activeDetails.details.docs.map((doc) => (
+                      <div key={doc.title} className="rounded-lg border border-border bg-card p-4">
+                        <p className="text-sm font-semibold text-foreground">{doc.title}</p>
+                        <p className="mt-1 text-xs leading-relaxed text-muted-foreground">{doc.description}</p>
+                        <div className="mt-3 flex flex-wrap gap-2">
+                          <button
+                            type="button"
+                            onClick={() => setActiveDoc(doc)}
+                            className="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground transition-transform hover:scale-105"
+                          >
+                            <ExternalLink size={13} />
+                            Prévisualiser
+                          </button>
+                          {!doc.url.startsWith("http") && (
+                            <a
+                              href={doc.url}
+                              download
+                              className="inline-flex items-center gap-1.5 rounded-md border border-border bg-background px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:border-primary/40"
+                            >
+                              <Download size={13} />
+                              Télécharger
+                            </a>
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {activeDoc && (
+        <div
+          className="fixed inset-0 z-[60] flex items-center justify-center bg-black/80 p-4"
+          onClick={() => setActiveDoc(null)}
+        >
+          <div
+            className="relative h-[90vh] w-full max-w-6xl overflow-hidden rounded-xl border border-border bg-background shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between border-b border-border bg-card p-4">
+              <div>
+                <h3 className="font-heading text-base font-bold text-foreground">{activeDoc.title}</h3>
+                <p className="text-xs text-muted-foreground">{activeDoc.description}</p>
+              </div>
+              <div className="flex items-center gap-2">
+                {!activeDoc.url.startsWith("http") && (
+                  <a
+                    href={activeDoc.url}
+                    download
+                    className="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground transition-transform hover:scale-105"
+                  >
+                    <Download size={14} />
+                    Télécharger
+                  </a>
+                )}
+                <button
+                  type="button"
+                  onClick={() => setActiveDoc(null)}
+                  className="rounded-md p-2 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+                  aria-label="Fermer la prévisualisation document"
+                >
+                  <X size={18} />
+                </button>
+              </div>
+            </div>
+            <iframe
+              src={activeDoc.url}
+              className="h-[calc(100%-4rem)] w-full"
+              title={activeDoc.title}
+            />
+          </div>
+        </div>
+      )}
     </section>
   )
 }
