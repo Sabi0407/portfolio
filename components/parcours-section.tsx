@@ -77,9 +77,9 @@ const timeline: TimelineItem[] = [
     details: {
       logo: "/s.sabiran/logos/biblix-systemes.png",
       companySummary:
-        "Biblix Systèmes conçoit des solutions logicielles pour les bibliothèques afin de simplifier la gestion des postes, des accès et des services numériques.",
+        "Biblix Systèmes développe et maintient des solutions informatiques pour les bibliothèques, afin de simplifier la gestion des accès, des postes publics et des services numériques.",
       missionSummary:
-        "Pendant mon stage, j'ai participé à la mise en place et à la sécurisation de l'infrastructure réseau utilisée par les postes publics.",
+        "Pendant mon stage, j'ai contribué à sécuriser l'infrastructure réseau utilisée par les postes publics et à fiabiliser l'accès internet des utilisateurs.",
       missions: [
         "Déploiement d'ALCASAR sous Proxmox avec configuration LAN, WAN et Wi-Fi.",
         "Mise en place du filtrage DNS et SafeSearch pour sécuriser la navigation.",
@@ -117,15 +117,15 @@ const timeline: TimelineItem[] = [
     details: {
       logo: "/s.sabiran/logos/bertrand-hospitality.jpg",
       companySummary:
-        "Bertrand Hospitality est la branche restauration et hôtellerie du Groupe Bertrand, avec des brasseries, salons de thé et hôtels reconnus en France.",
+        "Bertrand Hospitality est le pôle restauration et hôtellerie du Groupe Bertrand. L'entreprise exploite des brasseries, des restaurants, des salons de thé, des hôtels et des activités événementielles.",
       missionSummary:
-        "En alternance, j'assure un support informatique de proximité pour aider les équipes à travailler sans blocage au quotidien.",
+        "En alternance, j'assure le support informatique de proximité pour maintenir la continuité d'activité des équipes sur site et limiter les interruptions de service.",
       missions: [
         "Traitement des incidents utilisateurs (logiciels, postes, accès, périphériques).",
         "Préparation, configuration et déploiement des postes de travail.",
         "Suivi des tickets et communication avec les utilisateurs jusqu'à résolution.",
-        "Maintenance du parc informatique sur site et assistance opérationnelle.",
-        "Participation à l'accompagnement des utilisateurs sur les outils Microsoft.",
+        "Maintenance du parc informatique en établissement et assistance opérationnelle.",
+        "Accompagnement des utilisateurs sur les outils Microsoft 365.",
       ],
       docs: [
         {
@@ -225,8 +225,9 @@ export default function ParcoursSection() {
                           setActiveDoc(null)
                           setActiveDetails(item)
                         }}
-                        className="mt-2 inline-flex items-center gap-1 rounded-md border border-primary/30 bg-primary/10 px-2.5 py-1 text-xs font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+                        className="mt-2 inline-flex items-center gap-1.5 rounded-full border border-primary/30 bg-primary/10 px-3 py-1.5 text-xs font-semibold text-primary transition-all hover:border-primary hover:bg-primary hover:text-primary-foreground"
                       >
+                        <ExternalLink size={13} />
                         En savoir plus
                       </button>
                     )}
@@ -279,24 +280,27 @@ export default function ParcoursSection() {
                       className="max-h-full w-full object-contain"
                     />
                   </div>
-                  <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
-                    {activeDetails.details.companySummary}
-                  </p>
+                  <div className="mt-3 rounded-lg border border-border bg-background p-3">
+                    <h4 className="font-heading text-xs font-bold uppercase tracking-wide text-foreground">L&apos;entreprise</h4>
+                    <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
+                      {activeDetails.details.companySummary}
+                    </p>
+                  </div>
                 </div>
 
                 <div className="space-y-5">
-                  <div>
-                    <h4 className="font-heading text-sm font-bold text-foreground">Ce que j&apos;y faisais</h4>
+                  <div className="rounded-xl border border-border bg-card p-4">
+                    <h4 className="font-heading text-sm font-bold text-foreground">Mon rôle</h4>
                     <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{activeDetails.details.missionSummary}</p>
                   </div>
 
-                  <div>
+                  <div className="rounded-xl border border-border bg-card p-4">
                     <h4 className="font-heading text-sm font-bold text-foreground">Missions principales</h4>
                     <ul className="mt-2 space-y-2">
                       {activeDetails.details.missions.map((mission) => (
                         <li
                           key={mission}
-                          className="rounded-lg border border-border bg-card px-3 py-2 text-sm leading-relaxed text-muted-foreground"
+                          className="rounded-lg border border-border bg-background px-3 py-2 text-sm leading-relaxed text-muted-foreground"
                         >
                           {mission}
                         </li>
