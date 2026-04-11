@@ -71,8 +71,8 @@ const categories = [
     icon: Briefcase,
     projects: [
       {
-        title: "Procédure enrollment d'un ordinateur dans Intune",
-        desc: "Procédure pas à pas d'enrôlement d'un poste Windows dans Intune avec pré-approvisionnement Autopilot, sélection de l'entité et validation finale.",
+        title: "Procédure d'enrôlement d'un ordinateur dans Intune",
+        desc: "Procédure pas à pas pour enrôler un poste Windows dans Intune, avec préapprovisionnement Autopilot, sélection de l'entité et validation finale.",
         tags: ["Intune", "Autopilot", "Enrôlement", "Onboarding", "Support"],
         pdf: "/s.sabiran/docs/procedure-enrolement-intune.pdf",
       },
