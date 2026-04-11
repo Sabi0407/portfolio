@@ -71,22 +71,10 @@ const categories = [
     icon: Briefcase,
     projects: [
       {
-        title: "Support informatique N1 - Groupe Bertrand",
-        desc: "Gestion des tickets d'incidents, assistance aux utilisateurs, maintenance du parc informatique, déploiement de postes et résolution de problèmes matériels/logiciels.",
-        tags: ["GLPI", "Active Directory", "Windows", "Ticketing", "Support"],
-        pdf: "",
-      },
-      {
-        title: "Déploiement et préparation des postes",
-        desc: "Installation, configuration et mise à disposition de postes de travail pour les équipes, avec vérification des accès et des outils essentiels.",
-        tags: ["Déploiement", "Postes", "Windows", "Support", "Préparation"],
-        pdf: "",
-      },
-      {
-        title: "Support utilisateurs et suivi quotidien",
-        desc: "Accompagnement des utilisateurs au quotidien, résolution des incidents courants et suivi des demandes jusqu'à la clôture.",
-        tags: ["Support", "Incidents", "Utilisateurs", "Ticketing", "Suivi"],
-        pdf: "",
+        title: "Procédure enrollment d'un ordinateur dans Intune",
+        desc: "Procédure pas à pas d'enrôlement d'un poste Windows dans Intune avec pré-approvisionnement Autopilot, sélection de l'entité et validation finale.",
+        tags: ["Intune", "Autopilot", "Enrôlement", "Onboarding", "Support"],
+        pdf: "/s.sabiran/docs/procedure-enrolement-intune.docx",
       },
     ] as Project[],
   },
@@ -301,6 +289,16 @@ function ProjectCard({ project }: { project: Project }) {
     setModalDoc(null)
   }
 
+  const getModalPreviewUrl = (url: string) => {
+    const lowerUrl = url.toLowerCase()
+    if (url.startsWith("http") || lowerUrl.endsWith(".pdf")) {
+      return url
+    }
+
+    const absoluteUrl = new URL(url, window.location.origin).toString()
+    return `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(absoluteUrl)}`
+  }
+
   return (
     <>
       <div className="group flex flex-col rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:border-primary/40 hover:shadow-lg hover:-translate-y-1">
@@ -412,7 +410,7 @@ function ProjectCard({ project }: { project: Project }) {
               </div>
             </div>
             <iframe
-              src={modalDoc.url}
+              src={getModalPreviewUrl(modalDoc.url)}
               className="h-[calc(100%-4rem)] w-full"
               title={modalDoc.title}
             />
