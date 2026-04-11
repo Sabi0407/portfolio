@@ -76,6 +76,12 @@ const categories = [
         tags: ["Intune", "Autopilot", "Enrôlement", "Onboarding", "Support"],
         pdf: "/s.sabiran/docs/procedure-enrolement-intune.pdf",
       },
+      {
+        title: "Enrôlement d'un téléphone Android dans Intune",
+        desc: "Procédure de configuration d'un smartphone Android dans Microsoft Intune avec Android Enterprise, validation et contrôle de l'intégration.",
+        tags: ["Android", "Intune", "Android Enterprise", "Enrôlement", "Mobilité"],
+        pdf: "/s.sabiran/docs/procedure-enrolement-telephone-android-intune.pdf",
+      },
     ] as Project[],
   },
   {
