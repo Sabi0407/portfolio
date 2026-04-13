@@ -255,7 +255,7 @@ const categories = [
         projects: [
           {
             title: "Mise en place d'un serveur Zabbix et de ses agents",
-            desc: "Installation de Zabbix Server 7.4 sur Debian 13 avec configuration réseau statique, résolution DNS et base MariaDB. Déploiement des agents sur clients Windows et Debian pour la supervision complète.",
+            desc: "Mise en place d'un serveur Zabbix pour surveiller l'état des machines et détecter rapidement les pannes. Les agents installés sur Windows et Debian remontent les informations importantes (CPU, mémoire, disque, services) afin de suivre tout le parc depuis un seul tableau de bord.",
             tags: ["Zabbix", "VLAN", "MariaDB", "Monitoring", "Debian 13"],
             pdf: "/s.sabiran/docs/ap3-zabbix.pdf",
             schemaPdf: "/s.sabiran/docs/schema-baie-a.pdf",

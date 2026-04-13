@@ -1,6 +1,6 @@
 "use client"
 
-import { GraduationCap, Briefcase, CheckCircle, Clock, ChevronDown, Download, ExternalLink, X, Building2, ListChecks, Files } from "lucide-react"
+import { GraduationCap, Briefcase, CheckCircle, Clock, ChevronDown, Download, ExternalLink, X, Building2, ListChecks, Files, Settings } from "lucide-react"
 import ScrollFadeIn from "./scroll-fade-in"
 import { useState } from "react"
 
@@ -10,11 +10,17 @@ type ExperienceDoc = {
   url: string
 }
 
+type ExperienceTool = {
+  name: string
+  description: string
+}
+
 type ExperienceDetails = {
   logo: string
   companySummary: string
   missionSummary: string
   missions: string[]
+  tools?: ExperienceTool[]
   docs: ExperienceDoc[]
 }
 
@@ -67,15 +73,6 @@ const timeline: TimelineItem[] = [
         },
       ],
     },
-  },
-  {
-    status: "Réalisé",
-    statusColor: "bg-accent text-accent-foreground",
-    date: "Nov 2024 - Avril 2025",
-    org: "IPSSI - Projet étudiant",
-    title: "Technicien Systèmes et Réseaux",
-    desc: "Projet pratique d'administration système et réseau : installation et configuration de GLPI, création de domaine Active Directory avec GPO, mise en place de Zabbix (supervision), support technique Windows/Linux.",
-    icon: Briefcase,
   },
   {
     status: "En cours",
@@ -147,6 +144,20 @@ const timeline: TimelineItem[] = [
         "Suivi des tickets et communication avec les utilisateurs jusqu'à résolution.",
         "Maintenance préventive et corrective du parc informatique en établissement.",
         "Accompagnement des utilisateurs sur les outils Microsoft 365.",
+      ],
+      tools: [
+        {
+          name: "Microsoft Entra ID",
+          description: "Permet de gérer les identités utilisateurs et les droits d'accès aux ressources de l'entreprise.",
+        },
+        {
+          name: "Microsoft Intune",
+          description: "Permet d'enrôler, configurer et sécuriser les postes et appareils gérés à distance.",
+        },
+        {
+          name: "Tikit",
+          description: "Outil de ticketing utilisé pour suivre les incidents, les demandes et leur résolution.",
+        },
       ],
       docs: [
         {
@@ -344,6 +355,27 @@ export default function ParcoursSection() {
                       ))}
                     </ul>
                   </div>
+
+                  {activeDetails.details.tools && activeDetails.details.tools.length > 0 && (
+                    <div className="rounded-xl border border-primary/20 bg-card p-4">
+                      <div className="mb-2 inline-flex items-center gap-1.5 rounded-full border border-primary/30 bg-primary/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-primary">
+                        <Settings size={12} />
+                        Outils
+                      </div>
+                      <h4 className="font-heading text-sm font-bold text-foreground">Logiciels utilisés</h4>
+                      <ul className="mt-2 space-y-2">
+                        {activeDetails.details.tools.map((tool) => (
+                          <li
+                            key={tool.name}
+                            className="rounded-lg border border-border bg-background/70 px-3 py-2"
+                          >
+                            <p className="text-sm font-semibold text-foreground">{tool.name}</p>
+                            <p className="mt-1 text-xs leading-relaxed text-muted-foreground">{tool.description}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
               </div>
 
