@@ -17,31 +17,13 @@ type Certification = {
 // Remplace ou ajoute tes certifications ici.
 const certifications: Certification[] = [
   {
-    title: "Certification Linux (à compléter)",
-    issuer: "Organisme certificateur",
+    title: "Certification CNIL",
+    issuer: "CNIL",
     date: "2026",
-    status: "À venir",
+    status: "En cours",
     description:
-      "Exemple de carte. Tu peux remplacer ce texte par la description officielle de ta certification.",
-    skills: ["Linux", "Administration", "Systèmes"],
-  },
-  {
-    title: "Certification Réseaux (à compléter)",
-    issuer: "Organisme certificateur",
-    date: "2026",
-    status: "À venir",
-    description:
-      "Ajoute ici ce que valide la certification: réseau, sécurité, dépannage ou supervision.",
-    skills: ["Réseau", "TCP/IP", "Sécurité"],
-  },
-  {
-    title: "Certification Microsoft / Cloud (à compléter)",
-    issuer: "Organisme certificateur",
-    date: "2026",
-    status: "À venir",
-    description:
-      "Ajoute le niveau de certification et le périmètre couvert (Microsoft 365, Azure, Intune, etc.).",
-    skills: ["Cloud", "Microsoft", "Intune"],
+      "Formation en cours sur la protection des données personnelles, les principes du RGPD et les bonnes pratiques de conformité.",
+    skills: ["CNIL", "RGPD", "Protection des données"],
   },
 ]
 
