@@ -1,6 +1,6 @@
 "use client"
 
-import { GraduationCap, Briefcase, CheckCircle, Clock, ChevronDown, Download, ExternalLink, X } from "lucide-react"
+import { GraduationCap, Briefcase, CheckCircle, Clock, ChevronDown, Download, ExternalLink, X, Building2, ListChecks, Files } from "lucide-react"
 import ScrollFadeIn from "./scroll-fade-in"
 import { useState } from "react"
 
@@ -42,11 +42,31 @@ const timeline: TimelineItem[] = [
   {
     status: "Réalisé",
     statusColor: "bg-accent text-accent-foreground",
-    date: "2017",
+    date: "Mai 2015 - Juin 2017",
     org: "SOS Master Paris",
-    title: "Stage - Technicien Informatique",
-    desc: "Installation de systèmes d'exploitation (macOS, Linux, Windows), changement de pièces détachées, diagnostic et réparation de matériel informatique.",
+    title: "Technicien de maintenance informatique - Stage",
+    desc: "Diagnostic et réparation de pannes matérielles et logicielles, installation de systèmes d'exploitation et remplacement de composants sur postes clients.",
     icon: Briefcase,
+    details: {
+      logo: "/s.sabiran/logos/sos-master.png",
+      companySummary:
+        "SOS Master Paris propose des prestations de maintenance et de réparation informatique pour remettre rapidement en service les postes des utilisateurs.",
+      missionSummary:
+        "Pendant ce stage, j'ai assuré la remise en état de postes informatiques en traitant les pannes et en remplaçant les composants défectueux.",
+      missions: [
+        "Diagnostic de pannes matérielles et logicielles sur postes clients.",
+        "Installation et réinstallation de systèmes d'exploitation (Windows, Linux, macOS).",
+        "Remplacement de composants: disque dur, batterie, RAM et écran.",
+        "Contrôle final du poste avant restitution à l'utilisateur.",
+      ],
+      docs: [
+        {
+          title: "CV - Expérience SOS Master",
+          description: "Présentation synthétique de mon stage chez SOS Master Paris.",
+          url: "/s.sabiran/CV_SRIKANTHAN_Sabiran.pdf",
+        },
+      ],
+    },
   },
   {
     status: "Réalisé",
@@ -112,19 +132,20 @@ const timeline: TimelineItem[] = [
     date: "Sept 2025 - Aujourd'hui",
     org: "Bertrand Hospitality - Groupe Bertrand",
     title: "Alternant Technicien Support Informatique - Sur site",
-    desc: "Alternance chez Bertrand Hospitality, filiale du Groupe Bertrand (1997), leader français indépendant en hôtellerie-restauration avec 80 établissements d'exception (brasseries emblématiques Lipp, La Gare, salons Angelina, 3 hôtels Relais & Châteaux, Maison Plisson). Support informatique niveau 1 sur site dans les établissements : assistance utilisateurs, gestion des tickets, maintenance du parc informatique et résolution d'incidents.",
+    desc: "Alternance en support informatique de proximité: assistance utilisateurs, traitement des tickets, préparation des postes et maintien en condition opérationnelle du parc dans les établissements.",
     icon: Briefcase,
     details: {
       logo: "/s.sabiran/logos/bertrand-hospitality.jpg",
       companySummary:
         "Bertrand Hospitality est le pôle restauration et hôtellerie du Groupe Bertrand. L'entreprise exploite des brasseries, des restaurants, des salons de thé, des hôtels et des activités événementielles.",
       missionSummary:
-        "En alternance, j'assure le support informatique de proximité pour maintenir la continuité d'activité des équipes sur site et limiter les interruptions de service.",
+        "En alternance, j'interviens directement dans les établissements pour assurer la continuité de service informatique des équipes.",
       missions: [
-        "Traitement des incidents utilisateurs (logiciels, postes, accès, périphériques).",
-        "Préparation, configuration et déploiement des postes de travail.",
+        "Support utilisateur niveau 1 (logiciels, postes, accès, périphériques et réseau local).",
+        "Préparation, configuration et déploiement des postes de travail pour les nouveaux arrivants.",
+        "Enrôlement des postes Windows dans Intune / Autopilot et vérification de la conformité.",
         "Suivi des tickets et communication avec les utilisateurs jusqu'à résolution.",
-        "Maintenance du parc informatique en établissement et assistance opérationnelle.",
+        "Maintenance préventive et corrective du parc informatique en établissement.",
         "Accompagnement des utilisateurs sur les outils Microsoft 365.",
       ],
       docs: [
@@ -192,6 +213,8 @@ export default function ParcoursSection() {
 
                   <div
                     className={`ml-12 w-full rounded-xl border border-border bg-background p-5 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-primary/40 md:ml-0 md:w-[calc(50%-2rem)] ${
+                      hasDetails ? "border-primary/20 bg-gradient-to-b from-background to-card/50 shadow-[0_0_0_1px_rgba(59,130,246,0.08)]" : ""
+                    } ${
                       isLeft ? "md:mr-auto md:pr-6" : "md:ml-auto md:pl-6"
                     }`}
                   >
@@ -242,19 +265,20 @@ export default function ParcoursSection() {
 
       {activeDetails?.details && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 p-4 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/85 p-4 backdrop-blur-sm"
           onClick={() => {
             setActiveDoc(null)
             setActiveDetails(null)
           }}
         >
           <div
-            className="relative max-h-[92vh] w-full max-w-5xl overflow-hidden rounded-xl border border-border bg-background shadow-2xl"
+            className="relative max-h-[92vh] w-full max-w-6xl overflow-hidden rounded-xl border border-primary/20 bg-gradient-to-b from-background to-card/40 shadow-2xl ring-1 ring-primary/10"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="flex items-center justify-between border-b border-border bg-card px-5 py-3">
+            <div className="relative flex items-center justify-between border-b border-primary/20 bg-card px-5 py-3">
+              <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
               <div>
-                <p className="text-xs font-medium text-primary">Parcours professionnel</p>
+                <p className="text-xs font-medium uppercase tracking-wide text-primary">Parcours professionnel</p>
                 <h3 className="font-heading text-lg font-bold text-foreground">{activeDetails.org}</h3>
                 <p className="text-xs text-muted-foreground">{activeDetails.title} • {activeDetails.date}</p>
               </div>
@@ -270,18 +294,22 @@ export default function ParcoursSection() {
               </button>
             </div>
 
-            <div className="max-h-[calc(92vh-76px)] overflow-y-auto p-5 md:p-6">
-              <div className="grid gap-6 md:grid-cols-[220px_1fr]">
-                <div className="rounded-xl border border-border bg-card p-4">
-                  <div className="flex h-32 items-center justify-center rounded-lg border border-border bg-background p-3">
+            <div className="max-h-[calc(92vh-76px)] overflow-y-auto bg-gradient-to-b from-background via-background to-card/30 p-5 md:p-6">
+              <div className="grid gap-6 md:grid-cols-[240px_1fr]">
+                <div className="rounded-xl border border-primary/20 bg-card p-4">
+                  <div className="mb-3 inline-flex items-center gap-1.5 rounded-full border border-primary/30 bg-primary/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-primary">
+                    <Building2 size={12} />
+                    Entreprise
+                  </div>
+                  <div className="flex h-32 items-center justify-center rounded-lg border border-border bg-gradient-to-b from-background to-card/60 p-3">
                     <img
                       src={activeDetails.details.logo}
                       alt={`Logo ${activeDetails.org}`}
                       className="max-h-full w-full object-contain"
                     />
                   </div>
-                  <div className="mt-3 rounded-lg border border-border bg-background p-3">
-                    <h4 className="font-heading text-xs font-bold uppercase tracking-wide text-foreground">L&apos;entreprise</h4>
+                  <div className="mt-3 rounded-lg border border-border bg-background/70 p-3">
+                    <h4 className="font-heading text-xs font-bold uppercase tracking-wide text-foreground">Présentation</h4>
                     <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
                       {activeDetails.details.companySummary}
                     </p>
@@ -289,20 +317,29 @@ export default function ParcoursSection() {
                 </div>
 
                 <div className="space-y-5">
-                  <div className="rounded-xl border border-border bg-card p-4">
+                  <div className="rounded-xl border border-primary/20 bg-card p-4">
+                    <div className="mb-2 inline-flex items-center gap-1.5 rounded-full border border-primary/30 bg-primary/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-primary">
+                      <Briefcase size={12} />
+                      Mon rôle
+                    </div>
                     <h4 className="font-heading text-sm font-bold text-foreground">Mon rôle</h4>
                     <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{activeDetails.details.missionSummary}</p>
                   </div>
 
-                  <div className="rounded-xl border border-border bg-card p-4">
+                  <div className="rounded-xl border border-primary/20 bg-card p-4">
+                    <div className="mb-2 inline-flex items-center gap-1.5 rounded-full border border-primary/30 bg-primary/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-primary">
+                      <ListChecks size={12} />
+                      Missions
+                    </div>
                     <h4 className="font-heading text-sm font-bold text-foreground">Missions principales</h4>
                     <ul className="mt-2 space-y-2">
                       {activeDetails.details.missions.map((mission) => (
                         <li
                           key={mission}
-                          className="rounded-lg border border-border bg-background px-3 py-2 text-sm leading-relaxed text-muted-foreground"
+                          className="flex items-start gap-2 rounded-lg border border-border bg-background/70 px-3 py-2 text-sm leading-relaxed text-muted-foreground"
                         >
-                          {mission}
+                          <CheckCircle size={14} className="mt-0.5 shrink-0 text-primary" />
+                          <span>{mission}</span>
                         </li>
                       ))}
                     </ul>
@@ -312,17 +349,24 @@ export default function ParcoursSection() {
 
               {activeDetails.details.docs.length > 0 && (
                 <div className="mt-6 border-t border-border pt-5">
+                  <div className="mb-2 inline-flex items-center gap-1.5 rounded-full border border-primary/30 bg-primary/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-primary">
+                    <Files size={12} />
+                    Documents
+                  </div>
                   <h4 className="font-heading text-sm font-bold text-foreground">Documents associés</h4>
                   <div className="mt-3 grid gap-3 md:grid-cols-2">
                     {activeDetails.details.docs.map((doc) => (
-                      <div key={doc.title} className="rounded-lg border border-border bg-card p-4">
-                        <p className="text-sm font-semibold text-foreground">{doc.title}</p>
+                      <div key={doc.title} className="rounded-lg border border-primary/20 bg-card p-4 transition-colors hover:border-primary/40">
+                        <p className="inline-flex items-center gap-1.5 text-sm font-semibold text-foreground">
+                          <Files size={14} className="text-primary" />
+                          {doc.title}
+                        </p>
                         <p className="mt-1 text-xs leading-relaxed text-muted-foreground">{doc.description}</p>
                         <div className="mt-3 flex flex-wrap gap-2">
                           <button
                             type="button"
                             onClick={() => setActiveDoc(doc)}
-                            className="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground transition-transform hover:scale-105"
+                            className="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-semibold text-primary-foreground transition-transform hover:scale-105"
                           >
                             <ExternalLink size={13} />
                             Prévisualiser
@@ -331,7 +375,7 @@ export default function ParcoursSection() {
                             <a
                               href={doc.url}
                               download
-                              className="inline-flex items-center gap-1.5 rounded-md border border-border bg-background px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:border-primary/40"
+                              className="inline-flex items-center gap-1.5 rounded-md border border-border bg-background px-3 py-1.5 text-xs font-semibold text-foreground transition-colors hover:border-primary/40"
                             >
                               <Download size={13} />
                               Télécharger

@@ -3,6 +3,7 @@ import HeroSection from "@/components/hero-section"
 import AboutSection from "@/components/about-section"
 import ParcoursSection from "@/components/parcours-section"
 import CompetencesSection from "@/components/competences-section"
+import CertificationsSection from "@/components/certifications-section"
 import ProjetsSection from "@/components/projets-section"
 import ContactSection from "@/components/contact-section"
 import ScrollToTop from "@/components/scroll-to-top"
@@ -18,6 +19,7 @@ export default function Page() {
         <AboutSection />
         <ParcoursSection />
         <CompetencesSection />
+        <CertificationsSection />
         <ProjetsSection />
         <ContactSection />
       </main>
