@@ -55,11 +55,11 @@ export default function CertificationsSection() {
           </p>
           <div className="mx-auto mb-10 mt-3 h-1 w-16 rounded-full bg-primary" />
 
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="flex justify-center">
             {certifications.map((cert) => (
               <article
                 key={`${cert.title}-${cert.issuer}`}
-                className="group flex h-full flex-col rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg"
+                className="group flex w-full max-w-2xl flex-col rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg"
               >
                 <div className="mb-3 flex items-start justify-between gap-3">
                   <h3 className="font-heading text-base font-bold text-foreground">{cert.title}</h3>
