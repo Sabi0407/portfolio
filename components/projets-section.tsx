@@ -268,7 +268,7 @@ const categories = [
         projects: [
           {
             title: "Mise en place du Proxmox Backup Server",
-            desc: "Installation et configuration de Proxmox Backup Server pour la sauvegarde centralisée et sécurisée des VMs et conteneurs. Solution dédiée de backup pour infrastructure Proxmox VE.",
+            desc: "Mise en place de Proxmox Backup Server pour sauvegarder automatiquement les machines virtuelles et conteneurs depuis un point central. L'objectif est de protéger les données et de pouvoir restaurer rapidement un service en cas de panne ou d'erreur.",
             tags: ["Proxmox", "PBS", "Backup", "Virtualisation", "Sauvegarde"],
             pdf: "/s.sabiran/docs/ap4-proxmox-backup.pdf",
             schemaPdf: "/s.sabiran/docs/schema-baie-a.pdf",
