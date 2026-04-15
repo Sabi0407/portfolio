@@ -19,8 +19,8 @@ export default function Page() {
         <AboutSection />
         <ParcoursSection />
         <CompetencesSection />
-        <CertificationsSection />
         <ProjetsSection />
+        <CertificationsSection />
         <ContactSection />
       </main>
       <ScrollToTop />
