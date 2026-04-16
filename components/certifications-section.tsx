@@ -9,6 +9,7 @@ type Certification = {
   date: string
   status: CertificationStatus
   description: string
+  presentationPoints?: string[]
   skills: string[]
   proofUrl?: string
   verifyUrl?: string
@@ -22,7 +23,12 @@ const certifications: Certification[] = [
     date: "2026",
     status: "En cours",
     description:
-      "Formation en cours sur la protection des données personnelles, les principes du RGPD et les bonnes pratiques de conformité.",
+      "Certification en cours pour maîtriser les règles de protection des données personnelles et les réflexes RGPD dans un contexte professionnel.",
+    presentationPoints: [
+      "Pourquoi cette certification: mieux comprendre les obligations légales autour des données personnelles.",
+      "Ce que j'apprends: identifier les données sensibles, appliquer les bons usages et sécuriser les traitements.",
+      "Ce que ça apporte en entreprise: réduire les risques, améliorer la conformité et sensibiliser les équipes.",
+    ],
     skills: ["CNIL", "RGPD", "Protection des données"],
   },
 ]
@@ -51,7 +57,7 @@ export default function CertificationsSection() {
 
           <h2 className="font-heading text-center text-3xl font-bold text-foreground">Certifications</h2>
           <p className="mx-auto mt-2 max-w-2xl text-center text-sm text-muted-foreground">
-            Espace dédié à tes certifications techniques, avec preuve et lien de vérification.
+            Espace dédié à la présentation de tes certifications, avec leur utilité concrète.
           </p>
           <div className="mx-auto mb-10 mt-3 h-1 w-16 rounded-full bg-primary" />
 
@@ -83,6 +89,19 @@ export default function CertificationsSection() {
                 </div>
 
                 <p className="mb-4 flex-1 text-sm leading-relaxed text-muted-foreground">{cert.description}</p>
+
+                {cert.presentationPoints && cert.presentationPoints.length > 0 && (
+                  <div className="mb-4 rounded-lg border border-primary/20 bg-primary/5 p-3">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-primary">Présentation</p>
+                    <ul className="mt-2 space-y-1.5">
+                      {cert.presentationPoints.map((point) => (
+                        <li key={point} className="text-xs leading-relaxed text-muted-foreground">
+                          {point}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
 
                 <div className="mb-4 flex flex-wrap gap-1.5">
                   {cert.skills.map((skill) => (
