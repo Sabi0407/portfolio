@@ -11,7 +11,6 @@ const navLinks = [
   { label: "Compétences", href: "#competences" },
   { label: "Projets", href: "#projets" },
   { label: "Certifications", href: "#certifications" },
-  { label: "Veille", href: "/s.sabiran/veille/" },
   { label: "Contact", href: "#contact" },
 ]
 

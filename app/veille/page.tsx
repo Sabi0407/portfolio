@@ -96,20 +96,17 @@ export default function VeillePage() {
           <h1 className="font-heading text-4xl font-bold text-foreground mb-4">
             Ma Veille Technologique
           </h1>
-          <div className="mt-4 inline-flex items-center rounded-full border border-border bg-card px-4 py-2 text-sm font-medium text-foreground">
-            Noyau Linux
-          </div>
           <p className="mx-auto mt-4 max-w-2xl text-sm text-muted-foreground">
-            J'ai choisi cette veille car le noyau Linux est au coeur des serveurs, de la virtualisation et de la securite. J'utilise aussi un mini-lab Proxmox, donc suivre ses evolutions m'aide a rester a jour sur les nouveautes utiles en administration systeme.
+            Cette page est séparée en deux parties : d'abord la définition de la veille, puis ma veille technologique.
           </p>
         </div>
 
         <section className="mb-10 space-y-4">
           <div className="rounded-xl border border-border bg-card p-6">
-            <h2 className="font-heading text-xl font-semibold text-foreground">Qu'est-ce que la veille technologique ?</h2>
+            <h2 className="font-heading text-xl font-semibold text-foreground">Qu'est-ce qu'une veille technologique ?</h2>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              La veille technologique, c'est le fait d'observer et d'analyser les nouveautes techniques pour rester a jour.
-              Elle permet d'anticiper les changements, d'eviter les mauvaises decisions et de reperer les opportunites utiles.
+              La veille technologique consiste à observer et analyser les nouveautés pour rester à jour.
+              Elle permet d'anticiper les changements, d'éviter les mauvaises décisions et de repérer les opportunités utiles.
             </p>
           </div>
 
@@ -118,38 +115,57 @@ export default function VeillePage() {
               <h3 className="font-heading text-base font-semibold text-foreground">Objectifs de la veille</h3>
               <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
                 <li>Identifier plus facilement les sources d'information pertinentes.</li>
-                <li>Garder un flux regulier d'actualites dans son domaine.</li>
-                <li>Mettre a jour ses connaissances en continu.</li>
-                <li>Reperer les evolutions technologiques et scientifiques.</li>
-                <li>Gagner du temps dans l'acces a l'information utile.</li>
+                <li>Garder un flux régulier d'actualités dans son domaine.</li>
+                <li>Mettre à jour ses connaissances en continu.</li>
+                <li>Repérer les évolutions technologiques et scientifiques.</li>
+                <li>Gagner du temps dans l'accès à l'information utile.</li>
               </ul>
             </div>
 
             <div className="rounded-xl border border-border bg-card p-6">
-              <h3 className="font-heading text-base font-semibold text-foreground">Acces a l'information</h3>
+              <h3 className="font-heading text-base font-semibold text-foreground">Accès à l'information</h3>
 
               <div className="mt-3 space-y-3">
                 <div className="rounded-lg border border-border bg-background/60 p-3">
                   <p className="text-sm font-semibold text-foreground">Methode PULL</p>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    L'utilisateur va chercher l'information lui-meme. C'est precis, mais cela peut prendre du temps.
+                    L'utilisateur va chercher l'information lui-même. C'est précis, mais cela peut prendre du temps.
                   </p>
                   <p className="mt-1 text-xs text-muted-foreground">
-                    Exemples: moteurs de recherche, sites favoris, revues specialisees, webinaires, livres techniques.
+                    Exemples : moteurs de recherche, sites favoris, revues spécialisées, webinaires, livres techniques.
                   </p>
                 </div>
 
                 <div className="rounded-lg border border-border bg-background/60 p-3">
                   <p className="text-sm font-semibold text-foreground">Methode PUSH</p>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    L'information arrive automatiquement selon des criteres definis. C'est rapide, mais il faut filtrer.
+                    L'information arrive automatiquement selon des critères définis. C'est rapide, mais il faut filtrer.
                   </p>
                   <p className="mt-1 text-xs text-muted-foreground">
-                    Exemples: newsletters, flux RSS, alertes (Google Alerts).
+                    Exemples : newsletters, flux RSS, alertes (Google Alerts).
                   </p>
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="rounded-xl border border-primary/30 bg-card p-6">
+            <h2 className="font-heading text-xl font-semibold text-foreground">Ma veille technologique</h2>
+            <div className="mt-3 inline-flex items-center rounded-full border border-border bg-background px-3 py-1 text-xs font-semibold text-foreground">
+              Thème : Noyau Linux
+            </div>
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+              J'ai choisi cette veille car le noyau Linux est au cœur des serveurs et de la sécurité.
+              J'utilise aussi un mini-lab Proxmox, donc suivre ses évolutions m'aide à rester à jour sur les nouveautés utiles
+              en administration système.
+            </p>
+          </div>
+        </section>
+
+        <section className="mb-6">
+          <div className="rounded-xl border border-border bg-card p-4 text-center">
+            <h2 className="font-heading text-lg font-semibold text-foreground">Flux RSS - Noyau Linux</h2>
+            <p className="mt-1 text-sm text-muted-foreground">Actualités récentes affichées automatiquement.</p>
           </div>
         </section>
 
