@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-16T18:19:48.855911Z",
+  "generatedAt": "2026-04-16T18:30:45.586971Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
-    "Pi-hole et filtrage DNS": "google-news-rss-pi-hole-dns-fallback"
+    "Pi-hole": "google-news-rss-pi-hole-fr"
   },
   "topics": [
     {
@@ -17,14 +17,14 @@
       "maxAgeDays": 365
     },
     {
-      "key": "pi-hole-dns",
-      "category": "Pi-hole et filtrage DNS",
+      "key": "pi-hole",
+      "category": "Pi-hole",
       "label": "Pi-hole",
-      "description": "J'ai choisi Pi-hole comme deuxième sujet de veille. Comme l'actualité française centrée uniquement sur Pi-hole est assez rare, j'élargis la collecte aux solutions proches de filtrage DNS et de protection de la vie privée pour garder une veille utile et cohérente.",
-      "feedDescription": "Articles français publiés sur les 8 derniers mois autour de Pi-hole, NextDNS, AdGuard DNS et DNS4EU.",
-      "periodLabel": "8 derniers mois",
-      "periodStart": "2025-08-16",
-      "maxAgeDays": 243
+      "description": "Cette deuxième veille est dédiée uniquement à Pi-hole. Comme les publications francophones récentes sur ce sujet sont rares, je conserve une petite sélection d'articles fiables en français ou en francophonie pour garder une veille cohérente.",
+      "feedDescription": "Sélection d'articles francophones fiables consacrés uniquement à Pi-hole.",
+      "periodLabel": "Sélection francophone",
+      "periodStart": "2020-04-17",
+      "maxAgeDays": 2190
     }
   ],
   "feeds": [
@@ -53,28 +53,20 @@
       "url": "https://news.google.com/rss/search?q=Linux+7+noyau&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
-      "category": "Pi-hole et filtrage DNS",
+      "category": "Pi-hole",
       "url": "https://news.google.com/rss/search?q=%22Pi-hole%22&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
-      "category": "Pi-hole et filtrage DNS",
+      "category": "Pi-hole",
       "url": "https://news.google.com/rss/search?q=%22Pi-hole%22+DNS&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
-      "category": "Pi-hole et filtrage DNS",
-      "url": "https://news.google.com/rss/search?q=NextDNS+vie+priv%C3%A9e&hl=fr&gl=FR&ceid=FR%3Afr"
+      "category": "Pi-hole",
+      "url": "https://news.google.com/rss/search?q=%22Pi-hole%22+publicit%C3%A9&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
-      "category": "Pi-hole et filtrage DNS",
-      "url": "https://news.google.com/rss/search?q=AdGuard+DNS&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "category": "Pi-hole et filtrage DNS",
-      "url": "https://news.google.com/rss/search?q=dns0.eu+vie+priv%C3%A9e&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "category": "Pi-hole et filtrage DNS",
-      "url": "https://news.google.com/rss/search?q=DNS+vie+priv%C3%A9e+publicit%C3%A9&hl=fr&gl=FR&ceid=FR%3Afr"
+      "category": "Pi-hole",
+      "url": "https://news.google.com/rss/search?q=%22Pi-hole%22+bloqueur+pub&hl=fr&gl=FR&ceid=FR%3Afr"
     }
   ],
   "fallbackFeeds": [
@@ -85,21 +77,9 @@
     {
       "category": "Noyau Linux",
       "url": "https://news.google.com/rss/search?q=linus+torvalds+kernel&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "category": "Pi-hole et filtrage DNS",
-      "url": "https://news.google.com/rss/search?q=DNS+s%C3%A9curis%C3%A9+publicit%C3%A9&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "category": "Pi-hole et filtrage DNS",
-      "url": "https://news.google.com/rss/search?q=AdGuard+NextDNS+DNS&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "category": "Pi-hole et filtrage DNS",
-      "url": "https://news.google.com/rss/search?q=r%C3%A9solveur+DNS+vie+priv%C3%A9e&hl=fr&gl=FR&ceid=FR%3Afr"
     }
   ],
-  "total": 24,
+  "total": 23,
   "errors": [],
   "articles": [
     {
@@ -175,22 +155,6 @@
       "source": "Les Numériques"
     },
     {
-      "title": "6 services DNS gratuits et sécurisés dignes de confiance - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSnlMeXNveWlxZnJOOHQxS2gxanJFT2RxZmlVeGhoMUI0aFZ4cFFxUmFwdVNya1hsUDZObFRnNjB6aHp4cjJORk5JTVFCbnNtYnVGcXRlVkxhb2JvRjAtQm83Tl9OZnBveHJxMEE2TUFsRHVtOW0ycWxEY2Q2SXBURGN5cG4zR1BrcFc0TVA3MnVmdTJwTXBCampNQnhzb3RWOWc?oc=5",
-      "published": "Sat, 21 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Pi-hole et filtrage DNS",
-      "source": "ZDNET"
-    },
-    {
-      "title": "Comment activer le DNS privé sur votre iPhone - et pourquoi c'est indispensable pour la sécurité - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSVFtc1BVX2J5LVVKeHIyVGRMYzFsRlJRVU1iR1M2WTdMenoxamZJZzVETU84Y2kzMXo5a3lXb204MDJyWWVwLTBtSXhHTHJkYnhpS3VINnZZc29Ta3VpZnVHR0ZWZDkyUUZ3R1ZvS0dDVmZfX0tLaWVQLWFvZ05rbWp1c3BnUzVaallLTEFNczBZd25QU2RmSk95bWRiS21VVW5acFgtX2VCNDg4U0FXRlRkY19uVDNNUnYyNWlWOGhRWFJxM0hoYV9fZnlpQ2c?oc=5",
-      "published": "Sun, 15 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Pi-hole et filtrage DNS",
-      "source": "ZDNET"
-    },
-    {
       "title": "Pourquoi Linux 7.0 n'est pas une révolution, mais mérite toute votre attention - Les Numériques",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYkxjVnNDcWtHeElFc1JjVUtZMHV4YWtCU3hNUWoycndLcENHazE3RzhXTzRMMFVSZzR3aEJIQUVJcW90Tk5FTkljc2JyeEhaVXBaMHptb0FwaHE0WW05bU14MGFYNXp4QWFmZ2Y4ZTV2LXRzWVJBU0MtTDBkbEY2RXhCNFlScVNDWUVrMW5kbzZZOEpHUmxYUDdqR3pqbHJoamlicUxZV093RTlRWGZweEY5NVJLbVNyN18zYk5yLXdoU0hTbWM5Q0V3M3ZJdHFDOXZXSHNYREljUQ?oc=5",
       "published": "Tue, 10 Feb 2026 08:00:00 GMT",
@@ -263,36 +227,44 @@
       "source": "Developpez.com"
     },
     {
-      "title": "Le résolveur DNS européen dns0.eu a fermé sans prévenir il y a un mois - MacGeneration",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZVpXZlFhWHZqYVZLT3pTN25jNTFkR25sUTZFbzBFNUJHTWdidTBrXzVyWkNkOVplU2ZfMjU4TUJKMlNBTlRYMExPbUp4YmJsNzJWNlN0ODJjR3BGR0l5bkk0cFJqX0wyUFlEcVBqWmxsVThOUFBIWExPQnNOTWFWVHN5LVpPNlMzN2F6YWRtOW9SbjRCSDF2NUdndDg3VXY0Y0xOdnBrSWtxdEhNTFE?oc=5",
-      "published": "Fri, 28 Nov 2025 08:00:00 GMT",
+      "title": "Pi-hole bloque les publicités plus vite et plus fort - MacGeneration",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUmpkeF9VSjFkMHJ3ckl6RnkyNjZWZlBTYmxPS09URjk5U2h3R2k3SlZSQm8xdml1YUdjVmZsZEdhQm5fQlVQbF9VNXJCRHU1b0N2SnBzakFDSTNVNFBJQVVWSk9nSlNlSnR6RmVQVFpqVnNQN0FrN0l2SVcwZ0pwRndFcy1BQ0s0QW81ZDFQT0NHNlZJLTlaSEJQMHc?oc=5",
+      "published": "Wed, 19 Feb 2025 08:00:00 GMT",
       "content": "",
-      "category": "Pi-hole et filtrage DNS",
+      "category": "Pi-hole",
       "source": "MacGeneration"
     },
     {
-      "title": "Marre des pubs ? Créez votre DNS privé avec AdGuard et NextDNS - Android MT",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS0RwcHdwa0ljSTdVMFF2bUw1clVHWjVOandZdTBPd09mZVAxU2R6cFNudU1ydUc0OUl3aTF2VC1BMGZNSmU0S04tVm9qci1LSHZ5VUw3UTlFMU04cVIydUVicUNhUDV1d0Ffb1ZtRjY1OG5XRGtfWm5mUzdheGUxTTB0d1pHUWQxa2JzaE5hcmZIaTVMUmhxU3Bkb0J2enBuYXFwa0FUa3c3WHhJ?oc=5",
-      "published": "Tue, 25 Nov 2025 08:00:00 GMT",
+      "title": "Comment mettre à jour Pi-hole sur votre Raspberry - LoKan.fr",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kOVo3d0JnWXlHRlZiOUFPQVNpcE9JWTZKaWlyRXhka0Y4enRTellYNy1wZ05PZml0WG1HQkJrcDl2VzBJUkozVl9FVld0VEdPc1ItQ0R1cnBwWkFHQ0QyNW1aVWpRRGVheWRUeV9VRzA?oc=5",
+      "published": "Fri, 30 Apr 2021 07:00:00 GMT",
       "content": "",
-      "category": "Pi-hole et filtrage DNS",
-      "source": "Android MT"
+      "category": "Pi-hole",
+      "source": "LoKan.fr"
     },
     {
-      "title": "AdGuard veut sécuriser votre trafic sur iOS et Android, et c'est ultra simple - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONjN0SzFaQlV5WndFSXV4VkVaaWVGR19PTk1zMy1xSWZSeUdsZi1RQjJUZFVjZVVieGlkNzB5eWw3V0w5bFFObkhfMXZzM21ZWUdqazU4OTIwZGlZLV9ZUGJtZXBwU1pUZUs1SGgySExKUjlQVUNKQnlxVFpnbi1VREs5X2tMZFBwU1l0TEFNN2RuNDl6SVFlTm1YZ0JVSTJDNnJOb2hjQTFJNG9kODc2b2RhS0FpOVNuMDBXREVB?oc=5",
-      "published": "Tue, 25 Nov 2025 08:00:00 GMT",
+      "title": "Comment installer Pi-hole pour bloquer les publicités sur votre réseau - LoKan.fr",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQd1JGZ04xdFVXUUlhTW5DMzRIVC1kRXlXclZhWnVLMGRweHhqcktCeXlUdTZxMTcxVERCaVBwSTZUdXFHRkZjYjY2N1dkYjdxM0E4MVg1WjUtSUFETVpmZmp4WXhPWWRwLXB1dFNGTXNOZw?oc=5",
+      "published": "Mon, 15 Mar 2021 07:00:00 GMT",
       "content": "",
-      "category": "Pi-hole et filtrage DNS",
-      "source": "Clubic"
+      "category": "Pi-hole",
+      "source": "LoKan.fr"
     },
     {
-      "title": "NextDNS vous évite de montrer vos papiers pour surfer tranquille - Korben",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5laDRIUDREWFZVZVhtTkkxUV9DancxOHZnVl9lMndsVkJObFBzWWdnSHBSVDdjbXc1MkpOb0dkSXJuMk1Kc3BTSktUalM4R25XS2hfYUVFT1E1VHFvcmpFVF9DNzg0S0JMcjVSSVd2NVI?oc=5",
-      "published": "Tue, 19 Aug 2025 07:00:00 GMT",
+      "title": "Le Pi Hole de digitec ou comment en finir avec les publicités - Digitec",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdkNBMDRWVGp5WTZYYzg0TUItb3dVc09QdlVhZXExcVR4T2dzWGlFaE8yYUp5UmFIVUtNRzVsUjRGR1Y1aTcyakVCdWotRF9IbFh0YmZ3YUlzRjhwNVNYcFVldFgya0VndkJ1cTVLWXVlNnpvSS1xYU5tNlItQlFfTUljTkZ1Q01Semp4RDh1Nlp2bVowcTBPZUZ2VHlIMDg?oc=5",
+      "published": "Fri, 05 Feb 2021 08:00:00 GMT",
       "content": "",
-      "category": "Pi-hole et filtrage DNS",
-      "source": "Korben"
+      "category": "Pi-hole",
+      "source": "Digitec"
+    },
+    {
+      "title": "Pi-hole 5 : un trou noir qui protège votre logement des pubs - Geekzone.fr",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPb2JZVFU2aU1EdlppcDZjV0xKRllmTGNmUm5lekY1SENocEVjU2R5c09CTWpOR0NwS01pakNmSlJlVVlucG1PaXN1M2t2clE0ZUZ6VjBnWjBWUWFLajVLd2JkZFNlTWhRY3gzTjAteHlIZjFmM3BRR0ExcGJ1TF9TMlJTby1tSjVfNUVOOUNTRWhwM01RVk9MeVZ3?oc=5",
+      "published": "Wed, 13 May 2020 07:00:00 GMT",
+      "content": "",
+      "category": "Pi-hole",
+      "source": "Geekzone.fr"
     }
   ]
 }

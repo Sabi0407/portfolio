@@ -39,13 +39,13 @@ const DEFAULT_TOPICS: Topic[] = [
     periodLabel: "12 derniers mois",
   },
   {
-    key: "pi-hole-dns",
-    category: "Pi-hole et filtrage DNS",
+    key: "pi-hole",
+    category: "Pi-hole",
     label: "Pi-hole",
     description:
-      "J'ai choisi Pi-hole comme deuxième sujet de veille. Comme l'actualité française centrée uniquement sur Pi-hole est plus rare, j'élargis la collecte aux solutions proches de filtrage DNS et de protection de la vie privée.",
-    feedDescription: "Articles français publiés sur les 8 derniers mois autour de Pi-hole, NextDNS, AdGuard DNS et DNS4EU.",
-    periodLabel: "8 derniers mois",
+      "Cette deuxième veille est dédiée uniquement à Pi-hole. Comme les publications francophones récentes sur ce sujet sont rares, je conserve une petite sélection d'articles fiables en français ou en francophonie.",
+    feedDescription: "Sélection d'articles francophones fiables consacrés uniquement à Pi-hole.",
+    periodLabel: "Sélection francophone",
   },
 ]
 

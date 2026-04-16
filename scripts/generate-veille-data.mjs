@@ -55,9 +55,7 @@ const KERNEL_EXCLUDED_PATTERNS = [
   /embarqu/i,
 ]
 
-const PIHOLE_PRIMARY_PATTERNS = [/\bpi[\s-]?hole\b/i, /\bnextdns\b/i, /\badguard(?:\s+home)?\b/i, /\bdns0(?:\.eu)?\b/i, /\bdns4eu\b/i]
-const PIHOLE_DNS_PATTERNS = [/\bdns\b/i, /\brésolveur\b/i, /\bresolver\b/i]
-const PIHOLE_CONTEXT_PATTERNS = [/pub/i, /publicit/i, /filtr/i, /bloc/i, /vie priv/i, /traqueur/i, /track/i, /sécur/i, /protec/i]
+const PIHOLE_PRIMARY_PATTERNS = [/\bpi[\s-]?hole\b/i]
 const PIHOLE_EXCLUDED_PATTERNS = [
   /youtube/i,
   /twitch/i,
@@ -122,48 +120,33 @@ const TOPICS = [
     },
   },
   {
-    key: "pi-hole-dns",
-    category: "Pi-hole et filtrage DNS",
+    key: "pi-hole",
+    category: "Pi-hole",
     label: "Pi-hole",
     description:
-      "J'ai choisi Pi-hole comme deuxième sujet de veille. Comme l'actualité française centrée uniquement sur Pi-hole est assez rare, j'élargis la collecte aux solutions proches de filtrage DNS et de protection de la vie privée pour garder une veille utile et cohérente.",
-    feedDescription: "Articles français publiés sur les 8 derniers mois autour de Pi-hole, NextDNS, AdGuard DNS et DNS4EU.",
-    periodLabel: "8 derniers mois",
-    maxAgeDays: 243,
-    maxArticles: 12,
+      "Cette deuxième veille est dédiée uniquement à Pi-hole. Comme les publications francophones récentes sur ce sujet sont rares, je conserve une petite sélection d'articles fiables en français ou en francophonie pour garder une veille cohérente.",
+    feedDescription: "Sélection d'articles francophones fiables consacrés uniquement à Pi-hole.",
+    periodLabel: "Sélection francophone",
+    maxAgeDays: 2190,
+    maxArticles: 8,
     feeds: [
       buildGoogleNewsRssUrl('"Pi-hole"'),
       buildGoogleNewsRssUrl('"Pi-hole" DNS'),
-      buildGoogleNewsRssUrl("NextDNS vie privée"),
-      buildGoogleNewsRssUrl("AdGuard DNS"),
-      buildGoogleNewsRssUrl("dns0.eu vie privée"),
-      buildGoogleNewsRssUrl("DNS vie privée publicité"),
+      buildGoogleNewsRssUrl('"Pi-hole" publicité'),
+      buildGoogleNewsRssUrl('"Pi-hole" bloqueur pub'),
     ],
-    fallbackFeeds: [
-      buildGoogleNewsRssUrl("DNS sécurisé publicité"),
-      buildGoogleNewsRssUrl("AdGuard NextDNS DNS"),
-      buildGoogleNewsRssUrl("résolveur DNS vie privée"),
-    ],
+    fallbackFeeds: [],
     allowedSources: buildAllowedSources([
-      "Korben",
       "MacGeneration",
-      "Android MT",
-      "ZDNET",
-      "Clubic",
-      "Les Numériques",
-      "Next.ink",
-      "Frandroid",
-      "Numerama",
-      "01net",
-      "iGeneration",
+      "LoKan.fr",
+      "Digitec",
+      "Geekzone.fr",
+      "MiniMachines.net",
+      "Maison et Domotique",
     ]),
     isRelevant(article) {
       const haystack = `${article.title} ${article.content}`
-      const hasPrimarySignal = PIHOLE_PRIMARY_PATTERNS.some((pattern) => pattern.test(haystack))
-      const hasDnsSignal = PIHOLE_DNS_PATTERNS.some((pattern) => pattern.test(haystack))
-      const hasContextSignal = PIHOLE_CONTEXT_PATTERNS.some((pattern) => pattern.test(haystack))
-
-      return hasPrimarySignal || (hasDnsSignal && hasContextSignal)
+      return PIHOLE_PRIMARY_PATTERNS.some((pattern) => pattern.test(haystack))
     },
     isExcluded(article) {
       const haystack = `${article.title} ${article.content}`
