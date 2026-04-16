@@ -44,6 +44,7 @@ export default function VeillePage() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
   const [displayCount, setDisplayCount] = useState(10)
+  const [showVeilleDefinition, setShowVeilleDefinition] = useState(false)
 
   useEffect(() => {
     async function fetchLocalVeille() {
@@ -102,15 +103,24 @@ export default function VeillePage() {
 
         <section className="grid gap-6 lg:grid-cols-2">
           <article className="rounded-2xl border border-border bg-card p-6 shadow-sm">
-            <details className="group rounded-xl border border-border bg-background/40 p-4">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-3">
-                <h2 className="font-heading text-xl font-semibold text-foreground">Qu'est-ce qu'une veille technologique ?</h2>
-                <span className="rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground">
-                  Cliquer pour afficher
+            <div className="rounded-xl border border-border bg-background/40 p-4">
+              <button
+                type="button"
+                onClick={() => setShowVeilleDefinition((prev) => !prev)}
+                className="flex w-full items-center justify-between gap-3 text-left"
+                aria-expanded={showVeilleDefinition}
+                aria-controls="veille-definition-content"
+              >
+                <span className="font-heading text-xl font-semibold text-foreground">
+                  Qu'est-ce qu'une veille technologique ?
                 </span>
-              </summary>
+                <span className="rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground">
+                  {showVeilleDefinition ? "Masquer" : "Cliquer pour afficher"}
+                </span>
+              </button>
 
-              <div className="mt-4 space-y-4">
+              {showVeilleDefinition && (
+                <div id="veille-definition-content" className="mt-4 space-y-4">
                 <p className="text-sm leading-relaxed text-muted-foreground">
                   La veille technologique est un processus d'observation, d'information et d'analyse de l'environnement
                   scientifique, technique et technologique. Elle permet de rester à jour sur les dernières évolutions
@@ -152,8 +162,9 @@ export default function VeillePage() {
                     </div>
                   </div>
                 </div>
-              </div>
-            </details>
+                </div>
+              )}
+            </div>
           </article>
 
           <article className="rounded-2xl border border-primary/30 bg-card p-6 shadow-sm">
