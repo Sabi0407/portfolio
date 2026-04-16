@@ -102,35 +102,58 @@ export default function VeillePage() {
 
         <section className="grid gap-6 lg:grid-cols-2">
           <article className="rounded-2xl border border-border bg-card p-6 shadow-sm">
-            <h2 className="font-heading text-xl font-semibold text-foreground">Qu'est-ce qu'une veille technologique ?</h2>
-            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-              La veille technologique consiste à observer et analyser les nouveautés pour rester à jour.
-              Elle aide à anticiper les changements et à prendre de meilleures décisions.
-            </p>
+            <details className="group rounded-xl border border-border bg-background/40 p-4">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-3">
+                <h2 className="font-heading text-xl font-semibold text-foreground">Qu'est-ce qu'une veille technologique ?</h2>
+                <span className="rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground">
+                  Cliquer pour afficher
+                </span>
+              </summary>
 
-            <h3 className="mt-5 text-sm font-semibold uppercase tracking-wide text-foreground/90">Objectifs</h3>
-            <ul className="mt-2 space-y-2 text-sm text-muted-foreground">
-              <li>Identifier rapidement les sources d'information pertinentes.</li>
-              <li>Maintenir un flux régulier d'actualités dans le domaine visé.</li>
-              <li>Mettre à jour ses connaissances en continu.</li>
-              <li>Repérer les évolutions et les opportunités utiles.</li>
-            </ul>
+              <div className="mt-4 space-y-4">
+                <p className="text-sm leading-relaxed text-muted-foreground">
+                  La veille technologique est un processus d'observation, d'information et d'analyse de l'environnement
+                  scientifique, technique et technologique. Elle permet de rester à jour sur les dernières évolutions
+                  afin de détecter les menaces et d'anticiper les opportunités de développement.
+                </p>
 
-            <h3 className="mt-5 text-sm font-semibold uppercase tracking-wide text-foreground/90">Accès à l'information</h3>
-            <div className="mt-3 space-y-3">
-              <div className="rounded-lg border border-border bg-background/60 p-3">
-                <p className="text-sm font-semibold text-foreground">Méthode PULL</p>
-                <p className="mt-1 text-sm text-muted-foreground">
-                  L'utilisateur recherche l'information lui-même : précis, mais plus chronophage.
-                </p>
+                <div>
+                  <h3 className="text-sm font-semibold uppercase tracking-wide text-foreground/90">Objectifs</h3>
+                  <ul className="mt-2 space-y-2 text-sm text-muted-foreground">
+                    <li>Faciliter l'identification des ressources pertinentes.</li>
+                    <li>Maintenir un flux régulier d'informations dans son domaine.</li>
+                    <li>Actualiser ses connaissances en continu.</li>
+                    <li>Repérer les évolutions technologiques et scientifiques.</li>
+                    <li>Gagner du temps dans l'accès à une information utile.</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-sm font-semibold uppercase tracking-wide text-foreground/90">Accès à l'information</h3>
+                  <div className="mt-3 space-y-3">
+                    <div className="rounded-lg border border-border bg-card p-3">
+                      <p className="text-sm font-semibold text-foreground">Méthode PULL</p>
+                      <p className="mt-1 text-sm text-muted-foreground">
+                        L'utilisateur va chercher l'information lui-même. Cette méthode est précise, mais peut prendre du temps.
+                      </p>
+                      <p className="mt-1 text-xs text-muted-foreground">
+                        Exemples : moteurs de recherche, sites favoris, revues spécialisées, webinaires, livres techniques.
+                      </p>
+                    </div>
+
+                    <div className="rounded-lg border border-border bg-card p-3">
+                      <p className="text-sm font-semibold text-foreground">Méthode PUSH</p>
+                      <p className="mt-1 text-sm text-muted-foreground">
+                        L'information est envoyée automatiquement selon des critères définis. C'est rapide, mais il faut filtrer.
+                      </p>
+                      <p className="mt-1 text-xs text-muted-foreground">
+                        Exemples : newsletters, flux RSS, alertes.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="rounded-lg border border-border bg-background/60 p-3">
-                <p className="text-sm font-semibold text-foreground">Méthode PUSH</p>
-                <p className="mt-1 text-sm text-muted-foreground">
-                  L'information arrive automatiquement selon des critères définis : plus rapide, mais à filtrer.
-                </p>
-              </div>
-            </div>
+            </details>
           </article>
 
           <article className="rounded-2xl border border-primary/30 bg-card p-6 shadow-sm">
