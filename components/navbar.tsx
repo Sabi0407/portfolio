@@ -11,6 +11,7 @@ const navLinks = [
   { label: "Compétences", href: "#competences" },
   { label: "Projets", href: "#projets" },
   { label: "Certifications", href: "#certifications" },
+  { label: "Veille", href: "/s.sabiran/veille/" },
   { label: "Contact", href: "#contact" },
 ]
 
@@ -65,7 +66,8 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           <ul className="hidden items-center gap-8 md:flex">
             {navLinks.map((link) => {
-              const isActive = activeSection === link.href.substring(1)
+              const isInternalAnchor = link.href.startsWith("#")
+              const isActive = isInternalAnchor && activeSection === link.href.substring(1)
               return (
                 <li key={link.href}>
                   <a
