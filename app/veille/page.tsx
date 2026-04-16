@@ -90,7 +90,7 @@ export default function VeillePage() {
   return (
     <div className="min-h-screen bg-background px-6 py-20">
       <div className="mx-auto max-w-5xl space-y-8">
-        <header className="border-b border-border/60 pb-6 text-center md:pb-8">
+        <header className="rounded-2xl border border-border bg-card p-8 text-center shadow-sm md:p-10">
           <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10">
             <Rss size={28} className="text-primary" />
           </div>
@@ -101,9 +101,9 @@ export default function VeillePage() {
           </p>
         </header>
 
-        <section className="grid items-start gap-8 border-b border-border/60 pb-8 lg:grid-cols-2 lg:gap-12">
-          <article className="pb-5 lg:border-b-0 lg:border-r lg:border-border/60 lg:pb-0 lg:pr-8">
-            <div className="pb-2">
+        <section className="grid items-stretch gap-6 lg:grid-cols-2">
+          <article className="h-full rounded-2xl border border-border bg-card p-6 shadow-sm">
+            <div className="rounded-xl border border-border/70 bg-background/40 p-4">
               <button
                 type="button"
                 onClick={() => setShowVeilleDefinition((prev) => !prev)}
@@ -114,7 +114,7 @@ export default function VeillePage() {
                 <span className="font-heading text-2xl font-semibold text-foreground transition-colors group-hover:text-primary md:text-3xl">
                   Qu'est-ce qu'une veille technologique ?
                 </span>
-                <span className="inline-flex items-center gap-2 text-xs font-medium text-muted-foreground">
+                <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/70 px-3 py-1 text-xs font-medium text-muted-foreground">
                   {showVeilleDefinition ? "Masquer" : "Afficher"}
                   <ChevronDown
                     size={16}
@@ -129,7 +129,7 @@ export default function VeillePage() {
               </p>
 
               {showVeilleDefinition && (
-                <div id="veille-definition-content" className="mt-4 space-y-4 border-l border-border/70 pl-4">
+                <div id="veille-definition-content" className="mt-4 space-y-4 border-t border-border/70 pt-4">
                   <p className="text-sm leading-relaxed text-muted-foreground">
                     La veille technologique est un processus d'observation, d'information et d'analyse de l'environnement
                     scientifique, technique et technologique. Elle permet de rester à jour sur les dernières évolutions
@@ -150,7 +150,7 @@ export default function VeillePage() {
                   <div>
                     <h3 className="text-sm font-semibold uppercase tracking-wide text-foreground/90">Accès à l'information</h3>
                     <div className="mt-3 space-y-3">
-                      <div className="border-l border-border/80 pl-3">
+                      <div className="rounded-lg border border-border/80 bg-card/60 p-3">
                         <p className="text-sm font-semibold text-foreground">Méthode PULL</p>
                         <p className="mt-1 text-sm text-muted-foreground">
                           L'utilisateur va chercher l'information lui-même. Cette méthode est précise, mais peut prendre du temps.
@@ -160,7 +160,7 @@ export default function VeillePage() {
                         </p>
                       </div>
 
-                      <div className="border-l border-border/80 pl-3">
+                      <div className="rounded-lg border border-border/80 bg-card/60 p-3">
                         <p className="text-sm font-semibold text-foreground">Méthode PUSH</p>
                         <p className="mt-1 text-sm text-muted-foreground">
                           L'information est envoyée automatiquement selon des critères définis. C'est rapide, mais il faut filtrer.
@@ -176,15 +176,17 @@ export default function VeillePage() {
             </div>
           </article>
 
-          <article className="space-y-4 lg:pl-2">
+          <article className="h-full space-y-4 rounded-2xl border border-border bg-card p-6 shadow-sm">
             <h2 className="font-heading text-xl font-semibold text-foreground">Ma veille technologique</h2>
-            <p className="text-xs uppercase tracking-wide text-muted-foreground">Thème : Noyau Linux</p>
+            <div className="inline-flex items-center rounded-full border border-border bg-background px-3 py-1 text-xs font-semibold text-foreground">
+              Thème : Noyau Linux
+            </div>
             <p className="text-sm leading-relaxed text-muted-foreground">
               J'ai choisi ce thème car le noyau Linux est au cœur des infrastructures serveurs et de la sécurité.
               Je l'utilise aussi dans mon mini-lab Proxmox, donc cette veille me permet de suivre les nouveautés utiles
               pour mes projets et ma progression.
             </p>
-            <div className="border-l border-border/70 pl-4">
+            <div className="rounded-lg border border-border/80 bg-background/40 p-4">
               <h3 className="text-sm font-semibold text-foreground">Flux RSS</h3>
               <p className="mt-1 text-sm text-muted-foreground">
                 Les articles ci-dessous sont affichés automatiquement depuis mon flux RSS dédié au noyau Linux.
@@ -193,27 +195,27 @@ export default function VeillePage() {
           </article>
         </section>
 
-        <section className="pt-1">
+        <section className="rounded-2xl border border-border bg-card p-6 shadow-sm">
           <div className="mb-4 flex items-center justify-between gap-3">
             <h2 className="font-heading text-xl font-semibold text-foreground">Actualités RSS - Noyau Linux</h2>
             {!loading && !error && articles.length > 0 && (
-              <span className="text-xs font-medium text-muted-foreground">
+              <span className="rounded-full border border-border bg-background px-3 py-1 text-xs font-medium text-muted-foreground">
                 {articles.length} article{articles.length > 1 ? "s" : ""}
               </span>
             )}
           </div>
 
           {loading ? (
-            <div className="border border-border/70 bg-background/30 p-8 text-center">
+            <div className="rounded-xl border border-border bg-background/40 p-8 text-center">
               <Loader2 size={28} className="mx-auto mb-3 animate-spin text-primary" />
               <p className="text-sm text-muted-foreground">Chargement des articles...</p>
             </div>
           ) : error ? (
-            <div className="border border-border/70 bg-background/30 p-8 text-center">
+            <div className="rounded-xl border border-border bg-background/40 p-8 text-center">
               <p className="text-sm text-muted-foreground">Impossible de charger les articles pour le moment.</p>
             </div>
           ) : articles.length === 0 ? (
-            <div className="border border-border/70 bg-background/30 p-8 text-center">
+            <div className="rounded-xl border border-border bg-background/40 p-8 text-center">
               <p className="text-sm text-muted-foreground">
                 Aucun article pertinent sur le noyau Linux n'a été trouvé sur la dernière année.
               </p>
@@ -223,10 +225,10 @@ export default function VeillePage() {
               {displayedArticles.map((article, index) => (
                 <article
                   key={index}
-                  className="group border border-border/70 bg-background/20 p-5 transition-colors hover:border-primary/40"
+                  className="group rounded-xl border border-border/70 bg-background/30 p-5 shadow-sm transition-colors hover:border-primary/40"
                 >
                   <div className="mb-2">
-                    <span className="inline-block text-xs font-semibold text-primary">
+                    <span className="inline-block rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
                       {article.source || article.category}
                     </span>
                   </div>
@@ -268,7 +270,7 @@ export default function VeillePage() {
                 <div className="pt-2 text-center">
                   <button
                     onClick={() => setDisplayCount(displayCount + 10)}
-                    className="inline-flex items-center gap-2 border border-border/80 px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:border-primary hover:text-primary"
+                    className="inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-all hover:scale-105"
                   >
                     Afficher plus d'articles
                   </button>
@@ -281,7 +283,7 @@ export default function VeillePage() {
         <div className="pt-2 text-center">
           <a
             href="/s.sabiran/"
-            className="inline-flex items-center gap-2 border border-border/80 px-8 py-4 text-sm font-semibold text-foreground transition-colors hover:border-primary hover:text-primary"
+            className="inline-flex items-center gap-2 rounded-xl border-2 border-border bg-card px-8 py-4 text-sm font-semibold text-foreground transition-all hover:border-primary hover:bg-card/80"
           >
             ← Retour au portfolio
           </a>
