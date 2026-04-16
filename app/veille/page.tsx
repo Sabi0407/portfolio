@@ -1,6 +1,6 @@
 "use client"
 
-import { ExternalLink, Calendar, Rss, Loader2 } from "lucide-react"
+import { ExternalLink, Calendar, Rss, Loader2, ChevronDown } from "lucide-react"
 import { useEffect, useState } from "react"
 
 interface Article {
@@ -101,9 +101,9 @@ export default function VeillePage() {
           </p>
         </header>
 
-        <section className="grid gap-6 lg:grid-cols-2">
-          <article className="rounded-2xl border border-border bg-card p-6 shadow-sm">
-            <div className="rounded-xl border border-border bg-background/40 p-4">
+        <section className="grid items-stretch gap-6 lg:grid-cols-2">
+          <article className="h-full rounded-2xl border border-border bg-card p-6 shadow-sm">
+            <div className="rounded-xl border border-border/80 bg-background/30 p-4">
               <button
                 type="button"
                 onClick={() => setShowVeilleDefinition((prev) => !prev)}
@@ -111,63 +111,78 @@ export default function VeillePage() {
                 aria-expanded={showVeilleDefinition}
                 aria-controls="veille-definition-content"
               >
-                <span className="font-heading text-xl font-semibold text-foreground">
+                <span className="font-heading text-2xl font-semibold text-foreground">
                   Qu'est-ce qu'une veille technologique ?
                 </span>
-                <span className="rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground">
-                  {showVeilleDefinition ? "Masquer" : "Cliquer pour afficher"}
+                <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/80 px-3 py-1 text-xs font-medium text-muted-foreground">
+                  {showVeilleDefinition ? "Masquer" : "Voir le détail"}
+                  <ChevronDown
+                    size={14}
+                    className={`transition-transform duration-200 ${showVeilleDefinition ? "rotate-180" : "rotate-0"}`}
+                  />
                 </span>
               </button>
 
+              <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                Une veille technologique permet de rester à jour, d'anticiper les changements et d'orienter ses choix
+                avec des informations fiables.
+              </p>
+
+              <div className="mt-3 flex flex-wrap gap-2">
+                <span className="rounded-full border border-border bg-card/70 px-3 py-1 text-xs text-muted-foreground">Objectifs</span>
+                <span className="rounded-full border border-border bg-card/70 px-3 py-1 text-xs text-muted-foreground">Méthodes</span>
+                <span className="rounded-full border border-border bg-card/70 px-3 py-1 text-xs text-muted-foreground">Outils</span>
+              </div>
+
               {showVeilleDefinition && (
-                <div id="veille-definition-content" className="mt-4 space-y-4">
-                <p className="text-sm leading-relaxed text-muted-foreground">
-                  La veille technologique est un processus d'observation, d'information et d'analyse de l'environnement
-                  scientifique, technique et technologique. Elle permet de rester à jour sur les dernières évolutions
-                  afin de détecter les menaces et d'anticiper les opportunités de développement.
-                </p>
+                <div id="veille-definition-content" className="mt-4 space-y-4 border-t border-border/70 pt-4">
+                  <p className="text-sm leading-relaxed text-muted-foreground">
+                    La veille technologique est un processus d'observation, d'information et d'analyse de l'environnement
+                    scientifique, technique et technologique. Elle permet de rester à jour sur les dernières évolutions
+                    afin de détecter les menaces et d'anticiper les opportunités de développement.
+                  </p>
 
-                <div>
-                  <h3 className="text-sm font-semibold uppercase tracking-wide text-foreground/90">Objectifs</h3>
-                  <ul className="mt-2 space-y-2 text-sm text-muted-foreground">
-                    <li>Faciliter l'identification des ressources pertinentes.</li>
-                    <li>Maintenir un flux régulier d'informations dans son domaine.</li>
-                    <li>Actualiser ses connaissances en continu.</li>
-                    <li>Repérer les évolutions technologiques et scientifiques.</li>
-                    <li>Gagner du temps dans l'accès à une information utile.</li>
-                  </ul>
-                </div>
+                  <div>
+                    <h3 className="text-sm font-semibold uppercase tracking-wide text-foreground/90">Objectifs</h3>
+                    <ul className="mt-2 space-y-2 text-sm text-muted-foreground">
+                      <li>Faciliter l'identification des ressources pertinentes.</li>
+                      <li>Maintenir un flux régulier d'informations dans son domaine.</li>
+                      <li>Actualiser ses connaissances en continu.</li>
+                      <li>Repérer les évolutions technologiques et scientifiques.</li>
+                      <li>Gagner du temps dans l'accès à une information utile.</li>
+                    </ul>
+                  </div>
 
-                <div>
-                  <h3 className="text-sm font-semibold uppercase tracking-wide text-foreground/90">Accès à l'information</h3>
-                  <div className="mt-3 space-y-3">
-                    <div className="rounded-lg border border-border bg-card p-3">
-                      <p className="text-sm font-semibold text-foreground">Méthode PULL</p>
-                      <p className="mt-1 text-sm text-muted-foreground">
-                        L'utilisateur va chercher l'information lui-même. Cette méthode est précise, mais peut prendre du temps.
-                      </p>
-                      <p className="mt-1 text-xs text-muted-foreground">
-                        Exemples : moteurs de recherche, sites favoris, revues spécialisées, webinaires, livres techniques.
-                      </p>
-                    </div>
+                  <div>
+                    <h3 className="text-sm font-semibold uppercase tracking-wide text-foreground/90">Accès à l'information</h3>
+                    <div className="mt-3 space-y-3">
+                      <div className="rounded-lg border border-border bg-card/80 p-3">
+                        <p className="text-sm font-semibold text-foreground">Méthode PULL</p>
+                        <p className="mt-1 text-sm text-muted-foreground">
+                          L'utilisateur va chercher l'information lui-même. Cette méthode est précise, mais peut prendre du temps.
+                        </p>
+                        <p className="mt-1 text-xs text-muted-foreground">
+                          Exemples : moteurs de recherche, sites favoris, revues spécialisées, webinaires, livres techniques.
+                        </p>
+                      </div>
 
-                    <div className="rounded-lg border border-border bg-card p-3">
-                      <p className="text-sm font-semibold text-foreground">Méthode PUSH</p>
-                      <p className="mt-1 text-sm text-muted-foreground">
-                        L'information est envoyée automatiquement selon des critères définis. C'est rapide, mais il faut filtrer.
-                      </p>
-                      <p className="mt-1 text-xs text-muted-foreground">
-                        Exemples : newsletters, flux RSS, alertes.
-                      </p>
+                      <div className="rounded-lg border border-border bg-card/80 p-3">
+                        <p className="text-sm font-semibold text-foreground">Méthode PUSH</p>
+                        <p className="mt-1 text-sm text-muted-foreground">
+                          L'information est envoyée automatiquement selon des critères définis. C'est rapide, mais il faut filtrer.
+                        </p>
+                        <p className="mt-1 text-xs text-muted-foreground">
+                          Exemples : newsletters, flux RSS, alertes.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
                 </div>
               )}
             </div>
           </article>
 
-          <article className="rounded-2xl border border-primary/30 bg-card p-6 shadow-sm">
+          <article className="h-full rounded-2xl border border-border bg-card p-6 shadow-sm">
             <h2 className="font-heading text-xl font-semibold text-foreground">Ma veille technologique</h2>
             <div className="mt-3 inline-flex items-center rounded-full border border-border bg-background px-3 py-1 text-xs font-semibold text-foreground">
               Thème : Noyau Linux
@@ -177,7 +192,7 @@ export default function VeillePage() {
               Je l'utilise aussi dans mon mini-lab Proxmox, donc cette veille me permet de suivre les nouveautés utiles
               pour mes projets et ma progression.
             </p>
-            <div className="mt-5 rounded-lg border border-border bg-background/60 p-4">
+            <div className="mt-5 rounded-lg border border-border/80 bg-background/40 p-4">
               <h3 className="text-sm font-semibold text-foreground">Flux RSS</h3>
               <p className="mt-1 text-sm text-muted-foreground">
                 Les articles ci-dessous sont affichés automatiquement depuis mon flux RSS dédié au noyau Linux.
