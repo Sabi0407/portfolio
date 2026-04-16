@@ -104,6 +104,55 @@ export default function VeillePage() {
           </p>
         </div>
 
+        <section className="mb-10 space-y-4">
+          <div className="rounded-xl border border-border bg-card p-6">
+            <h2 className="font-heading text-xl font-semibold text-foreground">Qu'est-ce que la veille technologique ?</h2>
+            <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+              La veille technologique, c'est le fait d'observer et d'analyser les nouveautes techniques pour rester a jour.
+              Elle permet d'anticiper les changements, d'eviter les mauvaises decisions et de reperer les opportunites utiles.
+            </p>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-2">
+            <div className="rounded-xl border border-border bg-card p-6">
+              <h3 className="font-heading text-base font-semibold text-foreground">Objectifs de la veille</h3>
+              <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
+                <li>Identifier plus facilement les sources d'information pertinentes.</li>
+                <li>Garder un flux regulier d'actualites dans son domaine.</li>
+                <li>Mettre a jour ses connaissances en continu.</li>
+                <li>Reperer les evolutions technologiques et scientifiques.</li>
+                <li>Gagner du temps dans l'acces a l'information utile.</li>
+              </ul>
+            </div>
+
+            <div className="rounded-xl border border-border bg-card p-6">
+              <h3 className="font-heading text-base font-semibold text-foreground">Acces a l'information</h3>
+
+              <div className="mt-3 space-y-3">
+                <div className="rounded-lg border border-border bg-background/60 p-3">
+                  <p className="text-sm font-semibold text-foreground">Methode PULL</p>
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    L'utilisateur va chercher l'information lui-meme. C'est precis, mais cela peut prendre du temps.
+                  </p>
+                  <p className="mt-1 text-xs text-muted-foreground">
+                    Exemples: moteurs de recherche, sites favoris, revues specialisees, webinaires, livres techniques.
+                  </p>
+                </div>
+
+                <div className="rounded-lg border border-border bg-background/60 p-3">
+                  <p className="text-sm font-semibold text-foreground">Methode PUSH</p>
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    L'information arrive automatiquement selon des criteres definis. C'est rapide, mais il faut filtrer.
+                  </p>
+                  <p className="mt-1 text-xs text-muted-foreground">
+                    Exemples: newsletters, flux RSS, alertes (Google Alerts).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {loading ? (
           <div className="rounded-xl border border-border bg-card p-8 text-center">
             <Loader2 size={32} className="mx-auto mb-4 animate-spin text-primary" />
