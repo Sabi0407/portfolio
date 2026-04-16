@@ -103,12 +103,16 @@ export default function VeillePage() {
 
         <section className="grid items-stretch gap-6 lg:grid-cols-2">
           <article className="h-full rounded-2xl border border-border bg-card p-6 shadow-sm">
-            <div className="rounded-xl border border-border/70 bg-background/40 p-4">
+            <Link
+              href="/veille/definition"
+              className="group block rounded-xl border border-border/70 bg-background/40 p-4 transition-colors hover:border-primary/50"
+              aria-label="Ouvrir la définition de la veille technologique"
+            >
               <div className="flex items-start justify-between gap-3">
-                <span className="font-heading text-2xl font-semibold text-foreground md:text-3xl">
+                <span className="font-heading text-2xl font-semibold text-foreground transition-colors group-hover:text-primary md:text-3xl">
                   Qu'est-ce qu'une veille technologique ?
                 </span>
-                <span className="rounded-full border border-border bg-card/70 px-3 py-1 text-xs font-medium text-muted-foreground">
+                <span className="rounded-full border border-border bg-card/70 px-3 py-1 text-xs font-medium text-muted-foreground transition-colors group-hover:border-primary/50 group-hover:text-primary">
                   Définition
                 </span>
               </div>
@@ -119,15 +123,12 @@ export default function VeillePage() {
               </p>
 
               <div className="mt-4 border-t border-border/70 pt-4">
-                <Link
-                  href="/veille/definition"
-                  className="inline-flex items-center gap-2 rounded-xl border border-border bg-card/70 px-4 py-3 text-sm font-semibold text-foreground transition-colors hover:border-primary hover:text-primary"
-                >
+                <span className="inline-flex items-center gap-2 rounded-xl border border-border bg-card/70 px-4 py-3 text-sm font-semibold text-foreground transition-colors group-hover:border-primary group-hover:text-primary">
                   Ouvrir la description
                   <ExternalLink size={14} />
-                </Link>
+                </span>
               </div>
-            </div>
+            </Link>
           </article>
 
           <article className="h-full space-y-4 rounded-2xl border border-border bg-card p-6 shadow-sm">
