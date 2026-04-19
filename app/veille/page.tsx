@@ -360,12 +360,12 @@ export default function VeillePage() {
                         href={article.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="mt-4 block overflow-hidden rounded-xl border border-border/70 bg-background/40"
+                        className="mx-auto mt-4 block w-full max-w-sm overflow-hidden rounded-xl border border-border/70 bg-background/50 p-2 shadow-sm"
                       >
                         <img
                           src={article.thumbnailUrl}
                           alt={article.thumbnailAlt || article.title}
-                          className="h-auto w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                          className="aspect-video w-full rounded-lg object-cover transition-transform duration-300 group-hover:scale-[1.02]"
                           loading="lazy"
                         />
                       </a>
