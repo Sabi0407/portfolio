@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Calendar, ExternalLink, Loader2, Rss } from "lucide-react"
+import { Calendar, ExternalLink, Loader2, PlayCircle, Rss } from "lucide-react"
 import { useEffect, useMemo, useState } from "react"
 
 interface Article {
@@ -13,6 +13,10 @@ interface Article {
   source?: string
   featured?: boolean
   featuredNote?: string
+  mediaType?: string
+  thumbnailUrl?: string
+  thumbnailAlt?: string
+  linkLabel?: string
 }
 
 interface Topic {
@@ -37,7 +41,7 @@ const DEFAULT_TOPICS: Topic[] = [
     label: "Noyau Linux",
     description:
       "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets.",
-    feedDescription: "Sélection d'articles francophones fiables autour du noyau Linux avec le mot-clé dédié.",
+    feedDescription: "Sélection d'articles francophones fiables autour du noyau Linux, avec une vidéo repère sur Linux 7.0 et l'encadrement des assistants IA.",
   },
   {
     key: "ram",
@@ -350,6 +354,22 @@ export default function VeillePage() {
                       <p className="mt-2 text-sm font-medium text-primary">{article.featuredNote}</p>
                     )}
 
+                    {article.thumbnailUrl && (
+                      <a
+                        href={article.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-4 block overflow-hidden rounded-xl border border-border/70 bg-background/40"
+                      >
+                        <img
+                          src={article.thumbnailUrl}
+                          alt={article.thumbnailAlt || article.title}
+                          className="h-auto w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                          loading="lazy"
+                        />
+                      </a>
+                    )}
+
                     {article.published && (
                       <div className="mt-2 flex items-center gap-2 text-sm text-muted-foreground">
                         <Calendar size={14} />
@@ -368,8 +388,8 @@ export default function VeillePage() {
                         rel="noopener noreferrer"
                         className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
                       >
-                        Lire l&apos;article
-                        <ExternalLink size={14} />
+                        {article.linkLabel || (article.mediaType === "video" ? "Voir la vidéo" : "Lire l'article")}
+                        {article.mediaType === "video" ? <PlayCircle size={14} /> : <ExternalLink size={14} />}
                       </a>
                     )}
                   </article>

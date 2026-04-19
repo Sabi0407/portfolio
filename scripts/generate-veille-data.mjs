@@ -30,7 +30,19 @@ function buildAllowedSources(list) {
   return new Set(list.map((item) => normalizeTextForCompare(item)))
 }
 
-function buildManualArticle({ title, link, published, content, source, featured = false, featuredNote = "" }) {
+function buildManualArticle({
+  title,
+  link,
+  published,
+  content,
+  source,
+  featured = false,
+  featuredNote = "",
+  mediaType = "",
+  thumbnailUrl = "",
+  thumbnailAlt = "",
+  linkLabel = "",
+}) {
   return {
     title,
     link,
@@ -39,6 +51,10 @@ function buildManualArticle({ title, link, published, content, source, featured 
     source,
     featured,
     featuredNote,
+    mediaType,
+    thumbnailUrl,
+    thumbnailAlt,
+    linkLabel,
   }
 }
 
@@ -151,6 +167,23 @@ const CURATED_RAM_ARTICLES = [
   }),
 ]
 
+const CURATED_KERNEL_ARTICLES = [
+  buildManualArticle({
+    title: "LINUX 7.0 EST LÀ !!!! Tour d'horizon !",
+    link: "https://www.youtube.com/watch?v=c6ij-kISFbk",
+    published: "2026-04-16T08:00:22+02:00",
+    content:
+      "Dans le passage sur l'IA, la vidéo explique qu'avec Linux 7.0 la documentation du noyau encadre l'usage des assistants IA dans le développement : ils peuvent aider à préparer du code ou de la relecture, mais le développeur humain doit tout vérifier, assumer la contribution et ajouter lui-même le Signed-off-by.",
+    source: "YouTube · Adrien Linuxtricks",
+    featured: true,
+    featuredNote: "Vidéo épinglée : repère clair sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du noyau.",
+    mediaType: "video",
+    thumbnailUrl: "https://i.ytimg.com/vi/c6ij-kISFbk/hqdefault.jpg",
+    thumbnailAlt: "Miniature YouTube de la vidéo Linux 7.0 d'Adrien Linuxtricks",
+    linkLabel: "Voir la vidéo",
+  }),
+]
+
 const TOPICS = [
   {
     key: "linux-kernel",
@@ -158,9 +191,10 @@ const TOPICS = [
     label: "Noyau Linux",
     description:
       "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-    feedDescription: "Sélection d'articles francophones fiables autour du noyau Linux avec le mot-clé dédié.",
+    feedDescription: "Sélection d'articles francophones fiables autour du noyau Linux, avec une vidéo repère sur Linux 7.0 et l'encadrement des assistants IA.",
     maxAgeDays: 800,
     maxArticles: null,
+    manualArticles: CURATED_KERNEL_ARTICLES,
     feeds: [
       buildGoogleNewsRssUrl('"noyau Linux"'),
     ],

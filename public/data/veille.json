@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T11:59:03.300562+02:00",
+  "generatedAt": "2026-04-19T12:23:34.335581+02:00",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -11,7 +11,7 @@
       "category": "Noyau Linux",
       "label": "Noyau Linux",
       "description": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "feedDescription": "Sélection d'articles francophones fiables autour du noyau Linux avec le mot-clé dédié.",
+      "feedDescription": "Sélection d'articles francophones fiables autour du noyau Linux, avec une vidéo repère sur Linux 7.0 et l'encadrement des assistants IA.",
       "periodLabel": null,
       "periodStart": "2024-02-09",
       "maxAgeDays": 800
@@ -74,40 +74,22 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 95,
+  "total": 96,
   "errors": [],
   "articles": [
     {
-      "title": "Linux 7 : son créateur dévoile toutes les nouveautés... et prépare le monde à son départ - Les Numériques",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaWJBaS10ek9lb3dvZDN6ZWFkMUFOZi13aE1mTVRscHJyMjNjWV9zYy1NUUNQc2RMa0JBTEt4c0FZSEhaVTgwbUQ4MUVKYkZndHFIbVhweEZJaHpBTjNUcmxIOEFwVHZvbGtQZVNzNzBQazI2UGU2aW1Ra21heVJGckVvUV90bXUtR2RvYm1vVndGcV9kRmRwT0F1UXBqWlp6bm1McG9qTlFxWjFKWmtZNjRTZzcyNlBpNklockhuZDdrU3B6LS1zNzdLR00zY056TFRvVEF3?oc=5",
-      "published": "Wed, 25 Feb 2026 08:00:00 GMT",
-      "content": "",
+      "title": "LINUX 7.0 EST LÀ !!!! Tour d'horizon !",
+      "link": "https://www.youtube.com/watch?v=c6ij-kISFbk",
+      "published": "2026-04-16T08:00:22+02:00",
+      "content": "Dans le passage sur l'IA, la vidéo explique qu'avec Linux 7.0 la documentation du noyau encadre l'usage des assistants IA dans le développement : ils peuvent aider à préparer du code ou de la relecture, mais le développeur humain doit tout vérifier, assumer la contribution et ajouter lui-même le Signed-off-by.",
       "category": "Noyau Linux",
-      "source": "Les Numériques"
-    },
-    {
-      "title": "Google lance une IA pour traquer les bugs dans le noyau Linux - Korben",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV0tzdks4ZlJGQVRBaDVLWWVsaVRaQ3drR1ctRmt2RXFBai1pUzYyWlV4VmExS0xtOTdEWVAtQk10azh6Q3p5SU81UlNSTlhJUjBublRuUDhqQlJOU3AzV1R2bWVXajJ5cG1la3gzV2VjOVdJbWF0dVkwTklMbDktemV4NEM1bFA1WTFJSTM4bw?oc=5",
-      "published": "Wed, 18 Mar 2026 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Korben"
-    },
-    {
-      "title": "Linus Torvalds est fâché, ce développeur de Meta passe un très sale quart d'heure - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQnZKeU5JV1dXdENoMWh3dnl1eGJUOGxzNmVqU3N1RVMyYzVJQTdTVVVJN1ktZUUwTzRNTTRESTFFYXp3Y29rc2pVcjBPMFk0NnF1NWVYQ19NcUJ1ZUtLb3dPd1FBeFAyb1JEVFVhQnI0UG14RnhtNHNkSGVETVJjRUJmay1LV0hxc3RXbW5rWWxJWnZ2eGhIQXV3bU1kWFBCc19uUFlKcHU2SWJUaU1qdGw3a2ZhZ2U3V3JfTUgzdw?oc=5",
-      "published": "Wed, 13 Aug 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "ZDNET"
-    },
-    {
-      "title": "Le noyau Linux va bientôt prendre en charge la Magic Mouse 2 USB-C (et attention à la compatibilité sous macOS) - MacGeneration",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUFM3NFpYUkdQUU4zNm1fSlhjRUJJMEZVbU5lLWtPUXdlcnJ4LW1IS05lSXlLNWp4aDBNOGtiaGwzZ2dCeVhTWGw3ZDZMUC10LXlkYmRCRnBBY1NTd3Z5MnV3bkN0elZwRlhWaWM2WXMzcDh4WFJHUFRDN0dRX1h3TkxLVWN5cnM4dV91OHpFdFZhZDJhVUlQWndOa3RzdHl5UlpWYi0zdkNIWWpRaG9SbUlyVldia01LbVNuSVZmTFdUQ1gtdWEwVUNUUldKaVM2SzFnTXh3YXhXVDlWRndORGdMRXlrdw?oc=5",
-      "published": "Wed, 04 Jun 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "MacGeneration"
+      "source": "YouTube · Adrien Linuxtricks",
+      "featured": true,
+      "featuredNote": "Vidéo épinglée : repère clair sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du noyau.",
+      "mediaType": "video",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c6ij-kISFbk/hqdefault.jpg",
+      "thumbnailAlt": "Miniature YouTube de la vidéo Linux 7.0 d'Adrien Linuxtricks",
+      "linkLabel": "Voir la vidéo"
     },
     {
       "title": "Les apports de Linux 7.0 pour le réseau - Le Monde Informatique",
@@ -126,132 +108,12 @@
       "source": "Frandroid"
     },
     {
-      "title": "Rust débarque enfin dans le noyau Linux - Korben",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qLThNaU9LUnVVdEU4ZXJiejYyeDZuaU1Uc1QyZlpGVkVUazlCdW5hZE5rMGFZYy01UXBZRF9kQXE4d2x6SVBVdVVKelNiVG1oTEZiX2JqT0o5dHZyQjdoYk1tS3lNRGd4M2M1X0tn?oc=5",
-      "published": "Tue, 10 Jun 2025 07:00:00 GMT",
+      "title": "Alors que la RAM est encore bien trop chère, ce kit DDR5 Corsair Vengeance 32 Go chute de prix sur Amazon - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMlZoX2tBY181empPd1ItaThTWkF2b3V1NVlrb3dEM3dIV21mZkxBRnIySmR0cDgyR2lTQ0pyMEV0dEhjcV9ZQ2l6THJzdjZlU0NqM3EtXzEtcjFhTFByRTJMbUJ0RHdWdlNMai1FY005WWQyeEtUS0xnbkVMUEhXdU1MWUpWRV82UnBIWXlRSnR0aXltbWRfdXVoVldrMVRxTkh5NEZ2QTRJM0NRejJvb1d2WVpzVVVvUmw0MUVia19VUHptbG5LNkgzT3l1ODhadEJreEZEWjdGaFFkZWhIZEt0NTk?oc=5",
+      "published": "2026-04-14T10:45:00+00:00",
       "content": "",
-      "category": "Noyau Linux",
-      "source": "Korben"
-    },
-    {
-      "title": "Le noyau Linux va passer à la version 7, surtout parce que Linus Torvalds n’a plus assez de doigts pour la 6 - MacGeneration",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOakd0ZXpjQWhDVkIwRlVUYmltTTVubzFTcTd3MF9SZWRybk8xZU5UQVhNLUhXTWZIc2ZuYVF5Y255c2lJa3lua2xvU01RU3JnYlJ4eFhNUzlSeWJKMTVBZVVhQzB3ZmxHWFJCazk4TTFhWGZCVHFaY1NmU211UzQ2RnUwRjg2T05qQVd1OU1xbGljLTRqcVVDMEpRTTNhelZYOFgtbmxHZzJ6RHpZY0ZKZWNzTGk2WFViWWlkSjdVNkY0d2dTeEFuRjBob3E1VUtsVkQwSEFnLVdvMHY4SkxLdzV3?oc=5",
-      "published": "Tue, 10 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "MacGeneration"
-    },
-    {
-      "title": "Pourquoi Linux 7.0 n'est pas une révolution, mais mérite toute votre attention - Les Numériques",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYkxjVnNDcWtHeElFc1JjVUtZMHV4YWtCU3hNUWoycndLcENHazE3RzhXTzRMMFVSZzR3aEJIQUVJcW90Tk5FTkljc2JyeEhaVXBaMHptb0FwaHE0WW05bU14MGFYNXp4QWFmZ2Y4ZTV2LXRzWVJBU0MtTDBkbEY2RXhCNFlScVNDWUVrMW5kbzZZOEpHUmxYUDdqR3pqbHJoamlicUxZV093RTlRWGZweEY5NVJLbVNyN18zYk5yLXdoU0hTbWM5Q0V3M3ZJdHFDOXZXSHNYREljUQ?oc=5",
-      "published": "Tue, 10 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Les Numériques"
-    },
-    {
-      "title": "Linux 7.0 officialisé : Linus Torvalds promet un gros boost pour votre PC - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPck5MX2VHeWc5R3NGMU4yVXlnRmItWGZkQmhiZkdiT1cxUHdHRjliNkg5S3ZFb2h1T2htQ3doZ1czUFYxRnBOenA3VzRmVHppRlU2dklnOW5LYkJGbmU1djBEQ3d6NUpKcHVuWGdvaGVPSUhqakQ4R25MVl84OXR0VjFLNFRXcVFJdlVBQ3cwa1VGd2J6cW83YUJTdHBUWm5jWF9fQ2ZoUVktbDVtV2NKVm5XX1JFeW8?oc=5",
-      "published": "Tue, 10 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
+      "category": "RAM",
       "source": "Clubic"
-    },
-    {
-      "title": "Gaming sous Linux : pourquoi Linux 7.0 va faire du bien à vos FPS - Frandroid",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPakFFVWgyajZyY3VGenEzRjNlOVNXeFVFd1ZZUDExQXNrNjB2bmxTZ25ZZFZGdS0yZVV1UWdiSEFtR0hGSDlHelFBUXNPQkVUTGRRZFB3aUdwUmtXU0VYZTE3ZjFhcXBlUjJ5SlJtRUpSSkFTZW9FUHRoQl9uQThUdGk5NU94MnFTMElDREFpMzlJN3ROMTZQcjRQaXRadUduWldxWFR1V0dWQk15akhF?oc=5",
-      "published": "Tue, 10 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Frandroid"
-    },
-    {
-      "title": "Linux 7.0 va débarquer la semaine prochaine, quoi de neuf ? - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNFFiRVBhdk5TZ0Y1YVFkc0xJSy1yTzE4SHhuUXd1MkZWbTZ4dDRrRTBxUE1wY0tiLVk5Y05QMzUwQ0h4T1pkeDFFQ1dWcnJIanpjLXQ5bF8wSHZTTW1mbW9yd0tfWnVXZy13UThQQmpYUmlSNVRReXhHRUJvTUF3aVBfMGhicG5kLWNpRVFwX1VqaGhCX0xaWkNkT3BIMTI3a21z?oc=5",
-      "published": "Tue, 07 Apr 2026 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Clubic"
-    },
-    {
-      "title": "Le noyau Linux 6.15 arrive - et c'est une grande victoire pour les fans de Rust - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNblczUUZSeVFpUndPSklmcm9tZDNTNXZyY0FPdWxXaWF0aFVpVGR3YkU2cFMyRFpqcG4yYzhZX3ZuQWlONEtnSno5LWJKVFBLYm80Wld3WG1MdkZhYVhmekV6azJJTVhSVS1TVlpOci0wUzh1djdvT19MRHpTaXlGbGlPVnVRZkdzODNnODhNSUpWQ0pNaWFidkJyTGZtQ1VZbUpoYVl1bEpaMTA2RHZkb3VXOWlydnZKUjlr?oc=5",
-      "published": "Tue, 03 Jun 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "ZDNET"
-    },
-    {
-      "title": "Linux : un plan officiel pour succéder à Linus Torvalds émerge - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaUpPbVNtclhFN2hqaEVKMEVfQlJqUlJiT3dLQm4zUnNyVFU3aXhzWWZnWFNXZkdRVVIzaU95aUdSNm54RTNnUzN2bXBKUWwtdGhMMUZZWkVtUDZmWHprMVpudHpsXzVvTllZWXpLS29tX1lzMnVzRTdEOGNlOGRVdV9SM1dZb0dxMk8yMWtERzBINnRJbExrT2VuZzNHZzZsVXRWNVFRTzk?oc=5",
-      "published": "Thu, 29 Jan 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Clubic"
-    },
-    {
-      "title": "La succession de Linus Torvalds se met en place, comme celle de Tim Cook - MacGeneration",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGljNlM5X29yRGlERXh3MVBEZ2VUel9lUFVfak1EZE5Nc25oZzVkUjYyTnQ2Q1VDcUNXbWhIbXdLSmlsZGpWVUVrV1oyQmt2Q0RZZ3J6Tjc3eExnV2dpbEU4NzREc2RrSUJfcVpyNG1LS0RJN1QwbXJxcjhxSEg2S2VTeHVHcnBPNlJ4NFFudWJhQ3I1VXg0RjJyUW14VVlxYW1ZbGl1NGp5Mngwb3ZSVDFPRXZsdw?oc=5",
-      "published": "Thu, 29 Jan 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "MacGeneration"
-    },
-    {
-      "title": "Kernel Recipes 2025 c'est fini : les vidéos sont en ligne ! - LinuxFr.org",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXgzS2JiRDQzR1N0Sk9ZUUhWSVl4ME04ckptd18xc0dlX1ZGNzF5QTAtVHA1aGpOUTlFMVFCeTI3UXgwM2N6NXdEVDZRek41RjJYSVJEMUpHNXpYNE1wcVFheHhmYmFuR0hrVHU4bzVpVV96UXk3N29CY2RnVlBnN0ZjcjhlQ2M?oc=5",
-      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "LinuxFr.org"
-    },
-    {
-      "title": "Rust dans le noyau Linux : l'avis de SUSE - Programmez!",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOWs4SThwSXZ6Tk11dERiYjgyUVp3QmEyR2VlZlhJWGRQN1JfeUxLZ1pJUnVzM3hoTHowQjFjSTQwdWJGQzBNVEs0dHNPanZUdUd5TDFtUFpRNy15bzdRWHJoYVA5a0xWUEk3Y0ZCMmg2Q3U2ZmZWbTUwZG1FOTFQbk5vaW5oZ2stYUHSAY8BQVVfeXFMTW9Fc1dLcWZQY1BocmpjOWR3ZjZidWJmSFRSMklfSUFlbFRCXzg1b1BWOXRnd1ZpcEQ0MnlQdkdtZ2sxNzFuOUVwQ0s1ZGFGZDZ3VzFZU0lldDZHVnlmZzNRUGN5d3N2TzM1Z0ZaTW1IeWQ1RTlSN2lnQWZlbDdfY3JSa1RVSUkwVHAxaUk2WnM?oc=5",
-      "published": "Thu, 08 Jan 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Programmez!"
-    },
-    {
-      "title": "Le noyau Linux 6.16 est là, largement tourné vers les performances - Next.ink",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdTFQWmE2QWxBME84N3kwb1JXMWVhSXlRd2dIMEZHelFnNUMwVzJtSEcwdXhGemJfYm9lQldZVy1hZXVBVG52eVJnaGQ4andXUUJzakxHdmJ3SVhUQnRRSjMydkxMNWpNRVpmWDlkdkdDWEtQLVlHdzZKMzZXUzh6aUlHalowQktRYTdldkliOVZ3aTdz?oc=5",
-      "published": "Mon, 28 Jul 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Next.ink"
-    },
-    {
-      "title": "Linux 6.15 : mise à jour surprise du noyau, avec effets immédiats - Les Numériques",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPZEI1cVNqTzFLVU0wRU5ObEQwekl5aTlDMnI1OW9aYWtEM1piVzJJaUNlVHVzcGVBR2ozeXJSMnlGRExNUC1CMzRGV3lnZzVhczRfcVZ4R0haQkE3ZEpxM0FWVm1iMzB0R2oxZm9FSXlSUG5NZG5hUVdUT1EweUg0c0JsbEE1MF85TEpXSk8yc2V5bEFKV19HQ3ZWRDZVd0IyWUw2UWFuX1RvU1F0dVVDV0JtbFFFbzY2cHdNTHY5NWg5TGptQjFyRkNDWlBlM3lXS0V0Y01nRlF6TnFTaURtd0VtdzUwN3pwNTZwNTRXb05zeVBIOEw5ck1YMA?oc=5",
-      "published": "Mon, 26 May 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Les Numériques"
-    },
-    {
-      "title": "Observabilité : eBPF, un atout dans la main des DevOps - Silicon.fr",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CdkhHdmJNb0JnZjE2QUhjb0tGN292RWZXd2Y4MWxNT0U0MjJ1STRGV3FsUUd3Zm1ha2RHdEZHOFRzbmVqamh1RnFzVjI5OU9UZEtvTFpRLURrYXRpMkFrbEFB0gFnQVVfeXFMUFpTSk5VNUNlUzlyWk54T09zX1hUX3VvNmNsaTY4dFdtWVZoakN1ck9lTTYydVVGY1EzSG1fWlc1V3J4RWFqbGNmekNNNnRjYW03QmFjNWhnM1VWSEhfdlBqMmRNX3BNRQ?oc=5",
-      "published": "Mon, 26 Jan 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Silicon.fr"
-    },
-    {
-      "title": "L'IA s'immisce dans le noyau Linux, et une politique officielle est nécessaire au plus vite - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaFVFUDJxNVhwOS1GNndxSE9EN3pIWWEzUHc0U2xHV3FGcnVqX3ROd0g0UmNHTU43bnRMeWVncXQwVExoNHBDQlFaTzZtN2xqaFBnZ0F1R2s5VUhNOVowcFFmSVBDcm9GdDV5X2xSR3o2RERZUURuMURHVVBaeUxyV2ZaSV9CM2UtOVJrNTF2UW0wVDNVYTk2MDRaR3NPa3E4VTRmOUVzdzJOazNiMWxpLVlXUC1qeDA0dlIwOFp3WTUzMTJsNk1mRVZtMA?oc=5",
-      "published": "Mon, 25 Aug 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "ZDNET"
-    },
-    {
-      "title": "Linux 6.19 pourrait avoir un peu de retard - Les Numériques",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQlNCMDQ1ZnlhTFBNN1FiZkN2Y2dnandvZEN2aUQzTll6a1UtMkN1N0NMSjBoS1o5UXNCRTdRczNOR0ZVTktub2ZYNlJ0OUtPZ0l3b0N2ZVUxTW0zOFFqcEhXSUFUN1hvTjh4c3BCRmtHMWt5S2FqU09QOVNFdjhlWWRXV2E2aUctVmxvVnBlMlNtWjM0RmRwNTQ2SmdhTzNfWlE?oc=5",
-      "published": "Mon, 19 Jan 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Les Numériques"
     },
     {
       "title": "Le noyau Linux 7.0 est sorti, la version 7.1 va abandonner le mythique 486 et Linus clarifie l'usage de l'IA - MacGeneration",
@@ -294,38 +156,6 @@
       "source": "Programmez!"
     },
     {
-      "title": "Linus Torvalds refuse de transformer la documentation du kernel en champ de bataille idéologique « anti-IA » : arrêtez de faire toute une histoire de « l'IA slop » dans la documentation du noyau - Developpez.com",
-      "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPVi10VC1sRk1feC05bEZhSDhGNnBfcjRFUjljSUZQMGljcFUydk1YZU84Q2JDaU44RTNaUm13ZkJQZ1FKY25RZXJ6akpYZGNJUGdMdjRkdXhRVG5KdzlnYkRpbjU2LWlFUjFHeVNjOHFYa1dOMmxpTjZ5dmRYMHZzRzVFNzYtenk2c2otLXNnM2RkZzBRQlhDTHdBMDB3cjE1dTNBZ1hMRVNqd1lLUzJKVEVjVmN5MER3YW8zTnN0b0U5b3VZcHdrZlhEQzNubjAwZUpyV2xZV2hMcEVhR2xzQWVhckpLNGEyNDU1dC1zUUxld1VGbFFjNEt1V2R0eXVWcDhzRERqWUN3MHFfTWlINEI5YkxDM1VraXRjOVBUOHRFNnhyU3ZPMG5KT0UxbTh4UU4wSl93TkducWVDR1V3RnVZX1Q0WHdqTFBIYVBTUVlRX05rSWUza3psTy1HdmtjSk1XbdIB6gJBVV95cUxQeU1pdXZjNkcyS21fcDI2d1ZmNEFOYjMyMlY4bGdwamZrZjFUenpRWndCMDBhMzdrVWs0NlF6czR4d3Rpdmx6eHprS1dTbXJOWnBRS3ltZEVpSDQ4OUJPdUQ3bURGelpkUjZQWlN1RzZyYnpvaktmb2twVWNIN0djeW42NWF5SW5RZEJsLWVMVGlHZmxpS0I4MXR4dzI1QVR0T0tfTFdKZEZQbzhZYUFPMHU0aEpUTlJiazFXb185VTVQNzhMNkZtWUdDa2UyQzk0WmFfanNOMWJEVGo2T2lVa3lJRUFiMVFEelhRd2NmNDA2bnlZNVBNXzMxby1EOTcxUGtmQWpTVXYwenFRMXRGZDBXY21LdVpaTlRaMjZ6ZWVBcS1IUFRucENrV1R3NDdLWG5YNDA3c3hBOUtBTWVKQnVlUTNnV2I1eFlNNEFSX0ozY3hSa0FmRENHdi1FS3ZVSnlTM2Y4N3g4dw?oc=5",
-      "published": "Mon, 12 Jan 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Developpez.com"
-    },
-    {
-      "title": "Noyau Linux 6.18 : support renforcé d’Arm, RISC-V et Apple Silicon, Bcachefs retiré - it social",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNkNHaTUtOTl2VTlERXdidkhtTGd4bjdiQXZGUzVwc0pwdUZZNGZvRW0zV3hrbDVvaFE1VHFKSXBCNzFSRl9rS0NLSEladWMwS2ZjSzdHRjV1eU5Ib1FOWHNVMm9iRlFValIyajRTVzBmdUpLQlFnbW9tdEpuakE4NGRLU1FRNmxaSlJrYVg4T1NOSEdtaFE0cW1DNUN0aV9yREdZcVhpY2c5MHN6bGxTZHpzd2xrSS1qWGhkeXozMmw5a1hhdW90UFU1SlVMTEVtUFE?oc=5",
-      "published": "Mon, 01 Dec 2025 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "it social"
-    },
-    {
-      "title": "Linux 6.18 lève enfin les restrictions sur les performances Intel - Korben",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBSbm9jeW1uNHlPZE5Bc1A3SjgyS0FNMmFSUHhyMWRJV3dycWFNVHBuMkgxREw3M3BwcDd3WXd1Z0NMVWdpLV9SZXVjNTJ0d05JV05kbGxqY1A0ZmxCZFZJek9SVmxWTjFob0FMaTByOTBwZw?oc=5",
-      "published": "Fri, 02 Jan 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Korben"
-    },
-    {
-      "title": "Alors que la RAM est encore bien trop chère, ce kit DDR5 Corsair Vengeance 32 Go chute de prix sur Amazon - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMlZoX2tBY181empPd1ItaThTWkF2b3V1NVlrb3dEM3dIV21mZkxBRnIySmR0cDgyR2lTQ0pyMEV0dEhjcV9ZQ2l6THJzdjZlU0NqM3EtXzEtcjFhTFByRTJMbUJ0RHdWdlNMai1FY005WWQyeEtUS0xnbkVMUEhXdU1MWUpWRV82UnBIWXlRSnR0aXltbWRfdXVoVldrMVRxTkh5NEZ2QTRJM0NRejJvb1d2WVpzVVVvUmw0MUVia19VUHptbG5LNkgzT3l1ODhadEJreEZEWjdGaFFkZWhIZEt0NTk?oc=5",
-      "published": "2026-04-14T10:45:00+00:00",
-      "content": "",
-      "category": "RAM",
-      "source": "Clubic"
-    },
-    {
       "title": "Prix de la RAM : sommes-nous arrivés au sommet avant le krach ? - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ0dfdW5QX2JLXzdRSVJiMENfR21IRXEzM1FMWDh0STQxRHBIazNtUE5YVDRlYmhxcVNsTFhqM0liTnU1N1d2bWhUWms4a3JiNk40UjZEaV9wRFRIVWNtNElCUDJxMlNsVzlncDB1bnAtTnJ0YkdaVTJCUnlxZHQwaVZoQ3lhaFpiRVRFR3Btekppdw?oc=5",
       "published": "2026-04-10T07:00:00+00:00",
@@ -340,6 +170,14 @@
       "content": "",
       "category": "RAM",
       "source": "Les Numériques"
+    },
+    {
+      "title": "Linux 7.0 va débarquer la semaine prochaine, quoi de neuf ? - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNFFiRVBhdk5TZ0Y1YVFkc0xJSy1yTzE4SHhuUXd1MkZWbTZ4dDRrRTBxUE1wY0tiLVk5Y05QMzUwQ0h4T1pkeDFFQ1dWcnJIanpjLXQ5bF8wSHZTTW1mbW9yd0tfWnVXZy13UThQQmpYUmlSNVRReXhHRUJvTUF3aVBfMGhicG5kLWNpRVFwX1VqaGhCX0xaWkNkT3BIMTI3a21z?oc=5",
+      "published": "Tue, 07 Apr 2026 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Clubic"
     },
     {
       "title": "Raspberry Pi 4 : un nouveau modèle 3 Go de RAM, et des hausses de prix qui piquent - Korben",
@@ -456,6 +294,14 @@
       "source": "Clubic"
     },
     {
+      "title": "Google lance une IA pour traquer les bugs dans le noyau Linux - Korben",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPV0tzdks4ZlJGQVRBaDVLWWVsaVRaQ3drR1ctRmt2RXFBai1pUzYyWlV4VmExS0xtOTdEWVAtQk10azh6Q3p5SU81UlNSTlhJUjBublRuUDhqQlJOU3AzV1R2bWVXajJ5cG1la3gzV2VjOVdJbWF0dVkwTklMbDktemV4NEM1bFA1WTFJSTM4bw?oc=5",
+      "published": "Wed, 18 Mar 2026 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Korben"
+    },
+    {
       "title": "Prix de la RAM : pourquoi les pénuries devraient durer plus longtemps que prévu - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT2IwMl9PYkJ2cTFIRHlvRE15Rk1CRnZPcEhKSklJZ0RtWUdPR3czTW5BRVRScm5hZWozcXBRNnlRS3BLMDVJTWswYlVlSTZxY1Q1cWppVFpyUm9MMk5EY0RoV0lWSVRjUjVDeTVISVR5eld2OFpucWZiQzZrbHloRENEdTYtTl9Ra1dDSDNtSTY1eXNQcmFybm9GRXhUOXFkVHJQM0RMdkhMUQ?oc=5",
       "published": "2026-03-16T07:00:00+00:00",
@@ -488,6 +334,14 @@
       "source": "GinjFo"
     },
     {
+      "title": "Linux 7 : son créateur dévoile toutes les nouveautés... et prépare le monde à son départ - Les Numériques",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNaWJBaS10ek9lb3dvZDN6ZWFkMUFOZi13aE1mTVRscHJyMjNjWV9zYy1NUUNQc2RMa0JBTEt4c0FZSEhaVTgwbUQ4MUVKYkZndHFIbVhweEZJaHpBTjNUcmxIOEFwVHZvbGtQZVNzNzBQazI2UGU2aW1Ra21heVJGckVvUV90bXUtR2RvYm1vVndGcV9kRmRwT0F1UXBqWlp6bm1McG9qTlFxWjFKWmtZNjRTZzcyNlBpNklockhuZDdrU3B6LS1zNzdLR00zY056TFRvVEF3?oc=5",
+      "published": "Wed, 25 Feb 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Les Numériques"
+    },
+    {
       "title": "Prix de la DDR5, une baisse s’amorce mais les prix restent stratosphériques - GinjFo",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOC1MU3lfOTlmNlh5U3piYTE1Z3NuWldVXzRzZjdwSDRVZUtvOXBSd2dIOFRScTZUWGhmbXgzTEFCMWRpclVHUjlUVEpfODl5LTg5WDl0aHZ2eVoxQ0dwTnhKZjJFZHBrc1FKVkxjbTU3dlR6d3RnZzhvLU1WMjZrRmpCYm1MSDg3cThoazkzYkdLQ1hEUVQyMWZlQXVmRGhEQU5zcnoxTWhMczlLb3lXbTFBZjVoRDI1U0cwN2tlSUM5TVNXdUx1LW1vTjR4V0xIbnc?oc=5",
       "published": "2026-02-24T08:00:00+00:00",
@@ -512,6 +366,54 @@
       "source": "Tom’s Hardware"
     },
     {
+      "title": "Le noyau Linux va passer à la version 7, surtout parce que Linus Torvalds n’a plus assez de doigts pour la 6 - MacGeneration",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOakd0ZXpjQWhDVkIwRlVUYmltTTVubzFTcTd3MF9SZWRybk8xZU5UQVhNLUhXTWZIc2ZuYVF5Y255c2lJa3lua2xvU01RU3JnYlJ4eFhNUzlSeWJKMTVBZVVhQzB3ZmxHWFJCazk4TTFhWGZCVHFaY1NmU211UzQ2RnUwRjg2T05qQVd1OU1xbGljLTRqcVVDMEpRTTNhelZYOFgtbmxHZzJ6RHpZY0ZKZWNzTGk2WFViWWlkSjdVNkY0d2dTeEFuRjBob3E1VUtsVkQwSEFnLVdvMHY4SkxLdzV3?oc=5",
+      "published": "Tue, 10 Feb 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "MacGeneration"
+    },
+    {
+      "title": "Pourquoi Linux 7.0 n'est pas une révolution, mais mérite toute votre attention - Les Numériques",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYkxjVnNDcWtHeElFc1JjVUtZMHV4YWtCU3hNUWoycndLcENHazE3RzhXTzRMMFVSZzR3aEJIQUVJcW90Tk5FTkljc2JyeEhaVXBaMHptb0FwaHE0WW05bU14MGFYNXp4QWFmZ2Y4ZTV2LXRzWVJBU0MtTDBkbEY2RXhCNFlScVNDWUVrMW5kbzZZOEpHUmxYUDdqR3pqbHJoamlicUxZV093RTlRWGZweEY5NVJLbVNyN18zYk5yLXdoU0hTbWM5Q0V3M3ZJdHFDOXZXSHNYREljUQ?oc=5",
+      "published": "Tue, 10 Feb 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Les Numériques"
+    },
+    {
+      "title": "Linux 7.0 officialisé : Linus Torvalds promet un gros boost pour votre PC - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPck5MX2VHeWc5R3NGMU4yVXlnRmItWGZkQmhiZkdiT1cxUHdHRjliNkg5S3ZFb2h1T2htQ3doZ1czUFYxRnBOenA3VzRmVHppRlU2dklnOW5LYkJGbmU1djBEQ3d6NUpKcHVuWGdvaGVPSUhqakQ4R25MVl84OXR0VjFLNFRXcVFJdlVBQ3cwa1VGd2J6cW83YUJTdHBUWm5jWF9fQ2ZoUVktbDVtV2NKVm5XX1JFeW8?oc=5",
+      "published": "Tue, 10 Feb 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Clubic"
+    },
+    {
+      "title": "Gaming sous Linux : pourquoi Linux 7.0 va faire du bien à vos FPS - Frandroid",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPakFFVWgyajZyY3VGenEzRjNlOVNXeFVFd1ZZUDExQXNrNjB2bmxTZ25ZZFZGdS0yZVV1UWdiSEFtR0hGSDlHelFBUXNPQkVUTGRRZFB3aUdwUmtXU0VYZTE3ZjFhcXBlUjJ5SlJtRUpSSkFTZW9FUHRoQl9uQThUdGk5NU94MnFTMElDREFpMzlJN3ROMTZQcjRQaXRadUduWldxWFR1V0dWQk15akhF?oc=5",
+      "published": "Tue, 10 Feb 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Frandroid"
+    },
+    {
+      "title": "Linux : un plan officiel pour succéder à Linus Torvalds émerge - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaUpPbVNtclhFN2hqaEVKMEVfQlJqUlJiT3dLQm4zUnNyVFU3aXhzWWZnWFNXZkdRVVIzaU95aUdSNm54RTNnUzN2bXBKUWwtdGhMMUZZWkVtUDZmWHprMVpudHpsXzVvTllZWXpLS29tX1lzMnVzRTdEOGNlOGRVdV9SM1dZb0dxMk8yMWtERzBINnRJbExrT2VuZzNHZzZsVXRWNVFRTzk?oc=5",
+      "published": "Thu, 29 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Clubic"
+    },
+    {
+      "title": "La succession de Linus Torvalds se met en place, comme celle de Tim Cook - MacGeneration",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGljNlM5X29yRGlERXh3MVBEZ2VUel9lUFVfak1EZE5Nc25oZzVkUjYyTnQ2Q1VDcUNXbWhIbXdLSmlsZGpWVUVrV1oyQmt2Q0RZZ3J6Tjc3eExnV2dpbEU4NzREc2RrSUJfcVpyNG1LS0RJN1QwbXJxcjhxSEg2S2VTeHVHcnBPNlJ4NFFudWJhQ3I1VXg0RjJyUW14VVlxYW1ZbGl1NGp5Mngwb3ZSVDFPRXZsdw?oc=5",
+      "published": "Thu, 29 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "MacGeneration"
+    },
+    {
       "title": "À leur tour, les prix de la DDR4 augmentent en flèche - Clubic",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ3RtSmU0bVpHQmVRbzJuYU9nbDVvTEhrdmI2TU9pQjVaRm5qRmdOZ1pfcGU0RXZfdWhYYlB6WFJ5MUJtVkxyaUpyR2ZNMlpfQkJMSlNJMXM5cVV0M1NtZGFZZVpVYzh6dy1JenFGeDVzeWRkM1hPZllMOENTQ3ZBcFZzMzZVd3gwRl9zbkk3cnlzN09Ma25ubFEzY21Kdw?oc=5",
       "published": "2026-01-29T08:00:00+00:00",
@@ -526,6 +428,22 @@
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
+    },
+    {
+      "title": "Observabilité : eBPF, un atout dans la main des DevOps - Silicon.fr",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CdkhHdmJNb0JnZjE2QUhjb0tGN292RWZXd2Y4MWxNT0U0MjJ1STRGV3FsUUd3Zm1ha2RHdEZHOFRzbmVqamh1RnFzVjI5OU9UZEtvTFpRLURrYXRpMkFrbEFB0gFnQVVfeXFMUFpTSk5VNUNlUzlyWk54T09zX1hUX3VvNmNsaTY4dFdtWVZoakN1ck9lTTYydVVGY1EzSG1fWlc1V3J4RWFqbGNmekNNNnRjYW03QmFjNWhnM1VWSEhfdlBqMmRNX3BNRQ?oc=5",
+      "published": "Mon, 26 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Silicon.fr"
+    },
+    {
+      "title": "Linux 6.19 pourrait avoir un peu de retard - Les Numériques",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQlNCMDQ1ZnlhTFBNN1FiZkN2Y2dnandvZEN2aUQzTll6a1UtMkN1N0NMSjBoS1o5UXNCRTdRczNOR0ZVTktub2ZYNlJ0OUtPZ0l3b0N2ZVUxTW0zOFFqcEhXSUFUN1hvTjh4c3BCRmtHMWt5S2FqU09QOVNFdjhlWWRXV2E2aUctVmxvVnBlMlNtWjM0RmRwNTQ2SmdhTzNfWlE?oc=5",
+      "published": "Mon, 19 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Les Numériques"
     },
     {
       "title": "Pénurie de RAM : Intel lâche une bombe, êtes-vous prêts à payer le prix fort ? - Tom’s Hardware",
@@ -544,12 +462,28 @@
       "source": "01net.com"
     },
     {
+      "title": "Linus Torvalds refuse de transformer la documentation du kernel en champ de bataille idéologique « anti-IA » : arrêtez de faire toute une histoire de « l'IA slop » dans la documentation du noyau - Developpez.com",
+      "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPVi10VC1sRk1feC05bEZhSDhGNnBfcjRFUjljSUZQMGljcFUydk1YZU84Q2JDaU44RTNaUm13ZkJQZ1FKY25RZXJ6akpYZGNJUGdMdjRkdXhRVG5KdzlnYkRpbjU2LWlFUjFHeVNjOHFYa1dOMmxpTjZ5dmRYMHZzRzVFNzYtenk2c2otLXNnM2RkZzBRQlhDTHdBMDB3cjE1dTNBZ1hMRVNqd1lLUzJKVEVjVmN5MER3YW8zTnN0b0U5b3VZcHdrZlhEQzNubjAwZUpyV2xZV2hMcEVhR2xzQWVhckpLNGEyNDU1dC1zUUxld1VGbFFjNEt1V2R0eXVWcDhzRERqWUN3MHFfTWlINEI5YkxDM1VraXRjOVBUOHRFNnhyU3ZPMG5KT0UxbTh4UU4wSl93TkducWVDR1V3RnVZX1Q0WHdqTFBIYVBTUVlRX05rSWUza3psTy1HdmtjSk1XbdIB6gJBVV95cUxQeU1pdXZjNkcyS21fcDI2d1ZmNEFOYjMyMlY4bGdwamZrZjFUenpRWndCMDBhMzdrVWs0NlF6czR4d3Rpdmx6eHprS1dTbXJOWnBRS3ltZEVpSDQ4OUJPdUQ3bURGelpkUjZQWlN1RzZyYnpvaktmb2twVWNIN0djeW42NWF5SW5RZEJsLWVMVGlHZmxpS0I4MXR4dzI1QVR0T0tfTFdKZEZQbzhZYUFPMHU0aEpUTlJiazFXb185VTVQNzhMNkZtWUdDa2UyQzk0WmFfanNOMWJEVGo2T2lVa3lJRUFiMVFEelhRd2NmNDA2bnlZNVBNXzMxby1EOTcxUGtmQWpTVXYwenFRMXRGZDBXY21LdVpaTlRaMjZ6ZWVBcS1IUFRucENrV1R3NDdLWG5YNDA3c3hBOUtBTWVKQnVlUTNnV2I1eFlNNEFSX0ozY3hSa0FmRENHdi1FS3ZVSnlTM2Y4N3g4dw?oc=5",
+      "published": "Mon, 12 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Developpez.com"
+    },
+    {
       "title": "DDR5 : il fabrique lui-même sa mémoire face à la pénurie mondiale - Clubic",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVWhNRWlsR2I4ZjltU2Y2cU5XYTFLdUd2V01JOElyZ3FreXJLSE9JTVBvT004OHlzOFBNRXpieXlONy14MFgydnFxcDhERnZJNHBRQlpyTVRCbk5BNFhyUWJ3bDZzVmpCWl9XQUVZaGJLT3B4YWZ3d0JrbG8tQVZmX0hTdU9ocEYyNVB2ZlhsSlNld1N5WmM0S1lMa19FazlYQ1c5cXFDLVpUbXh5?oc=5",
       "published": "2026-01-12T08:00:00+00:00",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
+    },
+    {
+      "title": "Rust dans le noyau Linux : l'avis de SUSE - Programmez!",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOWs4SThwSXZ6Tk11dERiYjgyUVp3QmEyR2VlZlhJWGRQN1JfeUxLZ1pJUnVzM3hoTHowQjFjSTQwdWJGQzBNVEs0dHNPanZUdUd5TDFtUFpRNy15bzdRWHJoYVA5a0xWUEk3Y0ZCMmg2Q3U2ZmZWbTUwZG1FOTFQbk5vaW5oZ2stYUHSAY8BQVVfeXFMTW9Fc1dLcWZQY1BocmpjOWR3ZjZidWJmSFRSMklfSUFlbFRCXzg1b1BWOXRnd1ZpcEQ0MnlQdkdtZ2sxNzFuOUVwQ0s1ZGFGZDZ3VzFZU0lldDZHVnlmZzNRUGN5d3N2TzM1Z0ZaTW1IeWQ1RTlSN2lnQWZlbDdfY3JSa1RVSUkwVHAxaUk2WnM?oc=5",
+      "published": "Thu, 08 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Programmez!"
     },
     {
       "title": "Ne jetez pas votre carte mère : AMD pourrait relancer l’AM4 pour contourner la pénurie de RAM - Clubic",
@@ -582,6 +516,14 @@
       "content": "",
       "category": "RAM",
       "source": "01net.com"
+    },
+    {
+      "title": "Linux 6.18 lève enfin les restrictions sur les performances Intel - Korben",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBSbm9jeW1uNHlPZE5Bc1A3SjgyS0FNMmFSUHhyMWRJV3dycWFNVHBuMkgxREw3M3BwcDd3WXd1Z0NMVWdpLV9SZXVjNTJ0d05JV05kbGxqY1A0ZmxCZFZJek9SVmxWTjFob0FMaTByOTBwZw?oc=5",
+      "published": "Fri, 02 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Korben"
     },
     {
       "title": "Pénurie de RAM : quelles conséquences sur les marchés du smartphone et du PC en 2026 ? - Clubic",
@@ -776,6 +718,14 @@
       "source": "Tom’s Hardware"
     },
     {
+      "title": "Noyau Linux 6.18 : support renforcé d’Arm, RISC-V et Apple Silicon, Bcachefs retiré - it social",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNkNHaTUtOTl2VTlERXdidkhtTGd4bjdiQXZGUzVwc0pwdUZZNGZvRW0zV3hrbDVvaFE1VHFKSXBCNzFSRl9rS0NLSEladWMwS2ZjSzdHRjV1eU5Ib1FOWHNVMm9iRlFValIyajRTVzBmdUpLQlFnbW9tdEpuakE4NGRLU1FRNmxaSlJrYVg4T1NOSEdtaFE0cW1DNUN0aV9yREdZcVhpY2c5MHN6bGxTZHpzd2xrSS1qWGhkeXozMmw5a1hhdW90UFU1SlVMTEVtUFE?oc=5",
+      "published": "Mon, 01 Dec 2025 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "it social"
+    },
+    {
       "title": "Pénurie RAM : ce kit Corsair 16 Go est l’un des derniers à prix correct - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTGFuSGRVME5vaTFXaS10UzVoXzFEOU1GcWVZU09ERmRtOTM5dFRHeXJnNzdzdV8tdHNsZ1pqWmJwZjNqN3lWeGJaXzNFbEN4NHN2WERoYUhZbWxwVW1XcTlpM2s1aE5rM1k5aUprbGEwNDJfVVNpS25WVG5ubXdpdXZ5STh3TlNHWGRESFBmM0VydEVpOUFRODR1NXV6cFVvSGFwMnJ2SzRXQllzSlZ4ZFMyOTJGd3VOZWRGNms1MDV4TXpoYmRFOEFjeWhIUQ?oc=5",
       "published": "2025-11-30T08:00:00+00:00",
@@ -846,6 +796,70 @@
       "content": "",
       "category": "RAM",
       "source": "01net.com"
+    },
+    {
+      "title": "Kernel Recipes 2025 c'est fini : les vidéos sont en ligne ! - LinuxFr.org",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXgzS2JiRDQzR1N0Sk9ZUUhWSVl4ME04ckptd18xc0dlX1ZGNzF5QTAtVHA1aGpOUTlFMVFCeTI3UXgwM2N6NXdEVDZRek41RjJYSVJEMUpHNXpYNE1wcVFheHhmYmFuR0hrVHU4bzVpVV96UXk3N29CY2RnVlBnN0ZjcjhlQ2M?oc=5",
+      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "LinuxFr.org"
+    },
+    {
+      "title": "L'IA s'immisce dans le noyau Linux, et une politique officielle est nécessaire au plus vite - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaFVFUDJxNVhwOS1GNndxSE9EN3pIWWEzUHc0U2xHV3FGcnVqX3ROd0g0UmNHTU43bnRMeWVncXQwVExoNHBDQlFaTzZtN2xqaFBnZ0F1R2s5VUhNOVowcFFmSVBDcm9GdDV5X2xSR3o2RERZUURuMURHVVBaeUxyV2ZaSV9CM2UtOVJrNTF2UW0wVDNVYTk2MDRaR3NPa3E4VTRmOUVzdzJOazNiMWxpLVlXUC1qeDA0dlIwOFp3WTUzMTJsNk1mRVZtMA?oc=5",
+      "published": "Mon, 25 Aug 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "ZDNET"
+    },
+    {
+      "title": "Linus Torvalds est fâché, ce développeur de Meta passe un très sale quart d'heure - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQnZKeU5JV1dXdENoMWh3dnl1eGJUOGxzNmVqU3N1RVMyYzVJQTdTVVVJN1ktZUUwTzRNTTRESTFFYXp3Y29rc2pVcjBPMFk0NnF1NWVYQ19NcUJ1ZUtLb3dPd1FBeFAyb1JEVFVhQnI0UG14RnhtNHNkSGVETVJjRUJmay1LV0hxc3RXbW5rWWxJWnZ2eGhIQXV3bU1kWFBCc19uUFlKcHU2SWJUaU1qdGw3a2ZhZ2U3V3JfTUgzdw?oc=5",
+      "published": "Wed, 13 Aug 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "ZDNET"
+    },
+    {
+      "title": "Le noyau Linux 6.16 est là, largement tourné vers les performances - Next.ink",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdTFQWmE2QWxBME84N3kwb1JXMWVhSXlRd2dIMEZHelFnNUMwVzJtSEcwdXhGemJfYm9lQldZVy1hZXVBVG52eVJnaGQ4andXUUJzakxHdmJ3SVhUQnRRSjMydkxMNWpNRVpmWDlkdkdDWEtQLVlHdzZKMzZXUzh6aUlHalowQktRYTdldkliOVZ3aTdz?oc=5",
+      "published": "Mon, 28 Jul 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Next.ink"
+    },
+    {
+      "title": "Rust débarque enfin dans le noyau Linux - Korben",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qLThNaU9LUnVVdEU4ZXJiejYyeDZuaU1Uc1QyZlpGVkVUazlCdW5hZE5rMGFZYy01UXBZRF9kQXE4d2x6SVBVdVVKelNiVG1oTEZiX2JqT0o5dHZyQjdoYk1tS3lNRGd4M2M1X0tn?oc=5",
+      "published": "Tue, 10 Jun 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Korben"
+    },
+    {
+      "title": "Le noyau Linux va bientôt prendre en charge la Magic Mouse 2 USB-C (et attention à la compatibilité sous macOS) - MacGeneration",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUFM3NFpYUkdQUU4zNm1fSlhjRUJJMEZVbU5lLWtPUXdlcnJ4LW1IS05lSXlLNWp4aDBNOGtiaGwzZ2dCeVhTWGw3ZDZMUC10LXlkYmRCRnBBY1NTd3Z5MnV3bkN0elZwRlhWaWM2WXMzcDh4WFJHUFRDN0dRX1h3TkxLVWN5cnM4dV91OHpFdFZhZDJhVUlQWndOa3RzdHl5UlpWYi0zdkNIWWpRaG9SbUlyVldia01LbVNuSVZmTFdUQ1gtdWEwVUNUUldKaVM2SzFnTXh3YXhXVDlWRndORGdMRXlrdw?oc=5",
+      "published": "Wed, 04 Jun 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "MacGeneration"
+    },
+    {
+      "title": "Le noyau Linux 6.15 arrive - et c'est une grande victoire pour les fans de Rust - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNblczUUZSeVFpUndPSklmcm9tZDNTNXZyY0FPdWxXaWF0aFVpVGR3YkU2cFMyRFpqcG4yYzhZX3ZuQWlONEtnSno5LWJKVFBLYm80Wld3WG1MdkZhYVhmekV6azJJTVhSVS1TVlpOci0wUzh1djdvT19MRHpTaXlGbGlPVnVRZkdzODNnODhNSUpWQ0pNaWFidkJyTGZtQ1VZbUpoYVl1bEpaMTA2RHZkb3VXOWlydnZKUjlr?oc=5",
+      "published": "Tue, 03 Jun 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "ZDNET"
+    },
+    {
+      "title": "Linux 6.15 : mise à jour surprise du noyau, avec effets immédiats - Les Numériques",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPZEI1cVNqTzFLVU0wRU5ObEQwekl5aTlDMnI1OW9aYWtEM1piVzJJaUNlVHVzcGVBR2ozeXJSMnlGRExNUC1CMzRGV3lnZzVhczRfcVZ4R0haQkE3ZEpxM0FWVm1iMzB0R2oxZm9FSXlSUG5NZG5hUVdUT1EweUg0c0JsbEE1MF85TEpXSk8yc2V5bEFKV19HQ3ZWRDZVd0IyWUw2UWFuX1RvU1F0dVVDV0JtbFFFbzY2cHdNTHY5NWg5TGptQjFyRkNDWlBlM3lXS0V0Y01nRlF6TnFTaURtd0VtdzUwN3pwNTZwNTRXb05zeVBIOEw5ck1YMA?oc=5",
+      "published": "Mon, 26 May 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Les Numériques"
     }
   ]
 }
