@@ -35,19 +35,27 @@ const DEFAULT_TOPICS: Topic[] = [
     label: "Noyau Linux",
     description:
       "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets.",
-    feedDescription: "Articles français publiés sur les 12 derniers mois autour du noyau Linux.",
-    periodLabel: "12 derniers mois",
+    feedDescription: "Sélection d'articles francophones fiables autour du noyau Linux avec le mot-clé dédié.",
   },
   {
-    key: "pi-hole",
-    category: "Pi-hole",
-    label: "Pi-hole",
+    key: "ram",
+    category: "RAM",
+    label: "RAM",
     description:
-      "Cette deuxième veille est dédiée uniquement à Pi-hole. Comme les publications francophones récentes sur ce sujet sont rares, je conserve une petite sélection d'articles fiables en français ou en francophonie.",
-    feedDescription: "Sélection d'articles francophones fiables consacrés uniquement à Pi-hole.",
-    periodLabel: "Sélection francophone",
+      "Cette deuxième veille suit l'augmentation des prix et les évolutions du marché de la RAM à partir du 1 octobre 2025, via des sources françaises et francophones fiables.",
+    feedDescription: "Veille dédiée à la hausse des prix et aux évolutions du marché de la RAM.",
+    periodLabel: "Depuis octobre 2025",
+    periodStart: "2025-10-01",
   },
 ]
+
+function formatLongDate(dateValue: string): string {
+  return new Date(dateValue).toLocaleDateString("fr-FR", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  })
+}
 
 function getVeilleJsonCandidates(): string[] {
   if (typeof window === "undefined") {
@@ -130,6 +138,8 @@ export default function VeillePage() {
   const displayedArticles = filteredArticles.slice(0, displayCount)
   const hasMore = displayCount < filteredArticles.length
   const activeTopic = activeCategory === "all" ? null : topics.find((topic) => topic.category === activeCategory) || null
+  const activeTopicStartsInFuture =
+    !!activeTopic?.periodStart && new Date(activeTopic.periodStart).getTime() > Date.now()
 
   function handleFilterChange(category: string) {
     setActiveCategory(category)
@@ -236,8 +246,8 @@ export default function VeillePage() {
           </div>
         </section>
 
-        <section className="rounded-2xl border border-border bg-card p-6 shadow-sm">
-          <div className="flex flex-col gap-4 border-b border-border/70 pb-5">
+        <section className="space-y-5">
+          <div className="flex flex-col gap-4 pb-1">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <h2 className="font-heading text-xl font-semibold text-foreground">
                 {activeTopic ? `Actualités RSS - ${activeTopic.label || activeTopic.category}` : "Actualités RSS"}
@@ -293,9 +303,11 @@ export default function VeillePage() {
             ) : filteredArticles.length === 0 ? (
               <div className="rounded-xl border border-border bg-background/40 p-8 text-center">
                 <p className="text-sm text-muted-foreground">
-                  {activeTopic
-                    ? `Aucun article pertinent n'a été trouvé pour ${activeTopic.label || activeTopic.category}.`
-                    : "Aucun article pertinent n'a été trouvé pour le moment."}
+                  {activeTopicStartsInFuture && activeTopic?.periodStart
+                    ? `Aucun article affiché pour le moment. Cette veille commencera à partir du ${formatLongDate(activeTopic.periodStart)}.`
+                    : activeTopic
+                      ? `Aucun article pertinent n'a été trouvé pour ${activeTopic.label || activeTopic.category}.`
+                      : "Aucun article pertinent n'a été trouvé pour le moment."}
                 </p>
               </div>
             ) : (
@@ -324,11 +336,7 @@ export default function VeillePage() {
                     {article.published && (
                       <div className="mt-2 flex items-center gap-2 text-sm text-muted-foreground">
                         <Calendar size={14} />
-                        {new Date(article.published).toLocaleDateString("fr-FR", {
-                          year: "numeric",
-                          month: "long",
-                          day: "numeric",
-                        })}
+                        {formatLongDate(article.published)}
                       </div>
                     )}
 

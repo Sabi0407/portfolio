@@ -30,7 +30,7 @@ function buildAllowedSources(list) {
   return new Set(list.map((item) => normalizeTextForCompare(item)))
 }
 
-const KERNEL_PATTERNS = [/\bnoyau\b/i, /\bkernel\b/i, /linus torvalds/i, /\bebpf\b/i, /\brust\b/i, /\blinux\s+[67](?:\.\d+)?\b/i]
+const KERNEL_PATTERNS = [/\bnoyau linux\b/i, /\bkernel\b/i, /linus torvalds/i, /\bebpf\b/i, /\brust\b/i, /\blinux\s+[67](?:\.\d+)?\b/i]
 const KERNEL_EXCLUDED_PATTERNS = [
   /systemrescue/i,
   /\bwine\b/i,
@@ -55,21 +55,16 @@ const KERNEL_EXCLUDED_PATTERNS = [
   /embarqu/i,
 ]
 
-const PIHOLE_PRIMARY_PATTERNS = [/\bpi[\s-]?hole\b/i]
-const PIHOLE_EXCLUDED_PATTERNS = [
-  /youtube/i,
-  /twitch/i,
-  /synology/i,
-  /\bnas\b/i,
-  /proxmox/i,
-  /docker/i,
-  /manifest v3/i,
-  /wireguard/i,
-  /\bvpn\b/i,
-  /gaming/i,
-  /pixel/i,
-  /tesla/i,
-  /battlefield/i,
+const RAM_PATTERNS = [/\bram\b/i, /mémoire vive/i, /\bddr[45]\b/i]
+const RAM_CONTEXT_PATTERNS = [/hausse/i, /augmentation/i, /prix/i, /coût/i, /marché/i, /pénurie/i, /inflation/i]
+const RAM_EXCLUDED_PATTERNS = [
+  /smartphone/i,
+  /gpu/i,
+  /vram/i,
+  /carte graphique/i,
+  /soldes/i,
+  /promo/i,
+  /bon plan/i,
 ]
 
 const TOPICS = [
@@ -79,28 +74,21 @@ const TOPICS = [
     label: "Noyau Linux",
     description:
       "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-    feedDescription: "Articles français publiés sur les 12 derniers mois autour du noyau Linux.",
-    periodLabel: "12 derniers mois",
-    maxAgeDays: 365,
-    maxArticles: 18,
+    feedDescription: "Sélection d'articles francophones fiables autour du noyau Linux avec le mot-clé dédié.",
+    maxAgeDays: 800,
+    maxArticles: null,
     feeds: [
       buildGoogleNewsRssUrl('"noyau Linux"'),
-      buildGoogleNewsRssUrl("kernel Linux"),
-      buildGoogleNewsRssUrl("Linus Torvalds Linux"),
-      buildGoogleNewsRssUrl("eBPF Linux"),
-      buildGoogleNewsRssUrl("Rust noyau Linux"),
-      buildGoogleNewsRssUrl("Linux 7 noyau"),
     ],
-    fallbackFeeds: [
-      buildGoogleNewsRssUrl("kernel linux"),
-      buildGoogleNewsRssUrl("linus torvalds kernel"),
-    ],
+    fallbackFeeds: [],
     allowedSources: buildAllowedSources([
       "Clubic",
       "Les Numériques",
       "Next.ink",
       "Programmez",
       "it social",
+      "MacGeneration",
+      "Le Monde Informatique",
       "linuxfr.org",
       "developpez.com",
       "silicon.fr",
@@ -120,37 +108,41 @@ const TOPICS = [
     },
   },
   {
-    key: "pi-hole",
-    category: "Pi-hole",
-    label: "Pi-hole",
+    key: "ram",
+    category: "RAM",
+    label: "RAM",
     description:
-      "Cette deuxième veille est dédiée uniquement à Pi-hole. Comme les publications francophones récentes sur ce sujet sont rares, je conserve une petite sélection d'articles fiables en français ou en francophonie pour garder une veille cohérente.",
-    feedDescription: "Sélection d'articles francophones fiables consacrés uniquement à Pi-hole.",
-    periodLabel: "Sélection francophone",
-    maxAgeDays: 2190,
-    maxArticles: 8,
+      "Cette deuxième veille suit l'augmentation des prix et les évolutions du marché de la RAM à partir du 1 octobre 2025, via des sources françaises et francophones fiables.",
+    feedDescription: "Veille dédiée à la hausse des prix et aux évolutions du marché de la RAM.",
+    periodLabel: "Depuis octobre 2025",
+    periodStart: "2025-10-01",
+    maxAgeDays: null,
+    maxArticles: null,
     feeds: [
-      buildGoogleNewsRssUrl('"Pi-hole"'),
-      buildGoogleNewsRssUrl('"Pi-hole" DNS'),
-      buildGoogleNewsRssUrl('"Pi-hole" publicité'),
-      buildGoogleNewsRssUrl('"Pi-hole" bloqueur pub'),
+      buildGoogleNewsRssUrl('"hausse prix RAM"'),
+      buildGoogleNewsRssUrl('"augmentation prix RAM"'),
+      buildGoogleNewsRssUrl('"mémoire vive hausse prix"'),
+      buildGoogleNewsRssUrl('"DDR5 hausse prix"'),
     ],
     fallbackFeeds: [],
     allowedSources: buildAllowedSources([
-      "MacGeneration",
-      "LoKan.fr",
-      "Digitec",
-      "Geekzone.fr",
-      "MiniMachines.net",
-      "Maison et Domotique",
+      "Clubic",
+      "Les Numériques",
+      "Frandroid",
+      "01net.com",
+      "Tom's Hardware",
+      "ZDNET",
     ]),
     isRelevant(article) {
       const haystack = `${article.title} ${article.content}`
-      return PIHOLE_PRIMARY_PATTERNS.some((pattern) => pattern.test(haystack))
+      const hasRamSignal = RAM_PATTERNS.some((pattern) => pattern.test(haystack))
+      const hasContextSignal = RAM_CONTEXT_PATTERNS.some((pattern) => pattern.test(haystack))
+
+      return hasRamSignal && hasContextSignal
     },
     isExcluded(article) {
       const haystack = `${article.title} ${article.content}`
-      return PIHOLE_EXCLUDED_PATTERNS.some((pattern) => pattern.test(haystack))
+      return RAM_EXCLUDED_PATTERNS.some((pattern) => pattern.test(haystack))
     },
   },
 ]
@@ -336,8 +328,26 @@ function keepRecentArticles(articles, maxAgeDays) {
   })
 }
 
+function keepArticlesAfterDate(articles, minPublishedDate) {
+  const minTime = new Date(minPublishedDate).getTime()
+
+  return articles.filter((article) => {
+    const publishedAt = toSortableDate(article.published)
+    return publishedAt > 0 && publishedAt >= minTime
+  })
+}
+
 function buildPeriodStart(maxAgeDays) {
   return new Date(Date.now() - maxAgeDays * ONE_DAY_MS).toISOString().slice(0, 10)
+}
+
+function applyTopicDateWindow(articles, topic) {
+  const dateFiltered = topic.periodStart ? keepArticlesAfterDate(articles, topic.periodStart) : keepRecentArticles(articles, topic.maxAgeDays)
+  return dateFiltered
+}
+
+function limitTopicArticles(articles, topic) {
+  return Number.isFinite(topic.maxArticles) ? articles.slice(0, topic.maxArticles) : articles
 }
 
 async function readExistingArticles() {
@@ -405,7 +415,7 @@ async function collectTopicArticles(topic, existingArticles) {
   }
 
   let source = `google-news-rss-${topic.key}-fr`
-  let finalArticles = dedupeAndSort(keepRecentArticles(collectedArticles, topic.maxAgeDays))
+  let finalArticles = dedupeAndSort(applyTopicDateWindow(collectedArticles, topic))
 
   if (finalArticles.length < topic.maxArticles && topic.fallbackFeeds.length > 0) {
     const fallbackArticles = []
@@ -423,17 +433,17 @@ async function collectTopicArticles(topic, existingArticles) {
       }
     }
 
-    finalArticles = dedupeAndSort(keepRecentArticles([...finalArticles, ...fallbackArticles], topic.maxAgeDays))
+    finalArticles = dedupeAndSort(applyTopicDateWindow([...finalArticles, ...fallbackArticles], topic))
     source = `google-news-rss-${topic.key}-fallback`
   }
 
-  finalArticles = finalArticles.slice(0, topic.maxArticles)
+  finalArticles = limitTopicArticles(finalArticles, topic)
 
   if (finalArticles.length === 0) {
-    finalArticles = keepRecentArticles(
-      existingArticles.filter((article) => article.category === topic.category),
-      topic.maxAgeDays
-    ).slice(0, topic.maxArticles)
+    finalArticles = limitTopicArticles(
+      applyTopicDateWindow(existingArticles.filter((article) => article.category === topic.category), topic),
+      topic
+    )
 
     if (finalArticles.length > 0) {
       source = "cached-previous-data"
@@ -475,7 +485,7 @@ async function main() {
       description: topic.description,
       feedDescription: topic.feedDescription,
       periodLabel: topic.periodLabel,
-      periodStart: buildPeriodStart(topic.maxAgeDays),
+      periodStart: topic.periodStart || buildPeriodStart(topic.maxAgeDays),
       maxAgeDays: topic.maxAgeDays,
     })),
     feeds: TOPICS.flatMap((topic) => topic.feeds.map((url) => ({ category: topic.category, url }))),
