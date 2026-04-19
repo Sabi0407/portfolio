@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T12:28:23.219397+02:00",
+  "generatedAt": "2026-04-19T12:39:03.338454+02:00",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -10,8 +10,8 @@
       "key": "linux-kernel",
       "category": "Noyau Linux",
       "label": "Noyau Linux",
-      "description": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "feedDescription": "Sélection d'articles francophones fiables autour du noyau Linux, avec une vidéo repère sur Linux 7.0 et l'encadrement des assistants IA.",
+      "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
+      "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
       "periodLabel": null,
       "periodStart": "2024-02-09",
       "maxAgeDays": 800

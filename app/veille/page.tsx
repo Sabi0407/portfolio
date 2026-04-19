@@ -40,8 +40,9 @@ const DEFAULT_TOPICS: Topic[] = [
     category: "Noyau Linux",
     label: "Noyau Linux",
     description:
-      "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets.",
-    feedDescription: "Sélection d'articles francophones fiables autour du noyau Linux, avec une vidéo repère sur Linux 7.0 et l'encadrement des assistants IA.",
+      "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
+    feedDescription:
+      "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
   },
   {
     key: "ram",
