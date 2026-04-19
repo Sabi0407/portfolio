@@ -1,0 +1,67 @@
+name: Update Veille Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "5 5 * * *"
+
+permissions:
+  actions: write
+  contents: write
+
+concurrency:
+  group: veille-data
+  cancel-in-progress: true
+
+jobs:
+  update-veille:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate veille data
+        run: pnpm generate:veille
+
+      - name: Commit updated veille data
+        id: commit_veille
+        run: |
+          if git diff --quiet -- public/data/veille.json; then
+            echo "No veille changes detected."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/veille.json
+          git commit -m "update du site"
+          git push origin "HEAD:main"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger GitHub Pages deployment
+        if: steps.commit_veille.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl -fsS -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/deploy-pages.yml/dispatches \
+            -d "{\"ref\":\"main\"}"

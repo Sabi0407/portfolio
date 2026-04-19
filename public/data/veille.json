@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T11:48:00.488471+02:00",
+  "generatedAt": "2026-04-19T11:59:03.300562+02:00",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -20,8 +20,8 @@
       "key": "ram",
       "category": "RAM",
       "label": "RAM",
-      "description": "Cette deuxième veille suit les hausses, les baisses et les tensions du marché de la RAM depuis octobre 2025, à partir de sources francophones fiables.",
-      "feedDescription": "Sélection d'articles francophones fiables sur l'évolution du marché de la RAM.",
+      "description": "Cette deuxième veille suit les hausses, les baisses et les tensions du marché de la RAM à partir de sources francophones fiables.",
+      "feedDescription": "Sélection d'articles francophones fiables sur l'évolution du marché de la RAM, avec un article repère épinglé sur la baisse de la DDR5.",
       "periodLabel": "Depuis octobre 2025",
       "periodStart": "2025-10-01",
       "maxAgeDays": null
@@ -58,6 +58,14 @@
     },
     {
       "category": "RAM",
+      "url": "https://news.google.com/rss/search?q=%22TurboQuant+RAM%22&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "RAM",
+      "url": "https://news.google.com/rss/search?q=%22TurboQuant+DDR5%22&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "RAM",
       "url": "https://news.google.com/rss/search?q=RAM+prix+01net&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
@@ -66,7 +74,7 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 90,
+  "total": 95,
   "errors": [],
   "articles": [
     {
@@ -350,6 +358,26 @@
       "source": "Clubic"
     },
     {
+      "title": "La RAM DDR5 voit enfin (un peu) ses prix baisser",
+      "link": "https://www.generation-nt.com/actualites/ram-ddr5-prix-baisse-google-turboquant-ia-2073285",
+      "published": "2026-03-30T18:58:00+02:00",
+      "content": "Article de synthèse sur la baisse de la DDR5 en mars 2026 et sur l'effet de TurboQuant de Google sur la pression exercée par l'IA sur la mémoire.",
+      "category": "RAM",
+      "source": "GNT",
+      "featured": true,
+      "featuredNote": "Article épinglé : synthèse claire entre baisse DDR5, marché mémoire et effet de TurboQuant."
+    },
+    {
+      "title": "RAM DDR5 : les prix baissent enfin en Europe après des mois de hausse",
+      "link": "https://www.frandroid.com/produits-android/3044563_ram-ddr5-les-prix-baissent-enfin-en-europe-apres-des-mois-de-hausse",
+      "published": "2026-03-30T12:10:00+02:00",
+      "content": "Revient sur la baisse observée en Europe après plusieurs mois de hausse et relie cette accalmie à TurboQuant et à la demande des datacenters IA.",
+      "category": "RAM",
+      "source": "Frandroid",
+      "featured": false,
+      "featuredNote": ""
+    },
+    {
       "title": "RAM : la DDR5 baisse enfin de prix après des mois de hausse - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVUcxVndsUjZoTVN5RFh2WE9Kal82anRoR2g3amVTakFRZzNBakJUQkRqd3d4VW9OY2U5ZEhhSDdBbkJ1ckg5OURxT0FPaE1Zbmk3RXpFQUpObm8wRHJ4cUZwZzBCZGh1cDVyMUhLdDk1d2NUR0RBTXhsZlVQNmY4bDZsaHVhRFo2QmFRZUJhTQ?oc=5",
       "published": "2026-03-30T07:00:00+00:00",
@@ -366,12 +394,42 @@
       "source": "Frandroid"
     },
     {
+      "title": "Prix DDR5 En Baisse Sur Amazon France : Faut-il Craquer ?",
+      "link": "https://pausehardware.com/prix-ddr5-en-baisse-en-france-turboquant-de-google-a-t-il-tout-change/",
+      "published": "2026-03-29T12:00:00+02:00",
+      "content": "Donne des exemples concrets de prix observés en France et met en perspective le rôle de TurboQuant dans la baisse récente des kits DDR5.",
+      "category": "RAM",
+      "source": "Pause Hardware",
+      "featured": false,
+      "featuredNote": ""
+    },
+    {
+      "title": "Les prix de la RAM DDR5 se stabilisent enfin, mais ça ne durera pas",
+      "link": "https://www.lesnumeriques.com/ram-memoire-vive/les-prix-de-la-ram-ddr5-se-stabilisent-enfin-mais-ca-ne-durera-pas-n253651.html",
+      "published": "2026-03-29T08:15:00+02:00",
+      "content": "Analyse la stabilisation des prix de la DDR5, rappelle l'impact de TurboQuant et nuance l'idée d'une baisse durable pour le grand public.",
+      "category": "RAM",
+      "source": "Les Numériques",
+      "featured": false,
+      "featuredNote": ""
+    },
+    {
       "title": "Hausse des prix de la RAM, délais rallongés et pénurie, tout comprendre de la crise de la RAM - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUWlTelp1MllTcUd6Nzg5UC1CaU83bE9VWGc4aUxJNktYazdscHlVdEZHQUxKOUFxN0pRZzM1N3k4bi14dWFBUWZDVjIzdVBQa2t4bzQ5R18zOWJrSm9hOUNEc2R3clhhZDF5TS1LZVJyaGM5dTR3bm1ScVh6YnVjMi1mcVZ5MEJVQjg4TFJtMHhmblcycUxBVDVQYWxldks0eTduXzdmaGdTdXMwQk1iY2txM0VMTDgwdGhkLW53STdWRFQ5dGVZUUpzVHVETVh3d09UUFJuc2kwMkNNcUE?oc=5",
       "published": "2026-03-27T07:00:00+00:00",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
+    },
+    {
+      "title": "Google a peut-être réglé la crise de la mémoire vive (RAM) avec un algorithme",
+      "link": "https://www.numerama.com/tech/2218121-google-a-peut-etre-regle-la-crise-de-la-memoire-vive-ram-avec-un-algorithme.html",
+      "published": "2026-03-25T16:16:00+01:00",
+      "content": "Article plus technique sur TurboQuant, utile pour comprendre comment une réduction de la consommation mémoire des IA peut détendre le marché de la RAM.",
+      "category": "RAM",
+      "source": "Numerama",
+      "featured": false,
+      "featuredNote": ""
     },
     {
       "title": "Le coup de génie de Google, qui a trouvé un moyen de régler la crise de la mémoire vive (RAM) pour de bon - Numerama",

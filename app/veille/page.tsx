@@ -11,6 +11,8 @@ interface Article {
   content: string
   category: string
   source?: string
+  featured?: boolean
+  featuredNote?: string
 }
 
 interface Topic {
@@ -42,7 +44,7 @@ const DEFAULT_TOPICS: Topic[] = [
     category: "RAM",
     label: "RAM",
     description:
-      "Cette deuxième veille suit les hausses, les baisses et les tensions du marché de la RAM depuis octobre 2025, à partir de sources francophones fiables.",
+      "Cette deuxième veille suit les hausses, les baisses et les tensions du marché de la RAM à partir de sources francophones fiables.",
     feedDescription: "Sélection d'articles francophones fiables sur l'évolution du marché de la RAM.",
     periodLabel: "Depuis octobre 2025",
     periodStart: "2025-10-01",
@@ -132,7 +134,13 @@ export default function VeillePage() {
       return articles
     }
 
-    return articles.filter((article) => article.category === activeCategory)
+    return [...articles.filter((article) => article.category === activeCategory)].sort((firstArticle, secondArticle) => {
+      if (!!firstArticle.featured !== !!secondArticle.featured) {
+        return firstArticle.featured ? -1 : 1
+      }
+
+      return new Date(secondArticle.published).getTime() - new Date(firstArticle.published).getTime()
+    })
   }, [activeCategory, articles])
 
   const displayedArticles = filteredArticles.slice(0, displayCount)
@@ -205,11 +213,6 @@ export default function VeillePage() {
                   <div className="flex items-start justify-between gap-3">
                     <div>
                       <h2 className="font-heading text-xl font-semibold text-foreground">{topic.label || topic.category}</h2>
-                      {topic.periodLabel && (
-                        <p className="mt-1 text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">
-                          {topic.periodLabel}
-                        </p>
-                      )}
                     </div>
 
                     <span className="rounded-full border border-border bg-background px-3 py-1 text-xs font-semibold text-foreground">
@@ -315,12 +318,22 @@ export default function VeillePage() {
                 {displayedArticles.map((article, index) => (
                   <article
                     key={`${article.category}-${article.link}-${index}`}
-                    className="group rounded-xl border border-border/70 bg-background/30 p-5 shadow-sm transition-colors hover:border-primary/40"
+                    className={`group rounded-xl border p-5 shadow-sm transition-colors ${
+                      article.featured
+                        ? "border-primary/40 bg-primary/[0.04] hover:border-primary/60"
+                        : "border-border/70 bg-background/30 hover:border-primary/40"
+                    }`}
                   >
                     <div className="mb-3 flex flex-wrap gap-2">
                       <span className="inline-flex rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
                         {topics.find((topic) => topic.category === article.category)?.label || article.category}
                       </span>
+
+                      {article.featured && (
+                        <span className="inline-flex rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
+                          Épinglé
+                        </span>
+                      )}
 
                       {article.source && (
                         <span className="inline-flex rounded-full border border-border bg-background px-3 py-1 text-xs font-medium text-muted-foreground">
@@ -332,6 +345,10 @@ export default function VeillePage() {
                     <h3 className="font-heading text-lg font-semibold text-foreground transition-colors group-hover:text-primary">
                       {article.title}
                     </h3>
+
+                    {article.featuredNote && (
+                      <p className="mt-2 text-sm font-medium text-primary">{article.featuredNote}</p>
+                    )}
 
                     {article.published && (
                       <div className="mt-2 flex items-center gap-2 text-sm text-muted-foreground">

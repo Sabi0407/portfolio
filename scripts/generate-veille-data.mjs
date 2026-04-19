@@ -30,6 +30,18 @@ function buildAllowedSources(list) {
   return new Set(list.map((item) => normalizeTextForCompare(item)))
 }
 
+function buildManualArticle({ title, link, published, content, source, featured = false, featuredNote = "" }) {
+  return {
+    title,
+    link,
+    published,
+    content,
+    source,
+    featured,
+    featuredNote,
+  }
+}
+
 const KERNEL_PATTERNS = [/\bnoyau linux\b/i, /\bkernel\b/i, /linus torvalds/i, /\bebpf\b/i, /\brust\b/i, /\blinux\s+[67](?:\.\d+)?\b/i]
 const KERNEL_EXCLUDED_PATTERNS = [
   /systemrescue/i,
@@ -94,6 +106,51 @@ const RAM_EXCLUDED_PATTERNS = [
   /surpuissant/i,
 ]
 
+const CURATED_RAM_ARTICLES = [
+  buildManualArticle({
+    title: "La RAM DDR5 voit enfin (un peu) ses prix baisser",
+    link: "https://www.generation-nt.com/actualites/ram-ddr5-prix-baisse-google-turboquant-ia-2073285",
+    published: "2026-03-30T18:58:00+02:00",
+    content:
+      "Article de synthèse sur la baisse de la DDR5 en mars 2026 et sur l'effet de TurboQuant de Google sur la pression exercée par l'IA sur la mémoire.",
+    source: "GNT",
+    featured: true,
+    featuredNote: "Article épinglé : synthèse claire entre baisse DDR5, marché mémoire et effet de TurboQuant.",
+  }),
+  buildManualArticle({
+    title: "RAM DDR5 : les prix baissent enfin en Europe après des mois de hausse",
+    link: "https://www.frandroid.com/produits-android/3044563_ram-ddr5-les-prix-baissent-enfin-en-europe-apres-des-mois-de-hausse",
+    published: "2026-03-30T12:10:00+02:00",
+    content:
+      "Revient sur la baisse observée en Europe après plusieurs mois de hausse et relie cette accalmie à TurboQuant et à la demande des datacenters IA.",
+    source: "Frandroid",
+  }),
+  buildManualArticle({
+    title: "Les prix de la RAM DDR5 se stabilisent enfin, mais ça ne durera pas",
+    link: "https://www.lesnumeriques.com/ram-memoire-vive/les-prix-de-la-ram-ddr5-se-stabilisent-enfin-mais-ca-ne-durera-pas-n253651.html",
+    published: "2026-03-29T08:15:00+02:00",
+    content:
+      "Analyse la stabilisation des prix de la DDR5, rappelle l'impact de TurboQuant et nuance l'idée d'une baisse durable pour le grand public.",
+    source: "Les Numériques",
+  }),
+  buildManualArticle({
+    title: "Prix DDR5 En Baisse Sur Amazon France : Faut-il Craquer ?",
+    link: "https://pausehardware.com/prix-ddr5-en-baisse-en-france-turboquant-de-google-a-t-il-tout-change/",
+    published: "2026-03-29T12:00:00+02:00",
+    content:
+      "Donne des exemples concrets de prix observés en France et met en perspective le rôle de TurboQuant dans la baisse récente des kits DDR5.",
+    source: "Pause Hardware",
+  }),
+  buildManualArticle({
+    title: "Google a peut-être réglé la crise de la mémoire vive (RAM) avec un algorithme",
+    link: "https://www.numerama.com/tech/2218121-google-a-peut-etre-regle-la-crise-de-la-memoire-vive-ram-avec-un-algorithme.html",
+    published: "2026-03-25T16:16:00+01:00",
+    content:
+      "Article plus technique sur TurboQuant, utile pour comprendre comment une réduction de la consommation mémoire des IA peut détendre le marché de la RAM.",
+    source: "Numerama",
+  }),
+]
+
 const TOPICS = [
   {
     key: "linux-kernel",
@@ -139,8 +196,8 @@ const TOPICS = [
     category: "RAM",
     label: "RAM",
     description:
-      "Cette deuxième veille suit les hausses, les baisses et les tensions du marché de la RAM depuis octobre 2025, à partir de sources francophones fiables.",
-    feedDescription: "Sélection d'articles francophones fiables sur l'évolution du marché de la RAM.",
+      "Cette deuxième veille suit les hausses, les baisses et les tensions du marché de la RAM à partir de sources francophones fiables.",
+    feedDescription: "Sélection d'articles francophones fiables sur l'évolution du marché de la RAM, avec un article repère épinglé sur la baisse de la DDR5.",
     periodLabel: "Depuis octobre 2025",
     periodStart: "2025-10-01",
     maxAgeDays: null,
@@ -152,10 +209,13 @@ const TOPICS = [
       buildGoogleNewsRssUrl('"DRAM prix"'),
       buildGoogleNewsRssUrl('"pénurie RAM"'),
       buildGoogleNewsRssUrl('"marché de la RAM"'),
+      buildGoogleNewsRssUrl('"TurboQuant RAM"'),
+      buildGoogleNewsRssUrl('"TurboQuant DDR5"'),
       buildGoogleNewsRssUrl("RAM prix 01net"),
       buildGoogleNewsRssUrl("RAM prix Korben"),
     ],
     fallbackFeeds: [],
+    manualArticles: CURATED_RAM_ARTICLES,
     allowedSources: buildAllowedSources([
       "Clubic",
       "Les Numériques",
@@ -174,6 +234,9 @@ const TOPICS = [
       "Next.ink",
       "Numerama",
       "MacGeneration",
+      "GNT",
+      "Génération NT",
+      "Pause Hardware",
     ]),
     isRelevant(article) {
       const haystack = `${article.title} ${article.content}`
@@ -441,7 +504,10 @@ async function fetchFeedArticles(feedUrl, topic) {
 
 async function collectTopicArticles(topic, existingArticles) {
   const errors = []
-  const collectedArticles = []
+  const collectedArticles = (topic.manualArticles || []).map((article) => ({
+    ...article,
+    category: topic.category,
+  }))
 
   for (const feedUrl of topic.feeds) {
     try {
