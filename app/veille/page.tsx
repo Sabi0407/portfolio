@@ -42,8 +42,8 @@ const DEFAULT_TOPICS: Topic[] = [
     category: "RAM",
     label: "RAM",
     description:
-      "Cette deuxième veille suit l'augmentation des prix et les évolutions du marché de la RAM à partir du 1 octobre 2025, via des sources françaises et francophones fiables.",
-    feedDescription: "Veille dédiée à la hausse des prix et aux évolutions du marché de la RAM.",
+      "Cette deuxième veille suit les hausses, les baisses et les tensions du marché de la RAM depuis octobre 2025, à partir de sources francophones fiables.",
+    feedDescription: "Sélection d'articles francophones fiables sur l'évolution du marché de la RAM.",
     periodLabel: "Depuis octobre 2025",
     periodStart: "2025-10-01",
   },
