@@ -231,7 +231,8 @@ const TOPICS = [
     label: "RAM",
     description:
       "Cette deuxième veille suit les hausses, les baisses et les tensions du marché de la RAM à partir de sources francophones fiables.",
-    feedDescription: "Sélection d'articles francophones fiables sur l'évolution du marché de la RAM, avec un article repère épinglé sur la baisse de la DDR5.",
+    feedDescription:
+      "Pourquoi cette veille sur la RAM ? Mon mini-PC de mini-lab est limité à 8 Go de mémoire, ce qui me freine pour ajouter de nouveaux services. Je suis donc l'évolution du marché de la RAM pour préparer une future montée en capacité.",
     periodLabel: "Depuis octobre 2025",
     periodStart: "2025-10-01",
     maxAgeDays: null,
