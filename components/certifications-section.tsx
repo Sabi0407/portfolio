@@ -8,6 +8,7 @@ type Certification = {
   issuer: string
   date: string
   status: CertificationStatus
+  logoUrl?: string
   description: string
   presentationPoints?: string[]
   skills: string[]
@@ -18,18 +19,20 @@ type Certification = {
 // Remplace ou ajoute tes certifications ici.
 const certifications: Certification[] = [
   {
-    title: "Certification CNIL",
-    issuer: "CNIL",
+    title: "Azure : Configurer et gérer Microsoft Entra ID",
+    issuer: "LinkedIn Learning",
     date: "2026",
     status: "En cours",
+    logoUrl: "/s.sabiran/logos/microsoft-entra-id.svg",
     description:
-      "Certification en cours pour maîtriser les règles de protection des données personnelles et les réflexes RGPD dans un contexte professionnel.",
+      "Formation certifiante suivie pour renforcer la gestion des identités et des accès dans un environnement Microsoft 365 avec Entra ID et Intune.",
     presentationPoints: [
-      "Pourquoi cette certification: mieux comprendre les obligations légales autour des données personnelles.",
-      "Ce que j'apprends: identifier les données sensibles, appliquer les bons usages et sécuriser les traitements.",
-      "Ce que ça apporte en entreprise: réduire les risques, améliorer la conformité et sensibiliser les équipes.",
+      "Pourquoi cette certification: consolider mes pratiques d'administration Entra ID utilisées en alternance.",
+      "Ce que j'apprends: utilisateurs, groupes, rôles, MFA, accès externes, applications et Entra ID Join.",
+      "Ce que ça apporte en entreprise: gestion des accès plus fiable, meilleure sécurité et onboarding plus structuré avec Intune.",
     ],
-    skills: ["CNIL", "RGPD", "Protection des données"],
+    skills: ["Microsoft Entra ID", "Azure", "Intune", "IAM", "MFA"],
+    proofUrl: "https://www.linkedin.com/learning/azure-configurer-et-gerer-microsoft-entra-id/",
   },
 ]
 
@@ -68,7 +71,14 @@ export default function CertificationsSection() {
                 className="group flex w-full max-w-2xl flex-col rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg"
               >
                 <div className="mb-3 flex items-start justify-between gap-3">
-                  <h3 className="font-heading text-base font-bold text-foreground">{cert.title}</h3>
+                  <div className="flex items-start gap-3">
+                    {cert.logoUrl && (
+                      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-primary/20 bg-background/70 p-2">
+                        <img src={cert.logoUrl} alt={`Logo ${cert.issuer}`} className="h-full w-full object-contain" />
+                      </div>
+                    )}
+                    <h3 className="font-heading text-base font-bold text-foreground">{cert.title}</h3>
+                  </div>
                   <span
                     className={`inline-flex shrink-0 items-center gap-1 rounded-full border px-2 py-0.5 text-[11px] font-semibold ${getStatusClass(cert.status)}`}
                   >
