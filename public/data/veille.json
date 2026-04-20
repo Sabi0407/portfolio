@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T12:39:03.338454+02:00",
+  "generatedAt": "2026-04-20T07:17:22.917Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,8 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodLabel": null,
-      "periodStart": "2024-02-09",
+      "periodStart": "2024-02-10",
       "maxAgeDays": 800
     },
     {
@@ -74,7 +73,7 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 96,
+  "total": 103,
   "errors": [],
   "articles": [
     {
@@ -82,14 +81,14 @@
       "link": "https://www.youtube.com/watch?v=c6ij-kISFbk",
       "published": "2026-04-16T08:00:22+02:00",
       "content": "Dans le passage sur l'IA, la vidéo explique qu'avec Linux 7.0 la documentation du noyau encadre l'usage des assistants IA dans le développement : ils peuvent aider à préparer du code ou de la relecture, mais le développeur humain doit tout vérifier, assumer la contribution et ajouter lui-même le Signed-off-by.",
-      "category": "Noyau Linux",
       "source": "YouTube · Adrien Linuxtricks",
       "featured": true,
       "featuredNote": "Vidéo épinglée : repère clair sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du noyau.",
       "mediaType": "video",
       "thumbnailUrl": "https://i.ytimg.com/vi/c6ij-kISFbk/hqdefault.jpg",
       "thumbnailAlt": "Miniature YouTube de la vidéo Linux 7.0 d'Adrien Linuxtricks",
-      "linkLabel": "Voir la vidéo"
+      "linkLabel": "Voir la vidéo",
+      "category": "Noyau Linux"
     },
     {
       "title": "Les apports de Linux 7.0 pour le réseau - Le Monde Informatique",
@@ -110,7 +109,7 @@
     {
       "title": "Alors que la RAM est encore bien trop chère, ce kit DDR5 Corsair Vengeance 32 Go chute de prix sur Amazon - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMlZoX2tBY181empPd1ItaThTWkF2b3V1NVlrb3dEM3dIV21mZkxBRnIySmR0cDgyR2lTQ0pyMEV0dEhjcV9ZQ2l6THJzdjZlU0NqM3EtXzEtcjFhTFByRTJMbUJ0RHdWdlNMai1FY005WWQyeEtUS0xnbkVMUEhXdU1MWUpWRV82UnBIWXlRSnR0aXltbWRfdXVoVldrMVRxTkh5NEZ2QTRJM0NRejJvb1d2WVpzVVVvUmw0MUVia19VUHptbG5LNkgzT3l1ODhadEJreEZEWjdGaFFkZWhIZEt0NTk?oc=5",
-      "published": "2026-04-14T10:45:00+00:00",
+      "published": "Tue, 14 Apr 2026 10:45:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -158,7 +157,7 @@
     {
       "title": "Prix de la RAM : sommes-nous arrivés au sommet avant le krach ? - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ0dfdW5QX2JLXzdRSVJiMENfR21IRXEzM1FMWDh0STQxRHBIazNtUE5YVDRlYmhxcVNsTFhqM0liTnU1N1d2bWhUWms4a3JiNk40UjZEaV9wRFRIVWNtNElCUDJxMlNsVzlncDB1bnAtTnJ0YkdaVTJCUnlxZHQwaVZoQ3lhaFpiRVRFR3Btekppdw?oc=5",
-      "published": "2026-04-10T07:00:00+00:00",
+      "published": "Fri, 10 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
@@ -166,7 +165,7 @@
     {
       "title": "“Une demande de mémoire multipliée par environ 625” selon le patron de Dell : le prix de la RAM et des SSD n’est pas près de baisser - Les Numériques",
       "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNTXRNT193UU8yVktlbElCNTdIUzBjaWJ4bWl5bm9SaG5aaWR5MDkyNVBITldMMVNiek90Vmd4NjRmTm5rQXUycEIzNTE0SzZuRkt5c1RfVEVpRmIyeUxRemQ5TW1IMGJFS3ZBcEJQUklncVc2eFZOa1p4WmZQeXdwX21qREFibE14Mi0tbVBfVFZrV29ZMUxHWGF4UUtueXNEa09KMFVudTNSSnBFaHduc01QTTVkQzFWS3V2R0RsbTFUSGNFX3JnaW5ldGFHTUtwLThSMDNYOWVpZVNKTS1NZkRaWkJ3S3VmMExXcm9jQ0pQWmJLaExybXRtVXJKMW1sODdhdkU2eFg3NGlERmlKMzBDVVJkZ2s?oc=5",
-      "published": "2026-04-10T07:00:00+00:00",
+      "published": "Fri, 10 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Les Numériques"
@@ -182,7 +181,7 @@
     {
       "title": "Raspberry Pi 4 : un nouveau modèle 3 Go de RAM, et des hausses de prix qui piquent - Korben",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMFdPUjhiWVZTLUhCM1paZDVVdXlqbFpWa1l2b09rQWlUMlRWTGNUVmFIc2VPR2FUelJ0MVNCZlI4dGxaeUVwUFVEY2ZreHVEVVFLOHd1SnFIUkwwRG1XOFRvWnNQTHczQlRJYWd3RklJLWh4Uml6NVk5QXpVN0xkcnZReGlQRjdMWWlLN0pIWjBPN2Zld0pqbV9ISzU3My1NWkVGSV9MUQ?oc=5",
-      "published": "2026-04-03T07:00:00+00:00",
+      "published": "Fri, 03 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Korben"
@@ -190,7 +189,15 @@
     {
       "title": "Prix de la DRAM : et si le pire était enfin derrière nous ? - Clubic",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWjNhLThKS3Z2SGQxZ1cxNUw4X2dTcHlkdG9lYlJnRzVlRmZLQ1lkMXNFWURrOV85U2puUm9iaXJNcWtMUFJMc2p2SlFWeG9QLXVQamlac1RnckhBVUNKMmxzQjJsV1dTQzlLT1ZiRHJQZDczVDlTZ0cwbi1qSTNWbmZDZGFLbFVWanZUay03Z1ZwZldsM3BEVEExTHR6cFk2c1E?oc=5",
-      "published": "2026-04-01T07:00:00+00:00",
+      "published": "Wed, 01 Apr 2026 07:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Clubic"
+    },
+    {
+      "title": "Les prix DDR5 ont été multipliés par 5 en six mois : ce kit Lexar 32 Go 6000 MHz à 349,99 € est une anomalie à saisir - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRHJrWHNodlEzUlhELV9fM2Z2ekdHaXdsOVhfQ0REWldJd1dITHI3d09KWmNVV0JCaGFuWk9tVWlqRVhUcml4OVRSQ0MxWlZKWDl5eWwtQmFvLWFXNDZ5MGduVE5TVng1Sk9qSWhaM3JHeWxhcWxDUTRLTTBuSEtCNkR1UGh6Mk82ejJUN1ZlZjhQSlBJT0xUVVNXZGg0dk9FaEZLWlVjdTJwQWZ2aW9nN3ZsYVdjRUpMQlY2WDZtTjJUeEtRY013TG13cVdRU2JhckE?oc=5",
+      "published": "Wed, 01 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -200,25 +207,33 @@
       "link": "https://www.generation-nt.com/actualites/ram-ddr5-prix-baisse-google-turboquant-ia-2073285",
       "published": "2026-03-30T18:58:00+02:00",
       "content": "Article de synthèse sur la baisse de la DDR5 en mars 2026 et sur l'effet de TurboQuant de Google sur la pression exercée par l'IA sur la mémoire.",
-      "category": "RAM",
       "source": "GNT",
       "featured": true,
-      "featuredNote": "Article épinglé : synthèse claire entre baisse DDR5, marché mémoire et effet de TurboQuant."
+      "featuredNote": "Article épinglé : synthèse claire entre baisse DDR5, marché mémoire et effet de TurboQuant.",
+      "mediaType": "",
+      "thumbnailUrl": "",
+      "thumbnailAlt": "",
+      "linkLabel": "",
+      "category": "RAM"
     },
     {
       "title": "RAM DDR5 : les prix baissent enfin en Europe après des mois de hausse",
       "link": "https://www.frandroid.com/produits-android/3044563_ram-ddr5-les-prix-baissent-enfin-en-europe-apres-des-mois-de-hausse",
       "published": "2026-03-30T12:10:00+02:00",
       "content": "Revient sur la baisse observée en Europe après plusieurs mois de hausse et relie cette accalmie à TurboQuant et à la demande des datacenters IA.",
-      "category": "RAM",
       "source": "Frandroid",
       "featured": false,
-      "featuredNote": ""
+      "featuredNote": "",
+      "mediaType": "",
+      "thumbnailUrl": "",
+      "thumbnailAlt": "",
+      "linkLabel": "",
+      "category": "RAM"
     },
     {
       "title": "RAM : la DDR5 baisse enfin de prix après des mois de hausse - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVUcxVndsUjZoTVN5RFh2WE9Kal82anRoR2g3amVTakFRZzNBakJUQkRqd3d4VW9OY2U5ZEhhSDdBbkJ1ckg5OURxT0FPaE1Zbmk3RXpFQUpObm8wRHJ4cUZwZzBCZGh1cDVyMUhLdDk1d2NUR0RBTXhsZlVQNmY4bDZsaHVhRFo2QmFRZUJhTQ?oc=5",
-      "published": "2026-03-30T07:00:00+00:00",
+      "published": "Mon, 30 Mar 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
@@ -226,7 +241,7 @@
     {
       "title": "RAM DDR5 : les prix baissent enfin en Europe après des mois de hausse - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTkZhY3lXdmJ1amdRMXF4SGxBQnN6Qi1adm93RXZkQ1Y2azZCcXFEYnNGSWt4TjA0ZVU1UTJvc1NyZE9uRlJsOFl2MU5vWjR4aEZHeUFTcW1NQzFqZVRxclNER3NkNlhsS2JJZGlRNVFpZFVUWlFjSXpVbmxBTGxEUVk4d0dISzR6R3JLYUJTWEx4bUlkU0VfT2xzSEdkdXJiQVFCOS1Ya0o3ZEYwWkFOQVhzSHZiMm10aWc?oc=5",
-      "published": "2026-03-30T07:00:00+00:00",
+      "published": "Mon, 30 Mar 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
@@ -236,25 +251,33 @@
       "link": "https://pausehardware.com/prix-ddr5-en-baisse-en-france-turboquant-de-google-a-t-il-tout-change/",
       "published": "2026-03-29T12:00:00+02:00",
       "content": "Donne des exemples concrets de prix observés en France et met en perspective le rôle de TurboQuant dans la baisse récente des kits DDR5.",
-      "category": "RAM",
       "source": "Pause Hardware",
       "featured": false,
-      "featuredNote": ""
+      "featuredNote": "",
+      "mediaType": "",
+      "thumbnailUrl": "",
+      "thumbnailAlt": "",
+      "linkLabel": "",
+      "category": "RAM"
     },
     {
       "title": "Les prix de la RAM DDR5 se stabilisent enfin, mais ça ne durera pas",
       "link": "https://www.lesnumeriques.com/ram-memoire-vive/les-prix-de-la-ram-ddr5-se-stabilisent-enfin-mais-ca-ne-durera-pas-n253651.html",
       "published": "2026-03-29T08:15:00+02:00",
       "content": "Analyse la stabilisation des prix de la DDR5, rappelle l'impact de TurboQuant et nuance l'idée d'une baisse durable pour le grand public.",
-      "category": "RAM",
       "source": "Les Numériques",
       "featured": false,
-      "featuredNote": ""
+      "featuredNote": "",
+      "mediaType": "",
+      "thumbnailUrl": "",
+      "thumbnailAlt": "",
+      "linkLabel": "",
+      "category": "RAM"
     },
     {
       "title": "Hausse des prix de la RAM, délais rallongés et pénurie, tout comprendre de la crise de la RAM - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUWlTelp1MllTcUd6Nzg5UC1CaU83bE9VWGc4aUxJNktYazdscHlVdEZHQUxKOUFxN0pRZzM1N3k4bi14dWFBUWZDVjIzdVBQa2t4bzQ5R18zOWJrSm9hOUNEc2R3clhhZDF5TS1LZVJyaGM5dTR3bm1ScVh6YnVjMi1mcVZ5MEJVQjg4TFJtMHhmblcycUxBVDVQYWxldks0eTduXzdmaGdTdXMwQk1iY2txM0VMTDgwdGhkLW53STdWRFQ5dGVZUUpzVHVETVh3d09UUFJuc2kwMkNNcUE?oc=5",
-      "published": "2026-03-27T07:00:00+00:00",
+      "published": "Fri, 27 Mar 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
@@ -264,15 +287,19 @@
       "link": "https://www.numerama.com/tech/2218121-google-a-peut-etre-regle-la-crise-de-la-memoire-vive-ram-avec-un-algorithme.html",
       "published": "2026-03-25T16:16:00+01:00",
       "content": "Article plus technique sur TurboQuant, utile pour comprendre comment une réduction de la consommation mémoire des IA peut détendre le marché de la RAM.",
-      "category": "RAM",
       "source": "Numerama",
       "featured": false,
-      "featuredNote": ""
+      "featuredNote": "",
+      "mediaType": "",
+      "thumbnailUrl": "",
+      "thumbnailAlt": "",
+      "linkLabel": "",
+      "category": "RAM"
     },
     {
       "title": "Le coup de génie de Google, qui a trouvé un moyen de régler la crise de la mémoire vive (RAM) pour de bon - Numerama",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLTNPODd5dWlJN29xNWF2WkRQQ1NjZ3cyYVlPWUhZdEV6bHVkRTNCaHk5V2dsZGF4b3J1TnZvUU5SY0JDX0FTMnprUzYyaHhWYTk5dlpBYUhXLXpBTWFUc1M1VG5CZGZWWEpXZ0kxX3lDM2haYVhORUtMZFNmbXhfSFhuSXNPekVJNmtTN0taRDlzZEQtb1ZOVmJkamlCNWxOQnI1REVVcWJjci1EUGQ3MlV5WWRXYzlvMXc?oc=5",
-      "published": "2026-03-25T07:00:00+00:00",
+      "published": "Wed, 25 Mar 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Numerama"
@@ -280,7 +307,7 @@
     {
       "title": "La pénurie de RAM frappe fort en 2026, mais le prix de ce kit 32 Go DDR5 s'effondre - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWS1TTDdwdF94dDNzbHNsU0ZlcFdENmtMMDBicWduYUQ5bVJGZ1Q2d2N2ODRjeS1QbGl1VUk0UHdMNjZaTWQzNGdxVkh0d2NXMUpFRExhVHlFYTF2VThCYVlhMDRCM3Z2ajlEbU1tV1NvX1A3aU5JVXQwOGRLYjZfdTg0enJlZmxzOUJVb3VtSHN2Nzd3cjBsR2hZa1JRUEJ6b2t2YmFVX0FBQ2RRYm00dklkb3RfV1NZVEpIcEhrRDFmWDNGbHc?oc=5",
-      "published": "2026-03-24T07:00:00+00:00",
+      "published": "Tue, 24 Mar 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
@@ -288,7 +315,7 @@
     {
       "title": "La pénurie de RAM pourrait aller au-delà de 2027... à cause des robots et des voitures autonomes - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOOFlxMkRrVEVFQVQ2bHZqMGh5Tm1tOENJQU1iZEg0OHdnU2dhX09zb09laXpJbklpZHNmcU5MUDVQX0NaQXZxeTJ4cnJRY3YzRWlkWEJsV3V5X2oxMk5UWXR2VWhKb1J5R280RVdPMGhwb2xqai12UkVxVlBsZ2Y5RkZrU2FOdTVjWHVHeHd4bldma0pVcmk4bk83bFQyeldLWmxnWFpSNkNHSjhjZXZ5MmlCNGVGX0ZJQjJWbkROcVQ4WG9zSU9POU13VE9ZLTJHVUtSTHREQ01RcmhaU19qQ2otNE5VWTRaVmFmV2g5V2pCWjA?oc=5",
-      "published": "2026-03-19T07:00:00+00:00",
+      "published": "Thu, 19 Mar 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -304,7 +331,7 @@
     {
       "title": "Prix de la RAM : pourquoi les pénuries devraient durer plus longtemps que prévu - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT2IwMl9PYkJ2cTFIRHlvRE15Rk1CRnZPcEhKSklJZ0RtWUdPR3czTW5BRVRScm5hZWozcXBRNnlRS3BLMDVJTWswYlVlSTZxY1Q1cWppVFpyUm9MMk5EY0RoV0lWSVRjUjVDeTVISVR5eld2OFpucWZiQzZrbHloRENEdTYtTl9Ra1dDSDNtSTY1eXNQcmFybm9GRXhUOXFkVHJQM0RMdkhMUQ?oc=5",
-      "published": "2026-03-16T07:00:00+00:00",
+      "published": "Mon, 16 Mar 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
@@ -312,7 +339,7 @@
     {
       "title": "Disparition de l'entrée de gamme, suspension des développements : la crise de la RAM frappe aussi la Chine - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYW1qUkh3VE5SRDh3SDc4RW9CQld3V3pvYUxiZThGcXRyQzl3aGYxa0kzb1A0ZmpiR1NGVTdLeUc2alVONzRQZVJic1NyYjBvd1cwN0doR1Rkbks2N0N0azBrYmU3dk9Jcm9BQTdudXBZLUdreWJWSzdvRHM0Rk9WbHczVElha01Zc1BzT1c0c2psdUQxMXdzSDI5VVBnOWZaT3hmUFZ4Qkt2Q0pQMDNZeXZMYkRuY045UksxalJPc3p5Z3FIMGlBR2ROejVkTjhMRHd6ZlU0Yw?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
+      "published": "Mon, 09 Mar 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "01net.com"
@@ -320,15 +347,23 @@
     {
       "title": "La crise de la RAM frappe de plein fouet Valve : quel impact sur la sortie de la Steam Machine ? - Numerama",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORC1PcFFuMkFLc3J0Sl8tR1lpa3ZNMVRRckJnbXZULUg2NHl1TF9rNXR1c08tZXU2MEhWUUdGRGxpQkU0NEdVbXlWLTMweHZVYXlmZGhRbjZrSDdUazVobTByeEdNSEtPT2dKeXFOeDdrVG5wU1NYYTBicWJ3SGhPVjNHb2pqRTV1bnRUYjlNT0E3d21rUWkyRTV5YjdjbGt5RGVPVEV2TUNVQ05Td0p5Rjh0cDNXWUZZUjMtSzlmejN3R2xx?oc=5",
-      "published": "2026-03-07T08:00:00+00:00",
+      "published": "Sat, 07 Mar 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Numerama"
     },
     {
+      "title": "Coup de Bluff : comment Samsung a mis Apple à genoux sur le prix de la RAM - Génération NT",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQWJHbjRkOGpnQ3d3dUQwR2wyVElBbFB4eGJzd0xfRWNkZzUxX051ZmZaMXFMT0FyYVczdUJOajNjVjRURjA3YXR0WjJVM1kxSC1LMXJaaUhBZ2RucFNRYUpzbVZXVlhTcGh1WTM0cWpKRkZJU191WDR0OGZ4NWExLUNxYVB6RE1ZZUJfSnM0RXVtMEZjTk1aTGlNcE05WThaTjJaTDlIc2JkZ2vSAbABQVVfeXFMTUVPT3VYTldFNUVsN3huM0w3QnZ5WFhXQlphdjFsTE43TGljZ0s5SWJkWkVIM2NqbFBwTVpXRmtCLUNMWDRyaG9QSXZ0bWNJUkQ3SjIyREt1OEpSUGtKenV5eFVZaTJhNWJpbW5uQ3VmRzJld19nTU83OVJTSFpNYkhfSjRSLXF1QnN5T0JxZzdBcW52M0kzQzliTTFNOEJXaUZKS3Y5LVJmdFVUU2xpMXo?oc=5",
+      "published": "Fri, 27 Feb 2026 08:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Génération NT"
+    },
+    {
       "title": "DRAM : +90 à +95% en un trimestre… la hausse va être violente - GinjFo",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVHNmVmlKZ05SamRUMUowd29ueFBNdG55TDV1akZiREZjWUxUdDVXZlZNS3JrWHdneUE4Sl9kZ0pSVml4MlBNOVk0SmZwdnUxTHkwLVJpTHhQNWw3WHdwR2xFNGM2SzBIUzJWWWtLc2stSExWZjYxNW9DZGY4TEw5RkJXVjU4T2UxSnEyU25zd1E5dkozSHNuUGszeDdWbzA1VkZWTjZkUWNHSmRGNldhV1pHUDFSdEpIUkE?oc=5",
-      "published": "2026-02-26T08:00:00+00:00",
+      "published": "Thu, 26 Feb 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "GinjFo"
@@ -344,7 +379,7 @@
     {
       "title": "Prix de la DDR5, une baisse s’amorce mais les prix restent stratosphériques - GinjFo",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOC1MU3lfOTlmNlh5U3piYTE1Z3NuWldVXzRzZjdwSDRVZUtvOXBSd2dIOFRScTZUWGhmbXgzTEFCMWRpclVHUjlUVEpfODl5LTg5WDl0aHZ2eVoxQ0dwTnhKZjJFZHBrc1FKVkxjbTU3dlR6d3RnZzhvLU1WMjZrRmpCYm1MSDg3cThoazkzYkdLQ1hEUVQyMWZlQXVmRGhEQU5zcnoxTWhMczlLb3lXbTFBZjVoRDI1U0cwN2tlSUM5TVNXdUx1LW1vTjR4V0xIbnc?oc=5",
-      "published": "2026-02-24T08:00:00+00:00",
+      "published": "Tue, 24 Feb 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "GinjFo"
@@ -352,7 +387,7 @@
     {
       "title": "Après la RAM, place à la future crise des disques durs, ça va piquer - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV3oxR3E0Y1JNemwyUXBKMG5KcjZtaHNRa1NSSnB2QkpLSlhqZ0VPMm1sVGhDVmZUbzMzbko1bjE4QmV4cmRuWEtzeDNFMTZreG1HUTlBU0NlanFZZk9yU3FJUFJkcnNUNkFoN3B4amJDc2M0Z0FuYnhOMzRybjQ3OWJ6M2FUd0JPZGpRbVR4M0Z4WExfQi1HZUx3dw?oc=5",
-      "published": "2026-02-18T08:00:00+00:00",
+      "published": "Wed, 18 Feb 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
@@ -360,7 +395,7 @@
     {
       "title": "Prix de la RAM : certains vendeurs Amazon n'expédieraient pas les kits et annuleraient votre commande - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZDVkVWhlMWZDMW5JeVc2VzE2bDB1YnFiazI4LWxSR25YQ1BvLUlfb1JCZzBIempCWnpVT2k2MzhjT1U1QmlaMXVZdmlTcHplQVByTmhvcEFlWm5BZ0RIamhTdm1HZ2xBa2d6WnNoUTRpTXQ4ejRReDEtaUdHSEZ3U2FVYnZGTEhYcURFZW9HZlZIZHNWbkFiSm5yamFwYmlyMFk3eWlsVUlFRjl6YTJJRXNkenExQWNBS19CYUN4OUZOODR6WlE?oc=5",
-      "published": "2026-02-17T08:00:00+00:00",
+      "published": "Tue, 17 Feb 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
@@ -398,6 +433,14 @@
       "source": "Frandroid"
     },
     {
+      "title": "Et si Linus Torvalds passait la main ? Le noyau Linux a son plan de continuité d’activité - Next.ink",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaUN5ekxRSW13bG9ncGl1VC1wUFN0TlFRSnBlZmprSDRTNHdzQlk4dWYxVlVISkl1aV9haEtiV0hkTTNoaDZhdnZrMkRzdWloQktuWTA4b1hUQ0RHM3EtT05ZOUlXLUQzb3VUd2lQaTFWeHRyU3NHaW04WjFFLVBxOGxCWkZZZkdKRGg2Q3I2eWNaMWRmdTFNRHZ3Ti1uY01pUEhudTQ3UUZkcklHMmV1dg?oc=5",
+      "published": "Thu, 29 Jan 2026 10:59:21 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Next.ink"
+    },
+    {
       "title": "Linux : un plan officiel pour succéder à Linus Torvalds émerge - Clubic",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaUpPbVNtclhFN2hqaEVKMEVfQlJqUlJiT3dLQm4zUnNyVFU3aXhzWWZnWFNXZkdRVVIzaU95aUdSNm54RTNnUzN2bXBKUWwtdGhMMUZZWkVtUDZmWHprMVpudHpsXzVvTllZWXpLS29tX1lzMnVzRTdEOGNlOGRVdV9SM1dZb0dxMk8yMWtERzBINnRJbExrT2VuZzNHZzZsVXRWNVFRTzk?oc=5",
       "published": "Thu, 29 Jan 2026 08:00:00 GMT",
@@ -406,17 +449,9 @@
       "source": "Clubic"
     },
     {
-      "title": "La succession de Linus Torvalds se met en place, comme celle de Tim Cook - MacGeneration",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGljNlM5X29yRGlERXh3MVBEZ2VUel9lUFVfak1EZE5Nc25oZzVkUjYyTnQ2Q1VDcUNXbWhIbXdLSmlsZGpWVUVrV1oyQmt2Q0RZZ3J6Tjc3eExnV2dpbEU4NzREc2RrSUJfcVpyNG1LS0RJN1QwbXJxcjhxSEg2S2VTeHVHcnBPNlJ4NFFudWJhQ3I1VXg0RjJyUW14VVlxYW1ZbGl1NGp5Mngwb3ZSVDFPRXZsdw?oc=5",
-      "published": "Thu, 29 Jan 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "MacGeneration"
-    },
-    {
       "title": "À leur tour, les prix de la DDR4 augmentent en flèche - Clubic",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ3RtSmU0bVpHQmVRbzJuYU9nbDVvTEhrdmI2TU9pQjVaRm5qRmdOZ1pfcGU0RXZfdWhYYlB6WFJ5MUJtVkxyaUpyR2ZNMlpfQkJMSlNJMXM5cVV0M1NtZGFZZVpVYzh6dy1JenFGeDVzeWRkM1hPZllMOENTQ3ZBcFZzMzZVd3gwRl9zbkk3cnlzN09Ma25ubFEzY21Kdw?oc=5",
-      "published": "2026-01-29T08:00:00+00:00",
+      "published": "Thu, 29 Jan 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -424,7 +459,7 @@
     {
       "title": "Vous pensiez échapper à l’augmentation de RAM en achetant de la DDR4 ? Mauvaise idée - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeFFwN0F4aEhBQ2hqVmFIV3AtZEpmSFlaZHFMVGZ2eXFmNTU0M0h5OUl2NjI2XzVfZlloRkdwdlVZdFJKMDk1dkpTcFNPWGUydDBmYm5ibEtOYllUOTdWN25hZHVOUTQ3V2JrMHN6eWU3Y19qejVkSUlJcUJsalZHcXVYRzVKbGlabHZtS256YTFKM196a2hDcHl1eks4ZkJRd2xCeW9MeGlwd2pjOUpZ?oc=5",
-      "published": "2026-01-27T08:00:00+00:00",
+      "published": "Tue, 27 Jan 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
@@ -438,6 +473,14 @@
       "source": "Silicon.fr"
     },
     {
+      "title": "Le Prix De La RAM Explose à 400 % En Janvier 2026, Pire Crise Depuis 2018 - Pause Hardware",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5lazRZZDluYVNMNVkzRnpONWNMWlNLMHdPY1FPVWphX1pUalNpOEV3ckJ2R3J6RlJscl9JWV8wVk5OUk8zNkJ0RVMyS2Fxam9WeWVPSDhINnhKSUdPRzNLYmZDYzdJR3F1RHNYdzBlY3NHR2pSRmlMcFlWZnZ3dw?oc=5",
+      "published": "Wed, 21 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Pause Hardware"
+    },
+    {
       "title": "Linux 6.19 pourrait avoir un peu de retard - Les Numériques",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQlNCMDQ1ZnlhTFBNN1FiZkN2Y2dnandvZEN2aUQzTll6a1UtMkN1N0NMSjBoS1o5UXNCRTdRczNOR0ZVTktub2ZYNlJ0OUtPZ0l3b0N2ZVUxTW0zOFFqcEhXSUFUN1hvTjh4c3BCRmtHMWt5S2FqU09QOVNFdjhlWWRXV2E2aUctVmxvVnBlMlNtWjM0RmRwNTQ2SmdhTzNfWlE?oc=5",
       "published": "Mon, 19 Jan 2026 08:00:00 GMT",
@@ -448,7 +491,7 @@
     {
       "title": "Pénurie de RAM : Intel lâche une bombe, êtes-vous prêts à payer le prix fort ? - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZE5vWFRtb3JCTWFuMURrR1JSZXY5cWc5XzJtSlpqODBoVlBCMUl6cXJuSEF2YkJ1QVNJTHVyQjJPSGJ6M21iV3NibzhzN1F3NzhUTHg3dXd6TUpTcWliR0dvQ0VmbUtPcFVKT1dyTkdzOENhVmVrS0gzTVdoU1JQa0NveHFXb2dlZ19qM2xOaEQtYkE1UkJtYktaSlg0aTFack1RVg?oc=5",
-      "published": "2026-01-16T08:00:00+00:00",
+      "published": "Fri, 16 Jan 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
@@ -456,7 +499,7 @@
     {
       "title": "Flambée de la RAM : le patron de Nothing annonce des hausses de prix pour ses smartphones - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeGFmbmx5Yk51eUhfSGxBQ2d2M1hxR3RmZkJjNGpkaXNmekVKZFQ3OGMxaU93emlBb0FrQjVEd0RGeTNjalRCa04wMWRuRWc3eTJENjI4MXY2VERrU2VmM3RhUG9LTnBQNjM4LXJPS3RtTWlDTnYxRHhEVURkU24tQkx1a0ZOcnVQbUVDVWpRZHhjeEg3QzRUQXhfb0diVENLeGV1SUpFcTgtME15RzVBYVRjZ2J3UEY4Sms5Qzg4V29nZ1U?oc=5",
-      "published": "2026-01-14T08:00:00+00:00",
+      "published": "Wed, 14 Jan 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "01net.com"
@@ -472,7 +515,7 @@
     {
       "title": "DDR5 : il fabrique lui-même sa mémoire face à la pénurie mondiale - Clubic",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVWhNRWlsR2I4ZjltU2Y2cU5XYTFLdUd2V01JOElyZ3FreXJLSE9JTVBvT004OHlzOFBNRXpieXlONy14MFgydnFxcDhERnZJNHBRQlpyTVRCbk5BNFhyUWJ3bDZzVmpCWl9XQUVZaGJLT3B4YWZ3d0JrbG8tQVZmX0hTdU9ocEYyNVB2ZlhsSlNld1N5WmM0S1lMa19FazlYQ1c5cXFDLVpUbXh5?oc=5",
-      "published": "2026-01-12T08:00:00+00:00",
+      "published": "Mon, 12 Jan 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -488,7 +531,7 @@
     {
       "title": "Ne jetez pas votre carte mère : AMD pourrait relancer l’AM4 pour contourner la pénurie de RAM - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdVkyY2NGeVNYZlg3U2paTURQS0IwQW1KVU9aTVBJd0VWdGZSN1owT3c0VF9ub1pVRjVmSHp2b2hYNHIxeGVlTGlOdG9COXZpNTBKakRDenR6Z3dSMzZ0TWtieUVDbmpibjFWbkc3cm9HcFZFeXNNNUtYOEV4QndhR3Z0OGdDZ2VGWTZyLU1kSk5kWktCdHBjeG5saUowMnZGSDdPTE5mcE1wZHhCOVh0NGMwUXVSOGYxZEstOGJNRnQ2ckswazFHaWR4UF9kNFNSRkp4a0dkV0Y?oc=5",
-      "published": "2026-01-08T08:00:00+00:00",
+      "published": "Thu, 08 Jan 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -496,7 +539,7 @@
     {
       "title": "Flambée de la RAM : les prix vont augmenter chez Samsung aussi - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQm5rS2dUUjFHcUg5NV83NFh4Y1I3SEpmbVVhX1VEQmFzaTE1aUN0c1JHTGY2N0FzM3BhV2cyR1dMZ1ZKNlc5Y1d2RnBhTjcxQmxsRk8zdW5oSWNoMmdXbkg4RHFWM1pJNnhLNERUeGNkSDZiTnRTaUlIZmFSYzYxNVdFMjk2YU5HQk54cVVtR0h2ekFBT0ZzMmhmRW1zc0U?oc=5",
-      "published": "2026-01-07T08:00:00+00:00",
+      "published": "Wed, 07 Jan 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "01net.com"
@@ -504,7 +547,7 @@
     {
       "title": "DRAM, les pénuries s’aggravent, une hausse des prix de 50 % est redoutée - GinjFo",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcTJFWDdjbUNIcERuVTRBUE8wX0FNaEZmMU5Hc01fSjNYRGtlYVE4Vk9QY2dUSkI4QlVxamtyb2psMzM1dUxXY0M1ekVkNi1lbzhrTUtMZjdoQ28tRHZYT2F4MndTdjlKN25kci1aOXk1R0lUdjg2bWdiQmRLTm5ubV9BTE9wdHY0VVFSR3BHdVcxem1iRFFJYVA2dDFJOE5kQ2JOdl9sZDA2aEt2S1h3?oc=5",
-      "published": "2026-01-05T08:00:00+00:00",
+      "published": "Mon, 05 Jan 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "GinjFo"
@@ -512,7 +555,7 @@
     {
       "title": "Un MacBook bon marché à l’ère de la RAM hors de prix est-il possible ? - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaVNFTkdURWx5eC1ZODdMS3UyVFdSUm96Z2pBMHlJZGhSbFFBNjNydnVaX3l0WXotOW5PRmk5c01rZWtlWGR6dlNfUlZvOE0tZWp2UDZ0NGMtX0NfalpYTl8xaTlZZy1WYzJnTDhPRllFM1hmRGt1QzViY0pTdG9faXh1ZHdSZWJESWFZdkMtVGo0aHo3WUlfa21aTHpVanJhTmJlbHJvSW4?oc=5",
-      "published": "2026-01-03T08:00:00+00:00",
+      "published": "Sat, 03 Jan 2026 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "01net.com"
@@ -528,7 +571,7 @@
     {
       "title": "Pénurie de RAM : quelles conséquences sur les marchés du smartphone et du PC en 2026 ? - Clubic",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSFZlUU1LVWhoUGgyUjEyZlZBVHBMVkUzTFc2N3RnVE4xdEJ4dG54SzhtSlJiZndBUnpaZmtvcFp3MmNkeTgxenc4dU5kTm5lQ1Ixbnc0dVlDbXhQQ2NMa2gyMnRJX0xyS0hVWndId3hWVmpNS1diSUhoQkVLeERqcmRlUTg3R254Y0w3djdQODlWd1dfZnpVeFprMHlfaDFqS0pWR1dpcXR1S1RFMjk5d1JmU3M1M0tlSzVj?oc=5",
-      "published": "2025-12-31T08:00:00+00:00",
+      "published": "Wed, 31 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -536,7 +579,7 @@
     {
       "title": "La flambée des prix de la RAM pourrait repousser le lancement de la PS6 - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRW8yNzdtdW5qdEhvWFBUelBXXzVWNjktRG53QXNJbDdHWlhOdnh5ZERhek53aEh3SGdIUzNLZjRlQXc5UUFPd3VZQnk2eHhhdUVNOFF5SFZqWTIyN0llcmVLU2tiR3BXZzFiZ21aR1RZaXNzZ3pkRUVhaU5sTlJNc3ZvUU9nZWpzeUtFUGlqaHktOTg0Sko2TWhpQXlHbWlKMjhrNnJmR09yVGZYbmc?oc=5",
-      "published": "2025-12-30T08:00:00+00:00",
+      "published": "Tue, 30 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "01net.com"
@@ -544,7 +587,7 @@
     {
       "title": "Cette solution pourrait faire chuter le prix de la RAM pour votre PC - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVG9VT25nU1FBanVpM1JYak01bDJDdWhLbWd6LXlmU3RhenlDaXNENWVRWlI1YkJVb2NqLTlpZHBBYWZJTkE4WF9aZnZNS011bTI4dXR1UXc5aEpseGxKZEt1Q0VBYVRHWUJVLUFnMVVIX2ZIWlk0M0xLZzdNb3RTdlMwUm1PWk5nWk9JUTBScmlxV2FYbWNJenJvQkNXdw?oc=5",
-      "published": "2025-12-29T08:00:00+00:00",
+      "published": "Mon, 29 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
@@ -552,15 +595,23 @@
     {
       "title": "Plus cher qu’une voiture de luxe : ce kit de 4 To de RAM affiche un tarif hallucinant pour une bonne raison - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOUXVjTlRSR2xHSUFXVUh0Vk9NUnBJNEcwZG0xOEVmLVRwc3FQMkN1NWoxNEFmNnZ2TFpMemc5NjluWjlsQWZpLVVQSVpzcG1FMzZMVEt4RC1kWDczOUdBNXRLb1BfcTdSM2hnU0ViZEduN3ZzSndKcld2Y2x6NEtRSU1uWVJBbUN0UmFhd1IyM1k4dXlZYjkySzJtQ1NIazFvQnlOOU5LQXh3OEVWUFo2ZTRudGs1ZU1YYjJYZ2ZPY0NLNG51SVlCV1VKNDdfX3RyZjQ3U0VvaU1jb1dEc2VkZE1wU3I2ZzlUOHJjdi13T0NHSUZZRnNvSmkxcHNsZkRRZUE?oc=5",
-      "published": "2025-12-29T08:00:00+00:00",
+      "published": "Mon, 29 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
     },
     {
+      "title": "ASUS prêt à fabriquer sa propre mémoire RAM face à la crise - Génération NT",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM29GWVZ3b1NTVlVPaUxKOVJBcHdrenY2SE9WRnpqdThUbWJTbDMzY1VZT2YzVWQ4T2gtQUF3b3BSVEdyWGNPbDhnNHZuMUZqazBIT2MtelBPVnhxVzNLaFBOZDNkcjRqN3g1R2tIa09KZjdpNTRoYVg5d0pGMGgyRFVOVjZrbmYtRUI2X0loZ9IBlAFBVV95cUxNRDhLSEdFLXA3NHdJd1kwVTNXQ3AyTks4YW5nWktJdWZuMmhsOXBlbWJBR2dGVk10cUFMOG93SWxpRWtNaEZZbEdyYmREY09LVlE1RlAwR3NLelRMS2JlcXo0Z2pnOHVtb2YtRFV1bFdKWUJuTEFwQWVoakstTllrWnczakdTaHlFOFhGMDY2SGVpTlMt?oc=5",
+      "published": "Fri, 26 Dec 2025 08:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Génération NT"
+    },
+    {
       "title": "Cette boîte japonaise promet la fin de la pénurie de mémoire avec une RAM parfaite... mais il va falloir être patient - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPaVBDbHBXZjdNMHNBSGtCSE42eXFsNVhYZ1JjZUlJOEhsREtvdktwbi1GbXJBc1VVTjF3ZUllQXVSbVdkSzloTlU4X2NNUXdUMExLRFk2Mkhnb2dMYS1BZmt3YnF0S0pqeHpYcVZZMWJOVlVEUWdTa2xWNmdmNHZJQzJxdl9OVEpvcmNWc1NONUxOYVZaeVZPaGRqcGU2a0JJQ2dlRmtnZ2tpbmlPdEQwYlZEZlBXcWJ2Y3lKRXB2SllpczNfQUJrcGtveUx2Vk5ldVlhVHNudEJ6Z1NOOUd4VTdHT21IUEpSSTMxejVtbHE?oc=5",
-      "published": "2025-12-23T08:00:00+00:00",
+      "published": "Tue, 23 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -568,7 +619,7 @@
     {
       "title": "Le prix de la DRAM pousse certains intégrateurs à vendre leurs configurations sans mémoire vive - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUl9USkRkM0VMd2xRTER2Y1VZTFh5RlhTc2p6eVZ3Nld1aDRrTHhnc3FreE5wVjU0SVh5emktbUY4b2FLYVkwUWh1WTRDd1JnbFY5NlgybkZUYVdrQ2Z5c1NtNjNpa25DQWpTUFdJNU1OVHE5RXp4XzV5a2UtNWJCNVVUQ01NMTVDRlFUdmVkX25KMDJLVmd5SEl3d2V1NGw5cEJfdjh5dnBCc29oR1VsdDJMaXUxbmxNX01EeXFVRUVsMVpSU1pNS2V4T3phUEJ4ejNzMXVEUQ?oc=5",
-      "published": "2025-12-21T08:00:00+00:00",
+      "published": "Sun, 21 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -576,7 +627,7 @@
     {
       "title": "Sévère, mais juste, ce ténor de la RAM douche tout espoir d’une fin de pénurie rapide - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONEN4ZG5MMjFZZzhYLV91dkxJTVpsT3B6Z3RZVjdiZTJXelFTdzZpaTlGUkhGb2Z6LVFQejViYVltUGlWT1ZkbGVEcENDWXdLaGVCTnhYcy0zRU5GZ091ZUFLTU5tanljMEhVUUN5TVpWb0FHY1VJQ2JtQ1FWOVlBcVhNczZaTUxmTXU3ZXpsTmVzU1ZRLXE1cmtVeGp5dlVwU2tjbk9GUW9RN1lObUs4RGNXUHhxX0lITHA4aWFfVkhIOWotRm5rQVY1NmJFbGtnV3djYXE0N1Fqd3JpbnlFS1hWd1E?oc=5",
-      "published": "2025-12-19T08:00:00+00:00",
+      "published": "Fri, 19 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
@@ -584,7 +635,7 @@
     {
       "title": "Switch 2 : Nintendo a déjà sa solution à la crise de la RAM, et ça ne va pas plaire à tout le monde - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQc3BfRnVmaWQ3NXNTREtiR3YtWU5aWmRLQldlNktnUGk3VGJ1ZVd6TVFYQjdWTjk0WktLeFkyb3EzY1NLYjJoZVFLNDgxbjdIZU80eUZ5ZnJLRl9ENm5tVUZ6QTVMQ2NjZHJjcklhanFFWnZ6N1hJWURTVmd6ZTRQUVhMUFRXZVl2VzZITkZGZFNOUzlFQlVuYVRUaGRaX1plRnFuSkhWZkg3SG1XNGZSOHpMXy1vM0NXaWVYbWVWRGwxbjMyMmx6OW56amoxVTA?oc=5",
-      "published": "2025-12-19T08:00:00+00:00",
+      "published": "Fri, 19 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "01net.com"
@@ -592,7 +643,7 @@
     {
       "title": "Pénurie de RAM : les PC portables pourraient bien devenir moins performants - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYlJpZVd4TTN5Z1REWG5BOG4tVXFKTE1yWjhmdWQzbHNuUGdNWXJtOE9hc3c0MlpFWXo1b1FmcFlVT25NT2lDeHRsV1FHLXllR19HSUl6UmhjZ2p1UEE2clZZc1FYTmxRVEFEWTFUMzhRdnRfbjFjdHAxMGFVa3czc1BXR1lCV1lOSW5NWHM0bnA4U1VaWHFYSWxFSGdLR3J2UkotRA?oc=5",
-      "published": "2025-12-15T08:00:00+00:00",
+      "published": "Mon, 15 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
@@ -600,7 +651,7 @@
     {
       "title": "PC portables – moins de RAM en prévision sur les modèles grand public face à la flambée des prix de la mémoire, vers un retour à 8 Go en standard - LaptopSpirit",
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOYWdvUWU5U1pmdWJnbERNS0hHRWh5YnlvazJPLXVlUWRsMjY0WUI5NGdyaFVEV291dU91WGFBTmk3UEJ3UmlOSEJtSVhpR29ySUxLNGNHdExDLUlGR3VpOGUyNmVSUldIcTFSWEVlM3RRTkxYYl9iZjhkbS1kMllkWk4ySGx3UXBzSmpvR2ptTWpxZVlDUVZUZF83M2dFZjA0OU4wLVdDRkY0TGV3QmhkMFQ0RTdHVUFQRmNwUVpmdHNUc2ltOVNpSkpVTzZDYk9FRnhOSXpJVGt6bXltektFSHB6ZlhfZ1c2RTRtei1HUkVBTGhrbk5Vcm01M3BuUFA1clFwaDN3LXZKM1NTTmdJ?oc=5",
-      "published": "2025-12-15T08:00:00+00:00",
+      "published": "Mon, 15 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "LaptopSpirit"
@@ -608,7 +659,7 @@
     {
       "title": "La pénurie de mémoire RAM pourrait durer bien plus longtemps que prévu selon ce fabricant - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNV3pGSlZFMEk2U19CME5qX3FmZk9yeTAwRmhBR2tTLXdlam5WRXNUOHF3eE51SWkzWnFRWTFlVWNUVjBobVB0bXlWeWVyV3FubHN0Z19aX1lhUkg0cWQ5bUwzN2I2TVYxT1FvVEtlOUE5amhFcnV2Q280dzZwdTJqdGdfZ3prRk1lNF9CV3ExVWFQWFJZOGxOMzBxVHAwdHI5cnFRb0NhZmViS1V6RFNsR0JGMExxTWM3djZEV2hRVzBpQUsyVDFGNjQyT1h5VU05YjFRVEJiVm9ERGxEVW9RZGcweW82VngxNEpsNExybGN2NFE?oc=5",
-      "published": "2025-12-15T08:00:00+00:00",
+      "published": "Mon, 15 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
@@ -616,7 +667,7 @@
     {
       "title": "Les prix des barrettes de RAM explosent, les délais de livraison avec - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObS1rQVBsdUhGbzBkd2NxZG1MdEFVS1gxWGV5MEN2Y3ZDcW5kNThCNmRhM0tQZ2tiOUljS3M0c1JFTGtmcWIzYWk5NkY0emhvOWh3MWRzUW1YTEdMQzVFNDRUNEliZGJwVHdEWXI5MUVDQ3RkZlBOUk1GOWljOUR5WHR2ZW1FU0lUeFIxWEU4Z2NqM295SXktXzhPaHJwQQ?oc=5",
-      "published": "2025-12-10T08:00:00+00:00",
+      "published": "Wed, 10 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
@@ -624,7 +675,7 @@
     {
       "title": "Mémoire vive et SSD introuvables ? Deux géants du PC préparent une hausse brutale de leurs tarifs - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZlo0aFJzSUcwZ3BIa1FjUDhQODJjWElUQkszaEpveGlHX1NpOUUxNnRLS0IyMzd2NnI3RzN6YmNpVHlHdFR3QmtFQnpxOFFpRlRvWWVCNU5PSWc3SWVmTkh0Q0VDaVNjYzhXTC1jZTFUY0h4dlUwSXRFNUdOQW01cWtEY2pIM2VQSmZZWlBFN1dpdkJRdFVnUnFPcDdMRDJkLVU4UTVSbDZmNWJhUUN0bDlnbjdWTTZ3cjlLTUhrbmJXWG1Bd3d1UGZiZGQ5R1Bjek9xdnhUbw?oc=5",
-      "published": "2025-12-07T08:00:00+00:00",
+      "published": "Sun, 07 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -632,7 +683,7 @@
     {
       "title": "Ivre, il échange 192GB de RAM contre une 5070 Ti... en pleine pénurie de mémoire - Clubic",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeXNfTGhBdzY2WXdNdjlhSGM4dUpTMDJiLUZGd01aQi1OTU84RUNSXzMzZjJlR3dKSnlwcjdhMkpjWWl0MnAxNDczOGltMng2cWVvbXlESjNZLUViTG4zdThYa0VpTkdUbEg2WUhhME9JUjdrR25YNWdyYUdkQnpxMS1QdmI4NmZOa21WMEtySHJzRkhsaExkRXhsWEtPdW04SEJiOGJzSVFQRF8wcjFNVFdaTnNfb0otWENHM3RR?oc=5",
-      "published": "2025-12-05T08:00:00+00:00",
+      "published": "Fri, 05 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -640,7 +691,7 @@
     {
       "title": "Flambée du prix de la mémoire vive : quand Samsung refuse de vendre de la RAM à... Samsung ! - Clubic",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVk4zdEJ1eEJ1Mm0taGlHbnd1VnpWUjFTVnNLdXU3akRCQk1tUHJJTjJ2QmdNSVpZQ0ljQzNRRGc4WjlCYUhObmRVTUN4d2R2ajRxQzVmcGs2cG9LQXZoZkJtZk9ZOW01aDJ3YmFDYjVxMDV4dUJINDRSODViVFlFVXNiMUhjUS1XeGp2UjZZd1NJRkhzdkZ6bG02T2wxa3h5UlEwWHlxbWRPa2o0cUxKdVRyUngyT1dpWHB4eTAxODFfbFNsVmd3U3pn?oc=5",
-      "published": "2025-12-05T08:00:00+00:00",
+      "published": "Fri, 05 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -648,7 +699,7 @@
     {
       "title": "01net morning : la flambée des prix de la RAM va durer un moment, des cellules de batterie catastrophiques chez Tesla, grosse décote pour l'iPhone Air - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPTm8wcURCRGhQZXJfMmlSN3N6TjFEbjFGR2dFR3dPczNNd1FmWm9SZWhiX0Z6TklaVmlqa1FrZXlRVmdRamJ2RlNzMU93OWpTRDVwNm8zM1prS25zbENPOGdOVnlYMFNHS1FrWUItYi03YXotdERZdHdubTZKai15Q0RHOTRZdnlfSFlzSnJ6TTE3dFJtaFhkX2dra0p0Sk5PamRmY0EyVFp5UEtwMkYtN1dHcW5ObW9iOVFEeXVJN0E4ZGRlV2d4QVJhRmhpSlJuai1tVmlhVGhzeU5mZVNlbktaSzVVaHZpSzBVWVJmWi1qUU5PRlc5MHlpSE5qdG1QNXotdkhJWVhodDd4Si1oRg?oc=5",
-      "published": "2025-12-05T08:00:00+00:00",
+      "published": "Fri, 05 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "01net.com"
@@ -656,7 +707,7 @@
     {
       "title": "Moins bons et plus chers : comment HP se prépare à la « shrinkflation » des PC à cause de la pénurie de RAM - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQ1B6dWtkY0FXSDNiSzRRTjg0TUEwSF9tSUMxTUlvZlJmWU9iNjE1WFFnMXZjMVNXZHlzajRaX1NUMnRSZGFzYnBvV2w5STlfam5WZHptMjlDcWZzWG1oRGxXRlI3eTdIUnJEekhrZER3WWR2M1dpOTJGZU9aV1U2Wlk3NDBTV29RZ3RERE5jdGRBeUxBUVB3Vk90ckFJa0N0VzFuTjh6bjFoYTdpV2ZEQW1CY1lDbFhJV1lnaTdrY2pPMEF5SDBYTDh6UjFLZGs5ajFoU25Qbms4Zm9DeDVJ?oc=5",
-      "published": "2025-12-04T08:00:00+00:00",
+      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
@@ -664,7 +715,7 @@
     {
       "title": "RAM et SSD : ne repoussez pas vos achats, la pénurie est désormais « organisée » - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQWEUzUzRIWjMxZUNWYjhZNk02WGRZeFpNenVrZ0lLSUlUVXVwTEttS3FMcEF0cGtndm93QTAxbTl6SGRlVnhRd0VaUlF4Zl9Td2NCSGxSTGc0MmU4TFdUTHBWZ2J3TzhiWkRPWlkwYklfbDE2Ujl3QlpLazEwWEtBSE4yVTk1U0xramxiZkkwTjh1QkhORTRXR2VPbGVWZE11Smh5dlVEUURyU24zdEQ0THBwMmlIem8yWGlTUFp0UFplNXpCYVhBV2VZMXgtLW1PRVRBTkE4a0VwVWV1eHpFekF0dWZhbWxhaEpZcmVleDBZS0RJR2NZN2M5M3JseXc?oc=5",
-      "published": "2025-12-04T08:00:00+00:00",
+      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
@@ -672,7 +723,7 @@
     {
       "title": "Dommage collatéral de la pénurie de RAM, les cartes mères peinent à trouver preneurs - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOLTdrTjdyREdtM3JURlU0T0tqZURUSHpTQjB0bDVPZjRydDJ5Q2pfZ0MxaVQ2ZW9pZS0yR2t2a0FRbDNxZVBlOG80b3M0MzNXdFN1b2p4dm1KS0dwWW9PV1lYQW5YdjlIOENnSUVuVGxvRzJMZ0NSREFPaEk4VkNJVHQ2bFo3bXIxRlZSbE81NnVoSFZJcVJzc19aanJfbDNiU3F5SE5BSWZYTHN0VVdMaGF3N2NJcFFZZFEyRXAyV2kxcTdiOTcwdUU0VWhVdUdzZGJZT29USFBXLWg5clRybVEzSjZRdw?oc=5",
-      "published": "2025-12-04T08:00:00+00:00",
+      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
@@ -680,7 +731,7 @@
     {
       "title": "Crucial quitte le marché en pleine crise de la RAM : la flambée des prix ne fait que commencer - Numerama",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNek4wQVIwU2trcktBS05zOUQ2MUpxSWVzS3BUTXlNT2JzZjVZajRGaHhsMndfSGVRNjVPYUFlQ2E5UjlHeWVmVnJBckhVakNBdy03cW5GTzM3Ym9PRG1iQTI4YmlFV25SYzBqRjBDTTlZQmxOUlVFTlpINXJBc2QybGpiaUNuTXJOYXp2LUNfVWduMVBqaWxjUXVRaFRKMnpGdUs2cTdrenhodm04dmw1UkdTVjVzSU5ZWGo3MHZsNXB4UG81b2NKV2owSVpNNEVy?oc=5",
-      "published": "2025-12-04T08:00:00+00:00",
+      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Numerama"
@@ -688,7 +739,7 @@
     {
       "title": "La crise est telle que Samsung refuse de se vendre de la RAM à lui-même - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYUM0cXp3SW1paWdvYkQtV1JsSm9MYTFnejZ4WU5YT3E1UGhnV0JlbUFIa2ZVT3dzSjR0aHhYMTZRNHkxcUtvX1p3Q2xXYXpYM2VlLTRCYmZ6dGlvTEpEWXBORVdCNElYRjc2SzVFRmVLZ0NMVEpGN0ZpVFdVdzdJczVYSl93clFKcnhybXB5WGVsYUotWFhzYkF1ZGo3ZWE5ekFIMDhUMG5sNHpRYTNyVUJfYkMtQk84Q3JTRkZn?oc=5",
-      "published": "2025-12-04T08:00:00+00:00",
+      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
@@ -696,7 +747,7 @@
     {
       "title": "Pénurie de mémoire : Micron sacrifie cette marque incontournable de SSD et RAM pour se concentrer sur l'IA - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSFM3VTlKeUpwb1o1TXdmcno1VE9EQjZ1YWhkSHBXaldEWDVGVDV6MEJObUN3YlNCWWp6RUVQVnpCYjBfUUVlMTd4WFc3RUlGSGFYVlhMenN2aE5sVGhqb09HYzA5XzVhdV9TOXlWNWJYTExIaGIxZGtCR1czbUZsckhDOGFGbUtnQ2ZrcHhVUHZUUFdEX1hnQXE4N0V0anlsV01ES3Y1MzVya3laOHlWb1lzSVpTMnJUS0k2TGVDdWFnRF8zdTdYWGNuc01iMkw2V19lYlBia01nNlJNcFg4UUphbw?oc=5",
-      "published": "2025-12-04T08:00:00+00:00",
+      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -704,7 +755,7 @@
     {
       "title": "Une PS5 coûte désormais moins cher que de simples barrettes de RAM - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN0xlZ3BPQmRpU3l5QUlQN2RNTlhxUzZFQTJBMldaTlc1RGZRdGh6eW85NG9jWlJ5R3lwVS1rNmZVZmMwLXZhTkJzUlRWVUpISi1ncnBSS0dvdHVlaUdNRVRIR0EwcjM4elJtMk1NOGxfdFkwRUo0UnlCNmRlV1ZUVTJVdVFON2JVRlVydjB2dlJvWGUzdHFnLWduWGVFYVAyMzJOMnl0VFA4UlNUbXNJTEdtaTMzdWJQd0NXRmJrNWM2MkJTWmh6RQ?oc=5",
-      "published": "2025-12-04T08:00:00+00:00",
+      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
@@ -712,7 +763,7 @@
     {
       "title": "Vous n’êtes pas prêts pour l’augmentation du prix de la RAM qui arrive à grands pas - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOGZZcUVrYzdBaVpXQjJXYzFXU2w4eUpaNm0weURWekYzZk5mYVY1ZDVoR3E5dUFxcmFocktKeERMdWQ4Sk95QnJMYlhBeGtGUHJDM2VaanQ3SVZfbUUxRE9hZnBxUWx0VGZFcEkzZVpQdXlEMjdoRXlDeWc1bEVYdHEtZmJwVEtBRjFLQ2o0dmZza2ZSRHNtYXFDSm1OWmNOMlNlQUI5b2VJV0FEMmJN?oc=5",
-      "published": "2025-12-02T08:00:00+00:00",
+      "published": "Tue, 02 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
@@ -728,7 +779,7 @@
     {
       "title": "Pénurie RAM : ce kit Corsair 16 Go est l’un des derniers à prix correct - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTGFuSGRVME5vaTFXaS10UzVoXzFEOU1GcWVZU09ERmRtOTM5dFRHeXJnNzdzdV8tdHNsZ1pqWmJwZjNqN3lWeGJaXzNFbEN4NHN2WERoYUhZbWxwVW1XcTlpM2s1aE5rM1k5aUprbGEwNDJfVVNpS25WVG5ubXdpdXZ5STh3TlNHWGRESFBmM0VydEVpOUFRODR1NXV6cFVvSGFwMnJ2SzRXQllzSlZ4ZFMyOTJGd3VOZWRGNms1MDV4TXpoYmRFOEFjeWhIUQ?oc=5",
-      "published": "2025-11-30T08:00:00+00:00",
+      "published": "Sun, 30 Nov 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
@@ -736,7 +787,7 @@
     {
       "title": "La fin des GeForce \"standardisées\" ? Nvidia pourrait laisser ses partenaires se débrouiller seuls pendant la pénurie de RAM - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxORlpsRUtfZkNTUmJKMmJjTlZFMFpNQ1NzdVJSZDUxTzMyWU4xYmNFelhXQnBWOWtVOUFxXzBMU0tXMGRoaUxGTUZsWlBpTVBubzVSSlRXQWMxeUdmbGJNXzNSRmdMMVRiNFJPeEFRR3hqVW9JdTBzVGhZU2JpeHRZSlV1WFdjdzZDb292TkNvXzlfZ1pfdXl3YUNKTGVseV9yWnZ2T3lzVklFS19JZHdQcWQ4MFM0UnVDLUo2ZVE3VUVYVHlVZUx1a3VmVG5UWEgyUXVOZXJvakxyVnZWcGVKX01aMzdpa2tmNThoM01kYkZQT2lZWWl4OC1fdms?oc=5",
-      "published": "2025-11-28T08:00:00+00:00",
+      "published": "Fri, 28 Nov 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
@@ -744,15 +795,23 @@
     {
       "title": "La pénurie de RAM conduirait HP (et d'autres ?) à vous infliger une double punition en 2026 - Clubic",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdGhOVnhWOXJrSHhOR2ZyZXBnbWUtRmVOa2hva05YaGxFazBjUnYwWWxXVjlpOERxNWxxWWhiSklpV1Q5eGN6bC1BaUxaRUR3WkNkanZQXzRZLWp1cVB6TFl5d2wwNnYzVVB1Rks0RDY5UDBNVUVMV2Y5UjJkdHpGZDN0UnAyU2tLYmNLRlNtY0xiaF8zWjlnc2RCbUtPWGF6MjQtV191d09sN19kTXJhU3pxSFBvbEx4NWpRZHJEY09udzdIRlU4d0ZXSjQ?oc=5",
-      "published": "2025-11-28T08:00:00+00:00",
+      "published": "Fri, 28 Nov 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
     },
     {
+      "title": "Pour le patron d'Epic Games, la flambée du prix de la RAM va impacter tout le secteur du jeu vidéo - Génération NT",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN1JOeTFON0RBUWY4NlRfOTR4eEt4bkN2enlaSEljU2pJTV9NeU1XSGNjZ1BwMWcyNjdIcVF6MFYybzVWcDdQdlFsM0NaZUNqNXRWWTk1N0QzVm0wX293b2VRSDRjdkU5eXFiX2VTTU10VFlLSktCczdfZkJSdlFLMEVYMHdsQVozbHVLS1o4QXRmM0nSAZgBQVVfeXFMTnJyYTBLNXJxTS1xVmlVeU84TjYyRjdhc3N4d2s0MmQwbHNmcFl4S0lRalJQY0haUC1yMDQ3aGlBdnZMcEp1b3pINGZCZjFjYXV0alMycmZCZTJuT2pxOWhZVHFFNEI1cUlRbHdnMFRiazYwRnIwUU9BMmdpTVJ2Qnl5Q0RFb25OV2oydG1EYmlDQURTVmVhcVE?oc=5",
+      "published": "Thu, 27 Nov 2025 08:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Génération NT"
+    },
+    {
       "title": "Après la pénurie de puces, le coût de la RAM inquiète les fabricants de consoles - Clubic",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObm5OWXpqQndicEZhb0tndldBQjhXSjJIcW5DSVdaaVhfeWdJMjVRRVo5YjB4dF9qSlkzcHByWFRJUTJhWWdoS21tbE5aRW02VjREUDhDXzkwdUlIR0lRNndNSF9LUjAxQVFIaXYxZEctZl9nTVZtbVgtSThVR1NCRVRHRTFaRldxSEh3b3lHeDhBbFEwYUp2OTd3a0FFZkh6UnR3MHJHMldvaUxZeC1XeXk5REFRR1BIZnoxb0tzTER3UQ?oc=5",
-      "published": "2025-11-26T08:00:00+00:00",
+      "published": "Wed, 26 Nov 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -760,7 +819,7 @@
     {
       "title": "La DDR5 augmente : et si la Chine venait nous sauver de l'inflation ? - Clubic",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdHFCblFvMnNRUVlSaFJTSXA4eWlSbFF3VzhCSnlNTENfcEM2UHNuWFlJTDNQSW1QbUJyd0ZNanRkUk5EMld6cXJzdkVHOFk4aHlkN084UGk2QTVEUTFQVTJaVHF4b29WZkJHZHN1dDJsMXVkTDZzVlpYMVpzTVRxX1BSbzJtbFp2R3I1M0ttRHc2ZkpoVXJHY25aXzUtdms0SnFpVFk4YVdpck5kM3pF?oc=5",
-      "published": "2025-11-25T08:00:00+00:00",
+      "published": "Tue, 25 Nov 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -768,7 +827,7 @@
     {
       "title": "Pourquoi le prix de la DDR5 grimpe en flèche ces derniers temps ? - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVmRPRE9jaVVLOS15NlhMVmJMNmVKcUpWWjJWS1k2alNHSmFmYm5fTnY4WEJYWi1hVXVmdmxmaHdvTHFtaE9JNnZYS2l2aWpCU0JsdlVGY0d4S1pRWXZ1bkEwZ25US3IxdjRoTFBSdjl6QXFuUjRqQUg2bzd1Y1FHVWZGM3UyY1FESUhIZUJKazhsVHRMRTcw?oc=5",
-      "published": "2025-11-18T08:00:00+00:00",
+      "published": "Tue, 18 Nov 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
@@ -776,15 +835,23 @@
     {
       "title": "Le marché de la RAM à l'aube d'un effondrement ? ASUS, MSI et consorts font leurs provisions en anticipation - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWlNuaFN0dlpidWNDRDh3TTdmcXc0VE1veld3WjFrSWRVSlFYQkJydzc2X1BDOF9TR3B6Y05rTUlQMVZrNlh4WmxQUFUwN3A1NkVQM0x2aGpWTEZ2VU9IVTg2ZW5UU0d1anNhY1I3aXFQVkppZkVyRVFobEN2R1JCVW5pYUVYSF9QcjhHMEZrbmhNTE1odzl3bzkxMmZnUmlPaGxZeHVnVHgwN2ZubFR5ci1pMHJQUkVMd2NXeVVDM1dMOTlYd2NReW5XSThUSmt5cGZmcW0yNXJJcXd2UmdIZUtpRQ?oc=5",
-      "published": "2025-11-17T08:00:00+00:00",
+      "published": "Mon, 17 Nov 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
     },
     {
+      "title": "Sylvestre Ledru (Mozilla) : de Firefox au noyau Linux, la fulgurante ascension du Rust - Next.ink",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcWVYSjgxWEQ4OFlMcG93TGlxSWdZZ1hkMXNDZ3dlWEVvTDZmTnZBZHR0Sy1OZThUQ09UY25oRGQ3aXZkd1VhU0NCWVZ2WWhDeVJhczZpbmNBMjlFRGZCUzZhUTBpbEZaZzQ0UHJVMFliMm5sWm5RWkxUd21fM3lzMVFYZjBfbU5HTUJYYzkzWnllY2l4cVQtN0lZRmdLM3lKNEFGR3B5ZVdSdw?oc=5",
+      "published": "Tue, 04 Nov 2025 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Next.ink"
+    },
+    {
       "title": "Le Poco F7 tombe à un prix FOU (Snapdragon 8s Gen 4, RAM 12Go, stockage 512Go) - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOVR5MzAwVHExaFZWT19OcGVzS3NpcHV2T1UyOUZMc1A2eGVwSHFpWHRlMUtack5DT194OTM2MC1ITGVsdHZOdHpsTzFPQmZnRjFWZnJXeVViZ0NjaFZLbThKUzhQYU5xWlY3dm94YXM0c3ZwMjRpYkhUdDVYYlNjSWdqY2xvaDg5anZJVHhJZURrR3NOSDdHUEp1SjBUeVNabnVTSzIwcnF6TzRJcFlGbFB3?oc=5",
-      "published": "2025-10-29T07:00:00+00:00",
+      "published": "Wed, 29 Oct 2025 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "01net.com"
@@ -792,18 +859,18 @@
     {
       "title": "La mémoire vive, bientôt un composant de luxe ? L’IA fait flamber les prix - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPLVl5dTF1UzM4eXlBa3NlLUl1QWsxYTdQOFNKa0lOR190UFl3cjFqQjRsZ2FNY1ZqNjk5cXhVNnMxNmdWOHVKWDB6VVluUEM4dE9ab0tOdUR1UkVWU0I5cVdDaFp4d3R6Y0VUWEJQMlF6eWxjTHhuMklMTWVjUVRkZHh4aWNrLXpOQ1BQcFluX2hKS3NYN3FpdE5oMTJiNjZ1cFZURzlsNVdSWTdM?oc=5",
-      "published": "2025-10-23T07:00:00+00:00",
+      "published": "Thu, 23 Oct 2025 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "01net.com"
     },
     {
-      "title": "Kernel Recipes 2025 c'est fini : les vidéos sont en ligne ! - LinuxFr.org",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXgzS2JiRDQzR1N0Sk9ZUUhWSVl4ME04ckptd18xc0dlX1ZGNzF5QTAtVHA1aGpOUTlFMVFCeTI3UXgwM2N6NXdEVDZRek41RjJYSVJEMUpHNXpYNE1wcVFheHhmYmFuR0hrVHU4bzVpVV96UXk3N29CY2RnVlBnN0ZjcjhlQ2M?oc=5",
-      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
+      "title": "Pénurie historique de mémoire : les prix de la RAM et des SSD explosent à cause de l'IA - Génération NT",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUWpJXzVWOXdyQ0JjeGcxaVhyMEMyaV8wYmZwS1NXdDFhaXBOLXF5RWxCSUJZb2JWZl95X19TTFFmenBWWTY3M2FlaElhdjU2d2RmYzJXbS1ITUIyYTdYank4eTlPRTZ0dVktS1NZSXpSMHcyZ21hbW9vdC1GeDIyRzM5eDVrNXd6TXR2Ykt5dDbSAZYBQVVfeXFMT3c2VHpSalBXOGRqLTIyMkM0QzU4WWdoOWJiXzZvQ0RwZHR3SkhlWXJzbllITFVROUJfOHRodE1HSVNBUng5eWdCYkdxeE9hT2d5Mk81NnBXUTZxQ3laMEdvUVFnSks5M252bjdPNkcyU01FREp3cVI1aEZUNWU2blNQY2VjNEpuZXRfSWJUeV9jZ3NoUm1R?oc=5",
+      "published": "Wed, 22 Oct 2025 07:00:00 GMT",
       "content": "",
-      "category": "Noyau Linux",
-      "source": "LinuxFr.org"
+      "category": "RAM",
+      "source": "Génération NT"
     },
     {
       "title": "L'IA s'immisce dans le noyau Linux, et une politique officielle est nécessaire au plus vite - ZDNET",
@@ -817,6 +884,14 @@
       "title": "Linus Torvalds est fâché, ce développeur de Meta passe un très sale quart d'heure - ZDNET",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQnZKeU5JV1dXdENoMWh3dnl1eGJUOGxzNmVqU3N1RVMyYzVJQTdTVVVJN1ktZUUwTzRNTTRESTFFYXp3Y29rc2pVcjBPMFk0NnF1NWVYQ19NcUJ1ZUtLb3dPd1FBeFAyb1JEVFVhQnI0UG14RnhtNHNkSGVETVJjRUJmay1LV0hxc3RXbW5rWWxJWnZ2eGhIQXV3bU1kWFBCc19uUFlKcHU2SWJUaU1qdGw3a2ZhZ2U3V3JfTUgzdw?oc=5",
       "published": "Wed, 13 Aug 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "ZDNET"
+    },
+    {
+      "title": "Linux 6.16 : des systèmes de fichiers plus rapides, meilleure pri ... - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNRDA2Q3lpeHB6QmhWaS1IOXhWSVl1NlNDZy1LekZGU3N1VmtEcEI5TndEQ2IwMGVLODFmdkxPWEdSV0hGRzJuODl1Sk5wZlNvcjVGcm1XXzBJX2w5Q3NaeE9ZV2JJenVJNDNPTEpzUU4tdkZoQ0VsdkZ3TGRJS1FtOXFZdUZfdkFOekhUa0xaSHlmMDBXbG53MXRlNHlRZUhDZlFmdHJwWEVFUHBjRXlDZENSTEk4TkpGTjY1RUtkYzFOdlN5aF94Yml2RFpkTkNmQ0hYMmdiSVlKdEpubXJtZE9hb1BMaGhIMmNuVjBzLS1tVVYxT1pMa2NYb2tVODFfNG43TjdwVF9fZk85bDZWdQ?oc=5",
+      "published": "Tue, 29 Jul 2025 07:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
       "source": "ZDNET"
