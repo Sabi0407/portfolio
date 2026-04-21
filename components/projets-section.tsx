@@ -46,12 +46,6 @@ const categories = [
         pdf: "",
       },
       {
-        title: "Mise en place d'un proxy Caddy",
-        desc: "Mise en place d'un point d'entrée unique pour accéder plus simplement à mes services personnels avec une connexion sécurisée.",
-        tags: ["Caddy", "Reverse Proxy", "HTTPS", "Réseau", "Sécurité"],
-        pdf: "",
-      },
-      {
         title: "Mise en place de WireGuard",
         desc: "Mise en place d'un accès à distance sécurisé pour retrouver mes machines et mes services personnels même en dehors de chez moi.",
         tags: ["WireGuard", "VPN", "Accès distant", "Réseau", "Sécurité"],
@@ -139,27 +133,27 @@ const categories = [
     icon: BookOpen,
     projects: [
       {
-        title: "TP Iptables (Labtainer)",
+        title: "TP Iptables",
         desc: "Configuration d'un pare-feu Linux avec iptables pour filtrer les flux entre un client et un serveur. Vérification des ports/services avec nmap, observation des paquets dans Wireshark, contrôle des logs, puis autorisation d'un service spécifique (wizbang sur le port 10054).",
-        tags: ["Iptables", "Labtainer", "Pare-feu", "Nmap", "Wireshark"],
+        tags: ["Iptables", "Pare-feu", "Nmap", "Wireshark"],
         pdf: "/s.sabiran/docs/tp-iptables.pdf",
       },
       {
-        title: "TP Packet-Introspection (Labtainer)",
+        title: "TP Packet-Introspection",
         desc: "Analyse de captures réseau avec Wireshark pour identifier le flux TCP le plus actif. Géolocalisation IP, reconstruction de flux HTTP pour retrouver des messages cachés, et extraction d'un fichier binaire FTP depuis la capture.",
-        tags: ["Wireshark", "Labtainer", "TCP", "HTTP", "FTP", "Analyse réseau"],
+        tags: ["Wireshark", "TCP", "HTTP", "FTP", "Analyse réseau"],
         pdf: "/s.sabiran/docs/tp-packet-introspection.pdf",
       },
       {
-        title: "TP Nmap (Labtainer)",
+        title: "TP Nmap",
         desc: "Utilisation de Nmap pour la reconnaissance réseau et l'audit de base : scan de localhost, du réseau local et d'un hôte distant autorisé. Interprétation des résultats (hôtes actifs, ports ouverts, services détectés) pour évaluer l'exposition du réseau.",
-        tags: ["Nmap", "Labtainer", "Scan", "Reconnaissance", "Audit"],
+        tags: ["Nmap", "Scan", "Reconnaissance", "Audit"],
         pdf: "/s.sabiran/docs/tp-nmap.pdf",
       },
       {
-        title: "TP Snort (Labtainer IDS)",
-        desc: "Mise en place de la détection d'intrusion avec Snort dans un environnement Labtainer. Test des règles existantes, création de règles personnalisées (détection de CONFIDENTIAL), observation de l'effet du HTTPS, puis ajustement du mirroring et des règles pour différencier trafic interne et externe.",
-        tags: ["Snort", "IDS", "Labtainer", "Détection d'intrusion", "Règles"],
+        title: "TP Snort (IDS)",
+        desc: "Mise en place de la détection d'intrusion avec Snort. Test des règles existantes, création de règles personnalisées (détection de CONFIDENTIAL), observation de l'effet du HTTPS, puis ajustement du mirroring et des règles pour différencier trafic interne et externe.",
+        tags: ["Snort", "IDS", "Détection d'intrusion", "Règles"],
         pdf: "/s.sabiran/docs/tp-snort.pdf",
       },
       {
