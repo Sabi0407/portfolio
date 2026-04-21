@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T07:17:22.917Z",
+  "generatedAt": "2026-04-21T06:58:49.142Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-10",
+      "periodStart": "2024-02-11",
       "maxAgeDays": 800
     },
     {
@@ -73,9 +73,25 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 103,
+  "total": 104,
   "errors": [],
   "articles": [
+    {
+      "title": "Le noyau Linux abandonne les processeurs russes Baikal - MacGeneration",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWGZuZTNPaC11d05jQ25rNkFtbDdEMjA4X211Ukt1RFpUUWw0MDN5UnNrcU9aYTRpaHE2cGd6RVVxT0E4dUpGeC1IZWFzclhxWDdCU1NjWloyLUt2VnFuY0UybjQtU0RLOHJHTEU1UG9lb25YZnVobEdWd0Zza1dhejVxb0tNamNjM2l6UXZKck5zb2I4NDBYNVNlNldCUHM?oc=5",
+      "published": "Mon, 20 Apr 2026 15:15:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "MacGeneration"
+    },
+    {
+      "title": "La pénurie de RAM va durer. Seule 60% de la demande pourrait être couverte l'an prochain ! - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU05YaS1iT0xnU0VLVnJUSFFhb0QyblVBR2JLNkFtQ29lUUZHTzRlMFhZTHIzX1hTeHQwOERacXJFT2FsSFVFSVh5WTZYR3JxVzkySHJvYks1OUdESWRyZHMxV2lEbW8zdFU1MjZLWUc0QmxGNm1qZm9OM0xtVTJkS2VFZzMzVHQ4ZGZhc1p2ZjlFQTg1eVFoQ3ZodHVlM3JvZ0RyWkpEVVEyR0V1eGFkVlV1ZVBucWIydTZYWDUwc2hHeEdBdWF5d01Edw?oc=5",
+      "published": "Mon, 20 Apr 2026 14:07:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Clubic"
+    },
     {
       "title": "LINUX 7.0 EST LÀ !!!! Tour d'horizon !",
       "link": "https://www.youtube.com/watch?v=c6ij-kISFbk",
@@ -171,14 +187,6 @@
       "source": "Les Numériques"
     },
     {
-      "title": "Linux 7.0 va débarquer la semaine prochaine, quoi de neuf ? - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNFFiRVBhdk5TZ0Y1YVFkc0xJSy1yTzE4SHhuUXd1MkZWbTZ4dDRrRTBxUE1wY0tiLVk5Y05QMzUwQ0h4T1pkeDFFQ1dWcnJIanpjLXQ5bF8wSHZTTW1mbW9yd0tfWnVXZy13UThQQmpYUmlSNVRReXhHRUJvTUF3aVBfMGhicG5kLWNpRVFwX1VqaGhCX0xaWkNkT3BIMTI3a21z?oc=5",
-      "published": "Tue, 07 Apr 2026 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Clubic"
-    },
-    {
       "title": "Raspberry Pi 4 : un nouveau modèle 3 Go de RAM, et des hausses de prix qui piquent - Korben",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMFdPUjhiWVZTLUhCM1paZDVVdXlqbFpWa1l2b09rQWlUMlRWTGNUVmFIc2VPR2FUelJ0MVNCZlI4dGxaeUVwUFVEY2ZreHVEVVFLOHd1SnFIUkwwRG1XOFRvWnNQTHczQlRJYWd3RklJLWh4Uml6NVk5QXpVN0xkcnZReGlQRjdMWWlLN0pIWjBPN2Zld0pqbV9ISzU3My1NWkVGSV9MUQ?oc=5",
       "published": "Fri, 03 Apr 2026 07:00:00 GMT",
@@ -189,14 +197,6 @@
     {
       "title": "Prix de la DRAM : et si le pire était enfin derrière nous ? - Clubic",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWjNhLThKS3Z2SGQxZ1cxNUw4X2dTcHlkdG9lYlJnRzVlRmZLQ1lkMXNFWURrOV85U2puUm9iaXJNcWtMUFJMc2p2SlFWeG9QLXVQamlac1RnckhBVUNKMmxzQjJsV1dTQzlLT1ZiRHJQZDczVDlTZ0cwbi1qSTNWbmZDZGFLbFVWanZUay03Z1ZwZldsM3BEVEExTHR6cFk2c1E?oc=5",
-      "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "Clubic"
-    },
-    {
-      "title": "Les prix DDR5 ont été multipliés par 5 en six mois : ce kit Lexar 32 Go 6000 MHz à 349,99 € est une anomalie à saisir - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRHJrWHNodlEzUlhELV9fM2Z2ekdHaXdsOVhfQ0REWldJd1dITHI3d09KWmNVV0JCaGFuWk9tVWlqRVhUcml4OVRSQ0MxWlZKWDl5eWwtQmFvLWFXNDZ5MGduVE5TVng1Sk9qSWhaM3JHeWxhcWxDUTRLTTBuSEtCNkR1UGh6Mk82ejJUN1ZlZjhQSlBJT0xUVVNXZGg0dk9FaEZLWlVjdTJwQWZ2aW9nN3ZsYVdjRUpMQlY2WDZtTjJUeEtRY013TG13cVdRU2JhckE?oc=5",
       "published": "Wed, 01 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
@@ -449,6 +449,14 @@
       "source": "Clubic"
     },
     {
+      "title": "La succession de Linus Torvalds se met en place, comme celle de Tim Cook - MacGeneration",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGljNlM5X29yRGlERXh3MVBEZ2VUel9lUFVfak1EZE5Nc25oZzVkUjYyTnQ2Q1VDcUNXbWhIbXdLSmlsZGpWVUVrV1oyQmt2Q0RZZ3J6Tjc3eExnV2dpbEU4NzREc2RrSUJfcVpyNG1LS0RJN1QwbXJxcjhxSEg2S2VTeHVHcnBPNlJ4NFFudWJhQ3I1VXg0RjJyUW14VVlxYW1ZbGl1NGp5Mngwb3ZSVDFPRXZsdw?oc=5",
+      "published": "Thu, 29 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "MacGeneration"
+    },
+    {
       "title": "À leur tour, les prix de la DDR4 augmentent en flèche - Clubic",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ3RtSmU0bVpHQmVRbzJuYU9nbDVvTEhrdmI2TU9pQjVaRm5qRmdOZ1pfcGU0RXZfdWhYYlB6WFJ5MUJtVkxyaUpyR2ZNMlpfQkJMSlNJMXM5cVV0M1NtZGFZZVpVYzh6dy1JenFGeDVzeWRkM1hPZllMOENTQ3ZBcFZzMzZVd3gwRl9zbkk3cnlzN09Ma25ubFEzY21Kdw?oc=5",
       "published": "Thu, 29 Jan 2026 08:00:00 GMT",
@@ -681,16 +689,16 @@
       "source": "Clubic"
     },
     {
-      "title": "Ivre, il échange 192GB de RAM contre une 5070 Ti... en pleine pénurie de mémoire - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeXNfTGhBdzY2WXdNdjlhSGM4dUpTMDJiLUZGd01aQi1OTU84RUNSXzMzZjJlR3dKSnlwcjdhMkpjWWl0MnAxNDczOGltMng2cWVvbXlESjNZLUViTG4zdThYa0VpTkdUbEg2WUhhME9JUjdrR25YNWdyYUdkQnpxMS1QdmI4NmZOa21WMEtySHJzRkhsaExkRXhsWEtPdW04SEJiOGJzSVFQRF8wcjFNVFdaTnNfb0otWENHM3RR?oc=5",
+      "title": "Flambée du prix de la mémoire vive : quand Samsung refuse de vendre de la RAM à... Samsung ! - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVk4zdEJ1eEJ1Mm0taGlHbnd1VnpWUjFTVnNLdXU3akRCQk1tUHJJTjJ2QmdNSVpZQ0ljQzNRRGc4WjlCYUhObmRVTUN4d2R2ajRxQzVmcGs2cG9LQXZoZkJtZk9ZOW01aDJ3YmFDYjVxMDV4dUJINDRSODViVFlFVXNiMUhjUS1XeGp2UjZZd1NJRkhzdkZ6bG02T2wxa3h5UlEwWHlxbWRPa2o0cUxKdVRyUngyT1dpWHB4eTAxODFfbFNsVmd3U3pn?oc=5",
       "published": "Fri, 05 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
     },
     {
-      "title": "Flambée du prix de la mémoire vive : quand Samsung refuse de vendre de la RAM à... Samsung ! - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVk4zdEJ1eEJ1Mm0taGlHbnd1VnpWUjFTVnNLdXU3akRCQk1tUHJJTjJ2QmdNSVpZQ0ljQzNRRGc4WjlCYUhObmRVTUN4d2R2ajRxQzVmcGs2cG9LQXZoZkJtZk9ZOW01aDJ3YmFDYjVxMDV4dUJINDRSODViVFlFVXNiMUhjUS1XeGp2UjZZd1NJRkhzdkZ6bG02T2wxa3h5UlEwWHlxbWRPa2o0cUxKdVRyUngyT1dpWHB4eTAxODFfbFNsVmd3U3pn?oc=5",
+      "title": "Ivre, il échange 192GB de RAM contre une 5070 Ti... en pleine pénurie de mémoire - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeXNfTGhBdzY2WXdNdjlhSGM4dUpTMDJiLUZGd01aQi1OTU84RUNSXzMzZjJlR3dKSnlwcjdhMkpjWWl0MnAxNDczOGltMng2cWVvbXlESjNZLUViTG4zdThYa0VpTkdUbEg2WUhhME9JUjdrR25YNWdyYUdkQnpxMS1QdmI4NmZOa21WMEtySHJzRkhsaExkRXhsWEtPdW04SEJiOGJzSVFQRF8wcjFNVFdaTnNfb0otWENHM3RR?oc=5",
       "published": "Fri, 05 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
