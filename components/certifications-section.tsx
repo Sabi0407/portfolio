@@ -22,17 +22,18 @@ const certifications: Certification[] = [
     title: "Microsoft 365 : Gestion des identités et de la mobilité",
     issuer: "LinkedIn Learning",
     date: "2026",
-    status: "En cours",
+    status: "Obtenue",
     logoUrl: "/s.sabiran/logos/microsoft-entra-id.svg",
     description:
-      "Formation certifiante suivie pour renforcer la gestion des identités et la mobilité des appareils dans un environnement Microsoft 365 avec Entra ID et Intune.",
+      "Certification obtenue pour renforcer la gestion des identités et la mobilité des appareils dans un environnement Microsoft 365 avec Entra ID et Intune.",
     presentationPoints: [
       "Pourquoi cette certification: consolider mes pratiques d'administration Microsoft 365 utilisées en alternance.",
       "Ce que j'apprends: gestion des identités, accès, authentification forte et pilotage de la mobilité via Intune.",
       "Ce que ça apporte en entreprise: onboarding plus structuré, accès mieux sécurisés et meilleure conformité des appareils.",
     ],
     skills: ["Microsoft 365", "Microsoft Entra ID", "Intune", "IAM", "MFA", "Mobilité"],
-    proofUrl: "https://www.linkedin.com/learning/microsoft-365-gestion-des-identites-et-de-la-mobilite",
+    proofUrl: "/s.sabiran/docs/certificat-linkedin-microsoft-365-identites-mobilite.pdf",
+    verifyUrl: "https://www.linkedin.com/learning/microsoft-365-gestion-des-identites-et-de-la-mobilite",
   },
 ]
 
