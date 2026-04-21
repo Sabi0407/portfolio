@@ -133,30 +133,6 @@ const categories = [
     icon: BookOpen,
     projects: [
       {
-        title: "TP Iptables",
-        desc: "Configuration d'un pare-feu Linux avec iptables pour filtrer les flux entre un client et un serveur. Vérification des ports/services avec nmap, observation des paquets dans Wireshark, contrôle des logs, puis autorisation d'un service spécifique (wizbang sur le port 10054).",
-        tags: ["Iptables", "Pare-feu", "Nmap", "Wireshark"],
-        pdf: "/s.sabiran/docs/tp-iptables.pdf",
-      },
-      {
-        title: "TP Packet-Introspection",
-        desc: "Analyse de captures réseau avec Wireshark pour identifier le flux TCP le plus actif. Géolocalisation IP, reconstruction de flux HTTP pour retrouver des messages cachés, et extraction d'un fichier binaire FTP depuis la capture.",
-        tags: ["Wireshark", "TCP", "HTTP", "FTP", "Analyse réseau"],
-        pdf: "/s.sabiran/docs/tp-packet-introspection.pdf",
-      },
-      {
-        title: "TP Nmap",
-        desc: "Utilisation de Nmap pour la reconnaissance réseau et l'audit de base : scan de localhost, du réseau local et d'un hôte distant autorisé. Interprétation des résultats (hôtes actifs, ports ouverts, services détectés) pour évaluer l'exposition du réseau.",
-        tags: ["Nmap", "Scan", "Reconnaissance", "Audit"],
-        pdf: "/s.sabiran/docs/tp-nmap.pdf",
-      },
-      {
-        title: "TP Snort (IDS)",
-        desc: "Mise en place de la détection d'intrusion avec Snort. Test des règles existantes, création de règles personnalisées (détection de CONFIDENTIAL), observation de l'effet du HTTPS, puis ajustement du mirroring et des règles pour différencier trafic interne et externe.",
-        tags: ["Snort", "IDS", "Détection d'intrusion", "Règles"],
-        pdf: "/s.sabiran/docs/tp-snort.pdf",
-      },
-      {
         title: "Mise en place d'OpenSSL, Apache2 et redirection HTTPS",
         desc: "Configuration d'un environnement sécurisé en HTTPS sur deux machines virtuelles Linux : installation des paquets, génération de certificat SSL, configuration d'Apache2 et déploiement d'un site web.",
         tags: ["Apache2", "OpenSSL", "HTTPS", "SSL", "Linux"],
