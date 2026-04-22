@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T06:58:49.142Z",
+  "generatedAt": "2026-04-22T06:57:50.679Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-11",
+      "periodStart": "2024-02-12",
       "maxAgeDays": 800
     },
     {
@@ -73,7 +73,7 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 104,
+  "total": 102,
   "errors": [],
   "articles": [
     {
@@ -139,36 +139,20 @@
       "source": "MacGeneration"
     },
     {
-      "title": "Linux 7.0 officiellement publié : pourquoi cette sortie très attendue agite la communauté open source - Les Numériques",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeG5XN2ZrYXZscGlQX19YMXZWaHUtWDJHbnhXeUxlcVJIZHJ4VzNvM2IxTTFHVmxiU0daR1BWQmFrVVpKcGVQQnpudmVzTE9DdkhtbFNzOGp0NXNzcGJpRVdiMnFLUWdUM2x5aHE0UjZTUXQya1JKTFFxTTBEN19tbjZuVU9CM182S1hZZ2N1c2F3OUZQRjdPZFpYWmVkVlNOLXI5MTRacjF4eHNhWWtxS09VZUlKcG1id3BtWGtiUjBiWHJIaWR5SW1UZW9aeXlFM0s1VmFGU001ZVh5NUY0aTJORHNiWTk0R09N?oc=5",
-      "published": "Mon, 13 Apr 2026 15:36:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Les Numériques"
-    },
-    {
-      "title": "Le noyau Linux adopte des règles pragmatiques pour le code généré par IA - itdaily.fr",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBoWTd3ZlBSVlhUOGJ3UWdiUS01SWM3R0l0TVpvUHFXLUp2MktuVmhubk5tZXRpLWZIaEstZmk2N3A2M2ltNVpBbTZZV3Iyd241Mno4WjlZV1pwd3l2cUhqTkRwNWVZbVd4cE0tV19leTVfdTdGT01vMQ?oc=5",
-      "published": "Mon, 13 Apr 2026 10:01:47 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "itdaily.fr"
-    },
-    {
-      "title": "Linux 7.0 apporte la prise en charge de Rust - itdaily.fr",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5MSTZJbjE3N3lDcmtPYzJNaGE2Rm5PUGQ0RHF6Vkk4cVBTbWQzaVBxTVVzWEdpVUhfcEZWamF1N0ZHOG5ZWFg5cHFKNG1nQVpEakFJSEhTYXVPNWpoNWhBdGRDNA?oc=5",
-      "published": "Mon, 13 Apr 2026 08:07:56 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "itdaily.fr"
-    },
-    {
       "title": "Linux 7.0 : matériel, sécurité, performances - Programmez!",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOGNEeWQ0SEpnWWJrSVpxSmhsMmNyQlRPVDBnaU1Xd3RvZndDRkJOcUFoc05IT1M4T0RFMExYeWN2dVZMNkhwV3dmYlhvRVEwYWo3Y3hEeGNZNExUdVFwUzE3TXdDcEkyc09zS01EMVhXeENWT0NSdVByVGZLdEJTYUN2eDdubHRoM0Q40gGQAUFVX3lxTFA3TlpyOGp2R3ZqdC1tRXlLajBvYnBoS2NjSVZuVHdWb1p6NU5raWsyejlxb0FrUXZlNGpDY1BDOEZCTUJSR252X21lMTcwb1ZtUjZDbi1UeFBPZ0t6UjV1dHFHOHV3WVVSUkJVckRBd2VHUFhvR1hNS3U5cTUyX3ZRU3hJbEpNNG4xSXdjcmpmeA?oc=5",
       "published": "Mon, 13 Apr 2026 07:02:32 GMT",
       "content": "",
       "category": "Noyau Linux",
       "source": "Programmez!"
+    },
+    {
+      "title": "Linux 7.0 officiellement publié : pourquoi cette sortie très attendue agite la communauté open source - Les Numériques",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeG5XN2ZrYXZscGlQX19YMXZWaHUtWDJHbnhXeUxlcVJIZHJ4VzNvM2IxTTFHVmxiU0daR1BWQmFrVVpKcGVQQnpudmVzTE9DdkhtbFNzOGp0NXNzcGJpRVdiMnFLUWdUM2x5aHE0UjZTUXQya1JKTFFxTTBEN19tbjZuVU9CM182S1hZZ2N1c2F3OUZQRjdPZFpYWmVkVlNOLXI5MTRacjF4eHNhWWtxS09VZUlKcG1id3BtWGtiUjBiWHJIaWR5SW1UZW9aeXlFM0s1VmFGU001ZVh5NUY0aTJORHNiWTk0R09N?oc=5",
+      "published": "Mon, 13 Apr 2026 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Les Numériques"
     },
     {
       "title": "Prix de la RAM : sommes-nous arrivés au sommet avant le krach ? - Tom’s Hardware",
