@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T06:57:50.679Z",
+  "generatedAt": "2026-04-23T07:01:42.449Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-12",
+      "periodStart": "2024-02-13",
       "maxAgeDays": 800
     },
     {
@@ -117,7 +117,7 @@
     {
       "title": "Linux 7.0 est disponible : pourquoi cette version majeure va ravir les gamers - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZG9GbmNTamRuOEdGVUJxdVlZOE9hdUFPMHVHYXRlT3pHaTdNcE4yQVhybl90SGpOd0tqYl9xT243dGtoSFowbkF1d3VvRjY1c0R2azRjVGhXMkMzY29CakRsbmwyMHF6TUkzSDR1SFhBbVl0VGJJalpWVmxBa1MzS2dwcXV3QXdNT3N2dW1OcjhLbXhybjhfY1B3dEtPUTU2aGVGTVp6dlk4d3YzYnV0OEJZblh4UFNDWHNERDZEbWdBZl9uOV96RElWeTE?oc=5",
-      "published": "Tue, 14 Apr 2026 12:22:05 GMT",
+      "published": "Tue, 14 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
       "source": "Frandroid"
@@ -125,7 +125,7 @@
     {
       "title": "Alors que la RAM est encore bien trop chère, ce kit DDR5 Corsair Vengeance 32 Go chute de prix sur Amazon - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMlZoX2tBY181empPd1ItaThTWkF2b3V1NVlrb3dEM3dIV21mZkxBRnIySmR0cDgyR2lTQ0pyMEV0dEhjcV9ZQ2l6THJzdjZlU0NqM3EtXzEtcjFhTFByRTJMbUJ0RHdWdlNMai1FY005WWQyeEtUS0xnbkVMUEhXdU1MWUpWRV82UnBIWXlRSnR0aXltbWRfdXVoVldrMVRxTkh5NEZ2QTRJM0NRejJvb1d2WVpzVVVvUmw0MUVia19VUHptbG5LNkgzT3l1ODhadEJreEZEWjdGaFFkZWhIZEt0NTk?oc=5",
-      "published": "Tue, 14 Apr 2026 10:45:00 GMT",
+      "published": "Tue, 14 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -139,20 +139,20 @@
       "source": "MacGeneration"
     },
     {
-      "title": "Linux 7.0 : matériel, sécurité, performances - Programmez!",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOGNEeWQ0SEpnWWJrSVpxSmhsMmNyQlRPVDBnaU1Xd3RvZndDRkJOcUFoc05IT1M4T0RFMExYeWN2dVZMNkhwV3dmYlhvRVEwYWo3Y3hEeGNZNExUdVFwUzE3TXdDcEkyc09zS01EMVhXeENWT0NSdVByVGZLdEJTYUN2eDdubHRoM0Q40gGQAUFVX3lxTFA3TlpyOGp2R3ZqdC1tRXlLajBvYnBoS2NjSVZuVHdWb1p6NU5raWsyejlxb0FrUXZlNGpDY1BDOEZCTUJSR252X21lMTcwb1ZtUjZDbi1UeFBPZ0t6UjV1dHFHOHV3WVVSUkJVckRBd2VHUFhvR1hNS3U5cTUyX3ZRU3hJbEpNNG4xSXdjcmpmeA?oc=5",
-      "published": "Mon, 13 Apr 2026 07:02:32 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Programmez!"
-    },
-    {
       "title": "Linux 7.0 officiellement publié : pourquoi cette sortie très attendue agite la communauté open source - Les Numériques",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeG5XN2ZrYXZscGlQX19YMXZWaHUtWDJHbnhXeUxlcVJIZHJ4VzNvM2IxTTFHVmxiU0daR1BWQmFrVVpKcGVQQnpudmVzTE9DdkhtbFNzOGp0NXNzcGJpRVdiMnFLUWdUM2x5aHE0UjZTUXQya1JKTFFxTTBEN19tbjZuVU9CM182S1hZZ2N1c2F3OUZQRjdPZFpYWmVkVlNOLXI5MTRacjF4eHNhWWtxS09VZUlKcG1id3BtWGtiUjBiWHJIaWR5SW1UZW9aeXlFM0s1VmFGU001ZVh5NUY0aTJORHNiWTk0R09N?oc=5",
       "published": "Mon, 13 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
       "source": "Les Numériques"
+    },
+    {
+      "title": "Linux 7.0 : matériel, sécurité, performances - Programmez!",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOGNEeWQ0SEpnWWJrSVpxSmhsMmNyQlRPVDBnaU1Xd3RvZndDRkJOcUFoc05IT1M4T0RFMExYeWN2dVZMNkhwV3dmYlhvRVEwYWo3Y3hEeGNZNExUdVFwUzE3TXdDcEkyc09zS01EMVhXeENWT0NSdVByVGZLdEJTYUN2eDdubHRoM0Q40gGQAUFVX3lxTFA3TlpyOGp2R3ZqdC1tRXlLajBvYnBoS2NjSVZuVHdWb1p6NU5raWsyejlxb0FrUXZlNGpDY1BDOEZCTUJSR252X21lMTcwb1ZtUjZDbi1UeFBPZ0t6UjV1dHFHOHV3WVVSUkJVckRBd2VHUFhvR1hNS3U5cTUyX3ZRU3hJbEpNNG4xSXdjcmpmeA?oc=5",
+      "published": "Mon, 13 Apr 2026 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Programmez!"
     },
     {
       "title": "Prix de la RAM : sommes-nous arrivés au sommet avant le krach ? - Tom’s Hardware",
@@ -169,6 +169,14 @@
       "content": "",
       "category": "RAM",
       "source": "Les Numériques"
+    },
+    {
+      "title": "Linux 7.0 va débarquer la semaine prochaine, quoi de neuf ? - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNFFiRVBhdk5TZ0Y1YVFkc0xJSy1yTzE4SHhuUXd1MkZWbTZ4dDRrRTBxUE1wY0tiLVk5Y05QMzUwQ0h4T1pkeDFFQ1dWcnJIanpjLXQ5bF8wSHZTTW1mbW9yd0tfWnVXZy13UThQQmpYUmlSNVRReXhHRUJvTUF3aVBfMGhicG5kLWNpRVFwX1VqaGhCX0xaWkNkT3BIMTI3a21z?oc=5",
+      "published": "Tue, 07 Apr 2026 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Clubic"
     },
     {
       "title": "Raspberry Pi 4 : un nouveau modèle 3 Go de RAM, et des hausses de prix qui piquent - Korben",
@@ -281,7 +289,7 @@
       "category": "RAM"
     },
     {
-      "title": "Le coup de génie de Google, qui a trouvé un moyen de régler la crise de la mémoire vive (RAM) pour de bon - Numerama",
+      "title": "Google a peut-être réglé la crise de la mémoire vive (RAM) avec un algorithme - Numerama",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLTNPODd5dWlJN29xNWF2WkRQQ1NjZ3cyYVlPWUhZdEV6bHVkRTNCaHk5V2dsZGF4b3J1TnZvUU5SY0JDX0FTMnprUzYyaHhWYTk5dlpBYUhXLXpBTWFUc1M1VG5CZGZWWEpXZ0kxX3lDM2haYVhORUtMZFNmbXhfSFhuSXNPekVJNmtTN0taRDlzZEQtb1ZOVmJkamlCNWxOQnI1REVVcWJjci1EUGQ3MlV5WWRXYzlvMXc?oc=5",
       "published": "Wed, 25 Mar 2026 07:00:00 GMT",
       "content": "",
@@ -868,14 +876,6 @@
       "title": "L'IA s'immisce dans le noyau Linux, et une politique officielle est nécessaire au plus vite - ZDNET",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaFVFUDJxNVhwOS1GNndxSE9EN3pIWWEzUHc0U2xHV3FGcnVqX3ROd0g0UmNHTU43bnRMeWVncXQwVExoNHBDQlFaTzZtN2xqaFBnZ0F1R2s5VUhNOVowcFFmSVBDcm9GdDV5X2xSR3o2RERZUURuMURHVVBaeUxyV2ZaSV9CM2UtOVJrNTF2UW0wVDNVYTk2MDRaR3NPa3E4VTRmOUVzdzJOazNiMWxpLVlXUC1qeDA0dlIwOFp3WTUzMTJsNk1mRVZtMA?oc=5",
       "published": "Mon, 25 Aug 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "ZDNET"
-    },
-    {
-      "title": "Linus Torvalds est fâché, ce développeur de Meta passe un très sale quart d'heure - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQnZKeU5JV1dXdENoMWh3dnl1eGJUOGxzNmVqU3N1RVMyYzVJQTdTVVVJN1ktZUUwTzRNTTRESTFFYXp3Y29rc2pVcjBPMFk0NnF1NWVYQ19NcUJ1ZUtLb3dPd1FBeFAyb1JEVFVhQnI0UG14RnhtNHNkSGVETVJjRUJmay1LV0hxc3RXbW5rWWxJWnZ2eGhIQXV3bU1kWFBCc19uUFlKcHU2SWJUaU1qdGw3a2ZhZ2U3V3JfTUgzdw?oc=5",
-      "published": "Wed, 13 Aug 2025 07:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
       "source": "ZDNET"
