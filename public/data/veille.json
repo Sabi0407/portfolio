@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T07:04:55.067Z",
+  "generatedAt": "2026-04-25T06:21:01.778Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-14",
+      "periodStart": "2024-02-15",
       "maxAgeDays": 800
     },
     {
@@ -73,9 +73,17 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 102,
+  "total": 105,
   "errors": [],
   "articles": [
+    {
+      "title": "Ce PC portable Lenovo ultime génération est à prix fou sur Amazon (Core i7, RAM 16Go, SSD 1To) - 01net.com",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLWZBOTFBbEdDeFI2U0w2ZlVFaFZ5V3RXTmVscUVscGtkOTlsRXJtS3FmMmF3cXV3SDJHNFRQQnFxQWFST3FiTXA4cmJfeG9BMnBFS3UwSmZMTDVlUDhyUWNTdDl3clhFWE9lMmJKckpMczkxSnZxeFV0MU10bm10Q1FIbE9IX3FyUE5TYjRXVnpac3czN24yWFRTUnR2d2FCWEctdHFkcWVjMi0xcUtrbnZibkxCRjVCeWxQWkpLTG5kYk9jQi0w?oc=5",
+      "published": "Fri, 24 Apr 2026 15:25:59 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "01net.com"
+    },
     {
       "title": "Le noyau Linux abandonne les processeurs russes Baikal - MacGeneration",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWGZuZTNPaC11d05jQ25rNkFtbDdEMjA4X211Ukt1RFpUUWw0MDN5UnNrcU9aYTRpaHE2cGd6RVVxT0E4dUpGeC1IZWFzclhxWDdCU1NjWloyLUt2VnFuY0UybjQtU0RLOHJHTEU1UG9lb25YZnVobEdWd0Zza1dhejVxb0tNamNjM2l6UXZKck5zb2I4NDBYNVNlNldCUHM?oc=5",
@@ -297,7 +305,7 @@
       "category": "RAM"
     },
     {
-      "title": "Le coup de génie de Google, qui a trouvé un moyen de régler la crise de la mémoire vive (RAM) pour de bon - Numerama",
+      "title": "Google a peut-être réglé la crise de la mémoire vive (RAM) avec un algorithme - Numerama",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLTNPODd5dWlJN29xNWF2WkRQQ1NjZ3cyYVlPWUhZdEV6bHVkRTNCaHk5V2dsZGF4b3J1TnZvUU5SY0JDX0FTMnprUzYyaHhWYTk5dlpBYUhXLXpBTWFUc1M1VG5CZGZWWEpXZ0kxX3lDM2haYVhORUtMZFNmbXhfSFhuSXNPekVJNmtTN0taRDlzZEQtb1ZOVmJkamlCNWxOQnI1REVVcWJjci1EUGQ3MlV5WWRXYzlvMXc?oc=5",
       "published": "Wed, 25 Mar 2026 07:00:00 GMT",
       "content": "",
@@ -753,6 +761,14 @@
       "source": "Frandroid"
     },
     {
+      "title": "Pénurie de mémoire : Micron sacrifie cette marque incontournable de SSD et RAM pour se concentrer sur l'IA - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSFM3VTlKeUpwb1o1TXdmcno1VE9EQjZ1YWhkSHBXaldEWDVGVDV6MEJObUN3YlNCWWp6RUVQVnpCYjBfUUVlMTd4WFc3RUlGSGFYVlhMenN2aE5sVGhqb09HYzA5XzVhdV9TOXlWNWJYTExIaGIxZGtCR1czbUZsckhDOGFGbUtnQ2ZrcHhVUHZUUFdEX1hnQXE4N0V0anlsV01ES3Y1MzVya3laOHlWb1lzSVpTMnJUS0k2TGVDdWFnRF8zdTdYWGNuc01iMkw2V19lYlBia01nNlJNcFg4UUphbw?oc=5",
+      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Clubic"
+    },
+    {
       "title": "Une PS5 coûte désormais moins cher que de simples barrettes de RAM - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN0xlZ3BPQmRpU3l5QUlQN2RNTlhxUzZFQTJBMldaTlc1RGZRdGh6eW85NG9jWlJ5R3lwVS1rNmZVZmMwLXZhTkJzUlRWVUpISi1ncnBSS0dvdHVlaUdNRVRIR0EwcjM4elJtMk1NOGxfdFkwRUo0UnlCNmRlV1ZUVTJVdVFON2JVRlVydjB2dlJvWGUzdHFnLWduWGVFYVAyMzJOMnl0VFA4UlNUbXNJTEdtaTMzdWJQd0NXRmJrNWM2MkJTWmh6RQ?oc=5",
       "published": "Thu, 04 Dec 2025 08:00:00 GMT",
@@ -879,6 +895,14 @@
       "content": "",
       "category": "RAM",
       "source": "Génération NT"
+    },
+    {
+      "title": "Kernel Recipes 2025 c'est fini : les vidéos sont en ligne ! - LinuxFr.org",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXgzS2JiRDQzR1N0Sk9ZUUhWSVl4ME04ckptd18xc0dlX1ZGNzF5QTAtVHA1aGpOUTlFMVFCeTI3UXgwM2N6NXdEVDZRek41RjJYSVJEMUpHNXpYNE1wcVFheHhmYmFuR0hrVHU4bzVpVV96UXk3N29CY2RnVlBnN0ZjcjhlQ2M?oc=5",
+      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "LinuxFr.org"
     },
     {
       "title": "L'IA s'immisce dans le noyau Linux, et une politique officielle est nécessaire au plus vite - ZDNET",
