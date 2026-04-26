@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T06:21:01.778Z",
+  "generatedAt": "2026-04-26T06:59:40.586Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-15",
+      "periodStart": "2024-02-16",
       "maxAgeDays": 800
     },
     {
@@ -73,7 +73,7 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 105,
+  "total": 106,
   "errors": [],
   "articles": [
     {
@@ -147,20 +147,20 @@
       "source": "MacGeneration"
     },
     {
-      "title": "Linux 7.0 officiellement publié : pourquoi cette sortie très attendue agite la communauté open source - Les Numériques",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeG5XN2ZrYXZscGlQX19YMXZWaHUtWDJHbnhXeUxlcVJIZHJ4VzNvM2IxTTFHVmxiU0daR1BWQmFrVVpKcGVQQnpudmVzTE9DdkhtbFNzOGp0NXNzcGJpRVdiMnFLUWdUM2x5aHE0UjZTUXQya1JKTFFxTTBEN19tbjZuVU9CM182S1hZZ2N1c2F3OUZQRjdPZFpYWmVkVlNOLXI5MTRacjF4eHNhWWtxS09VZUlKcG1id3BtWGtiUjBiWHJIaWR5SW1UZW9aeXlFM0s1VmFGU001ZVh5NUY0aTJORHNiWTk0R09N?oc=5",
-      "published": "Mon, 13 Apr 2026 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Les Numériques"
-    },
-    {
       "title": "Linux 7.0 : matériel, sécurité, performances - Programmez!",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOGNEeWQ0SEpnWWJrSVpxSmhsMmNyQlRPVDBnaU1Xd3RvZndDRkJOcUFoc05IT1M4T0RFMExYeWN2dVZMNkhwV3dmYlhvRVEwYWo3Y3hEeGNZNExUdVFwUzE3TXdDcEkyc09zS01EMVhXeENWT0NSdVByVGZLdEJTYUN2eDdubHRoM0Q40gGQAUFVX3lxTFA3TlpyOGp2R3ZqdC1tRXlLajBvYnBoS2NjSVZuVHdWb1p6NU5raWsyejlxb0FrUXZlNGpDY1BDOEZCTUJSR252X21lMTcwb1ZtUjZDbi1UeFBPZ0t6UjV1dHFHOHV3WVVSUkJVckRBd2VHUFhvR1hNS3U5cTUyX3ZRU3hJbEpNNG4xSXdjcmpmeA?oc=5",
       "published": "Mon, 13 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
       "source": "Programmez!"
+    },
+    {
+      "title": "Linux 7.0 officiellement publié : pourquoi cette sortie très attendue agite la communauté open source - Les Numériques",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeG5XN2ZrYXZscGlQX19YMXZWaHUtWDJHbnhXeUxlcVJIZHJ4VzNvM2IxTTFHVmxiU0daR1BWQmFrVVpKcGVQQnpudmVzTE9DdkhtbFNzOGp0NXNzcGJpRVdiMnFLUWdUM2x5aHE0UjZTUXQya1JKTFFxTTBEN19tbjZuVU9CM182S1hZZ2N1c2F3OUZQRjdPZFpYWmVkVlNOLXI5MTRacjF4eHNhWWtxS09VZUlKcG1id3BtWGtiUjBiWHJIaWR5SW1UZW9aeXlFM0s1VmFGU001ZVh5NUY0aTJORHNiWTk0R09N?oc=5",
+      "published": "Mon, 13 Apr 2026 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Les Numériques"
     },
     {
       "title": "Prix de la RAM : sommes-nous arrivés au sommet avant le krach ? - Tom’s Hardware",
@@ -935,6 +935,14 @@
       "content": "",
       "category": "Noyau Linux",
       "source": "Korben"
+    },
+    {
+      "title": "Le noyau Linux va bientôt prendre en charge la Magic Mouse 2 USB-C (et attention à la compatibilité sous macOS) - MacGeneration",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUFM3NFpYUkdQUU4zNm1fSlhjRUJJMEZVbU5lLWtPUXdlcnJ4LW1IS05lSXlLNWp4aDBNOGtiaGwzZ2dCeVhTWGw3ZDZMUC10LXlkYmRCRnBBY1NTd3Z5MnV3bkN0elZwRlhWaWM2WXMzcDh4WFJHUFRDN0dRX1h3TkxLVWN5cnM4dV91OHpFdFZhZDJhVUlQWndOa3RzdHl5UlpWYi0zdkNIWWpRaG9SbUlyVldia01LbVNuSVZmTFdUQ1gtdWEwVUNUUldKaVM2SzFnTXh3YXhXVDlWRndORGdMRXlrdw?oc=5",
+      "published": "Wed, 04 Jun 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "MacGeneration"
     },
     {
       "title": "Le noyau Linux 6.15 arrive - et c'est une grande victoire pour les fans de Rust - ZDNET",
