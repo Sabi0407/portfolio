@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T06:59:40.586Z",
+  "generatedAt": "2026-04-27T07:35:12.377Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-16",
+      "periodStart": "2024-02-17",
       "maxAgeDays": 800
     },
     {
@@ -76,6 +76,14 @@
   "total": 106,
   "errors": [],
   "articles": [
+    {
+      "title": "Linux 7.1 : le noyau tourne une page historique et accélère sur tous les fronts - Les Numériques",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWklXQ3kzcnlMZHByRGJPQjM4VGNLUWM4T2ZacG5lUEZ4c2FhX05ndVRXT0ZmYVVQVWcyYkxlanlJbXJNbmM5UFBtaXhMWFg1REpHNXhiQkJBLTNUVVVOZVdLN203dHljem54eUk4VldMMWk1VHR3MTE5akIyaE4tVHpLelVMekR0U3d3QUpPR21xZTBHSTBIWHZGMFJmLUdBcnNwTG81VDlOZEtnS0ZIUWlGTkxybDZvRzZKSjNxZ3pnZ0tVakloRXRzZGtHUQ?oc=5",
+      "published": "Mon, 27 Apr 2026 05:01:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Les Numériques"
+    },
     {
       "title": "Ce PC portable Lenovo ultime génération est à prix fou sur Amazon (Core i7, RAM 16Go, SSD 1To) - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLWZBOTFBbEdDeFI2U0w2ZlVFaFZ5V3RXTmVscUVscGtkOTlsRXJtS3FmMmF3cXV3SDJHNFRQQnFxQWFST3FiTXA4cmJfeG9BMnBFS3UwSmZMTDVlUDhyUWNTdDl3clhFWE9lMmJKckpMczkxSnZxeFV0MU10bm10Q1FIbE9IX3FyUE5TYjRXVnpac3czN24yWFRTUnR2d2FCWEctdHFkcWVjMi0xcUtrbnZibkxCRjVCeWxQWkpLTG5kYk9jQi0w?oc=5",
@@ -147,20 +155,20 @@
       "source": "MacGeneration"
     },
     {
-      "title": "Linux 7.0 : matériel, sécurité, performances - Programmez!",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOGNEeWQ0SEpnWWJrSVpxSmhsMmNyQlRPVDBnaU1Xd3RvZndDRkJOcUFoc05IT1M4T0RFMExYeWN2dVZMNkhwV3dmYlhvRVEwYWo3Y3hEeGNZNExUdVFwUzE3TXdDcEkyc09zS01EMVhXeENWT0NSdVByVGZLdEJTYUN2eDdubHRoM0Q40gGQAUFVX3lxTFA3TlpyOGp2R3ZqdC1tRXlLajBvYnBoS2NjSVZuVHdWb1p6NU5raWsyejlxb0FrUXZlNGpDY1BDOEZCTUJSR252X21lMTcwb1ZtUjZDbi1UeFBPZ0t6UjV1dHFHOHV3WVVSUkJVckRBd2VHUFhvR1hNS3U5cTUyX3ZRU3hJbEpNNG4xSXdjcmpmeA?oc=5",
-      "published": "Mon, 13 Apr 2026 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Programmez!"
-    },
-    {
       "title": "Linux 7.0 officiellement publié : pourquoi cette sortie très attendue agite la communauté open source - Les Numériques",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPeG5XN2ZrYXZscGlQX19YMXZWaHUtWDJHbnhXeUxlcVJIZHJ4VzNvM2IxTTFHVmxiU0daR1BWQmFrVVpKcGVQQnpudmVzTE9DdkhtbFNzOGp0NXNzcGJpRVdiMnFLUWdUM2x5aHE0UjZTUXQya1JKTFFxTTBEN19tbjZuVU9CM182S1hZZ2N1c2F3OUZQRjdPZFpYWmVkVlNOLXI5MTRacjF4eHNhWWtxS09VZUlKcG1id3BtWGtiUjBiWHJIaWR5SW1UZW9aeXlFM0s1VmFGU001ZVh5NUY0aTJORHNiWTk0R09N?oc=5",
       "published": "Mon, 13 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
       "source": "Les Numériques"
+    },
+    {
+      "title": "Linux 7.0 : matériel, sécurité, performances - Programmez!",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOGNEeWQ0SEpnWWJrSVpxSmhsMmNyQlRPVDBnaU1Xd3RvZndDRkJOcUFoc05IT1M4T0RFMExYeWN2dVZMNkhwV3dmYlhvRVEwYWo3Y3hEeGNZNExUdVFwUzE3TXdDcEkyc09zS01EMVhXeENWT0NSdVByVGZLdEJTYUN2eDdubHRoM0Q40gGQAUFVX3lxTFA3TlpyOGp2R3ZqdC1tRXlLajBvYnBoS2NjSVZuVHdWb1p6NU5raWsyejlxb0FrUXZlNGpDY1BDOEZCTUJSR252X21lMTcwb1ZtUjZDbi1UeFBPZ0t6UjV1dHFHOHV3WVVSUkJVckRBd2VHUFhvR1hNS3U5cTUyX3ZRU3hJbEpNNG4xSXdjcmpmeA?oc=5",
+      "published": "Mon, 13 Apr 2026 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Programmez!"
     },
     {
       "title": "Prix de la RAM : sommes-nous arrivés au sommet avant le krach ? - Tom’s Hardware",
@@ -895,14 +903,6 @@
       "content": "",
       "category": "RAM",
       "source": "Génération NT"
-    },
-    {
-      "title": "Kernel Recipes 2025 c'est fini : les vidéos sont en ligne ! - LinuxFr.org",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXgzS2JiRDQzR1N0Sk9ZUUhWSVl4ME04ckptd18xc0dlX1ZGNzF5QTAtVHA1aGpOUTlFMVFCeTI3UXgwM2N6NXdEVDZRek41RjJYSVJEMUpHNXpYNE1wcVFheHhmYmFuR0hrVHU4bzVpVV96UXk3N29CY2RnVlBnN0ZjcjhlQ2M?oc=5",
-      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "LinuxFr.org"
     },
     {
       "title": "L'IA s'immisce dans le noyau Linux, et une politique officielle est nécessaire au plus vite - ZDNET",
