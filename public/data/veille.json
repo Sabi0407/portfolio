@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T07:35:12.377Z",
+  "generatedAt": "2026-04-28T07:31:52.762Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-17",
+      "periodStart": "2024-02-18",
       "maxAgeDays": 800
     },
     {
@@ -73,9 +73,17 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 106,
+  "total": 104,
   "errors": [],
   "articles": [
+    {
+      "title": "Avec la pénurie, la RAM représente 20 % du coût d'un Galaxy S26 : Samsung s'étrangle avec ses propres puces - 01net.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb2ptN1R1V3VvSWdDem5FNng0UHQyc2NBaDNnREFEalpZdzVNQ1FoSXBZeExpSU1uWGpENlNqcjBNanFoZFpWbUJlenZFZ3Yya1VJQjFxd3NQN3JUU243VWpDS2F5YTF1TmNCOWpjVUgtNmREUUlSSDVaZjExV3Fudlc4ZlA1WFNJcm9OYWxpWmpJb0stRG5LZXlKUzdxZXk2aXNtRWRuQWNtWWNydS03TzV5bVM1Zw?oc=5",
+      "published": "Mon, 27 Apr 2026 10:01:19 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "01net.com"
+    },
     {
       "title": "Linux 7.1 : le noyau tourne une page historique et accélère sur tous les fronts - Les Numériques",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWklXQ3kzcnlMZHByRGJPQjM4VGNLUWM4T2ZacG5lUEZ4c2FhX05ndVRXT0ZmYVVQVWcyYkxlanlJbXJNbmM5UFBtaXhMWFg1REpHNXhiQkJBLTNUVVVOZVdLN203dHljem54eUk4VldMMWk1VHR3MTE5akIyaE4tVHpLelVMekR0U3d3QUpPR21xZTBHSTBIWHZGMFJmLUdBcnNwTG81VDlOZEtnS0ZIUWlGTkxybDZvRzZKSjNxZ3pnZ0tVakloRXRzZGtHUQ?oc=5",
@@ -91,14 +99,6 @@
       "content": "",
       "category": "RAM",
       "source": "01net.com"
-    },
-    {
-      "title": "Le noyau Linux abandonne les processeurs russes Baikal - MacGeneration",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWGZuZTNPaC11d05jQ25rNkFtbDdEMjA4X211Ukt1RFpUUWw0MDN5UnNrcU9aYTRpaHE2cGd6RVVxT0E4dUpGeC1IZWFzclhxWDdCU1NjWloyLUt2VnFuY0UybjQtU0RLOHJHTEU1UG9lb25YZnVobEdWd0Zza1dhejVxb0tNamNjM2l6UXZKck5zb2I4NDBYNVNlNldCUHM?oc=5",
-      "published": "Mon, 20 Apr 2026 15:15:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "MacGeneration"
     },
     {
       "title": "La pénurie de RAM va durer. Seule 60% de la demande pourrait être couverte l'an prochain ! - Clubic",
@@ -145,14 +145,6 @@
       "content": "",
       "category": "RAM",
       "source": "Clubic"
-    },
-    {
-      "title": "Le noyau Linux 7.0 est sorti, la version 7.1 va abandonner le mythique 486 et Linus clarifie l'usage de l'IA - MacGeneration",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRS1qM2NVZHRPeEppRlFNbVV2RUpyZWxqVkVpMjhVV3M2V1lQZHZQWWZHelFXdW4xTzZFMnQyeGlpR0RXdTFLZ3hMWjZOc0dfN0NLNXNuNnZ1S240UjlEaXlNUzNkSHdQOTRkVnctdklkNURodGdOLURkdTZDWVRYYUczTHBRSEx3UWJVaEpHTUEyLUpGTDlvcFd2bnpfbDlwa3kyYTZRdXR1TEdHZk5VYzkyaFRBbFJ4dVpab1JFUGxMWkhtWEQxODZBbEhTOEJUa0ROWXlQeEVaSkYxVmxYVg?oc=5",
-      "published": "Mon, 13 Apr 2026 19:38:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "MacGeneration"
     },
     {
       "title": "Linux 7.0 officiellement publié : pourquoi cette sortie très attendue agite la communauté open source - Les Numériques",
@@ -713,14 +705,6 @@
       "source": "Clubic"
     },
     {
-      "title": "Ivre, il échange 192GB de RAM contre une 5070 Ti... en pleine pénurie de mémoire - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeXNfTGhBdzY2WXdNdjlhSGM4dUpTMDJiLUZGd01aQi1OTU84RUNSXzMzZjJlR3dKSnlwcjdhMkpjWWl0MnAxNDczOGltMng2cWVvbXlESjNZLUViTG4zdThYa0VpTkdUbEg2WUhhME9JUjdrR25YNWdyYUdkQnpxMS1QdmI4NmZOa21WMEtySHJzRkhsaExkRXhsWEtPdW04SEJiOGJzSVFQRF8wcjFNVFdaTnNfb0otWENHM3RR?oc=5",
-      "published": "Fri, 05 Dec 2025 08:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "Clubic"
-    },
-    {
       "title": "01net morning : la flambée des prix de la RAM va durer un moment, des cellules de batterie catastrophiques chez Tesla, grosse décote pour l'iPhone Air - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPTm8wcURCRGhQZXJfMmlSN3N6TjFEbjFGR2dFR3dPczNNd1FmWm9SZWhiX0Z6TklaVmlqa1FrZXlRVmdRamJ2RlNzMU93OWpTRDVwNm8zM1prS25zbENPOGdOVnlYMFNHS1FrWUItYi03YXotdERZdHdubTZKai15Q0RHOTRZdnlfSFlzSnJ6TTE3dFJtaFhkX2dra0p0Sk5PamRmY0EyVFp5UEtwMkYtN1dHcW5ObW9iOVFEeXVJN0E4ZGRlV2d4QVJhRmhpSlJuai1tVmlhVGhzeU5mZVNlbktaSzVVaHZpSzBVWVJmWi1qUU5PRlc5MHlpSE5qdG1QNXotdkhJWVhodDd4Si1oRg?oc=5",
       "published": "Fri, 05 Dec 2025 08:00:00 GMT",
@@ -731,14 +715,6 @@
     {
       "title": "Moins bons et plus chers : comment HP se prépare à la « shrinkflation » des PC à cause de la pénurie de RAM - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOQ1B6dWtkY0FXSDNiSzRRTjg0TUEwSF9tSUMxTUlvZlJmWU9iNjE1WFFnMXZjMVNXZHlzajRaX1NUMnRSZGFzYnBvV2w5STlfam5WZHptMjlDcWZzWG1oRGxXRlI3eTdIUnJEekhrZER3WWR2M1dpOTJGZU9aV1U2Wlk3NDBTV29RZ3RERE5jdGRBeUxBUVB3Vk90ckFJa0N0VzFuTjh6bjFoYTdpV2ZEQW1CY1lDbFhJV1lnaTdrY2pPMEF5SDBYTDh6UjFLZGs5ajFoU25Qbms4Zm9DeDVJ?oc=5",
-      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "Frandroid"
-    },
-    {
-      "title": "RAM et SSD : ne repoussez pas vos achats, la pénurie est désormais « organisée » - Frandroid",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQWEUzUzRIWjMxZUNWYjhZNk02WGRZeFpNenVrZ0lLSUlUVXVwTEttS3FMcEF0cGtndm93QTAxbTl6SGRlVnhRd0VaUlF4Zl9Td2NCSGxSTGc0MmU4TFdUTHBWZ2J3TzhiWkRPWlkwYklfbDE2Ujl3QlpLazEwWEtBSE4yVTk1U0xramxiZkkwTjh1QkhORTRXR2VPbGVWZE11Smh5dlVEUURyU24zdEQ0THBwMmlIem8yWGlTUFp0UFplNXpCYVhBV2VZMXgtLW1PRVRBTkE4a0VwVWV1eHpFekF0dWZhbWxhaEpZcmVleDBZS0RJR2NZN2M5M3JseXc?oc=5",
       "published": "Thu, 04 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
@@ -903,6 +879,14 @@
       "content": "",
       "category": "RAM",
       "source": "Génération NT"
+    },
+    {
+      "title": "Kernel Recipes 2025 c'est fini : les vidéos sont en ligne ! - LinuxFr.org",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXgzS2JiRDQzR1N0Sk9ZUUhWSVl4ME04ckptd18xc0dlX1ZGNzF5QTAtVHA1aGpOUTlFMVFCeTI3UXgwM2N6NXdEVDZRek41RjJYSVJEMUpHNXpYNE1wcVFheHhmYmFuR0hrVHU4bzVpVV96UXk3N29CY2RnVlBnN0ZjcjhlQ2M?oc=5",
+      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "LinuxFr.org"
     },
     {
       "title": "L'IA s'immisce dans le noyau Linux, et une politique officielle est nécessaire au plus vite - ZDNET",
