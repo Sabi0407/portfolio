@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T07:31:52.762Z",
+  "generatedAt": "2026-04-29T07:24:29.663Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-18",
+      "periodStart": "2024-02-19",
       "maxAgeDays": 800
     },
     {
@@ -73,7 +73,7 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 104,
+  "total": 103,
   "errors": [],
   "articles": [
     {
@@ -103,7 +103,7 @@
     {
       "title": "La pénurie de RAM va durer. Seule 60% de la demande pourrait être couverte l'an prochain ! - Clubic",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU05YaS1iT0xnU0VLVnJUSFFhb0QyblVBR2JLNkFtQ29lUUZHTzRlMFhZTHIzX1hTeHQwOERacXJFT2FsSFVFSVh5WTZYR3JxVzkySHJvYks1OUdESWRyZHMxV2lEbW8zdFU1MjZLWUc0QmxGNm1qZm9OM0xtVTJkS2VFZzMzVHQ4ZGZhc1p2ZjlFQTg1eVFoQ3ZodHVlM3JvZ0RyWkpEVVEyR0V1eGFkVlV1ZVBucWIydTZYWDUwc2hHeEdBdWF5d01Edw?oc=5",
-      "published": "Mon, 20 Apr 2026 14:07:00 GMT",
+      "published": "Mon, 20 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
@@ -305,7 +305,7 @@
       "category": "RAM"
     },
     {
-      "title": "Google a peut-être réglé la crise de la mémoire vive (RAM) avec un algorithme - Numerama",
+      "title": "Le coup de génie de Google, qui a trouvé un moyen de régler la crise de la mémoire vive (RAM) pour de bon - Numerama",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLTNPODd5dWlJN29xNWF2WkRQQ1NjZ3cyYVlPWUhZdEV6bHVkRTNCaHk5V2dsZGF4b3J1TnZvUU5SY0JDX0FTMnprUzYyaHhWYTk5dlpBYUhXLXpBTWFUc1M1VG5CZGZWWEpXZ0kxX3lDM2haYVhORUtMZFNmbXhfSFhuSXNPekVJNmtTN0taRDlzZEQtb1ZOVmJkamlCNWxOQnI1REVVcWJjci1EUGQ3MlV5WWRXYzlvMXc?oc=5",
       "published": "Wed, 25 Mar 2026 07:00:00 GMT",
       "content": "",
@@ -705,6 +705,14 @@
       "source": "Clubic"
     },
     {
+      "title": "Ivre, il échange 192GB de RAM contre une 5070 Ti... en pleine pénurie de mémoire - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeXNfTGhBdzY2WXdNdjlhSGM4dUpTMDJiLUZGd01aQi1OTU84RUNSXzMzZjJlR3dKSnlwcjdhMkpjWWl0MnAxNDczOGltMng2cWVvbXlESjNZLUViTG4zdThYa0VpTkdUbEg2WUhhME9JUjdrR25YNWdyYUdkQnpxMS1QdmI4NmZOa21WMEtySHJzRkhsaExkRXhsWEtPdW04SEJiOGJzSVFQRF8wcjFNVFdaTnNfb0otWENHM3RR?oc=5",
+      "published": "Fri, 05 Dec 2025 08:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Clubic"
+    },
+    {
       "title": "01net morning : la flambée des prix de la RAM va durer un moment, des cellules de batterie catastrophiques chez Tesla, grosse décote pour l'iPhone Air - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPTm8wcURCRGhQZXJfMmlSN3N6TjFEbjFGR2dFR3dPczNNd1FmWm9SZWhiX0Z6TklaVmlqa1FrZXlRVmdRamJ2RlNzMU93OWpTRDVwNm8zM1prS25zbENPOGdOVnlYMFNHS1FrWUItYi03YXotdERZdHdubTZKai15Q0RHOTRZdnlfSFlzSnJ6TTE3dFJtaFhkX2dra0p0Sk5PamRmY0EyVFp5UEtwMkYtN1dHcW5ObW9iOVFEeXVJN0E4ZGRlV2d4QVJhRmhpSlJuai1tVmlhVGhzeU5mZVNlbktaSzVVaHZpSzBVWVJmWi1qUU5PRlc5MHlpSE5qdG1QNXotdkhJWVhodDd4Si1oRg?oc=5",
       "published": "Fri, 05 Dec 2025 08:00:00 GMT",
@@ -743,14 +751,6 @@
       "content": "",
       "category": "RAM",
       "source": "Frandroid"
-    },
-    {
-      "title": "Pénurie de mémoire : Micron sacrifie cette marque incontournable de SSD et RAM pour se concentrer sur l'IA - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSFM3VTlKeUpwb1o1TXdmcno1VE9EQjZ1YWhkSHBXaldEWDVGVDV6MEJObUN3YlNCWWp6RUVQVnpCYjBfUUVlMTd4WFc3RUlGSGFYVlhMenN2aE5sVGhqb09HYzA5XzVhdV9TOXlWNWJYTExIaGIxZGtCR1czbUZsckhDOGFGbUtnQ2ZrcHhVUHZUUFdEX1hnQXE4N0V0anlsV01ES3Y1MzVya3laOHlWb1lzSVpTMnJUS0k2TGVDdWFnRF8zdTdYWGNuc01iMkw2V19lYlBia01nNlJNcFg4UUphbw?oc=5",
-      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "Clubic"
     },
     {
       "title": "Une PS5 coûte désormais moins cher que de simples barrettes de RAM - Frandroid",
@@ -879,14 +879,6 @@
       "content": "",
       "category": "RAM",
       "source": "Génération NT"
-    },
-    {
-      "title": "Kernel Recipes 2025 c'est fini : les vidéos sont en ligne ! - LinuxFr.org",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXgzS2JiRDQzR1N0Sk9ZUUhWSVl4ME04ckptd18xc0dlX1ZGNzF5QTAtVHA1aGpOUTlFMVFCeTI3UXgwM2N6NXdEVDZRek41RjJYSVJEMUpHNXpYNE1wcVFheHhmYmFuR0hrVHU4bzVpVV96UXk3N29CY2RnVlBnN0ZjcjhlQ2M?oc=5",
-      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "LinuxFr.org"
     },
     {
       "title": "L'IA s'immisce dans le noyau Linux, et une politique officielle est nécessaire au plus vite - ZDNET",
