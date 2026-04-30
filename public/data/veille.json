@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T07:24:29.663Z",
+  "generatedAt": "2026-04-30T07:28:54.805Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-19",
+      "periodStart": "2024-02-20",
       "maxAgeDays": 800
     },
     {
@@ -101,14 +101,6 @@
       "source": "01net.com"
     },
     {
-      "title": "La pénurie de RAM va durer. Seule 60% de la demande pourrait être couverte l'an prochain ! - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU05YaS1iT0xnU0VLVnJUSFFhb0QyblVBR2JLNkFtQ29lUUZHTzRlMFhZTHIzX1hTeHQwOERacXJFT2FsSFVFSVh5WTZYR3JxVzkySHJvYks1OUdESWRyZHMxV2lEbW8zdFU1MjZLWUc0QmxGNm1qZm9OM0xtVTJkS2VFZzMzVHQ4ZGZhc1p2ZjlFQTg1eVFoQ3ZodHVlM3JvZ0RyWkpEVVEyR0V1eGFkVlV1ZVBucWIydTZYWDUwc2hHeEdBdWF5d01Edw?oc=5",
-      "published": "Mon, 20 Apr 2026 07:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "Clubic"
-    },
-    {
       "title": "LINUX 7.0 EST LÀ !!!! Tour d'horizon !",
       "link": "https://www.youtube.com/watch?v=c6ij-kISFbk",
       "published": "2026-04-16T08:00:22+02:00",
@@ -195,14 +187,6 @@
       "source": "Korben"
     },
     {
-      "title": "Prix de la DRAM : et si le pire était enfin derrière nous ? - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWjNhLThKS3Z2SGQxZ1cxNUw4X2dTcHlkdG9lYlJnRzVlRmZLQ1lkMXNFWURrOV85U2puUm9iaXJNcWtMUFJMc2p2SlFWeG9QLXVQamlac1RnckhBVUNKMmxzQjJsV1dTQzlLT1ZiRHJQZDczVDlTZ0cwbi1qSTNWbmZDZGFLbFVWanZUay03Z1ZwZldsM3BEVEExTHR6cFk2c1E?oc=5",
-      "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "Clubic"
-    },
-    {
       "title": "Les prix DDR5 ont été multipliés par 5 en six mois : ce kit Lexar 32 Go 6000 MHz à 349,99 € est une anomalie à saisir - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRHJrWHNodlEzUlhELV9fM2Z2ekdHaXdsOVhfQ0REWldJd1dITHI3d09KWmNVV0JCaGFuWk9tVWlqRVhUcml4OVRSQ0MxWlZKWDl5eWwtQmFvLWFXNDZ5MGduVE5TVng1Sk9qSWhaM3JHeWxhcWxDUTRLTTBuSEtCNkR1UGh6Mk82ejJUN1ZlZjhQSlBJT0xUVVNXZGg0dk9FaEZLWlVjdTJwQWZ2aW9nN3ZsYVdjRUpMQlY2WDZtTjJUeEtRY013TG13cVdRU2JhckE?oc=5",
       "published": "Wed, 01 Apr 2026 07:00:00 GMT",
@@ -283,7 +267,7 @@
       "category": "RAM"
     },
     {
-      "title": "Hausse des prix de la RAM, délais rallongés et pénurie, tout comprendre de la crise de la RAM - Frandroid",
+      "title": "Hausse des prix et pénurie tout comprendre de la crise de la RAM - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUWlTelp1MllTcUd6Nzg5UC1CaU83bE9VWGc4aUxJNktYazdscHlVdEZHQUxKOUFxN0pRZzM1N3k4bi14dWFBUWZDVjIzdVBQa2t4bzQ5R18zOWJrSm9hOUNEc2R3clhhZDF5TS1LZVJyaGM5dTR3bm1ScVh6YnVjMi1mcVZ5MEJVQjg4TFJtMHhmblcycUxBVDVQYWxldks0eTduXzdmaGdTdXMwQk1iY2txM0VMTDgwdGhkLW53STdWRFQ5dGVZUUpzVHVETVh3d09UUFJuc2kwMkNNcUE?oc=5",
       "published": "Fri, 27 Mar 2026 07:00:00 GMT",
       "content": "",
@@ -407,6 +391,14 @@
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
+    },
+    {
+      "title": "Linus Torvalds respecte sa règle des « doigts et orteils » en décrétant que la prochaine version du noyau Linux sera la version 7.0 : « j'en arrive à un point où je suis dérouté par les grands nombres » - Developpez.com",
+      "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPZWpFbmZTMXMzQ0FEZWVaaEZRNUNPcWZyUXp1RjhPY2J2SUxuRTFSamg4NmJXbTJ1YUZWakpMRDFJMkxzaWhVeEMtZlkxcjd5XzdwLXdpd2EzNE56QVJHZE5ueWJxQjhBOWdLQ3A4cWNiOFdkRndaMERaaU5PbHByNE1sRHNzOG83Q1lXcGVGcEZQTkFmRjhZWDRXUDlleDJjOW9nV2luMDRSNjJIRFhYN29mZWdpandDNi10MXpKQzlycGpMamVjal9TX0Z0TkhhUE5vekFEMmJYLTRHVFNCSXRIZHN1ODhfVlUzLVl0cUtMcE9qRUMwV3A4ZmZXdGVaNS1RUGhxb21GVWM4RGZ0OFBldngxV2JoaGZVcnJZRjBhT0xxekNpUkNhbE0yOHFQZlJCdlpHcE1QSEVNMVY3S0dVUU5nUTFVaTZvVW5BV0VXNHhkYVdV0gHfAkFVX3lxTFBxR1BOOEh5RGw0aXh5MkFPNmt5RUpzbUUtdHI4MmVhRFF1eWpRa0F3YmlxaUJJSzltWTVVU3RuRnVxWkpDcFMwaHdmWDMzRzVlUWRiSXU4Tkh5NnpkekhENUFnZjZOM1Y2QWNqUTdNSHdaVkdYck9oQ0xweFdZTzVtckltaDVyTV9FM3cxMlRzUlJEd05zWW5UdFVlMGNfU1NtVnB3ekJvV0t4X3pualpIdGN0N19iQ1dCaFRxTS1lVFJwT0Q4a2FlM1VZRkVaQ1lkSUlZbXBGelNNbFRjRTU2UC1qTTUyRkRqS2tmTzBhRnJrdXpTUEI5eE9wcnRuRGdMWVdjcHpZTVZZOHVBYl9PUmdlc09WbUVUbUlMdDNhWW50TGxWRGpHOWhJTHRDWkJxeWJOWmZnUE5OVTNkQ3NFTVVGVXo3clFYVkt4b2NYNjg4WENrRHBjb19BaVBOQQ?oc=5",
+      "published": "Wed, 11 Feb 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Developpez.com"
     },
     {
       "title": "Le noyau Linux va passer à la version 7, surtout parce que Linus Torvalds n’a plus assez de doigts pour la 6 - MacGeneration",
@@ -761,6 +753,14 @@
       "source": "Frandroid"
     },
     {
+      "title": "Pénurie de mémoire : Micron sacrifie cette marque incontournable de SSD et RAM pour se concentrer sur l'IA - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSFM3VTlKeUpwb1o1TXdmcno1VE9EQjZ1YWhkSHBXaldEWDVGVDV6MEJObUN3YlNCWWp6RUVQVnpCYjBfUUVlMTd4WFc3RUlGSGFYVlhMenN2aE5sVGhqb09HYzA5XzVhdV9TOXlWNWJYTExIaGIxZGtCR1czbUZsckhDOGFGbUtnQ2ZrcHhVUHZUUFdEX1hnQXE4N0V0anlsV01ES3Y1MzVya3laOHlWb1lzSVpTMnJUS0k2TGVDdWFnRF8zdTdYWGNuc01iMkw2V19lYlBia01nNlJNcFg4UUphbw?oc=5",
+      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Clubic"
+    },
+    {
       "title": "Vous n’êtes pas prêts pour l’augmentation du prix de la RAM qui arrive à grands pas - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOGZZcUVrYzdBaVpXQjJXYzFXU2w4eUpaNm0weURWekYzZk5mYVY1ZDVoR3E5dUFxcmFocktKeERMdWQ4Sk95QnJMYlhBeGtGUHJDM2VaanQ3SVZfbUUxRE9hZnBxUWx0VGZFcEkzZVpQdXlEMjdoRXlDeWc1bEVYdHEtZmJwVEtBRjFLQ2o0dmZza2ZSRHNtYXFDSm1OWmNOMlNlQUI5b2VJV0FEMmJN?oc=5",
       "published": "Tue, 02 Dec 2025 08:00:00 GMT",
@@ -777,12 +777,12 @@
       "source": "Génération NT"
     },
     {
-      "title": "Noyau Linux 6.18 : support renforcé d’Arm, RISC-V et Apple Silicon, Bcachefs retiré - it social",
+      "title": "Noyau Linux 6.18 : support renforcé d’Arm, RISC-V et Apple Silicon, Bcachefs retiré - IT Social",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNkNHaTUtOTl2VTlERXdidkhtTGd4bjdiQXZGUzVwc0pwdUZZNGZvRW0zV3hrbDVvaFE1VHFKSXBCNzFSRl9rS0NLSEladWMwS2ZjSzdHRjV1eU5Ib1FOWHNVMm9iRlFValIyajRTVzBmdUpLQlFnbW9tdEpuakE4NGRLU1FRNmxaSlJrYVg4T1NOSEdtaFE0cW1DNUN0aV9yREdZcVhpY2c5MHN6bGxTZHpzd2xrSS1qWGhkeXozMmw5a1hhdW90UFU1SlVMTEVtUFE?oc=5",
       "published": "Mon, 01 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
-      "source": "it social"
+      "source": "IT Social"
     },
     {
       "title": "Pénurie RAM : ce kit Corsair 16 Go est l’un des derniers à prix correct - Frandroid",
