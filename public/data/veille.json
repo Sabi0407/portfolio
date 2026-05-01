@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T07:28:54.805Z",
+  "generatedAt": "2026-05-01T07:26:01.857Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-20",
+      "periodStart": "2024-02-21",
       "maxAgeDays": 800
     },
     {
@@ -73,9 +73,41 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 103,
+  "total": 104,
   "errors": [],
   "articles": [
+    {
+      "title": "Copy Fail : commentaire de SUSE sur la faille critique du noyau Linux - Programmez!",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWXRXenhlYWRsZU1xOFBvNlV3dFdqOEdUUjM1NFBqM0w5bXpVbU9TQWZFZktVLTI3WmhmUFNKU2ZjZ3lUWjZPVnprRW9PRHVHWXVWei1JUDZScVpFNkdEMEFsckRyaWkwbURvWGowYlgyNnJmb2pkSlB3anlhUFRPeVJQdWVZR2xfZjV4eVJCcTN0amVOUV82M3VRU1J6dHkxQUtkSi0wM3J6LUwyQzR5QdIBtgFBVV95cUxNclN3d3pHbUZteUZyQWpPMUFYWXF5VjQ4UVBPZm45bVkxMFJrNWk2SktDUDk3TnM5QmJ0MjZwenJ4U2I0WkxBcW51NUctUVpITEdqdlZQbm1qWUkwN1N4bzVGdGt5NmlybFFpUGpzMHVaNUl4cnBfa3VWcERCX3dEQlJINzhYOGdKcG8yRFh1ckxZbEFQaGFYd3hCbTRWZnVrREI5eklONzltazBTWHAtOWhLMUttdw?oc=5",
+      "published": "Thu, 30 Apr 2026 16:04:05 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Programmez!"
+    },
+    {
+      "title": "« Copy Fail » : comment une faille dans le noyau Linux a donné accès à tous vos systèmes depuis 2017 - Numerama",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPd011UFNBejk0NnYyMlNfYkVFMWJzOE9OcThrU0tQZ0pOU3pJZERVb1ROMTVWbW54b19rUmpzellCN01UMXl3Z1hfb1lzOUpRYUR5QXJrVTNIb1BaSkN2dnVhc19HcjVUczdfWFJDMktHcHpaLU8tc20zRkhkOUs3OEM2UWt2dHdINnBEOFF0UnZUQk9Sa3FMVnBhblJpMFlXUWgxTEVTalo1cndDbTBMV2tyRXN5cG0yQXNkeXg0N1ZTOXZfWTA5eWZkQ21NWmVOUXdXVmgyVnZpZmVC?oc=5",
+      "published": "Thu, 30 Apr 2026 10:10:01 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Numerama"
+    },
+    {
+      "title": "Faille critique sur le noyau Linux : 732 octets en Python et on passe Root - Programmez!",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONzZhb3pwR29GbEhobmc5d1BlQUcxTkQxT3Qtb2Y1dWV2b0JlZkpmcDAtTnJnSVdqSzJ4amVEWGs5Y3JXVXlNUGVzcS1hd3dBOXZpX2dlVjE0bFk0UEV2dVJmcWxrYWJFUWlpa0h2UHNqTElxMWpzSEVGMzBoMmVJYnBId3BTcEJjd3pNRi0tcjdYNDFzYjFZY1ZOOHFBSU9sdE5KRkhmUE9FVTZmZVhLeUI1ONIBuAFBVV95cUxOVmZCZXRZdDhPcFpvR1R3U2NsY0Voazc3eGVjV0VnX05WQU9SZVB5LTl3T1E0S05tUjRLbl9rOGFFRGpORHRTQnFJTkFTb2pEaW9aZW9hc3NlWE5VYWlsa1hKZUdjbHhnNWpyX1FOOUZLM09ETGxYR1JHbHZjTDk4a3A1b0JwOWhOOWtoVENpUndJYkE2eGJZRG9EbUtHaUtOajFEOUV1VXdMUHg4cjZVQkx5bUctMFJk?oc=5",
+      "published": "Thu, 30 Apr 2026 08:45:38 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Programmez!"
+    },
+    {
+      "title": "Copy fail : depuis 2017, une faille dans le noyau Linux permettait à un utilisateur de passer root - Next.ink",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOHRSNUxHUmRGTHhuZDJfTnNFNmZzaGZvMUY1bEtTbExuNlVHR2s2LXk3YVoyVENCQzVhUVdjUFRTanJDZGcwZTRNQ3lSR3NjWUFEMGFWRE1URDFYczcwUTRXM2NaS3Uya3pDZ0tSYlVjT21nUE9Ja2Z4VUdzZ2E2aTJvdTgxR2JpOFZKYlUxY1RtUDJJSm1fWXUxSlJ1eTFTcGtJTnpxd2VCOGFucUJPZlRQTmhJU25leUtOXw?oc=5",
+      "published": "Mon, 27 Apr 2026 11:19:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Next.ink"
+    },
     {
       "title": "Avec la pénurie, la RAM représente 20 % du coût d'un Galaxy S26 : Samsung s'étrangle avec ses propres puces - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb2ptN1R1V3VvSWdDem5FNng0UHQyc2NBaDNnREFEalpZdzVNQ1FoSXBZeExpSU1uWGpENlNqcjBNanFoZFpWbUJlenZFZ3Yya1VJQjFxd3NQN3JUU243VWpDS2F5YTF1TmNCOWpjVUgtNmREUUlSSDVaZjExV3Fudlc4ZlA1WFNJcm9OYWxpWmpJb0stRG5LZXlKUzdxZXk2aXNtRWRuQWNtWWNydS03TzV5bVM1Zw?oc=5",
@@ -99,6 +131,14 @@
       "content": "",
       "category": "RAM",
       "source": "01net.com"
+    },
+    {
+      "title": "La pénurie de RAM va durer. Seule 60% de la demande pourrait être couverte l'an prochain ! - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQU05YaS1iT0xnU0VLVnJUSFFhb0QyblVBR2JLNkFtQ29lUUZHTzRlMFhZTHIzX1hTeHQwOERacXJFT2FsSFVFSVh5WTZYR3JxVzkySHJvYks1OUdESWRyZHMxV2lEbW8zdFU1MjZLWUc0QmxGNm1qZm9OM0xtVTJkS2VFZzMzVHQ4ZGZhc1p2ZjlFQTg1eVFoQ3ZodHVlM3JvZ0RyWkpEVVEyR0V1eGFkVlV1ZVBucWIydTZYWDUwc2hHeEdBdWF5d01Edw?oc=5",
+      "published": "Mon, 20 Apr 2026 07:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Clubic"
     },
     {
       "title": "LINUX 7.0 EST LÀ !!!! Tour d'horizon !",
@@ -267,14 +307,6 @@
       "category": "RAM"
     },
     {
-      "title": "Hausse des prix et pénurie tout comprendre de la crise de la RAM - Frandroid",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUWlTelp1MllTcUd6Nzg5UC1CaU83bE9VWGc4aUxJNktYazdscHlVdEZHQUxKOUFxN0pRZzM1N3k4bi14dWFBUWZDVjIzdVBQa2t4bzQ5R18zOWJrSm9hOUNEc2R3clhhZDF5TS1LZVJyaGM5dTR3bm1ScVh6YnVjMi1mcVZ5MEJVQjg4TFJtMHhmblcycUxBVDVQYWxldks0eTduXzdmaGdTdXMwQk1iY2txM0VMTDgwdGhkLW53STdWRFQ5dGVZUUpzVHVETVh3d09UUFJuc2kwMkNNcUE?oc=5",
-      "published": "Fri, 27 Mar 2026 07:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "Frandroid"
-    },
-    {
       "title": "Google a peut-être réglé la crise de la mémoire vive (RAM) avec un algorithme",
       "link": "https://www.numerama.com/tech/2218121-google-a-peut-etre-regle-la-crise-de-la-memoire-vive-ram-avec-un-algorithme.html",
       "published": "2026-03-25T16:16:00+01:00",
@@ -351,14 +383,6 @@
       "content": "",
       "category": "RAM",
       "source": "Génération NT"
-    },
-    {
-      "title": "DRAM : +90 à +95% en un trimestre… la hausse va être violente - GinjFo",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVHNmVmlKZ05SamRUMUowd29ueFBNdG55TDV1akZiREZjWUxUdDVXZlZNS3JrWHdneUE4Sl9kZ0pSVml4MlBNOVk0SmZwdnUxTHkwLVJpTHhQNWw3WHdwR2xFNGM2SzBIUzJWWWtLc2stSExWZjYxNW9DZGY4TEw5RkJXVjU4T2UxSnEyU25zd1E5dkozSHNuUGszeDdWbzA1VkZWTjZkUWNHSmRGNldhV1pHUDFSdEpIUkE?oc=5",
-      "published": "Thu, 26 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "GinjFo"
     },
     {
       "title": "Linux 7 : son créateur dévoile toutes les nouveautés... et prépare le monde à son départ - Les Numériques",
@@ -753,14 +777,6 @@
       "source": "Frandroid"
     },
     {
-      "title": "Pénurie de mémoire : Micron sacrifie cette marque incontournable de SSD et RAM pour se concentrer sur l'IA - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSFM3VTlKeUpwb1o1TXdmcno1VE9EQjZ1YWhkSHBXaldEWDVGVDV6MEJObUN3YlNCWWp6RUVQVnpCYjBfUUVlMTd4WFc3RUlGSGFYVlhMenN2aE5sVGhqb09HYzA5XzVhdV9TOXlWNWJYTExIaGIxZGtCR1czbUZsckhDOGFGbUtnQ2ZrcHhVUHZUUFdEX1hnQXE4N0V0anlsV01ES3Y1MzVya3laOHlWb1lzSVpTMnJUS0k2TGVDdWFnRF8zdTdYWGNuc01iMkw2V19lYlBia01nNlJNcFg4UUphbw?oc=5",
-      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "Clubic"
-    },
-    {
       "title": "Vous n’êtes pas prêts pour l’augmentation du prix de la RAM qui arrive à grands pas - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOGZZcUVrYzdBaVpXQjJXYzFXU2w4eUpaNm0weURWekYzZk5mYVY1ZDVoR3E5dUFxcmFocktKeERMdWQ4Sk95QnJMYlhBeGtGUHJDM2VaanQ3SVZfbUUxRE9hZnBxUWx0VGZFcEkzZVpQdXlEMjdoRXlDeWc1bEVYdHEtZmJwVEtBRjFLQ2o0dmZza2ZSRHNtYXFDSm1OWmNOMlNlQUI5b2VJV0FEMmJN?oc=5",
       "published": "Tue, 02 Dec 2025 08:00:00 GMT",
@@ -881,6 +897,14 @@
       "source": "Génération NT"
     },
     {
+      "title": "Kernel Recipes 2025 c'est fini : les vidéos sont en ligne ! - LinuxFr.org",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXgzS2JiRDQzR1N0Sk9ZUUhWSVl4ME04ckptd18xc0dlX1ZGNzF5QTAtVHA1aGpOUTlFMVFCeTI3UXgwM2N6NXdEVDZRek41RjJYSVJEMUpHNXpYNE1wcVFheHhmYmFuR0hrVHU4bzVpVV96UXk3N29CY2RnVlBnN0ZjcjhlQ2M?oc=5",
+      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "LinuxFr.org"
+    },
+    {
       "title": "L'IA s'immisce dans le noyau Linux, et une politique officielle est nécessaire au plus vite - ZDNET",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaFVFUDJxNVhwOS1GNndxSE9EN3pIWWEzUHc0U2xHV3FGcnVqX3ROd0g0UmNHTU43bnRMeWVncXQwVExoNHBDQlFaTzZtN2xqaFBnZ0F1R2s5VUhNOVowcFFmSVBDcm9GdDV5X2xSR3o2RERZUURuMURHVVBaeUxyV2ZaSV9CM2UtOVJrNTF2UW0wVDNVYTk2MDRaR3NPa3E4VTRmOUVzdzJOazNiMWxpLVlXUC1qeDA0dlIwOFp3WTUzMTJsNk1mRVZtMA?oc=5",
       "published": "Mon, 25 Aug 2025 07:00:00 GMT",
@@ -913,28 +937,12 @@
       "source": "Korben"
     },
     {
-      "title": "Le noyau Linux va bientôt prendre en charge la Magic Mouse 2 USB-C (et attention à la compatibilité sous macOS) - MacGeneration",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUFM3NFpYUkdQUU4zNm1fSlhjRUJJMEZVbU5lLWtPUXdlcnJ4LW1IS05lSXlLNWp4aDBNOGtiaGwzZ2dCeVhTWGw3ZDZMUC10LXlkYmRCRnBBY1NTd3Z5MnV3bkN0elZwRlhWaWM2WXMzcDh4WFJHUFRDN0dRX1h3TkxLVWN5cnM4dV91OHpFdFZhZDJhVUlQWndOa3RzdHl5UlpWYi0zdkNIWWpRaG9SbUlyVldia01LbVNuSVZmTFdUQ1gtdWEwVUNUUldKaVM2SzFnTXh3YXhXVDlWRndORGdMRXlrdw?oc=5",
-      "published": "Wed, 04 Jun 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "MacGeneration"
-    },
-    {
       "title": "Le noyau Linux 6.15 arrive - et c'est une grande victoire pour les fans de Rust - ZDNET",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNblczUUZSeVFpUndPSklmcm9tZDNTNXZyY0FPdWxXaWF0aFVpVGR3YkU2cFMyRFpqcG4yYzhZX3ZuQWlONEtnSno5LWJKVFBLYm80Wld3WG1MdkZhYVhmekV6azJJTVhSVS1TVlpOci0wUzh1djdvT19MRHpTaXlGbGlPVnVRZkdzODNnODhNSUpWQ0pNaWFidkJyTGZtQ1VZbUpoYVl1bEpaMTA2RHZkb3VXOWlydnZKUjlr?oc=5",
       "published": "Tue, 03 Jun 2025 07:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
       "source": "ZDNET"
-    },
-    {
-      "title": "Linux 6.15 : mise à jour surprise du noyau, avec effets immédiats - Les Numériques",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPZEI1cVNqTzFLVU0wRU5ObEQwekl5aTlDMnI1OW9aYWtEM1piVzJJaUNlVHVzcGVBR2ozeXJSMnlGRExNUC1CMzRGV3lnZzVhczRfcVZ4R0haQkE3ZEpxM0FWVm1iMzB0R2oxZm9FSXlSUG5NZG5hUVdUT1EweUg0c0JsbEE1MF85TEpXSk8yc2V5bEFKV19HQ3ZWRDZVd0IyWUw2UWFuX1RvU1F0dVVDV0JtbFFFbzY2cHdNTHY5NWg5TGptQjFyRkNDWlBlM3lXS0V0Y01nRlF6TnFTaURtd0VtdzUwN3pwNTZwNTRXb05zeVBIOEw5ck1YMA?oc=5",
-      "published": "Mon, 26 May 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Les Numériques"
     }
   ]
 }
