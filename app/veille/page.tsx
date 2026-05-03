@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Calendar, ExternalLink, Loader2, PlayCircle, Rss } from "lucide-react"
+import { Calendar, Download, ExternalLink, Loader2, PlayCircle, Rss } from "lucide-react"
 import { useEffect, useMemo, useState } from "react"
 
 interface Article {
@@ -65,24 +65,32 @@ function formatLongDate(dateValue: string): string {
   })
 }
 
-function getVeilleJsonCandidates(): string[] {
+function getDataFileCandidates(fileName: string): string[] {
   if (typeof window === "undefined") {
-    return ["/data/veille.json"]
+    return [`/data/${fileName}`]
   }
 
   const origin = window.location.origin
   const pathnameSegments = window.location.pathname.split("/").filter(Boolean)
   const candidates = new Set<string>()
 
-  candidates.add(new URL("../data/veille.json", window.location.href).toString())
+  candidates.add(new URL(`../data/${fileName}`, window.location.href).toString())
 
   if (pathnameSegments.length > 1) {
-    candidates.add(`${origin}/${pathnameSegments[0]}/data/veille.json`)
+    candidates.add(`${origin}/${pathnameSegments[0]}/data/${fileName}`)
   }
 
-  candidates.add(`${origin}/data/veille.json`)
+  candidates.add(`${origin}/data/${fileName}`)
 
   return Array.from(candidates)
+}
+
+function getVeilleJsonCandidates(): string[] {
+  return getDataFileCandidates("veille.json")
+}
+
+function getVeilleOpmlCandidates(): string[] {
+  return getDataFileCandidates("veille.opml")
 }
 
 export default function VeillePage() {
@@ -92,9 +100,15 @@ export default function VeillePage() {
   const [error, setError] = useState(false)
   const [displayCount, setDisplayCount] = useState(10)
   const [activeCategory, setActiveCategory] = useState<string>("all")
+  const [opmlUrl, setOpmlUrl] = useState("/data/veille.opml")
 
   useEffect(() => {
     async function fetchLocalVeille() {
+      const opmlCandidates = getVeilleOpmlCandidates()
+      if (opmlCandidates.length > 0) {
+        setOpmlUrl(opmlCandidates[0])
+      }
+
       try {
         const candidates = getVeilleJsonCandidates()
         let payload: VeillePayload | null = null
@@ -173,6 +187,25 @@ export default function VeillePage() {
             avec un affichage automatique des articles les plus pertinents.
           </p>
         </header>
+
+        <section className="rounded-2xl border border-border bg-card p-6 shadow-sm">
+          <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+            <div>
+              <h2 className="font-heading text-xl font-semibold text-foreground">Importer tous mes flux RSS sur mobile</h2>
+              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                Télécharge le fichier OPML puis importe-le dans ton application RSS (Feeder, NetNewsWire, Reeder...).
+              </p>
+            </div>
+
+            <a
+              href={opmlUrl}
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:opacity-90"
+            >
+              Télécharger l&apos;OPML
+              <Download size={14} />
+            </a>
+          </div>
+        </section>
 
         <section className="grid gap-6 xl:grid-cols-[1.05fr_1.45fr]">
           <article className="rounded-2xl border border-border bg-card p-6 shadow-sm">

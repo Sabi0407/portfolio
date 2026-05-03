@@ -6,6 +6,7 @@ const ONE_DAY_MS = 24 * 60 * 60 * 1000
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const OUTPUT_PATH = path.resolve(__dirname, "..", "public", "data", "veille.json")
+const OPML_OUTPUT_PATH = path.resolve(__dirname, "..", "public", "data", "veille.opml")
 
 function buildGoogleNewsRssUrl(query) {
   const params = new URLSearchParams({
@@ -307,6 +308,34 @@ function stripHtmlTags(value) {
     .replace(/<[^>]*>/g, " ")
     .replace(/\s+/g, " ")
     .trim()
+}
+
+function escapeXml(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;")
+}
+
+function buildOpml(topics, generatedAtIso) {
+  const topicOutlines = topics
+    .map((topic) => {
+      const allFeeds = [...topic.feeds, ...topic.fallbackFeeds]
+      const topicLabel = topic.label || topic.category
+      const feedOutlines = allFeeds
+        .map((feedUrl, index) => {
+          const feedLabel = `${topicLabel} - Flux ${index + 1}`
+          return `      <outline text="${escapeXml(feedLabel)}" title="${escapeXml(feedLabel)}" type="rss" xmlUrl="${escapeXml(feedUrl)}" htmlUrl="${escapeXml(feedUrl)}" />`
+        })
+        .join("\n")
+
+      return `    <outline text="${escapeXml(topicLabel)}" title="${escapeXml(topicLabel)}">\n${feedOutlines}\n    </outline>`
+    })
+    .join("\n")
+
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<opml version="2.0">\n  <head>\n    <title>Veille technologique - Flux RSS de Sabiran</title>\n    <dateCreated>${escapeXml(new Date(generatedAtIso).toUTCString())}</dateCreated>\n  </head>\n  <body>\n${topicOutlines}\n  </body>\n</opml>\n`
 }
 
 function extractTag(xml, tagName) {
@@ -618,8 +647,10 @@ async function main() {
 
   await mkdir(path.dirname(OUTPUT_PATH), { recursive: true })
 
+  const generatedAt = new Date().toISOString()
+
   const payload = {
-    generatedAt: new Date().toISOString(),
+    generatedAt,
     source: "google-news-rss-multi-theme-fr",
     sourceByTopic,
     topics: TOPICS.map((topic) => ({
@@ -641,6 +672,8 @@ async function main() {
 
   await writeFile(OUTPUT_PATH, `${JSON.stringify(payload, null, 2)}\n`, "utf8")
   console.log(`Veille data written to ${OUTPUT_PATH} (${finalArticles.length} article(s)).`)
+  await writeFile(OPML_OUTPUT_PATH, buildOpml(TOPICS, generatedAt), "utf8")
+  console.log(`Veille OPML written to ${OPML_OUTPUT_PATH}.`)
 
   if (errors.length > 0) {
     console.warn(`Feed warnings: ${errors.length}`)
