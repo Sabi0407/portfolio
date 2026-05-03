@@ -197,6 +197,9 @@ const TOPICS = [
     maxAgeDays: 800,
     maxArticles: null,
     manualArticles: CURATED_KERNEL_ARTICLES,
+    opmlFeeds: [
+      buildGoogleNewsRssUrl('"noyau Linux" OR kernel OR eBPF OR "Linux 7.0" OR "Linux 7.1"'),
+    ],
     feeds: [
       buildGoogleNewsRssUrl('"noyau Linux"'),
     ],
@@ -239,6 +242,11 @@ const TOPICS = [
     periodStart: "2025-10-01",
     maxAgeDays: null,
     maxArticles: null,
+    opmlFeeds: [
+      buildGoogleNewsRssUrl(
+        '"prix RAM" OR "mémoire vive prix" OR "DDR5 prix" OR "DRAM prix" OR "pénurie RAM" OR "marché de la RAM" OR "TurboQuant RAM" OR "TurboQuant DDR5"'
+      ),
+    ],
     feeds: [
       buildGoogleNewsRssUrl('"prix RAM"'),
       buildGoogleNewsRssUrl('"mémoire vive prix"'),
@@ -319,15 +327,51 @@ function escapeXml(value) {
     .replace(/'/g, "&apos;")
 }
 
+function normalizeFeedUrlForKey(feedUrl) {
+  try {
+    const parsed = new URL(feedUrl)
+    parsed.hash = ""
+    parsed.searchParams.sort()
+    return parsed.toString()
+  } catch {
+    return String(feedUrl || "").trim()
+  }
+}
+
+function dedupeFeedUrls(feedUrls) {
+  const seen = new Set()
+  const deduped = []
+
+  for (const feedUrl of feedUrls) {
+    if (!feedUrl) {
+      continue
+    }
+
+    const key = normalizeFeedUrlForKey(feedUrl)
+    if (seen.has(key)) {
+      continue
+    }
+
+    seen.add(key)
+    deduped.push(feedUrl)
+  }
+
+  return deduped
+}
+
 function buildOpml(topics, generatedAtIso) {
   const topicOutlines = topics
     .map((topic) => {
-      const allFeeds = [...topic.feeds, ...topic.fallbackFeeds]
+      const allFeeds = dedupeFeedUrls(
+        Array.isArray(topic.opmlFeeds) && topic.opmlFeeds.length > 0
+          ? topic.opmlFeeds
+          : [...topic.feeds, ...topic.fallbackFeeds]
+      )
       const topicLabel = topic.label || topic.category
       const feedOutlines = allFeeds
         .map((feedUrl, index) => {
           const feedLabel = `${topicLabel} - Flux ${index + 1}`
-          return `      <outline text="${escapeXml(feedLabel)}" title="${escapeXml(feedLabel)}" type="rss" xmlUrl="${escapeXml(feedUrl)}" htmlUrl="${escapeXml(feedUrl)}" />`
+          return `      <outline text="${escapeXml(feedLabel)}" title="${escapeXml(feedLabel)}" type="rss" xmlUrl="${escapeXml(feedUrl)}" />`
         })
         .join("\n")
 

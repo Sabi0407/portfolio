@@ -6,19 +6,10 @@
   </head>
   <body>
     <outline text="Noyau Linux" title="Noyau Linux">
-      <outline text="Noyau Linux - Flux 1" title="Noyau Linux - Flux 1" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22noyau+Linux%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" htmlUrl="https://news.google.com/rss/search?q=%22noyau+Linux%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
+      <outline text="Noyau Linux - Flux 1" title="Noyau Linux - Flux 1" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22noyau+Linux%22+OR+kernel+OR+eBPF+OR+%22Linux+7.0%22+OR+%22Linux+7.1%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
     </outline>
     <outline text="RAM" title="RAM">
-      <outline text="RAM - Flux 1" title="RAM - Flux 1" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22prix+RAM%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" htmlUrl="https://news.google.com/rss/search?q=%22prix+RAM%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="RAM - Flux 2" title="RAM - Flux 2" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22m%C3%A9moire+vive+prix%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" htmlUrl="https://news.google.com/rss/search?q=%22m%C3%A9moire+vive+prix%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="RAM - Flux 3" title="RAM - Flux 3" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22DDR5+prix%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" htmlUrl="https://news.google.com/rss/search?q=%22DDR5+prix%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="RAM - Flux 4" title="RAM - Flux 4" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22DRAM+prix%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" htmlUrl="https://news.google.com/rss/search?q=%22DRAM+prix%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="RAM - Flux 5" title="RAM - Flux 5" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22p%C3%A9nurie+RAM%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" htmlUrl="https://news.google.com/rss/search?q=%22p%C3%A9nurie+RAM%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="RAM - Flux 6" title="RAM - Flux 6" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22march%C3%A9+de+la+RAM%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" htmlUrl="https://news.google.com/rss/search?q=%22march%C3%A9+de+la+RAM%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="RAM - Flux 7" title="RAM - Flux 7" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22TurboQuant+RAM%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" htmlUrl="https://news.google.com/rss/search?q=%22TurboQuant+RAM%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="RAM - Flux 8" title="RAM - Flux 8" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22TurboQuant+DDR5%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" htmlUrl="https://news.google.com/rss/search?q=%22TurboQuant+DDR5%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="RAM - Flux 9" title="RAM - Flux 9" type="rss" xmlUrl="https://news.google.com/rss/search?q=RAM+prix+01net&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" htmlUrl="https://news.google.com/rss/search?q=RAM+prix+01net&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="RAM - Flux 10" title="RAM - Flux 10" type="rss" xmlUrl="https://news.google.com/rss/search?q=RAM+prix+Korben&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" htmlUrl="https://news.google.com/rss/search?q=RAM+prix+Korben&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
+      <outline text="RAM - Flux 1" title="RAM - Flux 1" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22prix+RAM%22+OR+%22m%C3%A9moire+vive+prix%22+OR+%22DDR5+prix%22+OR+%22DRAM+prix%22+OR+%22p%C3%A9nurie+RAM%22+OR+%22march%C3%A9+de+la+RAM%22+OR+%22TurboQuant+RAM%22+OR+%22TurboQuant+DDR5%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
     </outline>
   </body>
 </opml>
