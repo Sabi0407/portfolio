@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-03T07:19:48.436Z",
+  "generatedAt": "2026-05-04T07:47:55.952Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-23",
+      "periodStart": "2024-02-24",
       "maxAgeDays": 800
     },
     {
@@ -73,7 +73,7 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 107,
+  "total": 108,
   "errors": [],
   "articles": [
     {
@@ -143,7 +143,7 @@
     {
       "title": "Ce PC portable Lenovo ultime génération est à prix fou sur Amazon (Core i7, RAM 16Go, SSD 1To) - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLWZBOTFBbEdDeFI2U0w2ZlVFaFZ5V3RXTmVscUVscGtkOTlsRXJtS3FmMmF3cXV3SDJHNFRQQnFxQWFST3FiTXA4cmJfeG9BMnBFS3UwSmZMTDVlUDhyUWNTdDl3clhFWE9lMmJKckpMczkxSnZxeFV0MU10bm10Q1FIbE9IX3FyUE5TYjRXVnpac3czN24yWFRTUnR2d2FCWEctdHFkcWVjMi0xcUtrbnZibkxCRjVCeWxQWkpLTG5kYk9jQi0w?oc=5",
-      "published": "Fri, 24 Apr 2026 15:25:59 GMT",
+      "published": "Fri, 24 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "01net.com"
@@ -825,12 +825,12 @@
       "source": "Génération NT"
     },
     {
-      "title": "Noyau Linux 6.18 : support renforcé d’Arm, RISC-V et Apple Silicon, Bcachefs retiré - IT Social",
+      "title": "Noyau Linux 6.18 : support renforcé d’Arm, RISC-V et Apple Silicon, Bcachefs retiré - it social",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNkNHaTUtOTl2VTlERXdidkhtTGd4bjdiQXZGUzVwc0pwdUZZNGZvRW0zV3hrbDVvaFE1VHFKSXBCNzFSRl9rS0NLSEladWMwS2ZjSzdHRjV1eU5Ib1FOWHNVMm9iRlFValIyajRTVzBmdUpLQlFnbW9tdEpuakE4NGRLU1FRNmxaSlJrYVg4T1NOSEdtaFE0cW1DNUN0aV9yREdZcVhpY2c5MHN6bGxTZHpzd2xrSS1qWGhkeXozMmw5a1hhdW90UFU1SlVMTEVtUFE?oc=5",
       "published": "Mon, 01 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
-      "source": "IT Social"
+      "source": "it social"
     },
     {
       "title": "Pénurie RAM : ce kit Corsair 16 Go est l’un des derniers à prix correct - Frandroid",
@@ -897,6 +897,22 @@
       "source": "Clubic"
     },
     {
+      "title": "Prix DRAM : +172 % Sur Un An, La Pénurie S’aggrave - Pause Hardware",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00RlVWWGQ4dkdLbUtOU0JNV2s5OE1uNEdINkJqeG9zdkJKNzVVVVB2QXVKMnhkQUR3aXBJSzAzQjRyMmxFVEswVVlhYVJCUDk4azA1cF9JT0NlWkVoMVdCYWVpLUZYczMyNzNlcndfd0Z3bG1X?oc=5",
+      "published": "Thu, 06 Nov 2025 08:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Pause Hardware"
+    },
+    {
+      "title": "Sylvestre Ledru (Mozilla) : de Firefox au noyau Linux, la fulgurante ascension du Rust - Next.ink",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcWVYSjgxWEQ4OFlMcG93TGlxSWdZZ1hkMXNDZ3dlWEVvTDZmTnZBZHR0Sy1OZThUQ09UY25oRGQ3aXZkd1VhU0NCWVZ2WWhDeVJhczZpbmNBMjlFRGZCUzZhUTBpbEZaZzQ0UHJVMFliMm5sWm5RWkxUd21fM3lzMVFYZjBfbU5HTUJYYzkzWnllY2l4cVQtN0lZRmdLM3lKNEFGR3B5ZVdSdw?oc=5",
+      "published": "Tue, 04 Nov 2025 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Next.ink"
+    },
+    {
       "title": "Le Poco F7 tombe à un prix FOU (Snapdragon 8s Gen 4, RAM 12Go, stockage 512Go) - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOVR5MzAwVHExaFZWT19OcGVzS3NpcHV2T1UyOUZMc1A2eGVwSHFpWHRlMUtack5DT194OTM2MC1ITGVsdHZOdHpsTzFPQmZnRjFWZnJXeVViZ0NjaFZLbThKUzhQYU5xWlY3dm94YXM0c3ZwMjRpYkhUdDVYYlNjSWdqY2xvaDg5anZJVHhJZURrR3NOSDdHUEp1SjBUeVNabnVTSzIwcnF6TzRJcFlGbFB3?oc=5",
       "published": "Wed, 29 Oct 2025 07:00:00 GMT",
@@ -919,14 +935,6 @@
       "content": "",
       "category": "RAM",
       "source": "Génération NT"
-    },
-    {
-      "title": "Kernel Recipes 2025 c'est fini : les vidéos sont en ligne ! - LinuxFr.org",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXgzS2JiRDQzR1N0Sk9ZUUhWSVl4ME04ckptd18xc0dlX1ZGNzF5QTAtVHA1aGpOUTlFMVFCeTI3UXgwM2N6NXdEVDZRek41RjJYSVJEMUpHNXpYNE1wcVFheHhmYmFuR0hrVHU4bzVpVV96UXk3N29CY2RnVlBnN0ZjcjhlQ2M?oc=5",
-      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "LinuxFr.org"
     },
     {
       "title": "L'IA s'immisce dans le noyau Linux, et une politique officielle est nécessaire au plus vite - ZDNET",
