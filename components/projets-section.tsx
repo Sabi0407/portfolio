@@ -71,6 +71,13 @@ const categories = [
     icon: Briefcase,
     projects: [
       {
+        title: "Exemple de ticket - Lecteur réseau disparu",
+        desc: "Traitement d'un incident utilisateur (urgence moyenne) avec diagnostic d'un lecteur réseau manquant, vérification des droits d'accès, remappage du partage et validation du rétablissement avec l'utilisateur.",
+        tags: ["Ticketing", "Support", "Windows", "Réseau", "GLPI"],
+        pdf: "",
+        docStatus: "Exemple anonymisé de ticket traité en alternance.",
+      },
+      {
         title: "Procédure d'enrôlement d'un ordinateur dans Intune",
         desc: "Procédure pas à pas pour enrôler un poste Windows dans Intune, avec préapprovisionnement Autopilot, sélection de l'entité et validation finale.",
         tags: ["Intune", "Autopilot", "Enrôlement", "Onboarding", "Support"],
