@@ -74,8 +74,8 @@ const categories = [
         title: "Exemple de ticket - Lecteur réseau disparu",
         desc: "Traitement d'un incident utilisateur (urgence moyenne) avec diagnostic d'un lecteur réseau manquant, vérification des droits d'accès, remappage du partage et validation du rétablissement avec l'utilisateur.",
         tags: ["Ticketing", "Support", "Windows", "Réseau", "GLPI"],
-        pdf: "",
-        docStatus: "Exemple anonymisé de ticket traité en alternance.",
+        pdf: "/s.sabiran/docs/ticket-4561-lecteur-reseau.png",
+        docStatus: "Capture anonymisée du ticket traité en alternance.",
       },
       {
         title: "Procédure d'enrôlement d'un ordinateur dans Intune",
@@ -269,6 +269,7 @@ function ProjectCard({ project }: { project: Project }) {
   const hasMainDoc = Boolean(project.pdf)
   const hasSchemaDoc = Boolean(project.schemaPdf)
   const isGithubLink = Boolean(project.github && project.github.includes("github.com"))
+  const isImageFile = (url: string) => /\.(png|jpe?g|webp|gif|svg)$/i.test(url)
 
   const openModal = (url: string, title: string) => {
     setModalDoc({ url, title })
@@ -282,7 +283,7 @@ function ProjectCard({ project }: { project: Project }) {
 
   const getModalPreviewUrl = (url: string) => {
     const lowerUrl = url.toLowerCase()
-    if (url.startsWith("http") || lowerUrl.endsWith(".pdf")) {
+    if (url.startsWith("http") || lowerUrl.endsWith(".pdf") || isImageFile(url)) {
       return url
     }
 
@@ -400,11 +401,17 @@ function ProjectCard({ project }: { project: Project }) {
                 </button>
               </div>
             </div>
-            <iframe
-              src={getModalPreviewUrl(modalDoc.url)}
-              className="h-[calc(100%-4rem)] w-full"
-              title={modalDoc.title}
-            />
+            {isImageFile(modalDoc.url) ? (
+              <div className="h-[calc(100%-4rem)] w-full overflow-auto bg-muted/20 p-4">
+                <img src={modalDoc.url} alt={modalDoc.title} className="mx-auto h-full w-auto object-contain" />
+              </div>
+            ) : (
+              <iframe
+                src={getModalPreviewUrl(modalDoc.url)}
+                className="h-[calc(100%-4rem)] w-full"
+                title={modalDoc.title}
+              />
+            )}
           </div>
         </div>
       )}
