@@ -127,18 +127,6 @@ const categories = [
         tags: ["Firefox", "Configuration", "Policies", "Déploiement", "Navigateur"],
         pdf: "/s.sabiran/docs/stage-firefox-policies.pdf",
       },
-      {
-        title: "Automatisation des tâches planifiées avec Cron",
-        desc: "Configuration et gestion des tâches cron pour automatiser les opérations d'ALCASAR : planification des mises à jour système, sauvegardes automatiques, purge des logs anciens et maintenance préventive.",
-        tags: ["Cron", "Automatisation", "Planification", "Maintenance", "Scripts"],
-        pdf: "/s.sabiran/docs/stage-taches-cron-alcasar.pdf",
-      },
-      {
-        title: "Gestion et analyse des journaux système ALCASAR",
-        desc: "Compréhension approfondie des fichiers logs d'ALCASAR. Localisation des journaux, interprétation des messages d'erreur, analyse des traces de connexion et mise en place d'une surveillance efficace pour supervision.",
-        tags: ["Logs", "Journaux", "Supervision", "Débogage", "Monitoring"],
-        pdf: "/s.sabiran/docs/stage-logs-alcasar.pdf",
-      },
     ] as Project[],
   },
   {
@@ -181,18 +169,6 @@ const categories = [
         desc: "Mise en place de solutions de sauvegarde sur Linux : utilisation de rsync pour la synchronisation, création de sauvegardes incrémentales et configuration de tâches automatisées.",
         tags: ["Sauvegarde", "Rsync", "Linux", "Automatisation", "Backup"],
         pdf: "/s.sabiran/docs/tp-sauvegarde-linux-p1.pdf",
-      },
-      {
-        title: "Configuration SSH et chiffrage",
-        desc: "Configuration avancée du serveur SSH pour l'administration à distance sécurisée : authentification par clés, désactivation du mot de passe root, configuration du chiffrage et sécurisation des connexions.",
-        tags: ["SSH", "Chiffrage", "Sécurité", "Authentification", "Linux"],
-        pdf: "/s.sabiran/docs/tp-ssh-chiffrage.pdf",
-      },
-      {
-        title: "PowerShell - Partie 1",
-        desc: "Introduction à PowerShell et automatisation sous Windows : scripts de base, manipulation d'objets, cmdlets essentielles et automatisation de tâches d'administration système.",
-        tags: ["PowerShell", "Windows", "Scripting", "Automatisation", "Administration"],
-        pdf: "/s.sabiran/docs/tp-powershell-1.pdf",
       },
       {
         title: "PowerShell - Partie 2",
