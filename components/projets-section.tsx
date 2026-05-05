@@ -94,6 +94,7 @@ const categories = [
         desc: "Installation et configuration complète du portail captif ALCASAR pour le filtrage et l'authentification réseau. Déploiement de l'infrastructure de base pour contrôler l'accès internet.",
         tags: ["ALCASAR", "Portail captif", "Installation", "Configuration", "Réseau"],
         pdf: "/s.sabiran/docs/stage-alcasar-mise-en-place.pdf",
+        github: "https://trello.com/invite/b/68117ef7339ce29431c89eec/ATTIde3942741741653990ffc767fbbacdfdB422B161/alcasar-epn",
       },
       {
         title: "Configuration du point d'accès WiFi pour ALCASAR",
@@ -260,6 +261,7 @@ function ProjectCard({ project }: { project: Project }) {
   const [modalDoc, setModalDoc] = useState<{ url: string; title: string } | null>(null)
   const hasMainDoc = Boolean(project.pdf)
   const hasSchemaDoc = Boolean(project.schemaPdf)
+  const isGithubLink = Boolean(project.github && project.github.includes("github.com"))
 
   const openModal = (url: string, title: string) => {
     setModalDoc({ url, title })
@@ -354,8 +356,8 @@ function ProjectCard({ project }: { project: Project }) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 rounded-md border border-border bg-card px-3 py-1.5 text-xs font-medium text-foreground transition-transform hover:scale-105"
             >
-              <Github size={14} />
-              GitHub
+              {isGithubLink ? <Github size={14} /> : <ExternalLink size={14} />}
+              {isGithubLink ? "GitHub" : "Lien projet"}
             </a>
           )}
         </div>
