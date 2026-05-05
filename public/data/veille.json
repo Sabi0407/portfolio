@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T07:47:55.952Z",
+  "generatedAt": "2026-05-05T07:18:43.188Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-24",
+      "periodStart": "2024-02-25",
       "maxAgeDays": 800
     },
     {
@@ -76,6 +76,22 @@
   "total": 108,
   "errors": [],
   "articles": [
+    {
+      "title": "Le prix de la RAM devrait doubler pour atteindre des sommets courant juin - Tom’s Hardware",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbXg2ejhYenBKXzdTdVVaaDhmMWdIS3pWRkNpQW5kSk1hbWJ2TGlGY2V0bWpWZERjZWxvbzMxQUNBSlRxOVhRREdwQlJIUkJiSjMtSXlaaW9YRkVPUGI2NGVhcVFOdnFyeWVpY0dqcld3VDdXWnFXYVVnakJDalJlRXpLQ0FhMzhSZTlGV25Bc0h2UUMtenYyUWs5WFREdEJfd1pRdA?oc=5",
+      "published": "Tue, 05 May 2026 04:39:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Tom’s Hardware"
+    },
+    {
+      "title": "Anatomie d'une vulnérabilité : Copy Fail donne les droits root sur tout noyau Linux depuis 2017 - it social",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQWXEtN0szeWVQeVBPTW81MmdUM0ZnYXVKdU8wTEJ5WTlzOHJ2T1pPTFE2RjM5dk5YNFpUZkJSVEVLWVFXaEdYX3VaUk1nVGdlN0p0bTdHLXJFNk5OZ3dmTWZvU0xmRU1hSDZxeEU0Q3VfX3p1bXpidlp1aDVXWFF1RkV5US1LMW5XM0o0VGp0QmFvdXNoTU9WNmJjTU9SekNwc1pvWE9tZHE0OFM2TlZDNWdvMWdCUzdOQ0lqZEw5WHJ1eVJRbEJwUHloUFpYOGNhbnZ2Tnd3N2dkTjRGc29Ra29hWkxLVWs?oc=5",
+      "published": "Mon, 04 May 2026 11:37:44 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "it social"
+    },
     {
       "title": "Samsung l’a confirmé : la pénurie de RAM va “s’élargir encore davantage” en 2027, attention au porte-monnaie - Les Numériques",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTE93RENTYkRSejNxVVRtUXRlMUxTVElrNVY1NEVVaDkzTHdDTFc2ZDlCcWRKYlRfWW1SeHNTYlFwTU9UdVc1NTc0NkJNaFpwZFZ3andDTnRBQ3dpalptWkRXUTY5ekIxejFrbWRmNV9qN3pqU3FNczExTzFrSG56d1dlYjY4TVJvd2ltMk1mel96VkU5OWEwcDZ0YklfTXpkZDBpMnM2NlNxanR1REF1RGVRTUVISjIyZE51dUFJVUxyR3hDcE1YNFpZamZXMUdXNlFvUjI0a2E4ZXFkYnJQSnFRVlRiNVZJSElOcF8zSW9lMWhJOXc?oc=5",
@@ -497,14 +513,6 @@
       "source": "Clubic"
     },
     {
-      "title": "La succession de Linus Torvalds se met en place, comme celle de Tim Cook - MacGeneration",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGljNlM5X29yRGlERXh3MVBEZ2VUel9lUFVfak1EZE5Nc25oZzVkUjYyTnQ2Q1VDcUNXbWhIbXdLSmlsZGpWVUVrV1oyQmt2Q0RZZ3J6Tjc3eExnV2dpbEU4NzREc2RrSUJfcVpyNG1LS0RJN1QwbXJxcjhxSEg2S2VTeHVHcnBPNlJ4NFFudWJhQ3I1VXg0RjJyUW14VVlxYW1ZbGl1NGp5Mngwb3ZSVDFPRXZsdw?oc=5",
-      "published": "Thu, 29 Jan 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "MacGeneration"
-    },
-    {
       "title": "À leur tour, les prix de la DDR4 augmentent en flèche - Clubic",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ3RtSmU0bVpHQmVRbzJuYU9nbDVvTEhrdmI2TU9pQjVaRm5qRmdOZ1pfcGU0RXZfdWhYYlB6WFJ5MUJtVkxyaUpyR2ZNMlpfQkJMSlNJMXM5cVV0M1NtZGFZZVpVYzh6dy1JenFGeDVzeWRkM1hPZllMOENTQ3ZBcFZzMzZVd3gwRl9zbkk3cnlzN09Ma25ubFEzY21Kdw?oc=5",
       "published": "Thu, 29 Jan 2026 08:00:00 GMT",
@@ -519,14 +527,6 @@
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
-    },
-    {
-      "title": "Observabilité : eBPF, un atout dans la main des DevOps - Silicon.fr",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CdkhHdmJNb0JnZjE2QUhjb0tGN292RWZXd2Y4MWxNT0U0MjJ1STRGV3FsUUd3Zm1ha2RHdEZHOFRzbmVqamh1RnFzVjI5OU9UZEtvTFpRLURrYXRpMkFrbEFB0gFnQVVfeXFMUFpTSk5VNUNlUzlyWk54T09zX1hUX3VvNmNsaTY4dFdtWVZoakN1ck9lTTYydVVGY1EzSG1fWlc1V3J4RWFqbGNmekNNNnRjYW03QmFjNWhnM1VWSEhfdlBqMmRNX3BNRQ?oc=5",
-      "published": "Mon, 26 Jan 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Silicon.fr"
     },
     {
       "title": "Le Prix De La RAM Explose à 400 % En Janvier 2026, Pire Crise Depuis 2018 - Pause Hardware",
@@ -551,14 +551,6 @@
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
-    },
-    {
-      "title": "Après la RAM, un autre élément vital pour les puces va faire grimper les prix - 01net.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZnF6eXNQamdlX0ZqUFZvRi1SV1JMT2xuOG9LbUkwMGswSlp5djY5c3loVDMzeWV5NHVUemxGWWlyTF9aSmY1MGtxS3p0YU5kaTZfLXVabmY2cmNVZGVvWmNZc29kTDRNamdJR1FkNEhrNnR3UGFhU09sNTVUcVNmc09KT1ZDcVJSYkljMnphWXpCNXRfYm15c0V6NTF5dl80SGs4aV9nNndFV0dmZldNTWc4Z1A?oc=5",
-      "published": "Wed, 14 Jan 2026 08:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "01net.com"
     },
     {
       "title": "Flambée de la RAM : le patron de Nothing annonce des hausses de prix pour ses smartphones - 01net.com",
@@ -793,20 +785,20 @@
       "source": "Frandroid"
     },
     {
-      "title": "Une PS5 coûte désormais moins cher que de simples barrettes de RAM - Frandroid",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN0xlZ3BPQmRpU3l5QUlQN2RNTlhxUzZFQTJBMldaTlc1RGZRdGh6eW85NG9jWlJ5R3lwVS1rNmZVZmMwLXZhTkJzUlRWVUpISi1ncnBSS0dvdHVlaUdNRVRIR0EwcjM4elJtMk1NOGxfdFkwRUo0UnlCNmRlV1ZUVTJVdVFON2JVRlVydjB2dlJvWGUzdHFnLWduWGVFYVAyMzJOMnl0VFA4UlNUbXNJTEdtaTMzdWJQd0NXRmJrNWM2MkJTWmh6RQ?oc=5",
-      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "Frandroid"
-    },
-    {
       "title": "Pénurie de mémoire : Micron sacrifie cette marque incontournable de SSD et RAM pour se concentrer sur l'IA - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSFM3VTlKeUpwb1o1TXdmcno1VE9EQjZ1YWhkSHBXaldEWDVGVDV6MEJObUN3YlNCWWp6RUVQVnpCYjBfUUVlMTd4WFc3RUlGSGFYVlhMenN2aE5sVGhqb09HYzA5XzVhdV9TOXlWNWJYTExIaGIxZGtCR1czbUZsckhDOGFGbUtnQ2ZrcHhVUHZUUFdEX1hnQXE4N0V0anlsV01ES3Y1MzVya3laOHlWb1lzSVpTMnJUS0k2TGVDdWFnRF8zdTdYWGNuc01iMkw2V19lYlBia01nNlJNcFg4UUphbw?oc=5",
       "published": "Thu, 04 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
+    },
+    {
+      "title": "Une PS5 coûte désormais moins cher que de simples barrettes de RAM - Frandroid",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN0xlZ3BPQmRpU3l5QUlQN2RNTlhxUzZFQTJBMldaTlc1RGZRdGh6eW85NG9jWlJ5R3lwVS1rNmZVZmMwLXZhTkJzUlRWVUpISi1ncnBSS0dvdHVlaUdNRVRIR0EwcjM4elJtMk1NOGxfdFkwRUo0UnlCNmRlV1ZUVTJVdVFON2JVRlVydjB2dlJvWGUzdHFnLWduWGVFYVAyMzJOMnl0VFA4UlNUbXNJTEdtaTMzdWJQd0NXRmJrNWM2MkJTWmh6RQ?oc=5",
+      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Frandroid"
     },
     {
       "title": "Vous n’êtes pas prêts pour l’augmentation du prix de la RAM qui arrive à grands pas - Tom’s Hardware",
@@ -940,6 +932,14 @@
       "title": "L'IA s'immisce dans le noyau Linux, et une politique officielle est nécessaire au plus vite - ZDNET",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaFVFUDJxNVhwOS1GNndxSE9EN3pIWWEzUHc0U2xHV3FGcnVqX3ROd0g0UmNHTU43bnRMeWVncXQwVExoNHBDQlFaTzZtN2xqaFBnZ0F1R2s5VUhNOVowcFFmSVBDcm9GdDV5X2xSR3o2RERZUURuMURHVVBaeUxyV2ZaSV9CM2UtOVJrNTF2UW0wVDNVYTk2MDRaR3NPa3E4VTRmOUVzdzJOazNiMWxpLVlXUC1qeDA0dlIwOFp3WTUzMTJsNk1mRVZtMA?oc=5",
       "published": "Mon, 25 Aug 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "ZDNET"
+    },
+    {
+      "title": "Linux 6.16 : des systèmes de fichiers plus rapides, meilleure pri ... - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNRDA2Q3lpeHB6QmhWaS1IOXhWSVl1NlNDZy1LekZGU3N1VmtEcEI5TndEQ2IwMGVLODFmdkxPWEdSV0hGRzJuODl1Sk5wZlNvcjVGcm1XXzBJX2w5Q3NaeE9ZV2JJenVJNDNPTEpzUU4tdkZoQ0VsdkZ3TGRJS1FtOXFZdUZfdkFOekhUa0xaSHlmMDBXbG53MXRlNHlRZUhDZlFmdHJwWEVFUHBjRXlDZENSTEk4TkpGTjY1RUtkYzFOdlN5aF94Yml2RFpkTkNmQ0hYMmdiSVlKdEpubXJtZE9hb1BMaGhIMmNuVjBzLS1tVVYxT1pMa2NYb2tVODFfNG43TjdwVF9fZk85bDZWdQ?oc=5",
+      "published": "Tue, 29 Jul 2025 07:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
       "source": "ZDNET"
