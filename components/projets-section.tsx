@@ -73,7 +73,7 @@ const categories = [
       {
         title: "Exemple de ticket - Lecteur réseau disparu",
         desc: "Traitement d'un incident utilisateur (urgence moyenne) avec diagnostic d'un lecteur réseau manquant, vérification des droits d'accès, remappage du partage et validation du rétablissement avec l'utilisateur.",
-        tags: ["Ticketing", "Support", "Windows", "Réseau", "GLPI"],
+        tags: ["Ticketing", "Support", "Windows", "Réseau", "TIKIT"],
         pdf: "/s.sabiran/docs/ticket-4561-lecteur-reseau.png",
         docStatus: "Capture anonymisée du ticket traité en alternance.",
       },
