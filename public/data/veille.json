@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T07:18:43.188Z",
+  "generatedAt": "2026-05-06T07:35:43.791Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-25",
+      "periodStart": "2024-02-26",
       "maxAgeDays": 800
     },
     {
@@ -73,7 +73,7 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 108,
+  "total": 109,
   "errors": [],
   "articles": [
     {
@@ -141,20 +141,20 @@
       "source": "Next.ink"
     },
     {
-      "title": "Avec la pénurie, la RAM représente 20 % du coût d'un Galaxy S26 : Samsung s'étrangle avec ses propres puces - 01net.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb2ptN1R1V3VvSWdDem5FNng0UHQyc2NBaDNnREFEalpZdzVNQ1FoSXBZeExpSU1uWGpENlNqcjBNanFoZFpWbUJlenZFZ3Yya1VJQjFxd3NQN3JUU243VWpDS2F5YTF1TmNCOWpjVUgtNmREUUlSSDVaZjExV3Fudlc4ZlA1WFNJcm9OYWxpWmpJb0stRG5LZXlKUzdxZXk2aXNtRWRuQWNtWWNydS03TzV5bVM1Zw?oc=5",
-      "published": "Mon, 27 Apr 2026 10:01:19 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "01net.com"
-    },
-    {
       "title": "Linux 7.1 : le noyau tourne une page historique et accélère sur tous les fronts - Les Numériques",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWklXQ3kzcnlMZHByRGJPQjM4VGNLUWM4T2ZacG5lUEZ4c2FhX05ndVRXT0ZmYVVQVWcyYkxlanlJbXJNbmM5UFBtaXhMWFg1REpHNXhiQkJBLTNUVVVOZVdLN203dHljem54eUk4VldMMWk1VHR3MTE5akIyaE4tVHpLelVMekR0U3d3QUpPR21xZTBHSTBIWHZGMFJmLUdBcnNwTG81VDlOZEtnS0ZIUWlGTkxybDZvRzZKSjNxZ3pnZ0tVakloRXRzZGtHUQ?oc=5",
-      "published": "Mon, 27 Apr 2026 05:01:00 GMT",
+      "published": "Mon, 27 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
       "source": "Les Numériques"
+    },
+    {
+      "title": "Avec la pénurie, la RAM représente 20 % du coût d'un Galaxy S26 : Samsung s'étrangle avec ses propres puces - 01net.com",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb2ptN1R1V3VvSWdDem5FNng0UHQyc2NBaDNnREFEalpZdzVNQ1FoSXBZeExpSU1uWGpENlNqcjBNanFoZFpWbUJlenZFZ3Yya1VJQjFxd3NQN3JUU243VWpDS2F5YTF1TmNCOWpjVUgtNmREUUlSSDVaZjExV3Fudlc4ZlA1WFNJcm9OYWxpWmpJb0stRG5LZXlKUzdxZXk2aXNtRWRuQWNtWWNydS03TzV5bVM1Zw?oc=5",
+      "published": "Mon, 27 Apr 2026 07:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "01net.com"
     },
     {
       "title": "Ce PC portable Lenovo ultime génération est à prix fou sur Amazon (Core i7, RAM 16Go, SSD 1To) - 01net.com",
@@ -329,6 +329,14 @@
       "thumbnailAlt": "",
       "linkLabel": "",
       "category": "RAM"
+    },
+    {
+      "title": "ZD Tech : ce goulot d'étranglement du noyau Linux qui ralentit vos conteneurs, les enseignements techniques de Netflix - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOcGJIWFRqLWxwcGY3Ti1CaDJLc2VUTHV3MWZiVjBWQ0pkbUs5cFExZ0pwUlp6b2RTa2JfUFFPa2YyV1ZrdUo4UjFzNVYyRUg5MnlVX3RDQ2ZWZHpOODNia3h5SF80TF9ibTZrNDFzMlhDN3VGUWhwZFd5OHU4Qk5pX0ZkZ3RweEVWWllhYWNIUl9XZ2hSRzFqUU02dU5UUXZnTndtN3Z4RXZSNUZVenkwZHNRQjRYNVVEMlJTdHpRMjMyLTI3Rkk4dmJtaFN5bnVQbkVTQWJKNFR6d3kyNnZXaDlLV2VJMG9oVzhvZHlB?oc=5",
+      "published": "Thu, 26 Mar 2026 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "ZDNET"
     },
     {
       "title": "Google a peut-être réglé la crise de la mémoire vive (RAM) avec un algorithme",
@@ -529,6 +537,14 @@
       "source": "Tom’s Hardware"
     },
     {
+      "title": "Observabilité : eBPF, un atout dans la main des DevOps - Silicon.fr",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CdkhHdmJNb0JnZjE2QUhjb0tGN292RWZXd2Y4MWxNT0U0MjJ1STRGV3FsUUd3Zm1ha2RHdEZHOFRzbmVqamh1RnFzVjI5OU9UZEtvTFpRLURrYXRpMkFrbEFB0gFnQVVfeXFMUFpTSk5VNUNlUzlyWk54T09zX1hUX3VvNmNsaTY4dFdtWVZoakN1ck9lTTYydVVGY1EzSG1fWlc1V3J4RWFqbGNmekNNNnRjYW03QmFjNWhnM1VWSEhfdlBqMmRNX3BNRQ?oc=5",
+      "published": "Mon, 26 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "Silicon.fr"
+    },
+    {
       "title": "Le Prix De La RAM Explose à 400 % En Janvier 2026, Pire Crise Depuis 2018 - Pause Hardware",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5lazRZZDluYVNMNVkzRnpONWNMWlNLMHdPY1FPVWphX1pUalNpOEV3ckJ2R3J6RlJscl9JWV8wVk5OUk8zNkJ0RVMyS2Fxam9WeWVPSDhINnhKSUdPRzNLYmZDYzdJR3F1RHNYdzBlY3NHR2pSRmlMcFlWZnZ3dw?oc=5",
       "published": "Wed, 21 Jan 2026 08:00:00 GMT",
@@ -575,14 +591,6 @@
       "content": "",
       "category": "Noyau Linux",
       "source": "Programmez!"
-    },
-    {
-      "title": "Ne jetez pas votre carte mère : AMD pourrait relancer l’AM4 pour contourner la pénurie de RAM - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdVkyY2NGeVNYZlg3U2paTURQS0IwQW1KVU9aTVBJd0VWdGZSN1owT3c0VF9ub1pVRjVmSHp2b2hYNHIxeGVlTGlOdG9COXZpNTBKakRDenR6Z3dSMzZ0TWtieUVDbmpibjFWbkc3cm9HcFZFeXNNNUtYOEV4QndhR3Z0OGdDZ2VGWTZyLU1kSk5kWktCdHBjeG5saUowMnZGSDdPTE5mcE1wZHhCOVh0NGMwUXVSOGYxZEstOGJNRnQ2ckswazFHaWR4UF9kNFNSRkp4a0dkV0Y?oc=5",
-      "published": "Thu, 08 Jan 2026 08:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "Clubic"
     },
     {
       "title": "Flambée de la RAM : les prix vont augmenter chez Samsung aussi - 01net.com",
