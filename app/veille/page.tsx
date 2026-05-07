@@ -36,13 +36,15 @@ interface VeillePayload {
 
 const DEFAULT_TOPICS: Topic[] = [
   {
-    key: "linux-kernel",
-    category: "Noyau Linux",
-    label: "Noyau Linux",
+    key: "linux-general",
+    category: "Linux (général)",
+    label: "Linux (général)",
     description:
-      "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
+      "Veille dédiée à Linux au sens large : distributions, administration système, sécurité, usages desktop/serveur et évolutions de l'écosystème.",
     feedDescription:
-      "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
+      "Je suis ce thème pour rester à jour sur Linux en général avec des sources françaises/francophones fiables, utiles pour mes projets système et infrastructure.",
+    periodLabel: "Depuis le 30 mai 2024",
+    periodStart: "2024-05-30",
   },
   {
     key: "ram",

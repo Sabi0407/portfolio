@@ -59,29 +59,35 @@ function buildManualArticle({
   }
 }
 
-const KERNEL_PATTERNS = [/\bnoyau linux\b/i, /\bkernel\b/i, /linus torvalds/i, /\bebpf\b/i, /\brust\b/i, /\blinux\s+[67](?:\.\d+)?\b/i]
-const KERNEL_EXCLUDED_PATTERNS = [
-  /systemrescue/i,
-  /\bwine\b/i,
-  /ubuntu/i,
-  /arch linux/i,
+const LINUX_GENERAL_PATTERNS = [
+  /\blinux\b/i,
+  /\bgnu\/linux\b/i,
+  /\bubuntu\b/i,
+  /\bdebian\b/i,
+  /\bfedora\b/i,
+  /\barch linux\b/i,
+  /\blinux mint\b/i,
+  /\bopensuse\b/i,
+  /\brocky linux\b/i,
+  /\balmalinux\b/i,
+  /\brhel\b/i,
+  /\bred hat enterprise linux\b/i,
+  /\bwayland\b/i,
+  /\bgnome\b/i,
+  /\bkde\b/i,
+]
+const LINUX_GENERAL_EXCLUDED_PATTERNS = [
   /\bwsl\b/i,
-  /windows subsystem/i,
-  /netrunner/i,
-  /aerynos/i,
-  /fedora/i,
-  /macbook/i,
-  /raspberry pi/i,
-  /firewire/i,
-  /weekly roundup/i,
-  /\biso\b/i,
-  /linux mint/i,
-  /anduinos/i,
-  /distribution/i,
-  /guerre de design/i,
-  /maliciel/i,
-  /cloud et conteneurs/i,
-  /embarqu/i,
+  /windows subsystem for linux/i,
+  /cygwin/i,
+  /\bandroid\b/i,
+  /bon plan/i,
+  /promo/i,
+  /soldes/i,
+  /black friday/i,
+  /prix cass/i,
+  /à ne pas rater/i,
+  /code promo/i,
 ]
 
 const RAM_PATTERNS = [/\bram\b/i, /mémoire vive/i, /\bddr[45]\b/i, /\bdram\b/i, /puces? mémoire/i, /barrettes? de ram/i]
@@ -168,40 +174,77 @@ const CURATED_RAM_ARTICLES = [
   }),
 ]
 
-const CURATED_KERNEL_ARTICLES = [
+const CURATED_LINUX_GENERAL_ARTICLES = [
   buildManualArticle({
-    title: "LINUX 7.0 EST LÀ !!!! Tour d'horizon !",
-    link: "https://www.youtube.com/watch?v=c6ij-kISFbk",
-    published: "2026-04-16T08:00:22+02:00",
+    title: "Fedora Linux 44 est dans les bacs",
+    link: "https://linuxfr.org/news/fedora-linux-44-est-dans-les-bacs",
+    published: "2026-04-29T09:58:17+02:00",
     content:
-      "Dans le passage sur l'IA, la vidéo explique qu'avec Linux 7.0 la documentation du noyau encadre l'usage des assistants IA dans le développement : ils peuvent aider à préparer du code ou de la relecture, mais le développeur humain doit tout vérifier, assumer la contribution et ajouter lui-même le Signed-off-by.",
-    source: "YouTube · Adrien Linuxtricks",
+      "Présentation des nouveautés Fedora 44 (GNOME 50, KDE Plasma 6.6, Wayland, outillage d'administration) et de leur impact côté desktop et usage quotidien.",
+    source: "LinuxFr.org",
     featured: true,
-    featuredNote: "Vidéo épinglée : repère clair sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du noyau.",
-    mediaType: "video",
-    thumbnailUrl: "https://i.ytimg.com/vi/c6ij-kISFbk/hqdefault.jpg",
-    thumbnailAlt: "Miniature YouTube de la vidéo Linux 7.0 d'Adrien Linuxtricks",
-    linkLabel: "Voir la vidéo",
+    featuredNote: "Article épinglé : bon résumé de l'évolution des distributions Linux côté poste de travail.",
+  }),
+  buildManualArticle({
+    title: "GNOME OS comme Linux idéal, partie 1 : la promesse de l'atomique",
+    link: "https://linuxfr.org/news/gnome-os-comme-linux-ideal-partie-1-la-promesse-de-l-atomique",
+    published: "2025-04-07T11:32:13+02:00",
+    content:
+      "Analyse des systèmes Linux immuables et de l'évolution des usages desktop autour de GNOME et des formats applicatifs modernes.",
+    source: "LinuxFr.org",
+  }),
+  buildManualArticle({
+    title: "Linux est aujourd'hui le premier système d'exploitation sur Microsoft Azure",
+    link: "https://next.ink/brief_article/linux-est-aujourdhui-le-premier-systeme-dexploitation-sur-microsoft-azure/",
+    published: "2024-07-23T10:00:11+02:00",
+    content:
+      "Point de contexte sur la place de Linux dans le cloud public, utile pour suivre l'adoption réelle de l'écosystème Linux en entreprise.",
+    source: "Next.ink",
+  }),
+  buildManualArticle({
+    title: "[MàJ] Linux Mint 22.3 (avec Cinnamon 6.6) disponible en version finale",
+    link: "https://next.ink/brief_article/linux-mint-22-3-avec-cinnamon-6-6-a-sa-beta-publique/",
+    published: "2026-01-14T08:02:30+01:00",
+    content:
+      "Suivi des nouveautés Linux Mint (ergonomie, environnement bureau, base Ubuntu LTS), représentatif des tendances côté distributions grand public.",
+    source: "Next.ink",
+  }),
+  buildManualArticle({
+    title: "Rocky Linux ou AlmaLinux : lequel choisir pour remplacer CentOS ?",
+    link: "https://www.lemagit.fr/conseil/Rocky-Linux-ou-AlmaLinux-lequel-choisir-pour-remplacer-CentOS",
+    published: "2025-08-18T14:00:00+00:00",
+    content:
+      "Comparatif orienté infrastructure entre deux distributions majeures de l'écosystème Linux serveur, utile pour les choix d'exploitation en entreprise.",
+    source: "LeMagIT",
   }),
 ]
 
 const TOPICS = [
   {
-    key: "linux-kernel",
-    category: "Noyau Linux",
-    label: "Noyau Linux",
+    key: "linux-general",
+    category: "Linux (général)",
+    label: "Linux (général)",
     description:
-      "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
+      "Veille dédiée à Linux au sens large : distributions, administration système, sécurité, usages desktop/serveur et évolutions de l'écosystème.",
     feedDescription:
-      "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-    maxAgeDays: 800,
+      "Je suis ce thème pour rester à jour sur Linux en général avec des sources françaises/francophones fiables, utiles pour mes projets système et infrastructure.",
+    periodLabel: "Depuis le 30 mai 2024",
+    periodStart: "2024-05-30",
+    maxAgeDays: null,
     maxArticles: null,
-    manualArticles: CURATED_KERNEL_ARTICLES,
+    manualArticles: CURATED_LINUX_GENERAL_ARTICLES,
     opmlFeeds: [
-      buildGoogleNewsRssUrl('"noyau Linux" OR kernel OR eBPF OR "Linux 7.0" OR "Linux 7.1"'),
+      buildGoogleNewsRssUrl(
+        '"Linux distribution" OR Ubuntu OR Debian OR Fedora OR "Linux Mint" OR "Rocky Linux" OR AlmaLinux OR "administration Linux" OR "sécurité Linux"'
+      ),
     ],
     feeds: [
-      buildGoogleNewsRssUrl('"noyau Linux"'),
+      buildGoogleNewsRssUrl('"Linux distribution"'),
+      buildGoogleNewsRssUrl('Ubuntu OR Debian OR Fedora OR "Linux Mint" OR openSUSE'),
+      buildGoogleNewsRssUrl('"Rocky Linux" OR AlmaLinux OR RHEL'),
+      buildGoogleNewsRssUrl('"administration Linux" OR "serveur Linux"'),
+      buildGoogleNewsRssUrl('"sécurité Linux"'),
+      buildGoogleNewsRssUrl('Wayland OR GNOME OR KDE Linux'),
     ],
     fallbackFeeds: [],
     allowedSources: buildAllowedSources([
@@ -209,25 +252,35 @@ const TOPICS = [
       "Les Numériques",
       "Next.ink",
       "Programmez",
+      "Programmez!",
       "it social",
+      "IT Social",
       "MacGeneration",
       "Le Monde Informatique",
+      "LinuxFr.org",
       "linuxfr.org",
       "developpez.com",
+      "Developpez.com",
+      "LeMagIT",
       "silicon.fr",
+      "Silicon",
       "Frandroid",
       "ZDNET",
       "Numerama",
+      "01net",
+      "01net.com",
+      "GNT",
+      "Génération NT",
       "Korben",
       "itdaily.fr",
     ]),
     isRelevant(article) {
       const haystack = `${article.title} ${article.content}`
-      return KERNEL_PATTERNS.some((pattern) => pattern.test(haystack))
+      return LINUX_GENERAL_PATTERNS.some((pattern) => pattern.test(haystack))
     },
     isExcluded(article) {
       const haystack = `${article.title} ${article.content}`
-      return KERNEL_EXCLUDED_PATTERNS.some((pattern) => pattern.test(haystack))
+      return LINUX_GENERAL_EXCLUDED_PATTERNS.some((pattern) => pattern.test(haystack))
     },
   },
   {
