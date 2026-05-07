@@ -250,7 +250,7 @@ const TOPICS = [
       buildGoogleNewsRssUrl(
         '"Linux distribution" OR Ubuntu OR Debian OR Fedora OR "Linux Mint" OR "Rocky Linux" OR AlmaLinux OR "administration Linux" OR "sécurité Linux"'
       ),
-      buildGoogleNewsRssUrl('"Sécurix" OR "Bureautix" OR DINUM OR "État français Linux" OR "IT-Connect Linux"'),
+      buildGoogleNewsRssUrl('"Sécurix" OR "Bureautix" OR DINUM OR "IT-Connect Linux"'),
     ],
     feeds: [
       buildGoogleNewsRssUrl('"Linux distribution"'),
@@ -259,7 +259,7 @@ const TOPICS = [
       buildGoogleNewsRssUrl('"administration Linux" OR "serveur Linux"'),
       buildGoogleNewsRssUrl('"sécurité Linux"'),
       buildGoogleNewsRssUrl('Wayland OR GNOME OR KDE Linux'),
-      buildGoogleNewsRssUrl('"Sécurix" OR "Bureautix" OR DINUM OR "État français Linux"'),
+      buildGoogleNewsRssUrl('"Sécurix" OR "Bureautix" OR DINUM'),
       buildGoogleNewsRssUrl('"IT-Connect" Linux'),
     ],
     fallbackFeeds: [],

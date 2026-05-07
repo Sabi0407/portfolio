@@ -7,7 +7,7 @@
   <body>
     <outline text="Linux (général)" title="Linux (général)">
       <outline text="Linux (général) - Flux 1" title="Linux (général) - Flux 1" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22Linux+distribution%22+OR+Ubuntu+OR+Debian+OR+Fedora+OR+%22Linux+Mint%22+OR+%22Rocky+Linux%22+OR+AlmaLinux+OR+%22administration+Linux%22+OR+%22s%C3%A9curit%C3%A9+Linux%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 2" title="Linux (général) - Flux 2" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22S%C3%A9curix%22+OR+%22Bureautix%22+OR+DINUM+OR+%22%C3%89tat+fran%C3%A7ais+Linux%22+OR+%22IT-Connect+Linux%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
+      <outline text="Linux (général) - Flux 2" title="Linux (général) - Flux 2" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22S%C3%A9curix%22+OR+%22Bureautix%22+OR+DINUM+OR+%22IT-Connect+Linux%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
     </outline>
     <outline text="RAM" title="RAM">
       <outline text="RAM - Flux 1" title="RAM - Flux 1" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22prix+RAM%22+OR+%22m%C3%A9moire+vive+prix%22+OR+%22DDR5+prix%22+OR+%22DRAM+prix%22+OR+%22p%C3%A9nurie+RAM%22+OR+%22march%C3%A9+de+la+RAM%22+OR+%22TurboQuant+RAM%22+OR+%22TurboQuant+DDR5%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
