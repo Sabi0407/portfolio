@@ -91,6 +91,14 @@ function getVeilleJsonCandidates(): string[] {
   return getDataFileCandidates("veille.json")
 }
 
+function sortFeaturedThenDate(firstArticle: Article, secondArticle: Article): number {
+  if (!!firstArticle.featured !== !!secondArticle.featured) {
+    return firstArticle.featured ? -1 : 1
+  }
+
+  return new Date(secondArticle.published).getTime() - new Date(firstArticle.published).getTime()
+}
+
 export default function VeillePage() {
   const [topics, setTopics] = useState<Topic[]>(DEFAULT_TOPICS)
   const [articles, setArticles] = useState<Article[]>([])
@@ -143,16 +151,10 @@ export default function VeillePage() {
 
   const filteredArticles = useMemo(() => {
     if (activeCategory === "all") {
-      return articles
+      return [...articles].sort(sortFeaturedThenDate)
     }
 
-    return [...articles.filter((article) => article.category === activeCategory)].sort((firstArticle, secondArticle) => {
-      if (!!firstArticle.featured !== !!secondArticle.featured) {
-        return firstArticle.featured ? -1 : 1
-      }
-
-      return new Date(secondArticle.published).getTime() - new Date(firstArticle.published).getTime()
-    })
+    return [...articles.filter((article) => article.category === activeCategory)].sort(sortFeaturedThenDate)
   }, [activeCategory, articles])
 
   const displayedArticles = filteredArticles.slice(0, displayCount)
