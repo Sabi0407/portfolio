@@ -38,7 +38,7 @@ const DEFAULT_TOPICS: Topic[] = [
   {
     key: "linux-general",
     category: "Linux (général)",
-    label: "Linux (général)",
+    label: "Linux",
     description:
       "Veille dédiée à Linux au sens large : distributions, administration système, sécurité, usages desktop/serveur et évolutions de l'écosystème.",
     feedDescription:
@@ -89,6 +89,15 @@ function getDataFileCandidates(fileName: string): string[] {
 
 function getVeilleJsonCandidates(): string[] {
   return getDataFileCandidates("veille.json")
+}
+
+function getTopicDisplayLabel(topic?: Topic | null): string {
+  const rawLabel = (topic?.label || topic?.category || "").trim()
+  if (!rawLabel) {
+    return ""
+  }
+
+  return rawLabel.replace(/\s*\([^)]*\)\s*/g, " ").replace(/\s+/g, " ").trim()
 }
 
 function sortFeaturedThenDate(firstArticle: Article, secondArticle: Article): number {
@@ -214,7 +223,6 @@ export default function VeillePage() {
 
           <div className="grid gap-4 md:grid-cols-2">
             {topics.map((topic) => {
-              const topicCount = articles.filter((article) => article.category === topic.category).length
               const isActive = activeCategory === topic.category
 
               return (
@@ -224,15 +232,7 @@ export default function VeillePage() {
                     isActive ? "border-primary/60 bg-card" : "border-border bg-card"
                   }`}
                 >
-                  <div className="flex items-start justify-between gap-3">
-                    <div>
-                      <h2 className="font-heading text-xl font-semibold text-foreground">{topic.label || topic.category}</h2>
-                    </div>
-
-                    <span className="rounded-full border border-border bg-background px-3 py-1 text-xs font-semibold text-foreground">
-                      {topicCount} article{topicCount > 1 ? "s" : ""}
-                    </span>
-                  </div>
+                  <h2 className="font-heading text-xl font-semibold text-foreground">{getTopicDisplayLabel(topic)}</h2>
 
                   {topic.description && (
                     <p className="mt-4 text-sm leading-relaxed text-muted-foreground">{topic.description}</p>
@@ -265,17 +265,9 @@ export default function VeillePage() {
 
         <section className="space-y-5">
           <div className="flex flex-col gap-4 pb-1">
-            <div className="flex flex-wrap items-center justify-between gap-3">
-              <h2 className="font-heading text-xl font-semibold text-foreground">
-                {activeTopic ? `Actualités RSS - ${activeTopic.label || activeTopic.category}` : "Actualités RSS"}
-              </h2>
-
-              {!loading && !error && filteredArticles.length > 0 && (
-                <span className="rounded-full border border-border bg-background px-3 py-1 text-xs font-medium text-muted-foreground">
-                  {filteredArticles.length} article{filteredArticles.length > 1 ? "s" : ""}
-                </span>
-              )}
-            </div>
+            <h2 className="font-heading text-xl font-semibold text-foreground">
+              {activeTopic ? `Actualités RSS - ${getTopicDisplayLabel(activeTopic)}` : "Actualités RSS"}
+            </h2>
 
             <div className="flex flex-wrap gap-2">
               <button
@@ -301,7 +293,7 @@ export default function VeillePage() {
                       : "border border-border bg-background text-foreground hover:border-primary hover:text-primary"
                   }`}
                 >
-                  {topic.label || topic.category}
+                  {getTopicDisplayLabel(topic)}
                 </button>
               ))}
             </div>
@@ -323,7 +315,7 @@ export default function VeillePage() {
                   {activeTopicStartsInFuture && activeTopic?.periodStart
                     ? `Aucun article affiché pour le moment. Cette veille commencera à partir du ${formatLongDate(activeTopic.periodStart)}.`
                     : activeTopic
-                      ? `Aucun article pertinent n'a été trouvé pour ${activeTopic.label || activeTopic.category}.`
+                      ? `Aucun article pertinent n'a été trouvé pour ${getTopicDisplayLabel(activeTopic)}.`
                       : "Aucun article pertinent n'a été trouvé pour le moment."}
                 </p>
               </div>
@@ -340,7 +332,7 @@ export default function VeillePage() {
                   >
                     <div className="mb-3 flex flex-wrap gap-2">
                       <span className="inline-flex rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold text-primary">
-                        {topics.find((topic) => topic.category === article.category)?.label || article.category}
+                        {getTopicDisplayLabel(topics.find((topic) => topic.category === article.category)) || article.category}
                       </span>
 
                       {article.featured && (
