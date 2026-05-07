@@ -75,6 +75,9 @@ const LINUX_GENERAL_PATTERNS = [
   /\bwayland\b/i,
   /\bgnome\b/i,
   /\bkde\b/i,
+  /\bs[ée]curix\b/i,
+  /\bbureautix\b/i,
+  /\bdinum\b/i,
 ]
 const LINUX_GENERAL_EXCLUDED_PATTERNS = [
   /\bwsl\b/i,
@@ -182,8 +185,18 @@ const CURATED_LINUX_GENERAL_ARTICLES = [
     content:
       "Présentation des nouveautés Fedora 44 (GNOME 50, KDE Plasma 6.6, Wayland, outillage d'administration) et de leur impact côté desktop et usage quotidien.",
     source: "LinuxFr.org",
+    featured: false,
+    featuredNote: "",
+  }),
+  buildManualArticle({
+    title: "Sécurix et Bureautix : le Linux de l'État pour remplacer Windows",
+    link: "https://www.it-connect.fr/securix-et-bureautix-le-linux-de-etat-pour-remplacer-windows/",
+    published: "2026-04-13T10:21:53+02:00",
+    content:
+      "Article IT-Connect centré sur la migration portée par la DINUM vers Linux (base NixOS), avec les projets Sécurix et Bureautix pour les postes de l'État.",
+    source: "IT-Connect",
     featured: true,
-    featuredNote: "Article épinglé : bon résumé de l'évolution des distributions Linux côté poste de travail.",
+    featuredNote: "Article épinglé : migration de l'État français vers Linux avec Sécurix et Bureautix.",
   }),
   buildManualArticle({
     title: "GNOME OS comme Linux idéal, partie 1 : la promesse de l'atomique",
@@ -237,6 +250,7 @@ const TOPICS = [
       buildGoogleNewsRssUrl(
         '"Linux distribution" OR Ubuntu OR Debian OR Fedora OR "Linux Mint" OR "Rocky Linux" OR AlmaLinux OR "administration Linux" OR "sécurité Linux"'
       ),
+      buildGoogleNewsRssUrl('"Sécurix" OR "Bureautix" OR DINUM OR "État français Linux" OR "IT-Connect Linux"'),
     ],
     feeds: [
       buildGoogleNewsRssUrl('"Linux distribution"'),
@@ -245,6 +259,8 @@ const TOPICS = [
       buildGoogleNewsRssUrl('"administration Linux" OR "serveur Linux"'),
       buildGoogleNewsRssUrl('"sécurité Linux"'),
       buildGoogleNewsRssUrl('Wayland OR GNOME OR KDE Linux'),
+      buildGoogleNewsRssUrl('"Sécurix" OR "Bureautix" OR DINUM OR "État français Linux"'),
+      buildGoogleNewsRssUrl('"IT-Connect" Linux'),
     ],
     fallbackFeeds: [],
     allowedSources: buildAllowedSources([
@@ -267,6 +283,8 @@ const TOPICS = [
       "Frandroid",
       "ZDNET",
       "Numerama",
+      "IT-Connect",
+      "it-connect.fr",
       "01net",
       "01net.com",
       "GNT",

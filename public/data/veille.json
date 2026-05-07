@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T08:25:24Z",
+  "generatedAt": "2026-05-07T08:32:27Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Linux (général)": "google-news-rss-linux-general-fr",
@@ -30,15 +30,19 @@
   "feeds": [
     {
       "category": "Linux (général)",
+      "url": "https://news.google.com/rss/search?q=%22IT-Connect%22+Linux&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "Linux (général)",
       "url": "https://news.google.com/rss/search?q=%22Linux+distribution%22&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "Linux (général)",
-      "url": "https://news.google.com/rss/search?q=Ubuntu+OR+Debian+OR+Fedora+OR+%22Linux+Mint%22+OR+openSUSE&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=%22Rocky+Linux%22+OR+AlmaLinux+OR+RHEL&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "Linux (général)",
-      "url": "https://news.google.com/rss/search?q=%22Rocky+Linux%22+OR+AlmaLinux+OR+RHEL&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=%22S%C3%A9curix%22+OR+%22Bureautix%22+OR+DINUM+OR+%22%C3%89tat+fran%C3%A7ais+Linux%22&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "Linux (général)",
@@ -50,15 +54,11 @@
     },
     {
       "category": "Linux (général)",
+      "url": "https://news.google.com/rss/search?q=Ubuntu+OR+Debian+OR+Fedora+OR+%22Linux+Mint%22+OR+openSUSE&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "Linux (général)",
       "url": "https://news.google.com/rss/search?q=Wayland+OR+GNOME+OR+KDE+Linux&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=%22prix+RAM%22&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=%22m%C3%A9moire+vive+prix%22&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "RAM",
@@ -70,11 +70,7 @@
     },
     {
       "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=%22p%C3%A9nurie+RAM%22&hl=fr&gl=FR&ceid=FR%3Afr"
-    },
-    {
-      "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=%22march%C3%A9+de+la+RAM%22&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=%22TurboQuant+DDR5%22&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "RAM",
@@ -82,7 +78,19 @@
     },
     {
       "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=%22TurboQuant+DDR5%22&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=%22m%C3%A9moire+vive+prix%22&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "RAM",
+      "url": "https://news.google.com/rss/search?q=%22march%C3%A9+de+la+RAM%22&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "RAM",
+      "url": "https://news.google.com/rss/search?q=%22p%C3%A9nurie+RAM%22&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "RAM",
+      "url": "https://news.google.com/rss/search?q=%22prix+RAM%22&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "RAM",
@@ -94,7 +102,7 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 81,
+  "total": 82,
   "errors": [],
   "articles": [
     {
@@ -742,8 +750,8 @@
       "content": "Présentation des nouveautés Fedora 44 (GNOME 50, KDE Plasma 6.6, Wayland, outillage d'administration) et de leur impact côté desktop et usage quotidien.",
       "category": "Linux (général)",
       "source": "LinuxFr.org",
-      "featured": true,
-      "featuredNote": "Article épinglé : bon résumé de l'évolution des distributions Linux côté poste de travail."
+      "featured": false,
+      "featuredNote": ""
     },
     {
       "title": "GNOME OS comme Linux idéal, partie 1 : la promesse de l'atomique",
@@ -776,6 +784,16 @@
       "content": "Comparatif orienté infrastructure entre deux distributions majeures de l'écosystème Linux serveur, utile pour les choix d'exploitation en entreprise.",
       "category": "Linux (général)",
       "source": "LeMagIT"
+    },
+    {
+      "title": "Sécurix et Bureautix : le Linux de l'État pour remplacer Windows",
+      "link": "https://www.it-connect.fr/securix-et-bureautix-le-linux-de-etat-pour-remplacer-windows/",
+      "published": "2026-04-13T10:21:53+02:00",
+      "content": "Article IT-Connect centré sur la migration portée par la DINUM vers Linux (base NixOS), avec les projets Sécurix et Bureautix pour les postes de l'État.",
+      "category": "Linux (général)",
+      "source": "IT-Connect",
+      "featured": true,
+      "featuredNote": "Article épinglé : migration de l'État français vers Linux avec Sécurix et Bureautix."
     }
   ]
 }
