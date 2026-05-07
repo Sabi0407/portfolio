@@ -199,6 +199,20 @@ const CURATED_LINUX_GENERAL_ARTICLES = [
     featuredNote: "Article épinglé : migration de l'État français vers Linux avec Sécurix et Bureautix.",
   }),
   buildManualArticle({
+    title: "LINUX 7.0 EST LÀ !!!! Tour d'horizon !",
+    link: "https://www.youtube.com/watch?v=c6ij-kISFbk",
+    published: "2026-04-16T08:00:22+02:00",
+    content:
+      "Dans le passage sur l'IA, la vidéo explique qu'avec Linux 7.0 la documentation du noyau encadre l'usage des assistants IA dans le développement : ils peuvent aider à préparer du code ou de la relecture, mais le développeur humain doit tout vérifier, assumer la contribution et ajouter lui-même le Signed-off-by.",
+    source: "YouTube · Adrien Linuxtricks",
+    featured: true,
+    featuredNote: "Vidéo épinglée : repère clair sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du noyau.",
+    mediaType: "video",
+    thumbnailUrl: "https://i.ytimg.com/vi/c6ij-kISFbk/hqdefault.jpg",
+    thumbnailAlt: "Miniature YouTube de la vidéo Linux 7.0 d'Adrien Linuxtricks",
+    linkLabel: "Voir la vidéo",
+  }),
+  buildManualArticle({
     title: "GNOME OS comme Linux idéal, partie 1 : la promesse de l'atomique",
     link: "https://linuxfr.org/news/gnome-os-comme-linux-ideal-partie-1-la-promesse-de-l-atomique",
     published: "2025-04-07T11:32:13+02:00",

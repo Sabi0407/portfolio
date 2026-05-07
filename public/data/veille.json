@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T08:32:27Z",
+  "generatedAt": "2026-05-07T09:34:22Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Linux (général)": "google-news-rss-linux-general-fr",
@@ -102,7 +102,7 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 82,
+  "total": 83,
   "errors": [],
   "articles": [
     {
@@ -794,6 +794,20 @@
       "source": "IT-Connect",
       "featured": true,
       "featuredNote": "Article épinglé : migration de l'État français vers Linux avec Sécurix et Bureautix."
+    },
+    {
+      "title": "LINUX 7.0 EST LÀ !!!! Tour d'horizon !",
+      "link": "https://www.youtube.com/watch?v=c6ij-kISFbk",
+      "published": "2026-04-16T08:00:22+02:00",
+      "content": "Dans le passage sur l'IA, la vidéo explique qu'avec Linux 7.0 la documentation du noyau encadre l'usage des assistants IA dans le développement : ils peuvent aider à préparer du code ou de la relecture, mais le développeur humain doit tout vérifier, assumer la contribution et ajouter lui-même le Signed-off-by.",
+      "source": "YouTube · Adrien Linuxtricks",
+      "featured": true,
+      "featuredNote": "Vidéo épinglée : repère clair sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du noyau.",
+      "mediaType": "video",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c6ij-kISFbk/hqdefault.jpg",
+      "thumbnailAlt": "Miniature YouTube de la vidéo Linux 7.0 d'Adrien Linuxtricks",
+      "linkLabel": "Voir la vidéo",
+      "category": "Linux (général)"
     }
   ]
 }
