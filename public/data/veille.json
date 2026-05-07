@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T07:35:43.791Z",
+  "generatedAt": "2026-05-07T07:43:14.081Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Noyau Linux": "google-news-rss-linux-kernel-fr",
@@ -12,7 +12,7 @@
       "label": "Noyau Linux",
       "description": "Veille dédiée au noyau Linux, avec un repère sur Linux 7.0 et sur l'encadrement des assistants IA dans le développement du projet.",
       "feedDescription": "Je suis ce thème car le noyau Linux est au cœur des serveurs, de l'administration système et de la sécurité. Cette veille m'aide à suivre les évolutions utiles pour mon mini-lab et mes projets d'infrastructure.",
-      "periodStart": "2024-02-26",
+      "periodStart": "2024-02-27",
       "maxAgeDays": 800
     },
     {
@@ -73,9 +73,17 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 109,
+  "total": 111,
   "errors": [],
   "articles": [
+    {
+      "title": "Vous pensiez que les prix de la RAM avaient explosé ? Vous n'avez encore rien vu - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNenVNNURXVDZQRG9ua1hvZWFvZ0xIc1dQRUJma3RJWGhuVERMQ0NqMnhaRkdDcGJuWDQ1MC0wWFNzVzVJQnJiQTh0Zy1pcVFnVVhnUTRyTXg2NF9ydFlxTVFudUdiX1FzaUlRdjRlQzM2cUJwVlRRYmRISF9ySG5QR1haLVpUbHhzX3hyLXZDb0dxSnU1NG1VQXpMdWk4TVRlUHlaSTloR0dFalY3QjV3ck1FR3ZFRG1OUkVIczFLSTU?oc=5",
+      "published": "Tue, 05 May 2026 16:06:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Clubic"
+    },
     {
       "title": "Le prix de la RAM devrait doubler pour atteindre des sommets courant juin - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbXg2ejhYenBKXzdTdVVaaDhmMWdIS3pWRkNpQW5kSk1hbWJ2TGlGY2V0bWpWZERjZWxvbzMxQUNBSlRxOVhRREdwQlJIUkJiSjMtSXlaaW9YRkVPUGI2NGVhcVFOdnFyeWVpY0dqcld3VDdXWnFXYVVnakJDalJlRXpLQ0FhMzhSZTlGV25Bc0h2UUMtenYyUWs5WFREdEJfd1pRdA?oc=5",
@@ -117,6 +125,14 @@
       "source": "Programmez!"
     },
     {
+      "title": "Copy fail : depuis 2017, une faille dans le noyau Linux permettait à un utilisateur de passer root - next.ink",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOHRSNUxHUmRGTHhuZDJfTnNFNmZzaGZvMUY1bEtTbExuNlVHR2s2LXk3YVoyVENCQzVhUVdjUFRTanJDZGcwZTRNQ3lSR3NjWUFEMGFWRE1URDFYczcwUTRXM2NaS3Uya3pDZ0tSYlVjT21nUE9Ja2Z4VUdzZ2E2aTJvdTgxR2JpOFZKYlUxY1RtUDJJSm1fWXUxSlJ1eTFTcGtJTnpxd2VCOGFucUJPZlRQTmhJU25leUtOXw?oc=5",
+      "published": "Thu, 30 Apr 2026 11:40:21 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "next.ink"
+    },
+    {
       "title": "« Copy Fail » : comment une faille dans le noyau Linux a donné accès à tous vos systèmes depuis 2017 - Numerama",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPd011UFNBejk0NnYyMlNfYkVFMWJzOE9OcThrU0tQZ0pOU3pJZERVb1ROMTVWbW54b19rUmpzellCN01UMXl3Z1hfb1lzOUpRYUR5QXJrVTNIb1BaSkN2dnVhc19HcjVUczdfWFJDMktHcHpaLU8tc20zRkhkOUs3OEM2UWt2dHdINnBEOFF0UnZUQk9Sa3FMVnBhblJpMFlXUWgxTEVTalo1cndDbTBMV2tyRXN5cG0yQXNkeXg0N1ZTOXZfWTA5eWZkQ21NWmVOUXdXVmgyVnZpZmVC?oc=5",
       "published": "Thu, 30 Apr 2026 10:10:01 GMT",
@@ -133,14 +149,6 @@
       "source": "Programmez!"
     },
     {
-      "title": "Copy fail : depuis 2017, une faille dans le noyau Linux permettait à un utilisateur de passer root - Next.ink",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOHRSNUxHUmRGTHhuZDJfTnNFNmZzaGZvMUY1bEtTbExuNlVHR2s2LXk3YVoyVENCQzVhUVdjUFRTanJDZGcwZTRNQ3lSR3NjWUFEMGFWRE1URDFYczcwUTRXM2NaS3Uya3pDZ0tSYlVjT21nUE9Ja2Z4VUdzZ2E2aTJvdTgxR2JpOFZKYlUxY1RtUDJJSm1fWXUxSlJ1eTFTcGtJTnpxd2VCOGFucUJPZlRQTmhJU25leUtOXw?oc=5",
-      "published": "Mon, 27 Apr 2026 11:19:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Next.ink"
-    },
-    {
       "title": "Linux 7.1 : le noyau tourne une page historique et accélère sur tous les fronts - Les Numériques",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWklXQ3kzcnlMZHByRGJPQjM4VGNLUWM4T2ZacG5lUEZ4c2FhX05ndVRXT0ZmYVVQVWcyYkxlanlJbXJNbmM5UFBtaXhMWFg1REpHNXhiQkJBLTNUVVVOZVdLN203dHljem54eUk4VldMMWk1VHR3MTE5akIyaE4tVHpLelVMekR0U3d3QUpPR21xZTBHSTBIWHZGMFJmLUdBcnNwTG81VDlOZEtnS0ZIUWlGTkxybDZvRzZKSjNxZ3pnZ0tVakloRXRzZGtHUQ?oc=5",
       "published": "Mon, 27 Apr 2026 07:00:00 GMT",
@@ -152,14 +160,6 @@
       "title": "Avec la pénurie, la RAM représente 20 % du coût d'un Galaxy S26 : Samsung s'étrangle avec ses propres puces - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb2ptN1R1V3VvSWdDem5FNng0UHQyc2NBaDNnREFEalpZdzVNQ1FoSXBZeExpSU1uWGpENlNqcjBNanFoZFpWbUJlenZFZ3Yya1VJQjFxd3NQN3JUU243VWpDS2F5YTF1TmNCOWpjVUgtNmREUUlSSDVaZjExV3Fudlc4ZlA1WFNJcm9OYWxpWmpJb0stRG5LZXlKUzdxZXk2aXNtRWRuQWNtWWNydS03TzV5bVM1Zw?oc=5",
       "published": "Mon, 27 Apr 2026 07:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "01net.com"
-    },
-    {
-      "title": "Ce PC portable Lenovo ultime génération est à prix fou sur Amazon (Core i7, RAM 16Go, SSD 1To) - 01net.com",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLWZBOTFBbEdDeFI2U0w2ZlVFaFZ5V3RXTmVscUVscGtkOTlsRXJtS3FmMmF3cXV3SDJHNFRQQnFxQWFST3FiTXA4cmJfeG9BMnBFS3UwSmZMTDVlUDhyUWNTdDl3clhFWE9lMmJKckpMczkxSnZxeFV0MU10bm10Q1FIbE9IX3FyUE5TYjRXVnpac3czN24yWFRTUnR2d2FCWEctdHFkcWVjMi0xcUtrbnZibkxCRjVCeWxQWkpLTG5kYk9jQi0w?oc=5",
-      "published": "Fri, 24 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "01net.com"
@@ -217,6 +217,14 @@
       "content": "",
       "category": "Noyau Linux",
       "source": "Les Numériques"
+    },
+    {
+      "title": "Prix de la RAM : sommes-nous arrivés au sommet avant le krach ? - Tom’s Hardware",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ0dfdW5QX2JLXzdRSVJiMENfR21IRXEzM1FMWDh0STQxRHBIazNtUE5YVDRlYmhxcVNsTFhqM0liTnU1N1d2bWhUWms4a3JiNk40UjZEaV9wRFRIVWNtNElCUDJxMlNsVzlncDB1bnAtTnJ0YkdaVTJCUnlxZHQwaVZoQ3lhaFpiRVRFR3Btekppdw?oc=5",
+      "published": "Fri, 10 Apr 2026 07:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Tom’s Hardware"
     },
     {
       "title": "“Une demande de mémoire multipliée par environ 625” selon le patron de Dell : le prix de la RAM et des SSD n’est pas près de baisser - Les Numériques",
@@ -505,12 +513,20 @@
       "source": "Clubic"
     },
     {
-      "title": "Et si Linus Torvalds passait la main ? Le noyau Linux a son plan de continuité d’activité - Next.ink",
+      "title": "Et si Linus Torvalds passait la main ? Le noyau Linux a son plan de continuité d’activité - next.ink",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaUN5ekxRSW13bG9ncGl1VC1wUFN0TlFRSnBlZmprSDRTNHdzQlk4dWYxVlVISkl1aV9haEtiV0hkTTNoaDZhdnZrMkRzdWloQktuWTA4b1hUQ0RHM3EtT05ZOUlXLUQzb3VUd2lQaTFWeHRyU3NHaW04WjFFLVBxOGxCWkZZZkdKRGg2Q3I2eWNaMWRmdTFNRHZ3Ti1uY01pUEhudTQ3UUZkcklHMmV1dg?oc=5",
       "published": "Thu, 29 Jan 2026 10:59:21 GMT",
       "content": "",
       "category": "Noyau Linux",
-      "source": "Next.ink"
+      "source": "next.ink"
+    },
+    {
+      "title": "La succession de Linus Torvalds se met en place, comme celle de Tim Cook - MacGeneration",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGljNlM5X29yRGlERXh3MVBEZ2VUel9lUFVfak1EZE5Nc25oZzVkUjYyTnQ2Q1VDcUNXbWhIbXdLSmlsZGpWVUVrV1oyQmt2Q0RZZ3J6Tjc3eExnV2dpbEU4NzREc2RrSUJfcVpyNG1LS0RJN1QwbXJxcjhxSEg2S2VTeHVHcnBPNlJ4NFFudWJhQ3I1VXg0RjJyUW14VVlxYW1ZbGl1NGp5Mngwb3ZSVDFPRXZsdw?oc=5",
+      "published": "Thu, 29 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "MacGeneration"
     },
     {
       "title": "Linux : un plan officiel pour succéder à Linus Torvalds émerge - Clubic",
@@ -769,6 +785,14 @@
       "source": "Frandroid"
     },
     {
+      "title": "RAM et SSD : ne repoussez pas vos achats, la pénurie est désormais « organisée » - Frandroid",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQWEUzUzRIWjMxZUNWYjhZNk02WGRZeFpNenVrZ0lLSUlUVXVwTEttS3FMcEF0cGtndm93QTAxbTl6SGRlVnhRd0VaUlF4Zl9Td2NCSGxSTGc0MmU4TFdUTHBWZ2J3TzhiWkRPWlkwYklfbDE2Ujl3QlpLazEwWEtBSE4yVTk1U0xramxiZkkwTjh1QkhORTRXR2VPbGVWZE11Smh5dlVEUURyU24zdEQ0THBwMmlIem8yWGlTUFp0UFplNXpCYVhBV2VZMXgtLW1PRVRBTkE4a0VwVWV1eHpFekF0dWZhbWxhaEpZcmVleDBZS0RJR2NZN2M5M3JseXc?oc=5",
+      "published": "Thu, 04 Dec 2025 08:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Frandroid"
+    },
+    {
       "title": "Dommage collatéral de la pénurie de RAM, les cartes mères peinent à trouver preneurs - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOLTdrTjdyREdtM3JURlU0T0tqZURUSHpTQjB0bDVPZjRydDJ5Q2pfZ0MxaVQ2ZW9pZS0yR2t2a0FRbDNxZVBlOG80b3M0MzNXdFN1b2p4dm1KS0dwWW9PV1lYQW5YdjlIOENnSUVuVGxvRzJMZ0NSREFPaEk4VkNJVHQ2bFo3bXIxRlZSbE81NnVoSFZJcVJzc19aanJfbDNiU3F5SE5BSWZYTHN0VVdMaGF3N2NJcFFZZFEyRXAyV2kxcTdiOTcwdUU0VWhVdUdzZGJZT29USFBXLWg5clRybVEzSjZRdw?oc=5",
       "published": "Thu, 04 Dec 2025 08:00:00 GMT",
@@ -815,14 +839,6 @@
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
-    },
-    {
-      "title": "Crise chez Samsung : sa division puces mémoire refuse de livrer sa division mobile ! - Génération NT",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPekpXZXJzLUdGbWh2dk9rVFl6MEREUEhNQXhnanpYLTJPNDF5VFNzQWI4Z3h3VklLcWRfcG4yNHBFMGM2Zjd4OWszaGVVOW9ibE8zWjNRUWM1anI5VmRFS2cwaWlVWEhhalBUUUR2QzBjWVZfbHBaRmZJaFVOWW56bjBENEVYdE1TZzVaS2luY1dfbkdSWG9Vb2RxZHIwZWZjRXloMG1leVkzRGtlVURBetIBtgFBVV95cUxQaFpLazE4c0RISHV4RHA3SEU1OHZ4ZWZzYzMwM1F0Wll3RUFaWThQaWd5U29KYnNxZC1LYzd6M3pqMXd0SFZvR2YyelJZU21xMV9Od1lyYm9acHJCRzcwLXdFblBxd25OcTlfZDFFUnFGRjNuekRXQkdlWXJSV25IUE9obXhPSzNORnpfbXRCTkdueXE1RFVRT1N4QVNLY1lVdDNlSUExTFQ3b3M1WU1xanhJS2UxZw?oc=5",
-      "published": "Tue, 02 Dec 2025 08:00:00 GMT",
-      "content": "",
-      "category": "RAM",
-      "source": "Génération NT"
     },
     {
       "title": "Noyau Linux 6.18 : support renforcé d’Arm, RISC-V et Apple Silicon, Bcachefs retiré - it social",
@@ -905,12 +921,12 @@
       "source": "Pause Hardware"
     },
     {
-      "title": "Sylvestre Ledru (Mozilla) : de Firefox au noyau Linux, la fulgurante ascension du Rust - Next.ink",
+      "title": "Sylvestre Ledru (Mozilla) : de Firefox au noyau Linux, la fulgurante ascension du Rust - next.ink",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcWVYSjgxWEQ4OFlMcG93TGlxSWdZZ1hkMXNDZ3dlWEVvTDZmTnZBZHR0Sy1OZThUQ09UY25oRGQ3aXZkd1VhU0NCWVZ2WWhDeVJhczZpbmNBMjlFRGZCUzZhUTBpbEZaZzQ0UHJVMFliMm5sWm5RWkxUd21fM3lzMVFYZjBfbU5HTUJYYzkzWnllY2l4cVQtN0lZRmdLM3lKNEFGR3B5ZVdSdw?oc=5",
       "published": "Tue, 04 Nov 2025 08:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
-      "source": "Next.ink"
+      "source": "next.ink"
     },
     {
       "title": "Le Poco F7 tombe à un prix FOU (Snapdragon 8s Gen 4, RAM 12Go, stockage 512Go) - 01net.com",
@@ -937,6 +953,14 @@
       "source": "Génération NT"
     },
     {
+      "title": "Kernel Recipes 2025 c'est fini : les vidéos sont en ligne ! - LinuxFr.org",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVXgzS2JiRDQzR1N0Sk9ZUUhWSVl4ME04ckptd18xc0dlX1ZGNzF5QTAtVHA1aGpOUTlFMVFCeTI3UXgwM2N6NXdEVDZRek41RjJYSVJEMUpHNXpYNE1wcVFheHhmYmFuR0hrVHU4bzVpVV96UXk3N29CY2RnVlBnN0ZjcjhlQ2M?oc=5",
+      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Noyau Linux",
+      "source": "LinuxFr.org"
+    },
+    {
       "title": "L'IA s'immisce dans le noyau Linux, et une politique officielle est nécessaire au plus vite - ZDNET",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaFVFUDJxNVhwOS1GNndxSE9EN3pIWWEzUHc0U2xHV3FGcnVqX3ROd0g0UmNHTU43bnRMeWVncXQwVExoNHBDQlFaTzZtN2xqaFBnZ0F1R2s5VUhNOVowcFFmSVBDcm9GdDV5X2xSR3o2RERZUURuMURHVVBaeUxyV2ZaSV9CM2UtOVJrNTF2UW0wVDNVYTk2MDRaR3NPa3E4VTRmOUVzdzJOazNiMWxpLVlXUC1qeDA0dlIwOFp3WTUzMTJsNk1mRVZtMA?oc=5",
       "published": "Mon, 25 Aug 2025 07:00:00 GMT",
@@ -953,12 +977,12 @@
       "source": "ZDNET"
     },
     {
-      "title": "Le noyau Linux 6.16 est là, largement tourné vers les performances - Next.ink",
+      "title": "Le noyau Linux 6.16 est là, largement tourné vers les performances - next.ink",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdTFQWmE2QWxBME84N3kwb1JXMWVhSXlRd2dIMEZHelFnNUMwVzJtSEcwdXhGemJfYm9lQldZVy1hZXVBVG52eVJnaGQ4andXUUJzakxHdmJ3SVhUQnRRSjMydkxMNWpNRVpmWDlkdkdDWEtQLVlHdzZKMzZXUzh6aUlHalowQktRYTdldkliOVZ3aTdz?oc=5",
       "published": "Mon, 28 Jul 2025 07:00:00 GMT",
       "content": "",
       "category": "Noyau Linux",
-      "source": "Next.ink"
+      "source": "next.ink"
     },
     {
       "title": "Rust débarque enfin dans le noyau Linux - Korben",
@@ -975,14 +999,6 @@
       "content": "",
       "category": "Noyau Linux",
       "source": "ZDNET"
-    },
-    {
-      "title": "Linux 6.15 : mise à jour surprise du noyau, avec effets immédiats - Les Numériques",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPZEI1cVNqTzFLVU0wRU5ObEQwekl5aTlDMnI1OW9aYWtEM1piVzJJaUNlVHVzcGVBR2ozeXJSMnlGRExNUC1CMzRGV3lnZzVhczRfcVZ4R0haQkE3ZEpxM0FWVm1iMzB0R2oxZm9FSXlSUG5NZG5hUVdUT1EweUg0c0JsbEE1MF85TEpXSk8yc2V5bEFKV19HQ3ZWRDZVd0IyWUw2UWFuX1RvU1F0dVVDV0JtbFFFbzY2cHdNTHY5NWg5TGptQjFyRkNDWlBlM3lXS0V0Y01nRlF6TnFTaURtd0VtdzUwN3pwNTZwNTRXb05zeVBIOEw5ck1YMA?oc=5",
-      "published": "Mon, 26 May 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Noyau Linux",
-      "source": "Les Numériques"
     }
   ]
 }
