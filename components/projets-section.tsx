@@ -233,6 +233,12 @@ const categories = [
             pdf: "/s.sabiran/docs/ap4-proxmox-backup.pdf",
             schemaPdf: "/s.sabiran/docs/schema-baie-a.pdf",
           },
+          {
+            title: "Guide d'installation et de configuration de Proxmox VE",
+            desc: "Rédaction d'un guide pas à pas pour installer et configurer Proxmox VE : préparation de l'ISO, installation du serveur, accès à l'interface web, import des images ISO et création d'une VM.",
+            tags: ["Proxmox VE", "Installation", "Configuration", "Virtualisation", "Documentation"],
+            pdf: "/s.sabiran/docs/guide-installation-configuration-proxmox-ve.pdf",
+          },
         ] as Project[],
       },
     ],
