@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T07:08:51.988Z",
+  "generatedAt": "2026-05-10T07:26:18.945Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Linux (général)": "google-news-rss-linux-general-fr",
@@ -102,9 +102,17 @@
     }
   ],
   "fallbackFeeds": [],
-  "total": 205,
+  "total": 212,
   "errors": [],
   "articles": [
+    {
+      "title": "Télécharger Linux Mint (gratuit) Linux - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VeElBbTliUXY5SUxOT0lPTWZWY3puOEQ3MlV5Nm1LMkQxcDJSN1N2MzltMHBwYzBjNEllRTF5ZXVzRjVka2dNelRrWDJLOTNuZU9OWmZPS09FdG9mU1Y5aXVlbHNIMGs3WHFnOEtfUEtiZUE?oc=5",
+      "published": "Thu, 07 May 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "Clubic"
+    },
     {
       "title": "Conçu pour un Internet hostile : le VP de l'ingénierie chez Canonical en dit plus sur Ubuntu 26.04 LTS - ZDNET",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPN3RYbnR0UEdWN0l0QjA4c2o1ZmJzNEswZEhxTFVaYmdBb2daZTNpdmxxcFppMHlfdVo5clBmbjd4eG5TMGxaU1ktdWZiOHFCeUhmblNXQS1vQmdWOENqdUxVNkhrdklnRHRxYUVRVW4tcHM3OGVqTjhxaEdrbHgtRW5yamU1X0VrRzVlX2hyWENjWDR3RGFTZS1TUGk2eTUyRFVoa29ibGt2Szd1bWt1elFyT2pfcnIwSHB3NEdpTXdaXzg5Wl96OXE0V2VUWkxaWHF4V0xvLTlBZw?oc=5",
@@ -146,14 +154,6 @@
       "source": "Frandroid"
     },
     {
-      "title": "L'infrastructure d'Ubuntu paralysée par une attaque DDoS pro-Iran - Génération NT",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOVpidWc4Um1CMDJIOGU3UEVyMXU1dUFxSFFRVHdSdmZRckV0cDFOUlhMblhmZ0s0N3JyWUctc3Z0NDdNUFVnR2dzSXpPUzE4bTBPNzFqb1FabFgwbGh6Y2VuVXdGVVBRdndSd2RUNjh6ZWsxZzcyX0xtSTlndEVlMUw0ZklZN05LaXpZLWM1YXFBOWtHMWR5R2hsaktJOVY1eU0w0gGoAUFVX3lxTFB5LVkxWkFmaXNGcExQbUJfREs2Y2RmNXVXMDN0VVJpZ1BuaEZHTGc0OENENnJIUHdvN2ZocmVQOXlIaE1FLXEtRFc4NlRaa2FLcktWLUh6T2paWFNNUmxNVEZBUDZNNmJHVWZwNDhuRVBPY1VnR0FEdzRsNFZPMENQazVyNzJiUVBVWVpKa0szODRWMC14R3ZxTm5kNVducGRBOHRqNmFpRg?oc=5",
-      "published": "Mon, 04 May 2026 12:30:01 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "Génération NT"
-    },
-    {
       "title": "La faille Copyfail menace le monde Linux - Le Monde Informatique",
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUzhwRGdvd1A1UGZKdjN4UDV0SWdSc0RfY1JuWUZ0c1owZHB3NDQ4OFBXNWZiZTFZWEZyU2Y4OFlrNnFnTGlDdHVwTG9paC1iei1rdzlKeGwwcVpZMW5TczNfSUVDczBCMmU1eDFrZGhPMERMX0ZCVkY3ajlldUxIMzF0MnRNdVNvYUtaX0xPM3BQdVl5OGREMm5WaTg1WnR0aWM2SElB0gGqAUFVX3lxTE1ZbWNBNG0xd216cVZjQi1tVXNxZTRXTDBhMWpVTTM4ei1FMjlSVXNiclp4aVY5ZzZMaW1RcWJrRzJUZFVvMjdPblY3b201dTdPVXVob0ctbTBiaEZwWC1SMzVTWE5abjJrZUg3UWV3b1B1bDVHSlJMQjJCTXFuSVlwV29MQVFBSTFBT3hJN1F2WTBHQTVUbEt3ZFhQVVBiWG90QWpsT0w1WWVR?oc=5",
       "published": "Mon, 04 May 2026 11:27:28 GMT",
@@ -170,9 +170,17 @@
       "source": "Frandroid"
     },
     {
+      "title": "KULA - Le monitoring serveur Linux qui tient dans un seul binaire - Korben",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKYzBfd185aGtvVHh6TUZuOXk2a19VWlZGRlR1M2g0Q2xFM3BCZ0lfTUFhRXVwWEptTFNScGp4bW52UzgxakJ2aXZVd3MtdE1YOTdWTlJJR3lSQkdWWkJRSVV3Qm9QX3ZSN3c?oc=5",
+      "published": "Fri, 01 May 2026 07:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "Korben"
+    },
+    {
       "title": "Samsung l’a confirmé : la pénurie de RAM va “s’élargir encore davantage” en 2027, attention au porte-monnaie - Les Numériques",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOTE93RENTYkRSejNxVVRtUXRlMUxTVElrNVY1NEVVaDkzTHdDTFc2ZDlCcWRKYlRfWW1SeHNTYlFwTU9UdVc1NTc0NkJNaFpwZFZ3andDTnRBQ3dpalptWkRXUTY5ekIxejFrbWRmNV9qN3pqU3FNczExTzFrSG56d1dlYjY4TVJvd2ltMk1mel96VkU5OWEwcDZ0YklfTXpkZDBpMnM2NlNxanR1REF1RGVRTUVISjIyZE51dUFJVUxyR3hDcE1YNFpZamZXMUdXNlFvUjI0a2E4ZXFkYnJQSnFRVlRiNVZJSElOcF8zSW9lMWhJOXc?oc=5",
-      "published": "Fri, 01 May 2026 12:24:00 GMT",
+      "published": "Fri, 01 May 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Les Numériques"
@@ -180,18 +188,10 @@
     {
       "title": "On est pas sortis de l'auberge ! Samsung prévoit une aggravation de la pénurie de RAM jusqu'en 2027 - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYjRaWk1IckFCVHdlekVKbGhIQWZ1MXd0RHJHd0gwZll5cGF0VndpbFBlaFJlTE1aZ2pCTHpBVXVzSEFDbWladjE2MWZSeGM0cW1qdENzUENxcWJzMHQ3WnFXV0ZwTVc2VVpIaVFLUld6UWplWGMtVzNrUk1zNk5BSnBnaTFqMXk0d2lOTURsdzhHVzlMcTVWVm0zdV9xanRvYzkxRF9zVTdoS2kxczhIbkxBWnRFRllaTHpvRUJ5SXg5dHBwblA2TzFTYTJiNmVOSC1SalpsVW5wZw?oc=5",
-      "published": "Fri, 01 May 2026 07:30:00 GMT",
+      "published": "Fri, 01 May 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
-    },
-    {
-      "title": "KULA - Le monitoring serveur Linux qui tient dans un seul binaire - Korben",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKYzBfd185aGtvVHh6TUZuOXk2a19VWlZGRlR1M2g0Q2xFM3BCZ0lfTUFhRXVwWEptTFNScGp4bW52UzgxakJ2aXZVd3MtdE1YOTdWTlJJR3lSQkdWWkJRSVV3Qm9QX3ZSN3c?oc=5",
-      "published": "Fri, 01 May 2026 06:53:51 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "Korben"
     },
     {
       "title": "Copy fail : depuis 2017, une faille dans le noyau Linux permettait à un utilisateur de passer root - next.ink",
@@ -200,14 +200,6 @@
       "content": "",
       "category": "Linux (général)",
       "source": "next.ink"
-    },
-    {
-      "title": "Les utilisateurs d’Ubuntu n’attendent pas l’IA - itdaily.fr",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JRF9qSGJqTU80RWRtTXU0TFBPNVNyYmF1STB0Zy1xN09GdlRWR0d1VHRlb1c3WFAyWTRjb2htSXlEeFJodGpXdVFCWXZYbVpUaDk3aFFYampZWHlSclhPUXdR?oc=5",
-      "published": "Thu, 30 Apr 2026 08:23:57 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "itdaily.fr"
     },
     {
       "title": "Copy Fail - Une IA trouve la faille Linux que personne n'a vue - Korben",
@@ -248,20 +240,20 @@
       "source": "Programmez!"
     },
     {
-      "title": "Debian (Gratuit) : le système d'exploitation Linux par Debian Project - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45eFNMRFBNa1daX1lJZ0hnVUlJTUFVXzAwNTV4bWJBVkV6WXh4Vm4ycFI5RGx0a1huUmZjejRrTjM4T0s0dDZCZnNkSVg0M0YtU3Z3ZHpEblZ5dURnMGJQYlU4SFZzc1picHc?oc=5",
-      "published": "Tue, 28 Apr 2026 07:00:00 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "Clubic"
-    },
-    {
       "title": "Linux face à l’IA : Ubuntu trace sa route, à contre-courant de Windows - Frandroid",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZC15azFlZXE0TW9URjBCSmxVR2FoU2xCSWZLcjdCbUdkUkZwbzdLTXl1aWU2dDFtbHRuUjFCdm1YY2RDdWZRM09yRlFQRXFOVHR4ZHpXalNDNFJZM0xydEhHempPdWhTbXNXLWdpQWk3QWU3bWp1ck91SDZpN1l2T1pNQkRXLVNIV2tlNWNlMWdheXNJNGZmLUpBc0NuUUNic1hpdmhfX2pRUmxDcWZ1cnAzZw?oc=5",
       "published": "Tue, 28 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "Linux (général)",
       "source": "Frandroid"
+    },
+    {
+      "title": "Debian (Gratuit) : le système d'exploitation Linux par Debian Project - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45eFNMRFBNa1daX1lJZ0hnVUlJTUFVXzAwNTV4bWJBVkV6WXh4Vm4ycFI5RGx0a1huUmZjejRrTjM4T0s0dDZCZnNkSVg0M0YtU3Z3ZHpEblZ5dURnMGJQYlU4SFZzc1picHc?oc=5",
+      "published": "Tue, 28 Apr 2026 07:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "Clubic"
     },
     {
       "title": "Ubuntu se dote d'une feuille de route IA pour 2026 - Clubic",
@@ -280,20 +272,20 @@
       "source": "Clubic"
     },
     {
-      "title": "Canonical va foutre de l'IA partout dans Ubuntu - Korben",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkWUE3WjJiNFBINjl0ZXNFTXhxZkQ0QUhVemhTUHBYZFpVNkR6dE9HYnNBcHpSajhBbW5kT2VmeTJlejR4Z3JINGxXbU13NVVmXzN6OUVURmRYMDNZcXN0Y3hyN0tKQXA5?oc=5",
-      "published": "Mon, 27 Apr 2026 07:00:00 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "Korben"
-    },
-    {
       "title": "Avec la pénurie, la RAM représente 20 % du coût d'un Galaxy S26 : Samsung s'étrangle avec ses propres puces - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb2ptN1R1V3VvSWdDem5FNng0UHQyc2NBaDNnREFEalpZdzVNQ1FoSXBZeExpSU1uWGpENlNqcjBNanFoZFpWbUJlenZFZ3Yya1VJQjFxd3NQN3JUU243VWpDS2F5YTF1TmNCOWpjVUgtNmREUUlSSDVaZjExV3Fudlc4ZlA1WFNJcm9OYWxpWmpJb0stRG5LZXlKUzdxZXk2aXNtRWRuQWNtWWNydS03TzV5bVM1Zw?oc=5",
       "published": "Mon, 27 Apr 2026 07:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "01net.com"
+    },
+    {
+      "title": ".Net 10 par défaut sur Ubuntu 26.04 - Programmez!",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZUxHbHk3b3lhOTNtamxfTG1RNXVTdW5WdS04QXFuYURrMjJHVnF4bGJjNUYwUTFVS3VKcUp3WVNoTDR3Z2ZNNVVfVlNmakYtczZwajk3ZENYRmpqdVpvOFUxTVJhZ2VudmwwRFktM1VmOWdVcFowUGFuTXRMZlFiUVdaNNIBiAFBVV95cUxOejl0WnFLVFJDdHVrS015YWkyUWZjZjlwZlNvQWFHd0hJSUU0Nk1IM0ZUMjl5LXNpWmhlY3doNVVDUWhYS3J4SG1xdXBaLU5sVjhxNS1QNlMzLUV1d081NngzME8xa3JpREh5dFAtQWhwczBWQzUxUXF0d0tlaWlaWXNtdEhBZnBZ?oc=5",
+      "published": "Fri, 24 Apr 2026 11:53:28 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "Programmez!"
     },
     {
       "title": "Ubuntu 26.04 LTS est disponible en version finale : Linux 7.0 et Nvidia CUDA au programme - Les Numériques",
@@ -326,6 +318,14 @@
       "content": "",
       "category": "Linux (général)",
       "source": "next.ink"
+    },
+    {
+      "title": "Framework dévoile le PC portable ultime pour Linux - Les Numériques",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNdFZfY2tNb281ak94U2tNdmxTU0NMOWpLVk92YXdPM3BwSWpvNjRWU2VhUGxVYTB5ZGxCYWRCejRNZ241WFpsTGprRkgwanhkdXkwRVFHUnh3SmIwU2t4U0g1V25KNDh0dzNjbXVMUTlsUzVsbExKcjV1TjA1ODljakhTbTZvb25nOHBCSUtCSWw5c2dJOWo5XzFlVVc2UzhUOEttd25jUF9STGp3bFVoV0g3eXI4ZDNxNG1OU1NPOHhKcnlseFFVZm1wcm1TRzRkczFjU19aZDVrWFEwQ0FEZzd6R1ZxM05PUHJjTnhoRU1aX1Q0aUc2bVpYSE11SXpGRnJQUVR2RUZoUmc1b0YxSFJJZHRBejN1c2ItMQ?oc=5",
+      "published": "Tue, 21 Apr 2026 07:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "Les Numériques"
     },
     {
       "title": "La pénurie de RAM va durer. Seule 60% de la demande pourrait être couverte l'an prochain ! - Clubic",
@@ -364,6 +364,14 @@
       "thumbnailAlt": "Miniature YouTube de la vidéo Linux 7.0 d'Adrien Linuxtricks",
       "linkLabel": "Voir la vidéo",
       "category": "Linux (général)"
+    },
+    {
+      "title": "La DINUM et France Identités face au défi d’eIDAS 2 - LeMagIT",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSi1nRkN3US1LSXFJWXRubHo4UEktRlRpanFubUNhMHoxamdkTk9vWjNLeUZXOFdNQ1ZOSnNRNzQ0V1RZUFpqV3o3d09FSnlnZC1lLXN1Q0w3bHlxV3V0ODZZMXViSldWd25ERXI0eXRCRUR6c0tJSGx6V19FLU9NQ2FHQ3FNSk53eklzaDVld3pJWHd5TndPTk5R?oc=5",
+      "published": "Wed, 15 Apr 2026 07:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "LeMagIT"
     },
     {
       "title": "Souveraineté numérique : l’État débranche Windows... et bascule vers Linux - ZDNET",
@@ -618,7 +626,7 @@
       "category": "RAM"
     },
     {
-      "title": "Le coup de génie de Google, qui a trouvé un moyen de régler la crise de la mémoire vive (RAM) pour de bon - Numerama",
+      "title": "Google a peut-être réglé la crise de la mémoire vive (RAM) avec un algorithme - Numerama",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLTNPODd5dWlJN29xNWF2WkRQQ1NjZ3cyYVlPWUhZdEV6bHVkRTNCaHk5V2dsZGF4b3J1TnZvUU5SY0JDX0FTMnprUzYyaHhWYTk5dlpBYUhXLXpBTWFUc1M1VG5CZGZWWEpXZ0kxX3lDM2haYVhORUtMZFNmbXhfSFhuSXNPekVJNmtTN0taRDlzZEQtb1ZOVmJkamlCNWxOQnI1REVVcWJjci1EUGQ3MlV5WWRXYzlvMXc?oc=5",
       "published": "Wed, 25 Mar 2026 07:00:00 GMT",
       "content": "",
@@ -810,6 +818,14 @@
       "source": "LeMagIT"
     },
     {
+      "title": "Les distributions Linux les plus polyvalentes que vous pouvez installer dès maintenant - et je les ai toutes essayées - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPLU56VWdDam1pMlB0N0NneEpSWTV2T0dyMHdWR054QnV5SDhZTEhFVzgwVUNsUjlWcjZLelI1Y25XRnZvb3VLQWVnX0RuMlZJbzgtNkhUczZpek1xUEl4VVIxV205ZnZVZkQtanJ1aVpyaGE4aWJtUmUxbkl0S0lwVmZyVUdQM3Fxd21BYmhhU3lsXzhfMWJlLXlSNHdac2RHV3o2dlBvOFlOSGM0R0xlbUNXdEJSS1FCcWFjQnNHZ1BxRm91UkxYYlh3aUlHY3hsNkpmZGdlY2F6YlkxemdCeEZHR3BEUktROHQ0SA?oc=5",
+      "published": "Sun, 08 Feb 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "ZDNET"
+    },
+    {
       "title": "Polémique autour de « LaSuite » : la DINUM se défend face au privé - LeMagIT",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMF9mQUtZbHU5N0Y4eC05U3ZkSmYySWRsM1NCcTNYYUxJWkpURUhwSHJ2MFNpak1SSVdqVWFmdjY3ZjlCQVJVck82UlROSTZHekU3NGxFeldoWWszU1dVNF9takxGczAwYWhWNUg2RGxrdWk3NTYtaGhHVEVvdDVmNm0xbG1obUU5Z016eDRHRkl3bkkz?oc=5",
       "published": "Sun, 08 Feb 2026 08:00:00 GMT",
@@ -848,14 +864,6 @@
       "content": "",
       "category": "Linux (général)",
       "source": "Le Monde Informatique"
-    },
-    {
-      "title": "NVIDIA lance officiellement son client GeForce Now pour Linux - Génération NT",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZEJ5ckpraXlLNEVueERoMXc4RVB6WGVVaHRRNnZfNUNLZjFLbTZPdlBaV0VwOXdERTVzQjM0ald2UzRSOEozd21Dd1VfRG5JZU5lX2diNHZ3MUxxRFFwUHhFVVZrVWhOb2x2bWtNelJPX1kxeXR1OXVTWHdRYWxwbHBrbWpWY1dyN0hnQWIwY3pzcWRrM1RHbTdreTB4Uk1xX05F0gGoAUFVX3lxTE5DZkR2QlkwOXA5T1dEeElmamhaaTV4cV84bTFXNWFuck9seXpJT3pBX1RiempEQU9obXRCVWhab0gyY3Q0T2tEeUE0VEZSUGV1a0RoWV9yUWgwS3JwMGI2RkVta0NvQUlkMG0zUW5scDZNcXFqdlhEY2FBS2t0ckJMTjIxMGs2bURJVGRIRjhDUFlpakJLb0RsNWhMaXNaYXZ1MVhxX1p3OQ?oc=5",
-      "published": "Mon, 02 Feb 2026 08:00:00 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "Génération NT"
     },
     {
       "title": "À leur tour, les prix de la DDR4 augmentent en flèche - Clubic",
@@ -912,6 +920,14 @@
       "content": "",
       "category": "RAM",
       "source": "Tom’s Hardware"
+    },
+    {
+      "title": "Ubuntu 25.04 : fin de support, mettez à jour - Programmez!",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQajBLQ1lTcTAxbmFXYU9uWDZrb2xMMXhtSC1fR0Q1RWRobk16R1pCek5NaDlWOEc3M1QzbWxtWkw3RmlIcUhVX2daRnBHQXJnZlNyOXBPZjQ0d2RzMks5YV85V3JlU2hfU080SEM3cGNyYjdWd2RIeTRKOWF0Qmw0dUFaNXYtNjFub1HSAY8BQVVfeXFMTlJfblNhNUJPYUNlM3BGNkZOUlNscU54LTVFdmkzbmJ6NlltX1BveFpZbFdBOXpRdXE3V0VmdE82NFh1UDBlM0Zqb3h4dUt5SXIzT3RPVGpJeU5Vd3V0Nm53c2sta3M3elBqV2lyN0gzYkRBWDg3RW9uQlZxbHdhTHJHdUxMSzdiSTVGVFhxcEE?oc=5",
+      "published": "Thu, 15 Jan 2026 08:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "Programmez!"
     },
     {
       "title": "Flambée de la RAM : le patron de Nothing annonce des hausses de prix pour ses smartphones - 01net.com",
@@ -1088,6 +1104,14 @@
       "source": "01net.com"
     },
     {
+      "title": "COSMIC peut-il remplacer Gnome et KDE ? System76 en rêve - Programmez!",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSW9QTXFjblZwNFhfclRubHpnTWdCSlRFeVkzbmJJRHJXOFN1NUhLY2xkLW9PcFNfb1NLMVpMVWhRWHQ1Wm1nM0lSbUo1N19fNE9tV2l2Yml3SVU3SVprQ0VSeE5RelB3U1RlMmpZcWo3ZzJXWW4xeGstSDF6MW1Hb2JvYkhNZUwyVXZaQmF1TS1VSzA5Q2JzVUVTWmZwTkXSAaQBQVVfeXFMTk5KZ0F4LXMtdU5uRGJxUjFjZDNBME5xV092cWhlZ3JxNWdpTUV6TDJNYmViN0RqOC1La01kVDY1ODNsRXV3cVlkT2ZfOTJwV2l5V3RQYm5vcmMyRFdTcExCVWxZd01PT0JwUk8wZ182YnZKVHFsa0Y2Y1NPMVhQMC1QMmxwUkFwbDdlTl81ZkQ1bzhRLXk2MlMwM0lHZDEzWHVIVzU?oc=5",
+      "published": "Tue, 16 Dec 2025 08:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "Programmez!"
+    },
+    {
       "title": "Pénurie de RAM : les PC portables pourraient bien devenir moins performants - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYlJpZVd4TTN5Z1REWG5BOG4tVXFKTE1yWjhmdWQzbHNuUGdNWXJtOE9hc3c0MlpFWXo1b1FmcFlVT25NT2lDeHRsV1FHLXllR19HSUl6UmhjZ2p1UEE2clZZc1FYTmxRVEFEWTFUMzhRdnRfbjFjdHAxMGFVa3czc1BXR1lCV1lOSW5NWHM0bnA4U1VaWHFYSWxFSGdLR3J2UkotRA?oc=5",
       "published": "Mon, 15 Dec 2025 08:00:00 GMT",
@@ -1128,6 +1152,14 @@
       "source": "Tom’s Hardware"
     },
     {
+      "title": "Firefox 146 pense à Windows 10 et à Linux - Génération NT",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTV9LWnMzRG9jY2ZncVNFWlNXZEd6cU4zQW5PV0ZqWXBlYUxKcHVZNGZaQnZhQ0trLVRmSUZFXzdhRDdhM2VrOEpGWGtaNlJnbkRWT0RYc2tLZUpTUWZVcHFjQ0Ywb1Q2MVBMSTZXMThiQkIyVkRyOTFXSG5mdEFob1podWRHcEdxWmhHM3dpOXJpTS1ELVhPStIBngFBVV95cUxPM0ZHZnk4VjBwNFd2OVItM19sZktub0JnRC1UTk9Jblp4ZDlvdjU2TjhRd3dWYTlCUmV3a3RudG5JdnU4ODJUREZHb1VXQmhBWUVxNmVuaEdHamFfQUpWMmxfQWZfMHRTNjNvNlRIeHJxVFpFUTRPRHdNWGN4SThWNnlpQV9fYkxwOFlfNnE0Sm1OUF9pbm5tMUc0dTJjUQ?oc=5",
+      "published": "Tue, 09 Dec 2025 08:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "Génération NT"
+    },
+    {
       "title": "Mémoire vive et SSD introuvables ? Deux géants du PC préparent une hausse brutale de leurs tarifs - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZlo0aFJzSUcwZ3BIa1FjUDhQODJjWElUQkszaEpveGlHX1NpOUUxNnRLS0IyMzd2NnI3RzN6YmNpVHlHdFR3QmtFQnpxOFFpRlRvWWVCNU5PSWc3SWVmTkh0Q0VDaVNjYzhXTC1jZTFUY0h4dlUwSXRFNUdOQW01cWtEY2pIM2VQSmZZWlBFN1dpdkJRdFVnUnFPcDdMRDJkLVU4UTVSbDZmNWJhUUN0bDlnbjdWTTZ3cjlLTUhrbmJXWG1Bd3d1UGZiZGQ5R1Bjek9xdnhUbw?oc=5",
       "published": "Sun, 07 Dec 2025 08:00:00 GMT",
@@ -1144,16 +1176,16 @@
       "source": "ZDNET"
     },
     {
-      "title": "Flambée du prix de la mémoire vive : quand Samsung refuse de vendre de la RAM à... Samsung ! - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVk4zdEJ1eEJ1Mm0taGlHbnd1VnpWUjFTVnNLdXU3akRCQk1tUHJJTjJ2QmdNSVpZQ0ljQzNRRGc4WjlCYUhObmRVTUN4d2R2ajRxQzVmcGs2cG9LQXZoZkJtZk9ZOW01aDJ3YmFDYjVxMDV4dUJINDRSODViVFlFVXNiMUhjUS1XeGp2UjZZd1NJRkhzdkZ6bG02T2wxa3h5UlEwWHlxbWRPa2o0cUxKdVRyUngyT1dpWHB4eTAxODFfbFNsVmd3U3pn?oc=5",
+      "title": "Ivre, il échange 192GB de RAM contre une 5070 Ti... en pleine pénurie de mémoire - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeXNfTGhBdzY2WXdNdjlhSGM4dUpTMDJiLUZGd01aQi1OTU84RUNSXzMzZjJlR3dKSnlwcjdhMkpjWWl0MnAxNDczOGltMng2cWVvbXlESjNZLUViTG4zdThYa0VpTkdUbEg2WUhhME9JUjdrR25YNWdyYUdkQnpxMS1QdmI4NmZOa21WMEtySHJzRkhsaExkRXhsWEtPdW04SEJiOGJzSVFQRF8wcjFNVFdaTnNfb0otWENHM3RR?oc=5",
       "published": "Fri, 05 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
       "source": "Clubic"
     },
     {
-      "title": "Ivre, il échange 192GB de RAM contre une 5070 Ti... en pleine pénurie de mémoire - Clubic",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeXNfTGhBdzY2WXdNdjlhSGM4dUpTMDJiLUZGd01aQi1OTU84RUNSXzMzZjJlR3dKSnlwcjdhMkpjWWl0MnAxNDczOGltMng2cWVvbXlESjNZLUViTG4zdThYa0VpTkdUbEg2WUhhME9JUjdrR25YNWdyYUdkQnpxMS1QdmI4NmZOa21WMEtySHJzRkhsaExkRXhsWEtPdW04SEJiOGJzSVFQRF8wcjFNVFdaTnNfb0otWENHM3RR?oc=5",
+      "title": "Flambée du prix de la mémoire vive : quand Samsung refuse de vendre de la RAM à... Samsung ! - Clubic",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVk4zdEJ1eEJ1Mm0taGlHbnd1VnpWUjFTVnNLdXU3akRCQk1tUHJJTjJ2QmdNSVpZQ0ljQzNRRGc4WjlCYUhObmRVTUN4d2R2ajRxQzVmcGs2cG9LQXZoZkJtZk9ZOW01aDJ3YmFDYjVxMDV4dUJINDRSODViVFlFVXNiMUhjUS1XeGp2UjZZd1NJRkhzdkZ6bG02T2wxa3h5UlEwWHlxbWRPa2o0cUxKdVRyUngyT1dpWHB4eTAxODFfbFNsVmd3U3pn?oc=5",
       "published": "Fri, 05 Dec 2025 08:00:00 GMT",
       "content": "",
       "category": "RAM",
@@ -1232,6 +1264,14 @@
       "source": "Tom’s Hardware"
     },
     {
+      "title": "Crise chez Samsung : sa division puces mémoire refuse de livrer sa division mobile ! - Génération NT",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPekpXZXJzLUdGbWh2dk9rVFl6MEREUEhNQXhnanpYLTJPNDF5VFNzQWI4Z3h3VklLcWRfcG4yNHBFMGM2Zjd4OWszaGVVOW9ibE8zWjNRUWM1anI5VmRFS2cwaWlVWEhhalBUUUR2QzBjWVZfbHBaRmZJaFVOWW56bjBENEVYdE1TZzVaS2luY1dfbkdSWG9Vb2RxZHIwZWZjRXloMG1leVkzRGtlVURBetIBtgFBVV95cUxQaFpLazE4c0RISHV4RHA3SEU1OHZ4ZWZzYzMwM1F0Wll3RUFaWThQaWd5U29KYnNxZC1LYzd6M3pqMXd0SFZvR2YyelJZU21xMV9Od1lyYm9acHJCRzcwLXdFblBxd25OcTlfZDFFUnFGRjNuekRXQkdlWXJSV25IUE9obXhPSzNORnpfbXRCTkdueXE1RFVRT1N4QVNLY1lVdDNlSUExTFQ3b3M1WU1xanhJS2UxZw?oc=5",
+      "published": "Tue, 02 Dec 2025 08:00:00 GMT",
+      "content": "",
+      "category": "RAM",
+      "source": "Génération NT"
+    },
+    {
       "title": "Noyau Linux 6.18 : support renforcé d’Arm, RISC-V et Apple Silicon, Bcachefs retiré - it social",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNkNHaTUtOTl2VTlERXdidkhtTGd4bjdiQXZGUzVwc0pwdUZZNGZvRW0zV3hrbDVvaFE1VHFKSXBCNzFSRl9rS0NLSEladWMwS2ZjSzdHRjV1eU5Ib1FOWHNVMm9iRlFValIyajRTVzBmdUpLQlFnbW9tdEpuakE4NGRLU1FRNmxaSlJrYVg4T1NOSEdtaFE0cW1DNUN0aV9yREdZcVhpY2c5MHN6bGxTZHpzd2xrSS1qWGhkeXozMmw5a1hhdW90UFU1SlVMTEVtUFE?oc=5",
       "published": "Mon, 01 Dec 2025 08:00:00 GMT",
@@ -1304,6 +1344,14 @@
       "source": "Clubic"
     },
     {
+      "title": "Telex : Microsoft corrige une faille dans la MAJ Windows 10, Le support Ubuntu LTS étendu à 15 ans, Cisco croque Ezdlubs - Le Monde Informatique",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxORDEyM3hsWmxYa1QwajI1TUR3QUtGX1BGWDIyMDQ4X3FGZkhaampfcnVJZ3lOaDVUOWtMUklnX0hUbzFzTm1QNVdwOFEyaFY2dlNFYmNabXZOdllrYkFhejlPOU14bDBleUVGWkRUb3VwaVRrZGphOW9YU1RTQWJtb1BtRWlVU0l5U0p3N1hRRWpVR1dzREdnOTdaUDZBWGZ2eXc1Vk9YdmI4R2YwQV9ldm9LcjU3N3JXQVhaSUFYa3RraDZHY1lSVUdxMzBEWWpzeVpLcUhaMVh2Ujk5Q0w4aXl3elN5dVo3VzhiNFdUSFZJclNxWWw5X1lzeTYwb0FaQTZWeWs5VkRvUdIBjgJBVV95cUxOZUYyakl0YmFzTC1yWV9ubVhfa3B5MzdIcWZmcHVlcktRX0pXRzRVd0VpbHNERnFrVWxFQmZvVDlJajlrUjFQVDlOMl9lclFSa2JKVmJ4MTNGN1llcGczaU1yZndGZENiSEtVaWREU0VHblU1Vnl2aHFHbjc1LWxERVhKS1k3VFJyOEctVnlkdDNSRjE3enAxSU4zNzJhd0xjcVhsQkF6c1ZCY1lpTG5hXzZGR0ZIT3lmUWNqTW92SmNpY051eDhNV1RsemI2dEIwS3ItWDJZX09aNUlwcWR1dkkyaVVLTkUyQmxKZFFUTlZGMWJFamJPZW5aWmlnRkcxN3dhWDQzZ0xkUFJXdGc?oc=5",
+      "published": "Wed, 19 Nov 2025 08:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "Le Monde Informatique"
+    },
+    {
       "title": "Pourquoi le prix de la DDR5 grimpe en flèche ces derniers temps ? - Tom’s Hardware",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVmRPRE9jaVVLOS15NlhMVmJMNmVKcUpWWjJWS1k2alNHSmFmYm5fTnY4WEJYWi1hVXVmdmxmaHdvTHFtaE9JNnZYS2l2aWpCU0JsdlVGY0d4S1pRWXZ1bkEwZ25US3IxdjRoTFBSdjl6QXFuUjRqQUg2bzd1Y1FHVWZGM3UyY1FESUhIZUJKazhsVHRMRTcw?oc=5",
       "published": "Tue, 18 Nov 2025 08:00:00 GMT",
@@ -1344,20 +1392,20 @@
       "source": "Pause Hardware"
     },
     {
+      "title": "L’arrivée de Rust dans APT provoque des débats dans la communauté Debian - next.ink",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObDhXNS1wOTFIdUZORl9JbnJZZVZZNkJ4dFh4cVBNR2x2eWFZeGdfNlZsVERvRE9zNFJxTUtVeVluUlhONGNtaXk0RmhwYk5Ocm9SMDFiMkNRYWFvbHJSU2xVRi1kT21mS05lWm9ZTG5ZeVJieGNwcnMxUXMtYTRXRmdNUllBRmRKbEFoNW5fNEI1M01rUGljeE5Gc1c?oc=5",
+      "published": "Tue, 04 Nov 2025 08:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "next.ink"
+    },
+    {
       "title": "Linux : Ubuntu a un calendrier chargé pour 2026, voici quand arriveront les prochaines mises à jour - Les Numériques",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNYzhudlphVzR6dWwyQUhjdGhGU1U3NjU4dFBjamZWLTFXZnQxdVhZRDBIdlZNTlN1c1lMYXRobkQxb2xieEFETEwwYnNKT3RCdmxmRUZXOU9ZbmpRaERrRkxha0lqQmlpbnZ1dUNvNVVENUdiTUgzbE9BWVFRT0FGSlNjVzdreE5nMGhrUUVXa3pNeElkZElzdzhnV3p1MDR0YWl3UlBqeFNLWjVHS0dZVTZONmdHZ3FwbndKMXJDM1hRR3RLVzllakdZeUlNeUYyX1lPWUJhNWZFbWp4cFUwaWwxaXpDRG9IbVE?oc=5",
       "published": "Tue, 04 Nov 2025 08:00:00 GMT",
       "content": "",
       "category": "Linux (général)",
       "source": "Les Numériques"
-    },
-    {
-      "title": "SUSE Linux Enterprise Server 16 se veut prêt pour l'IA et la souveraineté numérique - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdnB6NUpYLUtXVVNSTkhLS2szallFbHpOQ3lwTGNsUmQ1X3RaNy0xVTdaNHozVHdXd2J4V2QzN091Q3FMQVExV29uSGNoM1NpRWs2cUJKRG00NG1jVlduZ2Z5UlZmUlV0MWtxd2lHczFVVzZzMGZNeTd4MGhrV2FYLXIwcE14TjI2Sk9xWGtlQjhLdW4xWGJHVVJRNTNNNG9GMUU4VGs3QzdkWERpbVBTS0RMUUVXZGY2NlItUU9Ndm00WHM?oc=5",
-      "published": "Tue, 04 Nov 2025 08:00:00 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "ZDNET"
     },
     {
       "title": "Ubuntu Unity lance un appel à l’aide - next.ink",
@@ -1408,6 +1456,22 @@
       "source": "Génération NT"
     },
     {
+      "title": "AnduinOS, le « Linux qui ressemble à Windows », passe à Ubuntu 25.10 - next.ink",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUmpsWGVxejlzLVZIblRlOHZSYVAxYVZwNm5rS0ZFb2hneHVTVXV0aGY5cmg3TldXeEhMRDJ6Z0FKZUdwMmFxMHlESXUwTFluNlk1dHFEalA3UjR1d2c1VDBJeTN3ZkNBMTU2eXZLRFo1c3ZMYjR3SmpZUk9FUXhRSEQwdHZCM19mSW1QMU0tbjI3Zkh6MHlxaHpn?oc=5",
+      "published": "Mon, 20 Oct 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "next.ink"
+    },
+    {
+      "title": "Quel VPN gratuit pour Linux ? - Les Numériques",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Lejg5TDZLWlVkaktlTWg0TkZ1VmVrRHQxXzlIMThRdW9FODVWOXg0NVh1bDJNN2F5RHFyZHlCYk5Cdzd6UVUyWG5RSGhFSVFDQUtmbEpVVXNTWTRLd3E3TWdieWhKeEhjVUNSb3ZiWWs3U2pnVTJLRGdud2lLSVU?oc=5",
+      "published": "Thu, 16 Oct 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "Les Numériques"
+    },
+    {
       "title": "Les meilleurs hébergements Linux de 2026 - 01net.com",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Rd1ZlRm1QUEh3QUd1U1JNNjliYUpTaDRJYmVXX3dVRGdaVmMyTG9OeC02Rk1XS1NaQjlIVHFrbE8tTjI1ZlBkQnJ4Q3c3RU0?oc=5",
       "published": "Wed, 15 Oct 2025 07:00:00 GMT",
@@ -1432,12 +1496,28 @@
       "source": "next.ink"
     },
     {
+      "title": "[MàJ] KDE Plasma 6.5 arrondit ses angles et s’adoucit la nuit venue - next.ink",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS0VNRkdoamFuNXB6dnhVbnl4R0dhb2lBUGFwekt6c29OU3NxMU01aThVSVlKN3JxVzlIUDJCRTVYVnk0bDJuSUU1OHR6Z3ZLUUZhNjEzcm5ySk52Nmp2RG90bC1NNnladnJTME9lQ3d3TjBRdUN2S0sydDROU2xkWlNRcDh6NGQ4dHc1NWRn?oc=5",
+      "published": "Tue, 23 Sep 2025 14:59:22 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "next.ink"
+    },
+    {
       "title": "Le Multikernel - La prochaine révolution Linux - Korben",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Xb01wbE9vRHlBcldYekwwbEhDemFiT3NtVk1YWnhva3RSQ05JYS11Z1JIbWRES1pCRE11VWEzT2k1WVlKX2RlcEJndVdOVk1VdTRvdFNBWWJjYXdoeEJvcXVMbnVhYmdQMk1NeFpkVlp3bDQ?oc=5",
       "published": "Mon, 22 Sep 2025 07:00:00 GMT",
       "content": "",
       "category": "Linux (général)",
       "source": "Korben"
+    },
+    {
+      "title": "Ubuntu 25.10 Bêta : noyau 6.17, Gnome 40 - Programmez!",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdmxfbmFHRVQ5dkUyYTRISjhnZEhDdWp1V3ZudHBhZE5ZTUpXQ3FCMzk5SjBpYXd3ZnZxY0lCSkVXWmt0cHpXZjJBSDFJeHdrSVpXUGpCNHgyWWpyRGwyNkZXaW5HdU5jQTJaV0V6dnIxUW1ud3V4bDM2cUMtT0FvQkdTamp1Z9IBiwFBVV95cUxNcUZENmdHLW5FWDh5OE1iUWxVZHllMy1ZSDZrWks2NkV4XzN0cmVOdjVOVDRqUi0tR0dxRUlRSDhVQUR6TklJeW5QWjhFSDJ5ZXlHZ0tTdjJmdFhoS1BtX296YzQtTkdWTTdlTGxzdzFlT0NXY1p6Tms5TC1kNjBTY1g4Tmd2Y0lhRlBv?oc=5",
+      "published": "Fri, 19 Sep 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "Programmez!"
     },
     {
       "title": "GNOME 49 disponible : nouvelles applications et quelques améliorations bien senties - next.ink",
@@ -1450,6 +1530,14 @@
     {
       "title": "Linux Mint Debian Edition 7 est disponible en bêta - next.ink",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMGZhMWk4YnA5UzljS3F4bUFfam9MSjhDd1l3SlRuOEFQYngtYlFiZWxLcEpzTWFWVlItRmJBdEVCQ0tTYTI1RUdlWElKQW9lQWx3RVQwajlQSTNTLUpjSjlkWFA3cXV2UXhJcjNpS2d3blUzYVBRSTM1U3FuMzFEWVZ0bzVjQlk1SXc?oc=5",
+      "published": "Thu, 18 Sep 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "next.ink"
+    },
+    {
+      "title": "[MàJ] Ubuntu 25.10 disponible : une vraie version majeure, avec des changements profonds - next.ink",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNFI2N19oZGQ4XzJUOGtMMnZUODBpMVNEWkp2Ym5sS0pBWHppdjE3MDk2R0trSm5xeFVJZXpNdlo0WXUzM1hULW9JZ253VV9fYk1xYTQzQ1pIMWd3Vkl0MVZ3Q0tSbnZTcEJ3VEtZaHlYbFBjRjZVTzE2dWlVa2lvWVBMLXZma3AxOWhtcGpTVV80UkUtb1pycmlPc0pzZ0k?oc=5",
       "published": "Thu, 18 Sep 2025 07:00:00 GMT",
       "content": "",
       "category": "Linux (général)",
@@ -1496,20 +1584,20 @@
       "source": "Les Numériques"
     },
     {
+      "title": "Debian 13.1 disponible pour les nouvelles installations - next.ink",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQa0JBSlZqTjdta0o1Z3pUbHhSaWs0SU9YN0lIRDFqS2xDMkw5SVR2WnZRTzlZMlhvanZYc2lfRHlYSFowb0NYdDJ6d1c1X0NmMlc2bDI1aVJuNkRuMVpTUWhoaVQ3OGJOSlpUNEJxXzZFdUt6d0tld1JFOE9iUDBfTF8wd21rdm9wcDF4TUpDVDE?oc=5",
+      "published": "Mon, 08 Sep 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "next.ink"
+    },
+    {
       "title": "Les rumeurs concernant la mort de X11 sont très exagérées : Gnome retarde son abandon - MacGeneration",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSHpWLThaYV9pT0xicVJhemN5cGkyZGhoLUxxcnVFR25QTEwwT2x6TkFlVTl6bEotV2NlckI0U2J0R09ISnQ5SlczMXVVSEZTN3BGRFJ2Z1Y1NVRLc3Q1NGlrbjRiSkk3cF9NZzBzaVM3ME1MNXlBcV9WRDhDLV8tOEJlQzFQckJWdVIzVDBlbEtaRWtxQVJUWEJqZExaMFdGcURFM0pYZFExVVlZeU5CQ0hzUGg4ak1iV0RBb3VVN090T210WWc?oc=5",
       "published": "Fri, 05 Sep 2025 07:00:00 GMT",
       "content": "",
       "category": "Linux (général)",
       "source": "MacGeneration"
-    },
-    {
-      "title": "Linux Mint 22.2 supporte mieux libadwaita et les empreintes digitales - next.ink",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMndrOEpiOC1SYl9Hc1FRSm5RUy1Ia3ZOcDNJRTRRc1dVMzV1Vk10c3dXT2ZRdXR6Rm1iWWdPYU8xU0cwSmZrSnQ1OFNObW5RdTk5RUFvZVd5ckk1YmdVUERYeUJuN3d3ZEtBYmY5YkZ3clAxSEljRHpXcWxRVzYtZjNaRWdvbG1vVFBGbmdPdVI3ZE5aOGRMZWhR?oc=5",
-      "published": "Thu, 04 Sep 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "next.ink"
     },
     {
       "title": "Linux Mint 21.3 est là, et voici pourquoi c'est une excellente nouvelle - ZDNET",
@@ -1558,20 +1646,20 @@
       "source": "Clubic"
     },
     {
-      "title": "Télécharger Ubuntu pour Web, Linux - Telecharger.com - 01net.com",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QbEt4MFRzZmlVSkhOZnQzcjFvM0FQOHFFN25qNFJsQ0h1NXBlVzlFbG5WZGhpWkNjTUlSM0FHQlNEaUlPNy16ZUtQT1h3Y19YNEpVNEt0d0NzbGhMNTdsRFNkbm1mSUNUUmhLdE9IX0w2aEE?oc=5",
-      "published": "Tue, 05 Aug 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "01net.com"
-    },
-    {
       "title": "Mes 5 outils préférés pour surveiller mes systèmes Linux - et pourquoi je les utilise - ZDNET",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYk56c3g5TnNDb09aU19CVWFnQ2RabW00SjRsOVlhSVJ0a3M1ZzJ3dmYwclRUY3FKOHFTbkwzcEhvUDJxQ1RRenotZUVQbW1SSTl0TlQ5N0RWaFYtUWpOQm5yM1RjQWlNWDlyMnlCS2oyUHNndGk5bG5UczNzSGowZlM5cWFFYzlDWFRqcXlENlZtQVRuN25pQWhCWGJpZllPeXQxeVVGQzdINWFlMnNwTlpWT3BpbHlqRW8xVjBGancxQ2V1eFE?oc=5",
       "published": "Tue, 05 Aug 2025 07:00:00 GMT",
       "content": "",
       "category": "Linux (général)",
       "source": "ZDNET"
+    },
+    {
+      "title": "Télécharger Ubuntu pour Web, Linux - Telecharger.com - 01net.com",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QbEt4MFRzZmlVSkhOZnQzcjFvM0FQOHFFN25qNFJsQ0h1NXBlVzlFbG5WZGhpWkNjTUlSM0FHQlNEaUlPNy16ZUtQT1h3Y19YNEpVNEt0d0NzbGhMNTdsRFNkbm1mSUNUUmhLdE9IX0w2aEE?oc=5",
+      "published": "Tue, 05 Aug 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "01net.com"
     },
     {
       "title": "Red Hat étend l'accès gratuit à RHEL pour les développeurs professionnels - ZDNET",
@@ -1596,6 +1684,14 @@
       "content": "",
       "category": "Linux (général)",
       "source": "MacGeneration"
+    },
+    {
+      "title": "Linux : 19 commandes pour monitorer les performances - LeMagIT",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMFlWNFhKeWFsMEZaTXJqdnViSUVHeHNfRzZIUXh4bTVGZC1tRV9LUVB4RnFpVDJmdUs4aHVKdnNJcjhQNVBTa1U2dG9OTkZoVVhnLW1oeHMtelotUHRSbWwzQlNpVlYwUzhVVVBZTmpyTVhRSDRkdzRRUE9aenRTaHlCaHJjNmZY?oc=5",
+      "published": "Tue, 08 Jul 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "LeMagIT"
     },
     {
       "title": "X11 disparaît peu à peu sous GNU/Linux, remplacé par une solution proche de XQuartz - MacGeneration",
@@ -1646,6 +1742,14 @@
       "source": "Clubic"
     },
     {
+      "title": "Envie d'embrasser Linux, mais de continuer à jouer ? La distribution GLF OS est pour vous - Les Numériques",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUzd5aEFVM21FTzVqdVVCUWR0cmhjaXJkanJrWHdQaDZnNGpuamxpVWpZWW1YX0hoem1NMEVXRHFvcW1WV2NIQ1Q5MFZOWlphZjlVX0hFTVBRaEhva0FSXzJlcW9LRFdwZ21XcDN0RHR5QVE0eW5BOWxhOVltdDFrRG4zRE9kSjNlT3ZwbVY5VHlwUWZPZlZHODJvU1JoVUxENTJRXzVpUE5yUEJGM2Y4YUR5eUZOaE1KMEl3V0h4d1ZSbDFrQjEzNlJra3ljUjh1OXRBRE5sMnJ4Y2lr?oc=5",
+      "published": "Wed, 04 Jun 2025 07:00:00 GMT",
+      "content": "",
+      "category": "Linux (général)",
+      "source": "Les Numériques"
+    },
+    {
       "title": "AnduinOS : une distribution Linux aux airs de Windows 11 créée par un ingénieur de Microsoft - Clubic",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdkFmZHZ2OHNTaGx4aHZGOXNPVUZha1VyZnZ1YVZkN3pQTkNXUHktUjBVV0lLdVYyQjQ5b0wzZS1hS0dIOWtXZmhZUjlRZDJ1OXFrOTliRmxWczlTWWRhT2FtRndqNUhPb05DZWY2V1d1TmR5YU85Z1NlQ1FQSVJ6Q2pVNHJZM3FDOXpZWkpKX0tBcHNlb0tUMXNaVEd1aDJrSGVpakhlZjF1dlpaazhOZ0hRN0ExaU9seXhzSHRqWjVkblJ3YW9IZlJmVndTMVhU?oc=5",
       "published": "Fri, 23 May 2025 07:00:00 GMT",
@@ -1662,36 +1766,12 @@
       "source": "Le Monde Informatique"
     },
     {
-      "title": "Debian 13 fait un nouveau pas vers sa version finale - next.ink",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOHBzVndycDVYVVFIbkl3YXIxNzZHcDdEZVJJTlBGWEVfQm0zRlJ2c0JuemNvb3lieFRqQmZCZFhzcFM5QVVkS08xSWhhdXBmYXlGUDVhNTdXZ3VnNlJ6cUVUbjByeGFBNmZWQWllc0RHOFoxVWdtQVRRcUZmV0ZVWkUxOGVvRnNxeWtxbQ?oc=5",
-      "published": "Mon, 19 May 2025 09:24:01 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "next.ink"
-    },
-    {
-      "title": "Ubuntu : 10 choses à faire après son installation - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSVEzcVkxcU5oZjFwQ1JPNnh2d3VNMWJicUFNVFA3SEg3S1pNWU9vaUJ1S3dSVWtXRUtUUGQ0MEs4SmxUVVJ3bTJaLTJDbXdRSDBSOVRrYUF0eGd5RHJxTWtHanlEdW5IZ1JiR0ljZWNjZ25oQ1Y0eVNoWjJ5LTFkbEJBY2dCb28xbkdBbEp6aC1MZw?oc=5",
-      "published": "Wed, 14 May 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "ZDNET"
-    },
-    {
       "title": "Linux : les 4 programmes de gestion de projet qu'il vous faut - ZDNET",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdHVlT25fRDlVVlRVVjJSc2lGcGtZM1RsWTVEQmptVWVmUUlqZ29ISHlKUEtjTWx4S05CYW1fQ1E1OThRNlhJUXBacEJrazBfbzlmd0c1Z3Q0aEhTdmlBbU9lT1NnTHg1WjBzMFZaUGQ4bHFDMDI5N0ZXYkVrYXR1RjNkV2oyaXV6TlNCSVhWRWFhWGc4Y3ZzOTd1d04wRFQxelJfQg?oc=5",
       "published": "Mon, 12 May 2025 07:00:00 GMT",
       "content": "",
       "category": "Linux (général)",
       "source": "ZDNET"
-    },
-    {
-      "title": "Fin de support pour Windows 10 : voici les meilleures distributions Linux à installer - Les Numériques",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQM3RMdHpsbXB3RU1sRnEtUEFmcC15bG5vTGVVRkNUeE9TZUJWSjhZNUlGSndVUjBLUDNQWUo5dHlhWTVuV05wdzFLLUdJY2xIbHY3cWZNTFB4dWJ6RnFOVjhnQUV6OVdqTGJzOGl4c1Y0eS04aFBOT0ctQ2hTazhwMmZUc3hBVzVZZVZOejJabjQ1SUZUQVJnQjR3Tk43SUIxOWN1cVZkeUk1bEp2ZVFyU2ZMR2VFWVRoR3M4QkwwZlNxc1hqZFBiTUFZU0JCcE5yeVZzeXJB?oc=5",
-      "published": "Sun, 04 May 2025 07:00:00 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "Les Numériques"
     },
     {
       "title": "Le Linux à l'ancienne vous manque ? Cette distro vous ramènera au début des années 2000 - ZDNET",
@@ -1732,14 +1812,6 @@
       "source": "Le Monde Informatique"
     },
     {
-      "title": "Linux Mint 22 : vidéos pas à pas pour les débutants - LinuxFr.org",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5waGV1bVhBaERTYUlHQ3hIRjg1enJldE51UjJqZmRvS3ctSkctSGhnNVNfenFVdXhObHd0Vk9hUWpuTTczQWVkTmNkRlo5Q1ZnTTdONlZxUDFKaEs0aDN3bmx3T2JNX3Uyc3lIOUtjZ0xfZmNwank1aEVoYnprYU0?oc=5",
-      "published": "Tue, 11 Feb 2025 08:00:00 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "LinuxFr.org"
-    },
-    {
       "title": "CentOS Stream 10 disponible : grand ménage et Wayland par défaut - next.ink",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMGc2NGtNYV9aWjVjSDR3RnJiRW5yaU1sbWhBVVBBa21OLTlzVmNTcDNZenNnS1dvdFAyQ1RoTll5T2xkLXI5N1BxLTMzNUR2eFl6MGtvRW52dWJkUnhPVU5uVGFROXF4UHduS2FuYUlyX3ZESWExZzRKSTVIdml4NUFpRDdlREhkR183WUYweUo?oc=5",
       "published": "Tue, 17 Dec 2024 08:00:00 GMT",
@@ -1748,28 +1820,12 @@
       "source": "next.ink"
     },
     {
-      "title": "Vous pouvez tester les meilleures distributions Linux directement dans votre navigateur web - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUkZYYlRLVXJQOEE0Y21qWkNKQ0xNcmRrUUNKSWk4Y1o5dU4yZjd1aGJPNl9RSmUzUklsNlJ6QUF6TDd6Nl9Ub3V1dGhVcTQtT1Q5eVg0dW92VVVBMzRza25zTTFGUjRSd3VPYXZ1WjZIT2V3ZVpabVdUR0ZtTHNCY2dNcG5rX3Q5LVR4ZEd0M21EN2FRaXlqZHg4VnFQMm5jVzBrTFlfNWNqUy0zTTBjRldSTFN3MFYtaHZxSVFPQ01NV1phLS02cHBGMnhpVlE?oc=5",
-      "published": "Wed, 04 Dec 2024 08:00:00 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "ZDNET"
-    },
-    {
       "title": "Réseau, sécurité et console au menu de Red Hat Enterprise Linux 9.5 - Le Monde Informatique",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcEtvckc1aHNOT2NpaS0za0VsNUpaazN2aFAwT3p6WEVrZzhiNzBONEpWY1ltTGlPUkFKZ0RIbUtWYm5kWGd1M0hhNEE0d1V1eHAyUlRRdzFPS1hZc3RSRmhGNWNSTkpPTVBoNHRlbmtBaXZRNE9nbXAwd2lRMTlEcWY5WW14SFlMak9lT3ZoUGI0MEtzaERJWXFsbVo0TzhIdklkWS1BMERnZ3pKWERERkhVa0pYdTdIa2NJVmh2dGRfYTNpaWfSAcoBQVVfeXFMTURjdHVnQlpDMGJVa1FYSVFQdWRpblowYUowaEJTS3lHcGpyMTlfVm1XMm9iQnFaVWczdzNjMWVPU1M3dGJ4WHlpRWJmWHYzU2VMMlJfTTNES0U2OVhFdnJqVEhRSkdlR2lMUlJ4RExaZDJUYzRtbGhYVkFvQUpSTkJjRjV0aV84ZkRYd1pNdUhYamRxVVJ5THBKQ1BTVVZ6amsxVUVGWFZpQmpONk9RYkRCSG51cWtjUlZKbEZBYWFlUjRqcHB4anF1Zw?oc=5",
       "published": "Fri, 22 Nov 2024 08:00:00 GMT",
       "content": "",
       "category": "Linux (général)",
       "source": "Le Monde Informatique"
-    },
-    {
-      "title": "Fedora Linux 41 est dans la place - LinuxFr.org",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zdlNlb3BJZ2tEUms4SkowM2hoNG9iT1JlSm5Vaml0Nmh0QjljTFZKVE5wQVNiQkxMa05HazFCall3WFJDY244ZlNIeGpPb3EyTnNwR1dXYmwyUDk1MU93aDdhUUVPMGFQZ1E?oc=5",
-      "published": "Tue, 29 Oct 2024 07:00:00 GMT",
-      "content": "",
-      "category": "Linux (général)",
-      "source": "LinuxFr.org"
     },
     {
       "title": "Dell intègre la pile Red Hat Enterprise Linux AI à son offre de plateforme pour le MLOps - it social",
