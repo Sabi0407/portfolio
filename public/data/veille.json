@@ -42,6 +42,10 @@
     },
     {
       "category": "Linux (général)",
+      "url": "https://news.google.com/rss/search?q=%22Red+Hat%22+OR+%22Red+Hat+Enterprise+Linux%22&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "Linux (général)",
       "url": "https://news.google.com/rss/search?q=%22administration+Linux%22+OR+%22serveur+Linux%22&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
