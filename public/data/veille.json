@@ -54,6 +54,30 @@
     },
     {
       "category": "Linux (général)",
+      "url": "https://news.google.com/rss/search?q=%22Linux+cloud%22+OR+%22Linux+Docker%22&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "Linux (général)",
+      "url": "https://news.google.com/rss/search?q=%22Linux+embarqu%C3%A9%22+OR+%22Linux+automobile%22+OR+%22Red+Hat+In-Vehicle%22&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "Linux (général)",
+      "url": "https://news.google.com/rss/search?q=%22Linux+gaming%22+OR+SteamOS+OR+%22Proton+Linux%22&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "Linux (général)",
+      "url": "https://news.google.com/rss/search?q=%22Linux+entreprise%22+OR+%22Linux+professionnel%22+OR+%22Linux+en+entreprise%22&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "Linux (général)",
+      "url": "https://news.google.com/rss/search?q=%22noyau+Linux%22+OR+%22kernel+Linux%22&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "Linux (général)",
+      "url": "https://news.google.com/rss/search?q=%22Linux+IA%22+OR+%22Linux+intelligence+artificielle%22&hl=fr&gl=FR&ceid=FR%3Afr"
+    },
+    {
+      "category": "Linux (général)",
       "url": "https://news.google.com/rss/search?q=%22S%C3%A9curix%22+OR+%22Bureautix%22+OR+DINUM&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
