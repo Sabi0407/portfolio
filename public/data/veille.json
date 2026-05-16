@@ -22,8 +22,8 @@
       "label": "RAM",
       "description": "Cette deuxième veille suit les hausses, les baisses et les tensions du marché de la RAM à partir de sources francophones fiables.",
       "feedDescription": "Pourquoi cette veille sur la RAM ? Mon mini-PC de mini-lab est limité à 8 Go de mémoire, ce qui me freine pour ajouter de nouveaux services. Je suis donc l'évolution du marché de la RAM pour préparer une future montée en capacité.",
-      "periodLabel": "Depuis octobre 2025",
-      "periodStart": "2025-10-01",
+      "periodLabel": "Depuis décembre 2025",
+      "periodStart": "2025-12-01",
       "maxAgeDays": null
     }
   ],
@@ -62,49 +62,63 @@
     },
     {
       "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=%22prix+RAM%22&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=%22prix+RAM%22+after%3A2025-12-01&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=%22m%C3%A9moire+vive+prix%22&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=%22m%C3%A9moire+vive+prix%22+after%3A2025-12-01&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=%22DDR5+prix%22&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=%22DDR5+prix%22+after%3A2025-12-01&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=%22DRAM+prix%22&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=%22DRAM+prix%22+after%3A2025-12-01&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=%22p%C3%A9nurie+RAM%22&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=%22p%C3%A9nurie+RAM%22+after%3A2025-12-01&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=%22march%C3%A9+de+la+RAM%22&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=%22march%C3%A9+de+la+RAM%22+after%3A2025-12-01&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=%22TurboQuant+RAM%22&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=%22TurboQuant+RAM%22+after%3A2025-12-01&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=%22TurboQuant+DDR5%22&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=%22TurboQuant+DDR5%22+after%3A2025-12-01&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=RAM+prix+01net&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=RAM+prix+01net+after%3A2025-12-01&hl=fr&gl=FR&ceid=FR%3Afr"
     },
     {
       "category": "RAM",
-      "url": "https://news.google.com/rss/search?q=RAM+prix+Korben&hl=fr&gl=FR&ceid=FR%3Afr"
+      "url": "https://news.google.com/rss/search?q=RAM+prix+Korben+after%3A2025-12-01&hl=fr&gl=FR&ceid=FR%3Afr"
     }
   ],
   "fallbackFeeds": [],
-  "total": 194,
+  "total": 195,
   "errors": [],
   "articles": [
+    {
+      "title": "Les futures voitures Nissan tourneront sous Linux grâce à un accord historique avec Red Hat",
+      "link": "https://www.clubic.com/actualite-612790-les-futures-voitures-nissan-tourneront-sous-linux-grace-a-un-accord-historique-avec-red-hat.html",
+      "published": "2026-05-13T09:27:00+02:00",
+      "content": "Clubic détaille le choix de Nissan d'utiliser Red Hat In-Vehicle Operating System (Linux) pour sa future plateforme logicielle automobile.",
+      "source": "Clubic",
+      "featured": true,
+      "featuredNote": "Article épinglé : partenariat Nissan x Red Hat autour de Linux embarqué.",
+      "mediaType": "",
+      "thumbnailUrl": "",
+      "thumbnailAlt": "",
+      "linkLabel": "",
+      "category": "Linux (général)"
+    },
     {
       "title": "ASUS se lance sur le marché de la DDR5 avec un kit anniversaire séduisant ! - Hardware & Co",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMENsMXNqWXQzSmRxYTUyUmFxV3BiVWJDbk5GNXlXeUV2bF8yWGRCSjM4Mkx6UHJOOWNsbEpQNWUtbUtiQlJzYjlMLXZqWUV5YjlhMllhU1k4eE5MMnhzcWRDaVhKakltQ0thWnhSRTZEeXVZWXVEZDczMXY0NG1HbXBYUHc3TUdrYmFsOGN3cmdPYm5ERjI4V2hOY1RHRFNMWHhidEE4R2xWbjdQSi0xa0syXzI?oc=5",

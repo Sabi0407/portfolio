@@ -10,7 +10,7 @@
       <outline text="Linux (général) - Flux 2" title="Linux (général) - Flux 2" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22S%C3%A9curix%22+OR+%22Bureautix%22+OR+DINUM+OR+%22IT-Connect+Linux%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
     </outline>
     <outline text="RAM" title="RAM">
-      <outline text="RAM - Flux 1" title="RAM - Flux 1" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22prix+RAM%22+OR+%22m%C3%A9moire+vive+prix%22+OR+%22DDR5+prix%22+OR+%22DRAM+prix%22+OR+%22p%C3%A9nurie+RAM%22+OR+%22march%C3%A9+de+la+RAM%22+OR+%22TurboQuant+RAM%22+OR+%22TurboQuant+DDR5%22&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
+      <outline text="RAM - Flux 1" title="RAM - Flux 1" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22prix+RAM%22+OR+%22m%C3%A9moire+vive+prix%22+OR+%22DDR5+prix%22+OR+%22DRAM+prix%22+OR+%22p%C3%A9nurie+RAM%22+OR+%22march%C3%A9+de+la+RAM%22+OR+%22TurboQuant+RAM%22+OR+%22TurboQuant+DDR5%22+after%3A2025-12-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
     </outline>
   </body>
 </opml>

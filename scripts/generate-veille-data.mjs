@@ -19,6 +19,8 @@ function buildGoogleNewsRssUrl(query) {
   return `https://news.google.com/rss/search?${params.toString()}`
 }
 
+const RAM_FEED_AFTER = "after:2025-12-01"
+
 function normalizeTextForCompare(value) {
   return (value || "")
     .toLowerCase()
@@ -179,6 +181,16 @@ const CURATED_RAM_ARTICLES = [
 
 const CURATED_LINUX_GENERAL_ARTICLES = [
   buildManualArticle({
+    title: "Les futures voitures Nissan tourneront sous Linux grâce à un accord historique avec Red Hat",
+    link: "https://www.clubic.com/actualite-612790-les-futures-voitures-nissan-tourneront-sous-linux-grace-a-un-accord-historique-avec-red-hat.html",
+    published: "2026-05-13T09:27:00+02:00",
+    content:
+      "Clubic détaille le choix de Nissan d'utiliser Red Hat In-Vehicle Operating System (Linux) pour sa future plateforme logicielle automobile.",
+    source: "Clubic",
+    featured: true,
+    featuredNote: "Article épinglé : partenariat Nissan x Red Hat autour de Linux embarqué.",
+  }),
+  buildManualArticle({
     title: "Fedora Linux 44 est dans les bacs",
     link: "https://linuxfr.org/news/fedora-linux-44-est-dans-les-bacs",
     published: "2026-04-29T09:58:17+02:00",
@@ -323,26 +335,26 @@ const TOPICS = [
       "Cette deuxième veille suit les hausses, les baisses et les tensions du marché de la RAM à partir de sources francophones fiables.",
     feedDescription:
       "Pourquoi cette veille sur la RAM ? Mon mini-PC de mini-lab est limité à 8 Go de mémoire, ce qui me freine pour ajouter de nouveaux services. Je suis donc l'évolution du marché de la RAM pour préparer une future montée en capacité.",
-    periodLabel: "Depuis octobre 2025",
-    periodStart: "2025-10-01",
+    periodLabel: "Depuis décembre 2025",
+    periodStart: "2025-12-01",
     maxAgeDays: null,
     maxArticles: null,
     opmlFeeds: [
       buildGoogleNewsRssUrl(
-        '"prix RAM" OR "mémoire vive prix" OR "DDR5 prix" OR "DRAM prix" OR "pénurie RAM" OR "marché de la RAM" OR "TurboQuant RAM" OR "TurboQuant DDR5"'
+        `"prix RAM" OR "mémoire vive prix" OR "DDR5 prix" OR "DRAM prix" OR "pénurie RAM" OR "marché de la RAM" OR "TurboQuant RAM" OR "TurboQuant DDR5" ${RAM_FEED_AFTER}`
       ),
     ],
     feeds: [
-      buildGoogleNewsRssUrl('"prix RAM"'),
-      buildGoogleNewsRssUrl('"mémoire vive prix"'),
-      buildGoogleNewsRssUrl('"DDR5 prix"'),
-      buildGoogleNewsRssUrl('"DRAM prix"'),
-      buildGoogleNewsRssUrl('"pénurie RAM"'),
-      buildGoogleNewsRssUrl('"marché de la RAM"'),
-      buildGoogleNewsRssUrl('"TurboQuant RAM"'),
-      buildGoogleNewsRssUrl('"TurboQuant DDR5"'),
-      buildGoogleNewsRssUrl("RAM prix 01net"),
-      buildGoogleNewsRssUrl("RAM prix Korben"),
+      buildGoogleNewsRssUrl(`"prix RAM" ${RAM_FEED_AFTER}`),
+      buildGoogleNewsRssUrl(`"mémoire vive prix" ${RAM_FEED_AFTER}`),
+      buildGoogleNewsRssUrl(`"DDR5 prix" ${RAM_FEED_AFTER}`),
+      buildGoogleNewsRssUrl(`"DRAM prix" ${RAM_FEED_AFTER}`),
+      buildGoogleNewsRssUrl(`"pénurie RAM" ${RAM_FEED_AFTER}`),
+      buildGoogleNewsRssUrl(`"marché de la RAM" ${RAM_FEED_AFTER}`),
+      buildGoogleNewsRssUrl(`"TurboQuant RAM" ${RAM_FEED_AFTER}`),
+      buildGoogleNewsRssUrl(`"TurboQuant DDR5" ${RAM_FEED_AFTER}`),
+      buildGoogleNewsRssUrl(`RAM prix 01net ${RAM_FEED_AFTER}`),
+      buildGoogleNewsRssUrl(`RAM prix Korben ${RAM_FEED_AFTER}`),
     ],
     fallbackFeeds: [],
     manualArticles: CURATED_RAM_ARTICLES,
