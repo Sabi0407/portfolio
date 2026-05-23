@@ -158,24 +158,6 @@ const categories = [
         tags: ["Nginx", "Apache2", "Reverse Proxy", "Load Balancing", "VirtualBox"],
         pdf: "/s.sabiran/docs/tp-reverse-proxy.pdf",
       },
-      {
-        title: "Stratégie de sauvegarde et protection des fichiers",
-        desc: "Mise en place d'une stratégie complète de sauvegarde et de protection des fichiers : création de dossiers source, synchronisation, gestion des permissions et protection des données critiques.",
-        tags: ["Sauvegarde", "Backup", "Protection", "Sécurité", "Linux"],
-        pdf: "/s.sabiran/docs/tp-sauvegarde-protection.pdf",
-      },
-      {
-        title: "Sauvegarde Linux",
-        desc: "Mise en place de solutions de sauvegarde sur Linux : utilisation de rsync pour la synchronisation, création de sauvegardes incrémentales et configuration de tâches automatisées.",
-        tags: ["Sauvegarde", "Rsync", "Linux", "Automatisation", "Backup"],
-        pdf: "/s.sabiran/docs/tp-sauvegarde-linux-p1.pdf",
-      },
-      {
-        title: "PowerShell - Partie 2",
-        desc: "PowerShell avancé : gestion d'Active Directory, manipulation de fichiers, création de scripts complexes et automatisation de tâches administratives sur Windows Server.",
-        tags: ["PowerShell", "Active Directory", "Scripting", "Windows Server", "Automatisation"],
-        pdf: "/s.sabiran/docs/tp-powershell-2.pdf",
-      },
     ] as Project[],
   },
   {
