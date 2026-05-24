@@ -1,4 +1,4 @@
-import { Award, Building2, Calendar, Clock3, Download, ExternalLink } from "lucide-react"
+import { Award, Building2, Calendar, Clock3, ExternalLink } from "lucide-react"
 import ScrollFadeIn from "./scroll-fade-in"
 
 type CertificationStatus = "Obtenue" | "En cours" | "À venir"
@@ -134,29 +134,8 @@ export default function CertificationsSection() {
                       className="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-semibold text-primary-foreground transition-all hover:scale-105"
                     >
                       <ExternalLink size={13} />
-                      Ouvrir preuve
+                      Voir
                     </a>
-                    {!cert.proofUrl.startsWith("http") && (
-                      <a
-                        href={cert.proofUrl}
-                        download
-                        className="inline-flex items-center gap-1.5 rounded-md border border-border bg-background px-3 py-1.5 text-xs font-semibold text-foreground transition-colors hover:border-primary/40"
-                      >
-                        <Download size={13} />
-                        Télécharger
-                      </a>
-                    )}
-                    {cert.verifyUrl && (
-                      <a
-                        href={cert.verifyUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 rounded-md border border-border bg-background px-3 py-1.5 text-xs font-semibold text-foreground transition-colors hover:border-primary/40"
-                      >
-                        <ExternalLink size={13} />
-                        Vérifier
-                      </a>
-                    )}
                   </div>
                 ) : (
                   <div className="mt-auto rounded-lg border border-dashed border-primary/30 bg-primary/5 px-3 py-2 text-xs text-muted-foreground">

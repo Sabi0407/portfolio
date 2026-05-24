@@ -75,6 +75,15 @@ const timeline: TimelineItem[] = [
     },
   },
   {
+    status: "Réalisé",
+    statusColor: "bg-accent text-accent-foreground",
+    date: "Septembre 2018 - Août 2024",
+    org: "Logistique",
+    title: "Préparateur de commande",
+    desc: "Préparation et expédition de commandes, contrôle des références, gestion des stocks et respect des délais en environnement logistique.",
+    icon: Briefcase,
+  },
+  {
     status: "En cours",
     statusColor: "bg-primary text-primary-foreground",
     date: "Oct 2024 - Juin 2026",
