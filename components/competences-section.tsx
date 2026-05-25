@@ -1,5 +1,4 @@
 import { Monitor, Container, Globe, ShieldCheck } from "lucide-react"
-import PDFPreview from "./pdf-preview"
 import ScrollFadeIn from "./scroll-fade-in"
 
 const skills = [
@@ -76,22 +75,6 @@ export default function CompetencesSection() {
           })}
         </div>
 
-        <div className="border-t border-border pt-8">
-          <p className="text-center text-sm font-medium text-muted-foreground mb-4">Documents</p>
-          <div className="mx-auto grid max-w-4xl gap-4 sm:grid-cols-2">
-            <PDFPreview 
-              pdfUrl="/s.sabiran/CV_SRIKANTHAN_Sabiran.pdf" 
-              title="Mon CV"
-              description="Technicien Systèmes & Réseaux - Alternance Support N1"
-            />
-            <PDFPreview 
-              pdfUrl="/s.sabiran/docs/tableau-e5-synthese.pdf" 
-              title="Tableau E5"
-              description="Synthèse des compétences BTS SIO SISR"
-              openMode="new-tab"
-            />
-          </div>
-        </div>
       </div>
       </ScrollFadeIn>
     </section>
