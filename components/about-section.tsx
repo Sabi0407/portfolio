@@ -92,7 +92,7 @@ export default function AboutSection() {
             </div>
             <h3 className="mb-2 font-heading text-lg font-semibold text-card-foreground">Passion</h3>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              Passionné par les systèmes, j'aime comprendre comment ça fonctionne, résoudre des problèmes concrets et mettre en place des serveurs Proxmox avec différents services : Active Directory, GLPI, Zabbix.
+              Passionné par les systèmes, j'aime comprendre comment ça fonctionne, résoudre des problèmes concrets et mettre en place des hyperviseurs Proxmox avec différents services : Active Directory, GLPI, Zabbix.
             </p>
           </div>
         </div>

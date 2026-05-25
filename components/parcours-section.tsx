@@ -48,31 +48,11 @@ const timeline: TimelineItem[] = [
   {
     status: "Réalisé",
     statusColor: "bg-accent text-accent-foreground",
-    date: "Mai 2015 - Juin 2017",
-    org: "SOS Master Paris",
-    title: "Technicien de maintenance informatique - Stage",
-    desc: "Diagnostic et réparation de pannes matérielles et logicielles, installation de systèmes d'exploitation et remplacement de composants sur postes clients.",
+    date: "Entre 2015 et 2017",
+    org: "Plusieurs entreprises",
+    title: "Technicien de maintenance informatique - Stages",
+    desc: "Plusieurs stages de maintenance informatique effectués sur 3 années, avec diagnostic et réparation de pannes, réinstallation de systèmes et remplacement de composants sur postes clients.",
     icon: Briefcase,
-    details: {
-      logo: "/s.sabiran/logos/sos-master.png",
-      companySummary:
-        "SOS Master Paris propose des prestations de maintenance et de réparation informatique pour remettre rapidement en service les postes des utilisateurs.",
-      missionSummary:
-        "Pendant ce stage, j'ai assuré la remise en état de postes informatiques en traitant les pannes et en remplaçant les composants défectueux.",
-      missions: [
-        "Diagnostic de pannes matérielles et logicielles sur postes clients.",
-        "Installation et réinstallation de systèmes d'exploitation (Windows, Linux, macOS).",
-        "Remplacement de composants: disque dur, batterie, RAM et écran.",
-        "Contrôle final du poste avant restitution à l'utilisateur.",
-      ],
-      docs: [
-        {
-          title: "CV - Expérience SOS Master",
-          description: "Présentation synthétique de mon stage chez SOS Master Paris.",
-          url: "/s.sabiran/CV_SRIKANTHAN_Sabiran.pdf",
-        },
-      ],
-    },
   },
   {
     status: "Réalisé",
@@ -107,11 +87,11 @@ const timeline: TimelineItem[] = [
       missionSummary:
         "Pendant mon stage, j'ai contribué à sécuriser l'infrastructure réseau utilisée par les postes publics et à fiabiliser l'accès internet des utilisateurs.",
       missions: [
-        "Déploiement d'ALCASAR sous Proxmox avec configuration LAN, WAN et Wi-Fi.",
-        "Mise en place du filtrage DNS et SafeSearch pour sécuriser la navigation.",
-        "Création d'une interface AutoIt reliée aux API ALCASAR pour faciliter la connexion utilisateur.",
-        "Création et structuration d'une base MariaDB pour stocker les informations nécessaires au portail.",
-        "Analyse des logs et ajustements de configuration pour fiabiliser le service.",
+        "Mise en place complète d'ALCASAR pour le filtrage et l'authentification réseau.",
+        "Configuration du point d'accès Wi-Fi et intégration avec le portail captif ALCASAR.",
+        "Configuration et débogage du serveur DNS Unbound avec filtrage SafeSearch.",
+        "Personnalisation de l'interface du portail captif ALCASAR et adaptation des pages d'authentification.",
+        "Analyse comparative des configurations centralisées Firefox (policies.json et firefox.cfg).",
       ],
       docs: [
         {
@@ -137,8 +117,8 @@ const timeline: TimelineItem[] = [
     statusColor: "bg-primary text-primary-foreground",
     date: "Sept 2025 - Aujourd'hui",
     org: "Bertrand Hospitality - Groupe Bertrand",
-    title: "Alternant Technicien Support Informatique - Sur site",
-    desc: "Alternance en support informatique de proximité: assistance utilisateurs, traitement des tickets, préparation des postes et maintien en condition opérationnelle du parc dans les établissements.",
+    title: "Alternant Technicien Support Informatique",
+    desc: "Apprentissage en support informatique de proximité: assistance utilisateurs, traitement des tickets, préparation des postes et maintien en condition opérationnelle du parc dans les établissements.",
     icon: Briefcase,
     details: {
       logo: "/s.sabiran/logos/bertrand-hospitality.jpg",
@@ -352,14 +332,13 @@ export default function ParcoursSection() {
                       Missions
                     </div>
                     <h4 className="font-heading text-sm font-bold text-foreground">Missions principales</h4>
-                    <ul className="mt-2 space-y-2">
+                    <ul className="mt-2 space-y-1">
                       {activeDetails.details.missions.map((mission) => (
                         <li
                           key={mission}
-                          className="flex items-start gap-2 rounded-lg border border-border bg-background/70 px-3 py-2 text-sm leading-relaxed text-muted-foreground"
+                          className="text-sm leading-relaxed text-muted-foreground"
                         >
-                          <CheckCircle size={14} className="mt-0.5 shrink-0 text-primary" />
-                          <span>{mission}</span>
+                          <span>- {mission}</span>
                         </li>
                       ))}
                     </ul>

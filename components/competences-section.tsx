@@ -7,25 +7,25 @@ const skills = [
     icon: Monitor,
     title: "Systèmes d'exploitation",
     subtitle: "Windows / Linux",
-    tags: ["Windows Server", "Windows 10/11", "Debian", "Ubuntu Server", "Active Directory", "GPO"],
+    tags: ["Windows Server", "Windows 10/11", "Debian", "Ubuntu Server", "Active Directory"],
   },
   {
     icon: Container,
     title: "Virtualisation & Conteneurisation",
     subtitle: "Hyperviseurs / Conteneurs",
-    tags: ["Proxmox VE", "Proxmox Backup Server", "VirtualBox", "LXC", "Docker", "Gestion des VMs"],
+    tags: ["Proxmox VE", "Proxmox Backup Server", "VirtualBox", "LXC", "Docker"],
   },
   {
     icon: Globe,
     title: "Services & Applications",
     subtitle: "Infrastructure IT",
-    tags: ["Apache", "GLPI", "Samba", "Alcasar", "Entra ID", "Intune", "DHCP/DNS"],
+    tags: ["Apache", "Nginx", "GLPI", "Samba", "Alcasar", "Entra ID", "Intune", "DHCP/DNS", "GPO"],
   },
   {
     icon: ShieldCheck,
     title: "Sécurité & Supervision",
     subtitle: "Monitoring / Protection",
-    tags: ["Zabbix", "Tailscale VPN", "Pare-feu", "Sauvegardes", "SSL/TLS", "SSH"],
+    tags: ["Zabbix", "Tailscale", "WireGuard", "Pare-feu", "Sauvegardes", "SSL/TLS", "SSH", "Chiffrement asymétrique", "Chiffrement symétrique"],
   },
 ]
 

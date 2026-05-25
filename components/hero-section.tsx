@@ -35,21 +35,25 @@ export default function HeroSection() {
 
         <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
           <a
-            href="#competences"
+            href="/s.sabiran/CV_SRIKANTHAN_Sabiran.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-primary to-primary/90 px-8 py-4 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:scale-105 hover:shadow-xl hover:shadow-primary/30"
           >
             <FileText size={20} className="transition-transform group-hover:rotate-6" />
-            Voir mon CV
+            CV
           </a>
           <a
-            href="#projets"
+            href="/s.sabiran/veille/"
             className="group inline-flex items-center gap-2 rounded-xl border-2 border-border bg-card/50 backdrop-blur-sm px-8 py-4 text-sm font-semibold text-foreground shadow-lg transition-all hover:scale-105 hover:border-primary/50 hover:bg-card"
           >
             <Download size={20} className="transition-transform group-hover:translate-y-1" />
-            Mes projets
+            Veille Technologique
           </a>
           <a
-            href="#competences"
+            href="/s.sabiran/docs/tableau-e5-synthese.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 rounded-xl border-2 border-border bg-card/50 backdrop-blur-sm px-8 py-4 text-sm font-semibold text-foreground shadow-lg transition-all hover:scale-105 hover:border-accent/50 hover:bg-card"
           >
             <Table size={20} className="transition-transform group-hover:rotate-12" />

@@ -29,7 +29,7 @@ const categories = [
       },
       {
         title: "Mise en place de Proxmox VE 9.1",
-        desc: "Mise en place d'une plateforme pour regrouper plusieurs machines sur un même serveur et les gérer plus facilement.",
+        desc: "Mise en place d'une plateforme pour regrouper plusieurs machines sur un même hyperviseur et les gérer plus facilement.",
         tags: ["Proxmox VE", "Virtualisation", "Hyperviseur", "Infrastructure", "Linux"],
         pdf: "/s.sabiran/docs/proxmox-ve-9-1.pdf",
       },
@@ -217,7 +217,7 @@ const categories = [
           },
           {
             title: "Guide d'installation et de configuration de Proxmox VE",
-            desc: "Rédaction d'un guide pas à pas pour installer et configurer Proxmox VE : préparation de l'ISO, installation du serveur, accès à l'interface web, import des images ISO et création d'une VM.",
+            desc: "Rédaction d'un guide pas à pas pour installer et configurer Proxmox VE : préparation de l'ISO, installation de l'hyperviseur, accès à l'interface web, import des images ISO et création d'une VM.",
             tags: ["Proxmox VE", "Installation", "Configuration", "Virtualisation", "Documentation"],
             pdf: "/s.sabiran/docs/guide-installation-configuration-proxmox-ve.pdf",
           },
@@ -228,32 +228,9 @@ const categories = [
 ]
 
 function ProjectCard({ project }: { project: Project }) {
-  const [showModal, setShowModal] = useState(false)
-  const [modalDoc, setModalDoc] = useState<{ url: string; title: string } | null>(null)
   const hasMainDoc = Boolean(project.pdf)
   const hasSchemaDoc = Boolean(project.schemaPdf)
   const isGithubLink = Boolean(project.github && project.github.includes("github.com"))
-  const isImageFile = (url: string) => /\.(png|jpe?g|webp|gif|svg)$/i.test(url)
-
-  const openModal = (url: string, title: string) => {
-    setModalDoc({ url, title })
-    setShowModal(true)
-  }
-
-  const closeModal = () => {
-    setShowModal(false)
-    setModalDoc(null)
-  }
-
-  const getModalPreviewUrl = (url: string) => {
-    const lowerUrl = url.toLowerCase()
-    if (url.startsWith("http") || lowerUrl.endsWith(".pdf") || isImageFile(url)) {
-      return url
-    }
-
-    const absoluteUrl = new URL(url, window.location.origin).toString()
-    return `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(absoluteUrl)}`
-  }
 
   return (
     <>
@@ -277,15 +254,6 @@ function ProjectCard({ project }: { project: Project }) {
         <div className="flex flex-wrap items-center gap-2 border-t border-border pt-4">
           {hasMainDoc || hasSchemaDoc ? (
             <>
-              {hasMainDoc && (
-                <button
-                  onClick={() => openModal(project.pdf, project.title)}
-                  className="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground transition-all duration-200 hover:scale-105 hover:shadow-md"
-                >
-                  <ExternalLink size={14} />
-                  Prévisualiser
-                </button>
-              )}
               {hasMainDoc && !project.pdf.startsWith("http") && (
                 <a
                   href={project.pdf}
@@ -295,15 +263,6 @@ function ProjectCard({ project }: { project: Project }) {
                   <Download size={14} />
                   Télécharger
                 </a>
-              )}
-              {hasSchemaDoc && (
-                <button
-                  onClick={() => openModal(project.schemaPdf!, `${project.title} - Schéma réseau`)}
-                  className="inline-flex items-center gap-1.5 rounded-md bg-accent px-3 py-1.5 text-xs font-medium text-accent-foreground transition-all duration-200 hover:scale-105 hover:shadow-md"
-                >
-                  <ExternalLink size={14} />
-                  Prévisualiser Schéma
-                </button>
               )}
               {hasSchemaDoc && (
                 <a
@@ -334,51 +293,6 @@ function ProjectCard({ project }: { project: Project }) {
           )}
         </div>
       </div>
-
-      {showModal && modalDoc && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4"
-          onClick={closeModal}
-        >
-          <div
-            className="relative h-full w-full max-w-6xl overflow-hidden rounded-xl bg-background shadow-2xl"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="flex items-center justify-between border-b border-border bg-card p-4">
-              <h3 className="font-heading text-lg font-bold text-foreground">{modalDoc.title}</h3>
-              <div className="flex items-center gap-2">
-                {!modalDoc.url.startsWith("http") && (
-                  <a
-                    href={modalDoc.url}
-                    download
-                    className="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-xs font-medium text-primary-foreground transition-transform hover:scale-105"
-                  >
-                    <Download size={14} />
-                    Télécharger
-                  </a>
-                )}
-                <button
-                  onClick={closeModal}
-                  className="rounded-md p-2 text-muted-foreground hover:bg-muted hover:text-foreground"
-                >
-                  ✕
-                </button>
-              </div>
-            </div>
-            {isImageFile(modalDoc.url) ? (
-              <div className="h-[calc(100%-4rem)] w-full overflow-auto bg-muted/20 p-4">
-                <img src={modalDoc.url} alt={modalDoc.title} className="mx-auto h-full w-auto object-contain" />
-              </div>
-            ) : (
-              <iframe
-                src={getModalPreviewUrl(modalDoc.url)}
-                className="h-[calc(100%-4rem)] w-full"
-                title={modalDoc.title}
-              />
-            )}
-          </div>
-        </div>
-      )}
     </>
   )
 }

@@ -16,7 +16,7 @@ type Certification = {
   verifyUrl?: string
 }
 
-// Remplace ou ajoute tes certifications ici.
+// Remplace ou ajoute ta certification ici.
 const certifications: Certification[] = [
   {
     title: "Microsoft 365 : Gestion des identités et de la mobilité",
@@ -24,12 +24,10 @@ const certifications: Certification[] = [
     date: "2026",
     status: "Obtenue",
     logoUrl: "/s.sabiran/logos/microsoft-entra-id.svg",
-    description:
-      "Certification obtenue pour renforcer la gestion des identités et la mobilité des appareils dans un environnement Microsoft 365 avec Entra ID et Intune.",
+    description: "Certification sur la gestion des identités et de la mobilité dans Microsoft 365 (Entra ID, Intune).",
     presentationPoints: [
-      "Pourquoi cette certification: consolider mes pratiques d'administration Microsoft 365 utilisées en alternance.",
-      "Ce que j'apprends: gestion des identités, accès, authentification forte et pilotage de la mobilité via Intune.",
-      "Ce que ça apporte en entreprise: onboarding plus structuré, accès mieux sécurisés et meilleure conformité des appareils.",
+      "Objectif: maîtriser l'administration des identités et des appareils Microsoft 365.",
+      "Apport: sécuriser les accès et améliorer la conformité des postes via Entra ID et Intune.",
     ],
     skills: ["Microsoft 365", "Microsoft Entra ID", "Intune", "IAM", "MFA", "Mobilité"],
     proofUrl: "/s.sabiran/docs/certificat-linkedin-microsoft-365-identites-mobilite.pdf",
@@ -59,9 +57,9 @@ export default function CertificationsSection() {
             </div>
           </div>
 
-          <h2 className="font-heading text-center text-3xl font-bold text-foreground">Certifications</h2>
+          <h2 className="font-heading text-center text-3xl font-bold text-foreground">Certification</h2>
           <p className="mx-auto mt-2 max-w-2xl text-center text-sm text-muted-foreground">
-            Espace dédié à la présentation de tes certifications, avec leur utilité concrète.
+            Espace dédié à la présentation de ma certification, avec son utilité concrète.
           </p>
           <div className="mx-auto mb-10 mt-3 h-1 w-16 rounded-full bg-primary" />
 
