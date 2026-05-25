@@ -202,9 +202,6 @@ export default function VeillePage() {
                 <span className="font-heading text-2xl font-semibold text-foreground transition-colors group-hover:text-primary md:text-3xl">
                   Qu&apos;est-ce qu&apos;une veille technologique ?
                 </span>
-                <span className="rounded-full border border-border bg-card/70 px-3 py-1 text-xs font-medium text-muted-foreground transition-colors group-hover:border-primary/50 group-hover:text-primary">
-                  Définition
-                </span>
               </div>
 
               <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
@@ -244,19 +241,6 @@ export default function VeillePage() {
                     </div>
                   )}
 
-                  <div className="mt-4">
-                    <button
-                      type="button"
-                      onClick={() => handleFilterChange(topic.category)}
-                      className={`inline-flex items-center gap-2 rounded-xl px-4 py-3 text-sm font-semibold transition-colors ${
-                        isActive
-                          ? "bg-primary text-primary-foreground"
-                          : "border border-border bg-background text-foreground hover:border-primary hover:text-primary"
-                      }`}
-                    >
-                      {isActive ? "Filtre actif" : "Voir les articles"}
-                    </button>
-                  </div>
                 </article>
               )
             })}

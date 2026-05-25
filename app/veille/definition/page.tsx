@@ -67,8 +67,15 @@ export default function VeilleDefinitionPage() {
         <section className="rounded-2xl border border-border bg-card p-6 shadow-sm md:p-8">
           <h2 className="font-heading text-xl font-semibold text-foreground">Flux de mon feed</h2>
           <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-            Exemple d&apos;articles remontés automatiquement via mon flux RSS <strong>RAM - Flux 1</strong> :
+            Exemple d&apos;articles remontés automatiquement via mon flux RSS :
           </p>
+          <div className="mt-4 overflow-hidden rounded-xl border border-border bg-background/40 p-2">
+            <img
+              src="/s.sabiran/docs/flux-feed-feeder.png"
+              alt="Capture du flux RSS RAM dans Feeder"
+              className="h-auto w-full rounded-lg object-contain"
+            />
+          </div>
           <ul className="mt-4 space-y-2 text-sm leading-relaxed text-muted-foreground">
             <li>- 27 janv. 2026 : Vous pensiez échapper à l&apos;augmentation de RAM en achetant d...</li>
             <li>- 21 janv. 2026 : Le Prix De La RAM Explose à 400 % En Janvier 2026, Pire Crise Depui...</li>

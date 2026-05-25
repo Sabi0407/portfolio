@@ -200,7 +200,7 @@ const categories = [
             desc: "Mise en place d'un serveur Zabbix pour surveiller l'état des machines et détecter rapidement les pannes. Les agents installés sur Windows et Debian remontent les informations importantes (CPU, mémoire, disque, services) afin de suivre tout le parc depuis un seul tableau de bord.",
             tags: ["Zabbix", "VLAN", "MariaDB", "Monitoring", "Debian 13"],
             pdf: "/s.sabiran/docs/ap3-zabbix.pdf",
-            schemaPdf: "/s.sabiran/docs/schema-baie-a.pdf",
+            schemaPdf: "/s.sabiran/docs/schema-reseau-ap3-ap4.png",
           },
         ] as Project[],
       },
@@ -213,7 +213,7 @@ const categories = [
             desc: "Mise en place de Proxmox Backup Server pour sauvegarder automatiquement les machines virtuelles et conteneurs depuis un point central. L'objectif est de protéger les données et de pouvoir restaurer rapidement un service en cas de panne ou d'erreur.",
             tags: ["Proxmox", "PBS", "Backup", "Virtualisation", "Sauvegarde"],
             pdf: "/s.sabiran/docs/ap4-proxmox-backup.pdf",
-            schemaPdf: "/s.sabiran/docs/schema-baie-a.pdf",
+            schemaPdf: "/s.sabiran/docs/schema-reseau-ap3-ap4.png",
           },
           {
             title: "Guide d'installation et de configuration de Proxmox VE",
@@ -271,7 +271,7 @@ function ProjectCard({ project }: { project: Project }) {
                   className="inline-flex items-center gap-1.5 rounded-md border border-border bg-card px-3 py-1.5 text-xs font-medium text-foreground transition-all duration-200 hover:scale-105 hover:border-primary/40"
                 >
                   <Download size={14} />
-                  Télécharger Schéma
+                  Télécharger schéma réseau
                 </a>
               )}
             </>
