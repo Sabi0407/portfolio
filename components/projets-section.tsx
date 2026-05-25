@@ -22,12 +22,6 @@ const categories = [
     icon: User,
     projects: [
       {
-        title: "Mise en place d'Arch Linux avec environnement de bureau",
-        desc: "Installation d'un système Linux personnalisé pour apprendre à monter un poste de travail complet et mieux comprendre son fonctionnement.",
-        tags: ["Arch Linux", "Linux", "Terminal", "Partitionnement", "DE"],
-        pdf: "/s.sabiran/docs/installation-arch-linux.pdf",
-      },
-      {
         title: "Mise en place de Proxmox VE 9.1",
         desc: "Mise en place d'une plateforme pour regrouper plusieurs machines sur un même hyperviseur et les gérer plus facilement.",
         tags: ["Proxmox VE", "Virtualisation", "Hyperviseur", "Infrastructure", "Linux"],
