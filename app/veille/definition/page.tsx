@@ -69,22 +69,13 @@ export default function VeilleDefinitionPage() {
           <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
             Exemple d&apos;articles remontés automatiquement via mon flux RSS :
           </p>
-          <div className="mt-4 overflow-hidden rounded-xl border border-border bg-background/40 p-2">
+          <div className="mt-4 mx-auto max-w-sm overflow-hidden rounded-xl border border-border bg-background/40 p-2 md:max-w-md">
             <img
               src="/s.sabiran/docs/flux-feed-feeder.png"
               alt="Capture du flux RSS RAM dans Feeder"
               className="h-auto w-full rounded-lg object-contain"
             />
           </div>
-          <ul className="mt-4 space-y-2 text-sm leading-relaxed text-muted-foreground">
-            <li>- 27 janv. 2026 : Vous pensiez échapper à l&apos;augmentation de RAM en achetant d...</li>
-            <li>- 21 janv. 2026 : Le Prix De La RAM Explose à 400 % En Janvier 2026, Pire Crise Depui...</li>
-            <li>- 31 déc. 2025 : VIDEO - Pourquoi trois entreprises font exploser le prix de la RAM et...</li>
-            <li>- 29 déc. 2025 : Cette solution pourrait faire chuter le prix de la RAM pour votre PC - ...</li>
-            <li>- 25 déc. 2025 : Asus envisagerait de se lancer sur le marché de la RAM dès 2026 - O...</li>
-            <li>- 21 déc. 2025 : Le prix de la RAM DDR5 explose : +50% tous les trimestres jusqu&apos;e...</li>
-            <li>- 19 déc. 2025 : Médias / Prix RAM 2025 : Les dépôts de candidatures ouverts, ...</li>
-          </ul>
         </section>
 
         <div className="flex flex-wrap gap-3">
