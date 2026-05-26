@@ -91,7 +91,7 @@ const categories = [
     icon: GraduationCap,
     projects: [
       {
-        title: "Mise en place d'ALCASAR",
+        title: "Mise en place de Alcacasar & Proxmox",
         desc: "Installation et configuration complète du portail captif ALCASAR pour le filtrage et l'authentification réseau. Déploiement de l'infrastructure de base pour contrôler l'accès internet.",
         tags: ["ALCASAR", "Portail captif", "Installation", "Configuration", "Réseau"],
         pdf: "/s.sabiran/docs/stage-alcasar-mise-en-place.pdf",

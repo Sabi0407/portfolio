@@ -1,4 +1,4 @@
-import { ArrowDown, FileText, Download, Table } from "lucide-react"
+import { ArrowDown, FileText, Newspaper, Table } from "lucide-react"
 import AnimatedBackground from "./animated-background"
 import TypewriterText from "./typewriter-text"
 
@@ -47,7 +47,7 @@ export default function HeroSection() {
             href="/s.sabiran/veille/"
             className="group inline-flex items-center gap-2 rounded-xl border-2 border-border bg-card/50 backdrop-blur-sm px-8 py-4 text-sm font-semibold text-foreground shadow-lg transition-all hover:scale-105 hover:border-primary/50 hover:bg-card"
           >
-            <Download size={20} className="transition-transform group-hover:translate-y-1" />
+            <Newspaper size={20} className="transition-transform group-hover:rotate-12" />
             Veille Technologique
           </a>
           <a
