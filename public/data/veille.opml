@@ -2,27 +2,7 @@
 <opml version="2.0">
   <head>
     <title>Veille technologique - Flux RSS de Sabiran</title>
-    <dateCreated>Wed, 27 May 2026 07:46:23 GMT</dateCreated>
   </head>
   <body>
-    <outline text="Linux (général)" title="Linux (général)">
-      <outline text="Linux (général) - Flux 1" title="Linux (général) - Flux 1" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22Linux+distribution%22+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 2" title="Linux (général) - Flux 2" type="rss" xmlUrl="https://news.google.com/rss/search?q=Ubuntu+OR+Debian+OR+Fedora+OR+%22Linux+Mint%22+OR+openSUSE+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 3" title="Linux (général) - Flux 3" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22Rocky+Linux%22+OR+AlmaLinux+OR+RHEL+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 4" title="Linux (général) - Flux 4" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22Red+Hat%22+OR+%22Red+Hat+Enterprise+Linux%22+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 5" title="Linux (général) - Flux 5" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22administration+Linux%22+OR+%22serveur+Linux%22+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 6" title="Linux (général) - Flux 6" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22s%C3%A9curit%C3%A9+Linux%22+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 7" title="Linux (général) - Flux 7" type="rss" xmlUrl="https://news.google.com/rss/search?q=Wayland+OR+GNOME+OR+KDE+Linux+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 8" title="Linux (général) - Flux 8" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22Linux+cloud%22+OR+%22Linux+Docker%22+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 9" title="Linux (général) - Flux 9" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22Linux+embarqu%C3%A9%22+OR+%22Linux+automobile%22+OR+%22Red+Hat+In-Vehicle%22+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 10" title="Linux (général) - Flux 10" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22Linux+gaming%22+OR+SteamOS+OR+%22Proton+Linux%22+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 11" title="Linux (général) - Flux 11" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22Linux+entreprise%22+OR+%22Linux+professionnel%22+OR+%22Linux+en+entreprise%22+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 12" title="Linux (général) - Flux 12" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22noyau+Linux%22+OR+%22kernel+Linux%22+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 13" title="Linux (général) - Flux 13" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22Linux+IA%22+OR+%22Linux+intelligence+artificielle%22+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-      <outline text="Linux (général) - Flux 14" title="Linux (général) - Flux 14" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22S%C3%A9curix%22+OR+%22Bureautix%22+OR+DINUM+OR+%22IT-Connect+Linux%22+after%3A2025-09-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-    </outline>
-    <outline text="RAM" title="RAM">
-      <outline text="RAM - Flux 1" title="RAM - Flux 1" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22prix+RAM%22+OR+%22m%C3%A9moire+vive+prix%22+OR+%22DDR5+prix%22+OR+%22DRAM+prix%22+OR+%22p%C3%A9nurie+RAM%22+OR+%22march%C3%A9+de+la+RAM%22+OR+%22TurboQuant+RAM%22+OR+%22TurboQuant+DDR5%22+after%3A2025-12-01&amp;hl=fr&amp;gl=FR&amp;ceid=FR%3Afr" />
-    </outline>
   </body>
 </opml>
