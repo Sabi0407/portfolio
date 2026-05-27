@@ -25,6 +25,7 @@ interface Topic {
   label?: string
   description?: string
   feedDescription?: string
+  feedLink?: string
   periodLabel?: string
   periodStart?: string
 }
@@ -54,6 +55,8 @@ const DEFAULT_TOPICS: Topic[] = [
       "Cette deuxième veille suit les hausses, les baisses et les tensions du marché de la RAM à partir de sources francophones fiables.",
     feedDescription:
       "Pourquoi cette veille sur la RAM ? Mon mini-PC de mini-lab est limité à 8 Go de mémoire, ce qui me freine pour ajouter de nouveaux services. Je suis donc l'évolution du marché de la RAM pour préparer une future montée en capacité.",
+    feedLink:
+      "https://feeder.co/discover/6b021004f1/news-google-com-rss-search-q-22prix-ram-22-or-22m-c3-a9moire-vive-prix-22-or-22ddr5-prix-22-or-22dram-prix-22-after-3a2025-12-01-hl-fr-gl-fr-ceid-fr-3afr",
     periodLabel: "Depuis décembre 2025",
     periodStart: "2025-12-01",
   },
@@ -238,6 +241,17 @@ export default function VeillePage() {
                   {topic.feedDescription && (
                     <div className="mt-4 rounded-xl border border-border/70 bg-background/40 p-4">
                       <p className="text-sm text-muted-foreground">{topic.feedDescription}</p>
+                      {topic.feedLink && (
+                        <a
+                          href={topic.feedLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-3 inline-flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-xs font-semibold text-foreground transition-colors hover:border-primary hover:text-primary"
+                        >
+                          Ouvrir le flux RAM
+                          <ExternalLink size={13} />
+                        </a>
+                      )}
                     </div>
                   )}
 

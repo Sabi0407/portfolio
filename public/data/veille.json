@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T07:47:04.333280Z",
+  "generatedAt": "2026-05-27T08:07:21.847385Z",
   "source": "google-news-rss-multi-theme-fr",
   "sourceByTopic": {
     "Linux (général)": "google-news-rss-linux-general-fr",
@@ -24,14 +24,25 @@
       "feedDescription": "Pourquoi cette veille sur la RAM ? Mon mini-PC de mini-lab est limité à 8 Go de mémoire, ce qui me freine pour ajouter de nouveaux services. Je suis donc l'évolution du marché de la RAM pour préparer une future montée en capacité.",
       "periodLabel": "Depuis décembre 2025",
       "periodStart": "2025-12-01",
-      "maxAgeDays": null
+      "maxAgeDays": null,
+      "feedLink": "https://feeder.co/discover/6b021004f1/news-google-com-rss-search-q-22prix-ram-22-or-22m-c3-a9moire-vive-prix-22-or-22ddr5-prix-22-or-22dram-prix-22-after-3a2025-12-01-hl-fr-gl-fr-ceid-fr-3afr"
     }
   ],
   "feeds": [],
   "fallbackFeeds": [],
-  "total": 4,
+  "total": 5,
   "errors": [],
   "articles": [
+    {
+      "title": "Le prix de la RAM DDR5 va-t-il enfin baisser grâce à l'offensive chinoise ?",
+      "link": "https://www.generation-nt.com/actualites/ram-ddr5-prix-penurie-chine-samsung-2075813",
+      "published": "2026-05-20T19:50:01+02:00",
+      "content": "La hausse récente des prix RAM pourrait se calmer avec l'augmentation de la production DRAM en Chine, ce qui pourrait détendre le marché DDR5.",
+      "category": "RAM",
+      "source": "Génération NT",
+      "featured": true,
+      "featuredNote": "Article épinglé : impact de la production DRAM chinoise sur les prix DDR5."
+    },
     {
       "title": "Les futures voitures Nissan tourneront sous Linux grâce à un accord historique avec Red Hat",
       "link": "https://www.clubic.com/actualite-612790-les-futures-voitures-nissan-tourneront-sous-linux-grace-a-un-accord-historique-avec-red-hat.html",
