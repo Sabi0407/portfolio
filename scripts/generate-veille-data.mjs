@@ -19,7 +19,12 @@ function buildGoogleNewsRssUrl(query) {
   return `https://news.google.com/rss/search?${params.toString()}`
 }
 
+const LINUX_GENERAL_FEED_AFTER = "after:2025-09-01"
 const RAM_FEED_AFTER = "after:2025-12-01"
+
+function buildLinuxGeneralRssUrl(query) {
+  return buildGoogleNewsRssUrl(`${query} ${LINUX_GENERAL_FEED_AFTER}`)
+}
 
 function normalizeTextForCompare(value) {
   return (value || "")
@@ -267,43 +272,43 @@ const TOPICS = [
       "Veille dédiée à Linux au sens large : distributions, administration système, sécurité, usages desktop/serveur et évolutions de l'écosystème.",
     feedDescription:
       "Je suis ce thème pour rester à jour sur Linux en général avec des sources françaises/francophones fiables, utiles pour mes projets système et infrastructure.",
-    periodLabel: "Depuis le 30 mai 2024",
-    periodStart: "2024-05-30",
+    periodLabel: "Depuis septembre 2025",
+    periodStart: "2025-09-01",
     maxAgeDays: null,
     maxArticles: null,
     manualArticles: CURATED_LINUX_GENERAL_ARTICLES,
     opmlFeeds: [
-      buildGoogleNewsRssUrl('"Linux distribution"'),
-      buildGoogleNewsRssUrl('Ubuntu OR Debian OR Fedora OR "Linux Mint" OR openSUSE'),
-      buildGoogleNewsRssUrl('"Rocky Linux" OR AlmaLinux OR RHEL'),
-      buildGoogleNewsRssUrl('"Red Hat" OR "Red Hat Enterprise Linux"'),
-      buildGoogleNewsRssUrl('"administration Linux" OR "serveur Linux"'),
-      buildGoogleNewsRssUrl('"sécurité Linux"'),
-      buildGoogleNewsRssUrl('Wayland OR GNOME OR KDE Linux'),
-      buildGoogleNewsRssUrl('"Linux cloud" OR "Linux Docker"'),
-      buildGoogleNewsRssUrl('"Linux embarqué" OR "Linux automobile" OR "Red Hat In-Vehicle"'),
-      buildGoogleNewsRssUrl('"Linux gaming" OR SteamOS OR "Proton Linux"'),
-      buildGoogleNewsRssUrl('"Linux entreprise" OR "Linux professionnel" OR "Linux en entreprise"'),
-      buildGoogleNewsRssUrl('"noyau Linux" OR "kernel Linux"'),
-      buildGoogleNewsRssUrl('"Linux IA" OR "Linux intelligence artificielle"'),
-      buildGoogleNewsRssUrl('"Sécurix" OR "Bureautix" OR DINUM OR "IT-Connect Linux"'),
+      buildLinuxGeneralRssUrl('"Linux distribution"'),
+      buildLinuxGeneralRssUrl('Ubuntu OR Debian OR Fedora OR "Linux Mint" OR openSUSE'),
+      buildLinuxGeneralRssUrl('"Rocky Linux" OR AlmaLinux OR RHEL'),
+      buildLinuxGeneralRssUrl('"Red Hat" OR "Red Hat Enterprise Linux"'),
+      buildLinuxGeneralRssUrl('"administration Linux" OR "serveur Linux"'),
+      buildLinuxGeneralRssUrl('"sécurité Linux"'),
+      buildLinuxGeneralRssUrl('Wayland OR GNOME OR KDE Linux'),
+      buildLinuxGeneralRssUrl('"Linux cloud" OR "Linux Docker"'),
+      buildLinuxGeneralRssUrl('"Linux embarqué" OR "Linux automobile" OR "Red Hat In-Vehicle"'),
+      buildLinuxGeneralRssUrl('"Linux gaming" OR SteamOS OR "Proton Linux"'),
+      buildLinuxGeneralRssUrl('"Linux entreprise" OR "Linux professionnel" OR "Linux en entreprise"'),
+      buildLinuxGeneralRssUrl('"noyau Linux" OR "kernel Linux"'),
+      buildLinuxGeneralRssUrl('"Linux IA" OR "Linux intelligence artificielle"'),
+      buildLinuxGeneralRssUrl('"Sécurix" OR "Bureautix" OR DINUM OR "IT-Connect Linux"'),
     ],
     feeds: [
-      buildGoogleNewsRssUrl('"Linux distribution"'),
-      buildGoogleNewsRssUrl('Ubuntu OR Debian OR Fedora OR "Linux Mint" OR openSUSE'),
-      buildGoogleNewsRssUrl('"Rocky Linux" OR AlmaLinux OR RHEL'),
-      buildGoogleNewsRssUrl('"Red Hat" OR "Red Hat Enterprise Linux"'),
-      buildGoogleNewsRssUrl('"administration Linux" OR "serveur Linux"'),
-      buildGoogleNewsRssUrl('"sécurité Linux"'),
-      buildGoogleNewsRssUrl('Wayland OR GNOME OR KDE Linux'),
-      buildGoogleNewsRssUrl('"Linux cloud" OR "Linux Docker"'),
-      buildGoogleNewsRssUrl('"Linux embarqué" OR "Linux automobile" OR "Red Hat In-Vehicle"'),
-      buildGoogleNewsRssUrl('"Linux gaming" OR SteamOS OR "Proton Linux"'),
-      buildGoogleNewsRssUrl('"Linux entreprise" OR "Linux professionnel" OR "Linux en entreprise"'),
-      buildGoogleNewsRssUrl('"noyau Linux" OR "kernel Linux"'),
-      buildGoogleNewsRssUrl('"Linux IA" OR "Linux intelligence artificielle"'),
-      buildGoogleNewsRssUrl('"Sécurix" OR "Bureautix" OR DINUM'),
-      buildGoogleNewsRssUrl('"IT-Connect" Linux'),
+      buildLinuxGeneralRssUrl('"Linux distribution"'),
+      buildLinuxGeneralRssUrl('Ubuntu OR Debian OR Fedora OR "Linux Mint" OR openSUSE'),
+      buildLinuxGeneralRssUrl('"Rocky Linux" OR AlmaLinux OR RHEL'),
+      buildLinuxGeneralRssUrl('"Red Hat" OR "Red Hat Enterprise Linux"'),
+      buildLinuxGeneralRssUrl('"administration Linux" OR "serveur Linux"'),
+      buildLinuxGeneralRssUrl('"sécurité Linux"'),
+      buildLinuxGeneralRssUrl('Wayland OR GNOME OR KDE Linux'),
+      buildLinuxGeneralRssUrl('"Linux cloud" OR "Linux Docker"'),
+      buildLinuxGeneralRssUrl('"Linux embarqué" OR "Linux automobile" OR "Red Hat In-Vehicle"'),
+      buildLinuxGeneralRssUrl('"Linux gaming" OR SteamOS OR "Proton Linux"'),
+      buildLinuxGeneralRssUrl('"Linux entreprise" OR "Linux professionnel" OR "Linux en entreprise"'),
+      buildLinuxGeneralRssUrl('"noyau Linux" OR "kernel Linux"'),
+      buildLinuxGeneralRssUrl('"Linux IA" OR "Linux intelligence artificielle"'),
+      buildLinuxGeneralRssUrl('"Sécurix" OR "Bureautix" OR DINUM'),
+      buildLinuxGeneralRssUrl('"IT-Connect" Linux'),
     ],
     fallbackFeeds: [],
     allowedSources: buildAllowedSources([
@@ -727,10 +732,11 @@ async function fetchFeedArticles(feedUrl, topic) {
 
 async function collectTopicArticles(topic, existingArticles) {
   const errors = []
-  const collectedArticles = (topic.manualArticles || []).map((article) => ({
+  const existingTopicArticles = existingArticles.filter((article) => article.category === topic.category)
+  const collectedArticles = [...(topic.manualArticles || []).map((article) => ({
     ...article,
     category: topic.category,
-  }))
+  })), ...existingTopicArticles]
 
   for (const feedUrl of topic.feeds) {
     try {

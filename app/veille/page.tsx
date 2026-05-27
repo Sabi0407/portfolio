@@ -43,8 +43,8 @@ const DEFAULT_TOPICS: Topic[] = [
       "Veille dédiée à Linux au sens large : distributions, administration système, sécurité, usages desktop/serveur et évolutions de l'écosystème.",
     feedDescription:
       "Je suis ce thème pour rester à jour sur Linux en général avec des sources françaises/francophones fiables, utiles pour mes projets système et infrastructure.",
-    periodLabel: "Depuis le 30 mai 2024",
-    periodStart: "2024-05-30",
+    periodLabel: "Depuis septembre 2025",
+    periodStart: "2025-09-01",
   },
   {
     key: "ram",
